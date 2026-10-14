@@ -1,0 +1,12 @@
+{
+  "languages": [
+    "python", "javascript", "typescript", "go", "java", "rust", "c", "cpp",
+    "csharp", "objc", "swift", "scala", "lua", "zig", "elixir", "bash", "json",
+    "julia", "verilog", "fortran", "powershell", "groovy", "sql", "hcl",
+    "kotlin", "php", "ruby"
+  ],
+  "packages": [
+    "chi", "express", "itsdangerous", "javapoet", "kotlinpoet", "ky",
+    "leveldb", "mediatr", "psr7", "rack", "semver"
+  ]
+}

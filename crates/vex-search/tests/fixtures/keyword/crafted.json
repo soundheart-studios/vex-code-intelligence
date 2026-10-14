@@ -1,0 +1,9505 @@
+{
+ "cases": [
+  {
+   "diagnostics": {
+    "backfilled": 0,
+    "capped_files": [],
+    "capped_symbols": [],
+    "exhausted": false,
+    "max_per_file": 3,
+    "max_per_symbol": 2,
+    "suppressed": {},
+    "suppressed_symbols": {},
+    "suppressed_total": 0
+   },
+   "fts": [
+    [
+     "w2",
+     -4.40357563901518
+    ],
+    [
+     "b1",
+     -4.124312020161086
+    ],
+    [
+     "b2",
+     -3.7599882234085373
+    ],
+    [
+     "p1",
+     -3.668597533789516
+    ],
+    [
+     "w3",
+     -3.6061255630109517
+    ],
+    [
+     "w1",
+     -3.576131060894239
+    ],
+    [
+     "s3",
+     -3.4219610752268177
+    ],
+    [
+     "b6",
+     -3.3177400433487136
+    ],
+    [
+     "b5",
+     -3.135538018902489
+    ],
+    [
+     "n3",
+     -2.9723063528617777
+    ],
+    [
+     "b3",
+     -2.8252289378559556
+    ],
+    [
+     "b4",
+     -2.692020778840768
+    ],
+    [
+     "n1",
+     -2.692020778840768
+    ],
+    [
+     "n5",
+     -2.692020778840768
+    ],
+    [
+     "n7",
+     -2.692020778840768
+    ],
+    [
+     "n2",
+     -2.5708084223707712
+    ],
+    [
+     "n4",
+     -2.5708084223707712
+    ],
+    [
+     "n6",
+     -2.5708084223707712
+    ],
+    [
+     "s2",
+     -2.4600412971733587
+    ],
+    [
+     "s1",
+     -2.264870622017702
+    ],
+    [
+     "d1",
+     -2.264870622017702
+    ]
+   ],
+   "path": "",
+   "query": "frobnicate",
+   "results": [
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 90,
+     "file_path": "src/large.py",
+     "id": "w2",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 1.0,
+     "start_line": 40
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 5,
+     "file_path": "src/big.py",
+     "id": "b1",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.984,
+     "start_line": 1
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 10,
+     "file_path": "src/big.py",
+     "id": "b2",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.968,
+     "start_line": 6
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 150,
+     "file_path": "src/large.py",
+     "id": "w3",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.937,
+     "start_line": 100
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 45,
+     "file_path": "src/large.py",
+     "id": "w1",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.923,
+     "start_line": 1
+    }
+   ],
+   "top_k": 5
+  },
+  {
+   "diagnostics": {
+    "backfilled": 0,
+    "capped_files": [
+     "src/big.py"
+    ],
+    "capped_symbols": [],
+    "exhausted": false,
+    "max_per_file": 3,
+    "max_per_symbol": 2,
+    "suppressed": {
+     "src/big.py": 3
+    },
+    "suppressed_symbols": {},
+    "suppressed_total": 3
+   },
+   "fts": [
+    [
+     "w2",
+     -4.40357563901518
+    ],
+    [
+     "b1",
+     -4.124312020161086
+    ],
+    [
+     "b2",
+     -3.7599882234085373
+    ],
+    [
+     "p1",
+     -3.668597533789516
+    ],
+    [
+     "w3",
+     -3.6061255630109517
+    ],
+    [
+     "w1",
+     -3.576131060894239
+    ],
+    [
+     "s3",
+     -3.4219610752268177
+    ],
+    [
+     "b6",
+     -3.3177400433487136
+    ],
+    [
+     "b5",
+     -3.135538018902489
+    ],
+    [
+     "n3",
+     -2.9723063528617777
+    ],
+    [
+     "b3",
+     -2.8252289378559556
+    ],
+    [
+     "b4",
+     -2.692020778840768
+    ],
+    [
+     "n1",
+     -2.692020778840768
+    ],
+    [
+     "n5",
+     -2.692020778840768
+    ],
+    [
+     "n7",
+     -2.692020778840768
+    ],
+    [
+     "n2",
+     -2.5708084223707712
+    ],
+    [
+     "n4",
+     -2.5708084223707712
+    ],
+    [
+     "n6",
+     -2.5708084223707712
+    ],
+    [
+     "s2",
+     -2.4600412971733587
+    ],
+    [
+     "s1",
+     -2.264870622017702
+    ],
+    [
+     "d1",
+     -2.264870622017702
+    ]
+   ],
+   "path": "",
+   "query": "frobnicate",
+   "results": [
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 90,
+     "file_path": "src/large.py",
+     "id": "w2",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 1.0,
+     "start_line": 40
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 5,
+     "file_path": "src/big.py",
+     "id": "b1",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.984,
+     "start_line": 1
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 10,
+     "file_path": "src/big.py",
+     "id": "b2",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.968,
+     "start_line": 6
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 150,
+     "file_path": "src/large.py",
+     "id": "w3",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.937,
+     "start_line": 100
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 45,
+     "file_path": "src/large.py",
+     "id": "w1",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.923,
+     "start_line": 1
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 30,
+     "file_path": "src/sym.py",
+     "id": "s3",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.909,
+     "start_line": 21
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 30,
+     "file_path": "src/big.py",
+     "id": "b6",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.896,
+     "start_line": 26
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 9,
+     "file_path": "scripts/revert_and_test.py",
+     "id": "n4",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.823,
+     "start_line": 1
+    }
+   ],
+   "top_k": 8
+  },
+  {
+   "diagnostics": {
+    "backfilled": 4,
+    "capped_files": [],
+    "capped_symbols": [],
+    "exhausted": false,
+    "max_per_file": 3,
+    "max_per_symbol": 2,
+    "suppressed": {},
+    "suppressed_symbols": {},
+    "suppressed_total": 0
+   },
+   "fts": [
+    [
+     "w2",
+     -4.40357563901518
+    ],
+    [
+     "b1",
+     -4.124312020161086
+    ],
+    [
+     "b2",
+     -3.7599882234085373
+    ],
+    [
+     "p1",
+     -3.668597533789516
+    ],
+    [
+     "w3",
+     -3.6061255630109517
+    ],
+    [
+     "w1",
+     -3.576131060894239
+    ],
+    [
+     "s3",
+     -3.4219610752268177
+    ],
+    [
+     "b6",
+     -3.3177400433487136
+    ],
+    [
+     "b5",
+     -3.135538018902489
+    ],
+    [
+     "n3",
+     -2.9723063528617777
+    ],
+    [
+     "b3",
+     -2.8252289378559556
+    ],
+    [
+     "b4",
+     -2.692020778840768
+    ],
+    [
+     "n1",
+     -2.692020778840768
+    ],
+    [
+     "n5",
+     -2.692020778840768
+    ],
+    [
+     "n7",
+     -2.692020778840768
+    ],
+    [
+     "n2",
+     -2.5708084223707712
+    ],
+    [
+     "n4",
+     -2.5708084223707712
+    ],
+    [
+     "n6",
+     -2.5708084223707712
+    ],
+    [
+     "s2",
+     -2.4600412971733587
+    ],
+    [
+     "s1",
+     -2.264870622017702
+    ],
+    [
+     "d1",
+     -2.264870622017702
+    ]
+   ],
+   "path": "",
+   "query": "frobnicate",
+   "results": [
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 90,
+     "file_path": "src/large.py",
+     "id": "w2",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 1.0,
+     "start_line": 40
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 5,
+     "file_path": "src/big.py",
+     "id": "b1",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.984,
+     "start_line": 1
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 10,
+     "file_path": "src/big.py",
+     "id": "b2",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.968,
+     "start_line": 6
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 150,
+     "file_path": "src/large.py",
+     "id": "w3",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.937,
+     "start_line": 100
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 45,
+     "file_path": "src/large.py",
+     "id": "w1",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.923,
+     "start_line": 1
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 30,
+     "file_path": "src/sym.py",
+     "id": "s3",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.909,
+     "start_line": 21
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 30,
+     "file_path": "src/big.py",
+     "id": "b6",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.896,
+     "start_line": 26
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 9,
+     "file_path": "scripts/revert_and_test.py",
+     "id": "n4",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.823,
+     "start_line": 1
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 20,
+     "file_path": "src/sym.py",
+     "id": "s2",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.808,
+     "start_line": 11
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 9,
+     "file_path": "conftest.py",
+     "id": "n3",
+     "score": 0.348,
+     "start_line": 1
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 9,
+     "file_path": "src/app.test.ts",
+     "id": "n1",
+     "score": 0.333,
+     "start_line": 1
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 9,
+     "file_path": "a/Mocks/x.py",
+     "id": "n5",
+     "score": 0.329,
+     "start_line": 1
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 9,
+     "file_path": "src\\tests\\win.py",
+     "id": "n7",
+     "score": 0.324,
+     "start_line": 1
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 9,
+     "file_path": "pkg/foo_test.go",
+     "id": "n2",
+     "score": 0.32,
+     "start_line": 1
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 9,
+     "file_path": "src/lib/x.stories.tsx",
+     "id": "n6",
+     "score": 0.312,
+     "start_line": 1
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 9,
+     "file_path": "docs/guide.md",
+     "id": "d1",
+     "score": 0.3,
+     "start_line": 1
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 25,
+     "file_path": "src/big.py",
+     "id": "b5",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.882,
+     "start_line": 21
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 15,
+     "file_path": "src/big.py",
+     "id": "b3",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.865,
+     "start_line": 11
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 20,
+     "file_path": "src/big.py",
+     "id": "b4",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.852,
+     "start_line": 16
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 10,
+     "file_path": "src/sym.py",
+     "id": "s1",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.797,
+     "start_line": 1
+    }
+   ],
+   "top_k": 20
+  },
+  {
+   "diagnostics": {
+    "backfilled": 4,
+    "capped_files": [],
+    "capped_symbols": [],
+    "exhausted": true,
+    "max_per_file": 3,
+    "max_per_symbol": 2,
+    "suppressed": {},
+    "suppressed_symbols": {},
+    "suppressed_total": 0
+   },
+   "fts": [
+    [
+     "w2",
+     -9.408305022004209
+    ],
+    [
+     "p1",
+     -7.838013339673935
+    ],
+    [
+     "w1",
+     -7.640457341407444
+    ],
+    [
+     "n3",
+     -7.391087277760911
+    ],
+    [
+     "b1",
+     -7.1838337806399135
+    ],
+    [
+     "b2",
+     -6.970903043102825
+    ],
+    [
+     "b3",
+     -6.036143757550243
+    ],
+    [
+     "b4",
+     -5.751542539319596
+    ],
+    [
+     "n1",
+     -5.751542539319596
+    ],
+    [
+     "n5",
+     -5.751542539319596
+    ],
+    [
+     "n7",
+     -5.751542539319596
+    ],
+    [
+     "n2",
+     -5.492570532116678
+    ],
+    [
+     "n4",
+     -5.492570532116678
+    ],
+    [
+     "n6",
+     -5.492570532116678
+    ],
+    [
+     "d1",
+     -4.838929859300524
+    ],
+    [
+     "w3",
+     -3.6061255630109517
+    ],
+    [
+     "s3",
+     -3.4219610752268177
+    ],
+    [
+     "b6",
+     -3.3177400433487136
+    ],
+    [
+     "b5",
+     -3.135538018902489
+    ],
+    [
+     "s2",
+     -2.4600412971733587
+    ],
+    [
+     "s1",
+     -2.264870622017702
+    ]
+   ],
+   "path": "",
+   "query": "frobnicate widget",
+   "results": [
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 90,
+     "file_path": "src/large.py",
+     "id": "w2",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 1.0,
+     "start_line": 40
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 45,
+     "file_path": "src/large.py",
+     "id": "w1",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.968,
+     "start_line": 1
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 5,
+     "file_path": "src/big.py",
+     "id": "b1",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.946,
+     "start_line": 1
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 10,
+     "file_path": "src/big.py",
+     "id": "b2",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.932,
+     "start_line": 6
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 15,
+     "file_path": "src/big.py",
+     "id": "b3",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.917,
+     "start_line": 11
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 9,
+     "file_path": "scripts/revert_and_test.py",
+     "id": "n4",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.871,
+     "start_line": 1
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 150,
+     "file_path": "src/large.py",
+     "id": "w3",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.849,
+     "start_line": 100
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 30,
+     "file_path": "src/sym.py",
+     "id": "s3",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.838,
+     "start_line": 21
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 20,
+     "file_path": "src/sym.py",
+     "id": "s2",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.804,
+     "start_line": 11
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 9,
+     "file_path": "conftest.py",
+     "id": "n3",
+     "ranking_signals": [
+      "test_definition"
+     ],
+     "score": 0.781,
+     "start_line": 1
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 9,
+     "file_path": "src/app.test.ts",
+     "id": "n1",
+     "score": 0.353,
+     "start_line": 1
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 9,
+     "file_path": "a/Mocks/x.py",
+     "id": "n5",
+     "score": 0.348,
+     "start_line": 1
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 9,
+     "file_path": "src\\tests\\win.py",
+     "id": "n7",
+     "score": 0.343,
+     "start_line": 1
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 9,
+     "file_path": "pkg/foo_test.go",
+     "id": "n2",
+     "score": 0.338,
+     "start_line": 1
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 9,
+     "file_path": "src/lib/x.stories.tsx",
+     "id": "n6",
+     "score": 0.329,
+     "start_line": 1
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 9,
+     "file_path": "docs/guide.md",
+     "id": "d1",
+     "score": 0.324,
+     "start_line": 1
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 20,
+     "file_path": "src/big.py",
+     "id": "b4",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.904,
+     "start_line": 16
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 30,
+     "file_path": "src/big.py",
+     "id": "b6",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.826,
+     "start_line": 26
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 25,
+     "file_path": "src/big.py",
+     "id": "b5",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.815,
+     "start_line": 21
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 10,
+     "file_path": "src/sym.py",
+     "id": "s1",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.793,
+     "start_line": 1
+    }
+   ],
+   "top_k": 40
+  },
+  {
+   "diagnostics": {
+    "backfilled": 0,
+    "capped_files": [],
+    "capped_symbols": [],
+    "exhausted": false,
+    "max_per_file": 3,
+    "max_per_symbol": 2,
+    "suppressed": {},
+    "suppressed_symbols": {},
+    "suppressed_total": 0
+   },
+   "fts": [
+    [
+     "w2",
+     -4.40357563901518
+    ],
+    [
+     "b1",
+     -4.124312020161086
+    ],
+    [
+     "b2",
+     -3.7599882234085373
+    ],
+    [
+     "p1",
+     -3.668597533789516
+    ],
+    [
+     "w3",
+     -3.6061255630109517
+    ],
+    [
+     "w1",
+     -3.576131060894239
+    ],
+    [
+     "s3",
+     -3.4219610752268177
+    ],
+    [
+     "b6",
+     -3.3177400433487136
+    ],
+    [
+     "b5",
+     -3.135538018902489
+    ],
+    [
+     "n3",
+     -2.9723063528617777
+    ],
+    [
+     "b3",
+     -2.8252289378559556
+    ],
+    [
+     "b4",
+     -2.692020778840768
+    ],
+    [
+     "n1",
+     -2.692020778840768
+    ],
+    [
+     "n5",
+     -2.692020778840768
+    ],
+    [
+     "n7",
+     -2.692020778840768
+    ],
+    [
+     "n2",
+     -2.5708084223707712
+    ],
+    [
+     "n4",
+     -2.5708084223707712
+    ],
+    [
+     "n6",
+     -2.5708084223707712
+    ],
+    [
+     "s2",
+     -2.4600412971733587
+    ],
+    [
+     "s1",
+     -2.264870622017702
+    ],
+    [
+     "d1",
+     -2.264870622017702
+    ]
+   ],
+   "path": "src/big.py",
+   "query": "frobnicate",
+   "results": [
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 5,
+     "file_path": "src/big.py",
+     "id": "b1",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 1.0,
+     "start_line": 1
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 10,
+     "file_path": "src/big.py",
+     "id": "b2",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.984,
+     "start_line": 6
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 30,
+     "file_path": "src/big.py",
+     "id": "b6",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.968,
+     "start_line": 26
+    }
+   ],
+   "top_k": 3
+  },
+  {
+   "diagnostics": {
+    "backfilled": 0,
+    "capped_files": [],
+    "capped_symbols": [],
+    "exhausted": false,
+    "max_per_file": 3,
+    "max_per_symbol": 2,
+    "suppressed": {},
+    "suppressed_symbols": {},
+    "suppressed_total": 0
+   },
+   "fts": [
+    [
+     "w2",
+     -4.40357563901518
+    ],
+    [
+     "b1",
+     -4.124312020161086
+    ],
+    [
+     "b2",
+     -3.7599882234085373
+    ],
+    [
+     "p1",
+     -3.668597533789516
+    ],
+    [
+     "w3",
+     -3.6061255630109517
+    ],
+    [
+     "w1",
+     -3.576131060894239
+    ],
+    [
+     "s3",
+     -3.4219610752268177
+    ],
+    [
+     "b6",
+     -3.3177400433487136
+    ],
+    [
+     "b5",
+     -3.135538018902489
+    ],
+    [
+     "n3",
+     -2.9723063528617777
+    ],
+    [
+     "b3",
+     -2.8252289378559556
+    ],
+    [
+     "b4",
+     -2.692020778840768
+    ],
+    [
+     "n1",
+     -2.692020778840768
+    ],
+    [
+     "n5",
+     -2.692020778840768
+    ],
+    [
+     "n7",
+     -2.692020778840768
+    ],
+    [
+     "n2",
+     -2.5708084223707712
+    ],
+    [
+     "n4",
+     -2.5708084223707712
+    ],
+    [
+     "n6",
+     -2.5708084223707712
+    ],
+    [
+     "s2",
+     -2.4600412971733587
+    ],
+    [
+     "s1",
+     -2.264870622017702
+    ],
+    [
+     "d1",
+     -2.264870622017702
+    ]
+   ],
+   "path": "src",
+   "query": "frobnicate",
+   "results": [
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 90,
+     "file_path": "src/large.py",
+     "id": "w2",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 1.0,
+     "start_line": 40
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 5,
+     "file_path": "src/big.py",
+     "id": "b1",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.984,
+     "start_line": 1
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 10,
+     "file_path": "src/big.py",
+     "id": "b2",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.968,
+     "start_line": 6
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 150,
+     "file_path": "src/large.py",
+     "id": "w3",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.937,
+     "start_line": 100
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 45,
+     "file_path": "src/large.py",
+     "id": "w1",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.923,
+     "start_line": 1
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 30,
+     "file_path": "src/sym.py",
+     "id": "s3",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.909,
+     "start_line": 21
+    }
+   ],
+   "top_k": 6
+  },
+  {
+   "diagnostics": {
+    "backfilled": 1,
+    "capped_files": [],
+    "capped_symbols": [],
+    "exhausted": true,
+    "max_per_file": 3,
+    "max_per_symbol": 2,
+    "suppressed": {},
+    "suppressed_symbols": {},
+    "suppressed_total": 0
+   },
+   "fts": [
+    [
+     "t1",
+     -6.450598847974377
+    ],
+    [
+     "s2",
+     -5.323830416725704
+    ],
+    [
+     "s3",
+     -5.323830416725704
+    ],
+    [
+     "s1",
+     -5.022793889734931
+    ],
+    [
+     "d1",
+     -3.5236482363105432
+    ]
+   ],
+   "path": "",
+   "query": "parse_thing",
+   "results": [
+    {
+     "channels": [
+      "full_text",
+      "definition"
+     ],
+     "end_line": 20,
+     "file_path": "src/sym.py",
+     "id": "s2",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 1.0,
+     "start_line": 11
+    },
+    {
+     "channels": [
+      "full_text",
+      "definition"
+     ],
+     "end_line": 30,
+     "file_path": "src/sym.py",
+     "id": "s3",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.984,
+     "start_line": 21
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 9,
+     "file_path": "tests/test_sym.py",
+     "id": "t1",
+     "ranking_signals": [
+      "test_definition"
+     ],
+     "score": 0.365,
+     "start_line": 1
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 9,
+     "file_path": "docs/guide.md",
+     "id": "d1",
+     "score": 0.171,
+     "start_line": 1
+    },
+    {
+     "channels": [
+      "full_text",
+      "definition"
+     ],
+     "end_line": 10,
+     "file_path": "src/sym.py",
+     "id": "s1",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.968,
+     "start_line": 1
+    }
+   ],
+   "top_k": 6
+  },
+  {
+   "diagnostics": {
+    "backfilled": 0,
+    "capped_files": [],
+    "capped_symbols": [
+     "src/sym.py::parse_thing"
+    ],
+    "exhausted": false,
+    "max_per_file": 3,
+    "max_per_symbol": 2,
+    "suppressed": {},
+    "suppressed_symbols": {
+     "src/sym.py::parse_thing": 1
+    },
+    "suppressed_total": 1
+   },
+   "fts": [
+    [
+     "s3",
+     -8.745791491952522
+    ],
+    [
+     "s2",
+     -7.783871713899063
+    ],
+    [
+     "s1",
+     -7.287664511752633
+    ],
+    [
+     "t1",
+     -6.450598847974377
+    ],
+    [
+     "d1",
+     -5.788518858328245
+    ],
+    [
+     "w2",
+     -4.40357563901518
+    ],
+    [
+     "b1",
+     -4.124312020161086
+    ],
+    [
+     "b2",
+     -3.7599882234085373
+    ],
+    [
+     "p1",
+     -3.668597533789516
+    ],
+    [
+     "w3",
+     -3.6061255630109517
+    ],
+    [
+     "w1",
+     -3.576131060894239
+    ],
+    [
+     "b6",
+     -3.3177400433487136
+    ],
+    [
+     "b5",
+     -3.135538018902489
+    ],
+    [
+     "n3",
+     -2.9723063528617777
+    ],
+    [
+     "b3",
+     -2.8252289378559556
+    ],
+    [
+     "b4",
+     -2.692020778840768
+    ],
+    [
+     "n1",
+     -2.692020778840768
+    ],
+    [
+     "n5",
+     -2.692020778840768
+    ],
+    [
+     "n7",
+     -2.692020778840768
+    ],
+    [
+     "n2",
+     -2.5708084223707712
+    ],
+    [
+     "n4",
+     -2.5708084223707712
+    ],
+    [
+     "n6",
+     -2.5708084223707712
+    ]
+   ],
+   "path": "",
+   "query": "parse_thing frobnicate",
+   "results": [
+    {
+     "channels": [
+      "full_text",
+      "definition"
+     ],
+     "end_line": 30,
+     "file_path": "src/sym.py",
+     "id": "s3",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 1.0,
+     "start_line": 21
+    },
+    {
+     "channels": [
+      "full_text",
+      "definition"
+     ],
+     "end_line": 20,
+     "file_path": "src/sym.py",
+     "id": "s2",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.984,
+     "start_line": 11
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 90,
+     "file_path": "src/large.py",
+     "id": "w2",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.428,
+     "start_line": 40
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 5,
+     "file_path": "src/big.py",
+     "id": "b1",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.421,
+     "start_line": 1
+    }
+   ],
+   "top_k": 4
+  },
+  {
+   "diagnostics": {
+    "backfilled": 0,
+    "capped_files": [],
+    "capped_symbols": [],
+    "exhausted": true,
+    "max_per_file": 3,
+    "max_per_symbol": 2,
+    "suppressed": {},
+    "suppressed_symbols": {},
+    "suppressed_total": 0
+   },
+   "fts": [
+    [
+     "t2",
+     -6.869896844541768
+    ],
+    [
+     "r1",
+     -6.317122980947301
+    ],
+    [
+     "d1",
+     -3.930483469357659
+    ]
+   ],
+   "path": "",
+   "query": "runFrontier",
+   "results": [
+    {
+     "channels": [
+      "full_text",
+      "definition"
+     ],
+     "end_line": 9,
+     "file_path": "src/run.py",
+     "id": "r1",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 1.0,
+     "start_line": 1
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 9,
+     "file_path": "tests/test_run.py",
+     "id": "t2",
+     "score": 0.182,
+     "start_line": 1
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 9,
+     "file_path": "docs/guide.md",
+     "id": "d1",
+     "score": 0.176,
+     "start_line": 1
+    }
+   ],
+   "top_k": 8
+  },
+  {
+   "diagnostics": {
+    "backfilled": 0,
+    "capped_files": [],
+    "capped_symbols": [],
+    "exhausted": true,
+    "max_per_file": 3,
+    "max_per_symbol": 2,
+    "suppressed": {},
+    "suppressed_symbols": {},
+    "suppressed_total": 0
+   },
+   "fts": [
+    [
+     "t2",
+     -6.869896844541768
+    ],
+    [
+     "r1",
+     -6.317122980947301
+    ],
+    [
+     "d1",
+     -3.930483469357659
+    ]
+   ],
+   "path": "",
+   "query": "where is runFrontier defined",
+   "results": [
+    {
+     "channels": [
+      "full_text",
+      "definition"
+     ],
+     "end_line": 9,
+     "file_path": "src/run.py",
+     "id": "r1",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 1.0,
+     "start_line": 1
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 9,
+     "file_path": "tests/test_run.py",
+     "id": "t2",
+     "score": 0.182,
+     "start_line": 1
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 9,
+     "file_path": "docs/guide.md",
+     "id": "d1",
+     "score": 0.176,
+     "start_line": 1
+    }
+   ],
+   "top_k": 8
+  },
+  {
+   "diagnostics": {
+    "backfilled": 0,
+    "capped_files": [],
+    "capped_symbols": [],
+    "exhausted": false,
+    "max_per_file": 3,
+    "max_per_symbol": 2,
+    "suppressed": {},
+    "suppressed_symbols": {},
+    "suppressed_total": 0
+   },
+   "fts": [
+    [
+     "p1",
+     -10.642949843945587
+    ],
+    [
+     "w1",
+     -10.482526457836588
+    ],
+    [
+     "w2",
+     -7.597933323920917
+    ],
+    [
+     "n3",
+     -4.418780924899133
+    ],
+    [
+     "b2",
+     -3.2109148196942874
+    ],
+    [
+     "b3",
+     -3.2109148196942874
+    ],
+    [
+     "b1",
+     -3.0595217604788276
+    ],
+    [
+     "b4",
+     -3.0595217604788276
+    ],
+    [
+     "n1",
+     -3.0595217604788276
+    ],
+    [
+     "n5",
+     -3.0595217604788276
+    ],
+    [
+     "n7",
+     -3.0595217604788276
+    ],
+    [
+     "n2",
+     -2.921762109745906
+    ],
+    [
+     "n4",
+     -2.921762109745906
+    ],
+    [
+     "n6",
+     -2.921762109745906
+    ],
+    [
+     "d1",
+     -2.574059237282822
+    ]
+   ],
+   "path": "",
+   "query": "huge_fn widget",
+   "results": [
+    {
+     "channels": [
+      "full_text",
+      "definition"
+     ],
+     "end_line": 90,
+     "file_path": "src/large.py",
+     "id": "p1",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 1.0,
+     "start_line": 1
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 10,
+     "file_path": "src/big.py",
+     "id": "b2",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.43,
+     "start_line": 6
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 15,
+     "file_path": "src/big.py",
+     "id": "b3",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.424,
+     "start_line": 11
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 5,
+     "file_path": "src/big.py",
+     "id": "b1",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.417,
+     "start_line": 1
+    }
+   ],
+   "top_k": 4
+  },
+  {
+   "diagnostics": {
+    "backfilled": 0,
+    "capped_files": [
+     "src/big.py"
+    ],
+    "capped_symbols": [],
+    "exhausted": false,
+    "max_per_file": 3,
+    "max_per_symbol": 2,
+    "suppressed": {
+     "src/big.py": 1
+    },
+    "suppressed_symbols": {},
+    "suppressed_total": 1
+   },
+   "fts": [
+    [
+     "w3",
+     -9.504614585632513
+    ],
+    [
+     "b3",
+     -7.446416299513422
+    ],
+    [
+     "b4",
+     -7.095321422483162
+    ],
+    [
+     "p2",
+     -6.000673549316528
+    ],
+    [
+     "w2",
+     -4.40357563901518
+    ],
+    [
+     "b1",
+     -4.124312020161086
+    ],
+    [
+     "b2",
+     -3.7599882234085373
+    ],
+    [
+     "p1",
+     -3.668597533789516
+    ],
+    [
+     "w1",
+     -3.576131060894239
+    ],
+    [
+     "s3",
+     -3.4219610752268177
+    ],
+    [
+     "b6",
+     -3.3177400433487136
+    ],
+    [
+     "b5",
+     -3.135538018902489
+    ],
+    [
+     "n3",
+     -2.9723063528617777
+    ],
+    [
+     "n1",
+     -2.692020778840768
+    ],
+    [
+     "n5",
+     -2.692020778840768
+    ],
+    [
+     "n7",
+     -2.692020778840768
+    ],
+    [
+     "n2",
+     -2.5708084223707712
+    ],
+    [
+     "n4",
+     -2.5708084223707712
+    ],
+    [
+     "n6",
+     -2.5708084223707712
+    ],
+    [
+     "s2",
+     -2.4600412971733587
+    ],
+    [
+     "s1",
+     -2.264870622017702
+    ],
+    [
+     "d1",
+     -2.264870622017702
+    ]
+   ],
+   "path": "",
+   "query": "gadget frobnicate",
+   "results": [
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 150,
+     "file_path": "src/large.py",
+     "id": "w3",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 1.0,
+     "start_line": 100
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 15,
+     "file_path": "src/big.py",
+     "id": "b3",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.984,
+     "start_line": 11
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 20,
+     "file_path": "src/big.py",
+     "id": "b4",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.968,
+     "start_line": 16
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 90,
+     "file_path": "src/large.py",
+     "id": "w2",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.937,
+     "start_line": 40
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 5,
+     "file_path": "src/big.py",
+     "id": "b1",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.923,
+     "start_line": 1
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 45,
+     "file_path": "src/large.py",
+     "id": "w1",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.882,
+     "start_line": 1
+    }
+   ],
+   "top_k": 6
+  },
+  {
+   "diagnostics": {
+    "backfilled": 0,
+    "capped_files": [],
+    "capped_symbols": [],
+    "exhausted": true,
+    "max_per_file": 3,
+    "max_per_symbol": 2,
+    "suppressed": {},
+    "suppressed_symbols": {},
+    "suppressed_total": 0
+   },
+   "fts": [
+    [
+     "u1",
+     -7.301562652560884
+    ]
+   ],
+   "path": "",
+   "query": "strange_name",
+   "results": [
+    {
+     "channels": [
+      "full_text",
+      "definition"
+     ],
+     "end_line": 9,
+     "file_path": "src/uni.py",
+     "id": "u1",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 1.0,
+     "start_line": 1
+    }
+   ],
+   "top_k": 8
+  },
+  {
+   "diagnostics": {
+    "backfilled": 0,
+    "capped_files": [],
+    "capped_symbols": [],
+    "exhausted": true,
+    "max_per_file": 3,
+    "max_per_symbol": 2,
+    "suppressed": {},
+    "suppressed_symbols": {},
+    "suppressed_total": 0
+   },
+   "fts": [
+    [
+     "u2",
+     -7.301562652560884
+    ]
+   ],
+   "path": "",
+   "query": "kelvin_scale",
+   "results": [
+    {
+     "channels": [
+      "full_text",
+      "definition"
+     ],
+     "end_line": 19,
+     "file_path": "src/uni.py",
+     "id": "u2",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 1.0,
+     "start_line": 10
+    }
+   ],
+   "top_k": 8
+  },
+  {
+   "diagnostics": {
+    "backfilled": 0,
+    "capped_files": [],
+    "capped_symbols": [],
+    "exhausted": true,
+    "max_per_file": 3,
+    "max_per_symbol": 2,
+    "suppressed": {},
+    "suppressed_symbols": {},
+    "suppressed_total": 0
+   },
+   "fts": [
+    [
+     "u3",
+     -5.091780106651008
+    ]
+   ],
+   "path": "",
+   "query": "sseta_x",
+   "results": [
+    {
+     "channels": [
+      "full_text",
+      "definition"
+     ],
+     "end_line": 29,
+     "file_path": "src/uni.py",
+     "id": "u3",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 1.0,
+     "start_line": 20
+    }
+   ],
+   "top_k": 8
+  },
+  {
+   "diagnostics": {
+    "backfilled": 0,
+    "capped_files": [],
+    "capped_symbols": [],
+    "exhausted": true,
+    "max_per_file": 3,
+    "max_per_symbol": 2,
+    "suppressed": {},
+    "suppressed_symbols": {},
+    "suppressed_total": 0
+   },
+   "fts": [
+    [
+     "u4",
+     -7.301562652560884
+    ]
+   ],
+   "path": "",
+   "query": "istanbul_x",
+   "results": [
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 39,
+     "file_path": "src/uni.py",
+     "id": "u4",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 1.0,
+     "start_line": 30
+    }
+   ],
+   "top_k": 8
+  },
+  {
+   "diagnostics": {
+    "backfilled": 0,
+    "capped_files": [],
+    "capped_symbols": [],
+    "exhausted": true,
+    "max_per_file": 3,
+    "max_per_symbol": 2,
+    "suppressed": {},
+    "suppressed_symbols": {},
+    "suppressed_total": 0
+   },
+   "fts": [
+    [
+     "h1",
+     -25.24521590586009
+    ]
+   ],
+   "path": "",
+   "query": "HTTP responses over SSE",
+   "results": [
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 9,
+     "file_path": "src/http.py",
+     "id": "h1",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 1.0,
+     "start_line": 1
+    }
+   ],
+   "top_k": 8
+  },
+  {
+   "diagnostics": {
+    "backfilled": 0,
+    "capped_files": [],
+    "capped_symbols": [],
+    "exhausted": true,
+    "max_per_file": 3,
+    "max_per_symbol": 2,
+    "suppressed": {},
+    "suppressed_symbols": {},
+    "suppressed_total": 0
+   },
+   "fts": [
+    [
+     "h1",
+     -7.301562652560884
+    ]
+   ],
+   "path": "",
+   "query": "SSE",
+   "results": [
+    {
+     "channels": [
+      "full_text",
+      "definition"
+     ],
+     "end_line": 9,
+     "file_path": "src/http.py",
+     "id": "h1",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 1.0,
+     "start_line": 1
+    }
+   ],
+   "top_k": 8
+  },
+  {
+   "diagnostics": {
+    "backfilled": 0,
+    "capped_files": [],
+    "capped_symbols": [],
+    "exhausted": true,
+    "max_per_file": 3,
+    "max_per_symbol": 2,
+    "suppressed": {},
+    "suppressed_symbols": {},
+    "suppressed_total": 0
+   },
+   "fts": [
+    [
+     "e1",
+     -7.534318901312199
+    ]
+   ],
+   "path": "",
+   "query": "404",
+   "results": [
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 9,
+     "file_path": "src/err.py",
+     "id": "e1",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 1.0,
+     "start_line": 1
+    }
+   ],
+   "top_k": 8
+  },
+  {
+   "diagnostics": {
+    "backfilled": 1,
+    "capped_files": [],
+    "capped_symbols": [],
+    "exhausted": true,
+    "max_per_file": 3,
+    "max_per_symbol": 2,
+    "suppressed": {},
+    "suppressed_symbols": {},
+    "suppressed_total": 0
+   },
+   "fts": [
+    [
+     "w2",
+     -5.004729382989029
+    ],
+    [
+     "n3",
+     -4.418780924899133
+    ],
+    [
+     "p1",
+     -4.1694158058844195
+    ],
+    [
+     "w1",
+     -4.064326280513205
+    ],
+    [
+     "b2",
+     -3.2109148196942874
+    ],
+    [
+     "b3",
+     -3.2109148196942874
+    ],
+    [
+     "b1",
+     -3.0595217604788276
+    ],
+    [
+     "b4",
+     -3.0595217604788276
+    ],
+    [
+     "n1",
+     -3.0595217604788276
+    ],
+    [
+     "n5",
+     -3.0595217604788276
+    ],
+    [
+     "n7",
+     -3.0595217604788276
+    ],
+    [
+     "n2",
+     -2.921762109745906
+    ],
+    [
+     "n4",
+     -2.921762109745906
+    ],
+    [
+     "n6",
+     -2.921762109745906
+    ],
+    [
+     "d1",
+     -2.574059237282822
+    ]
+   ],
+   "path": "",
+   "query": "widget",
+   "results": [
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 90,
+     "file_path": "src/large.py",
+     "id": "w2",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 1.0,
+     "start_line": 40
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 45,
+     "file_path": "src/large.py",
+     "id": "w1",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.962,
+     "start_line": 1
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 10,
+     "file_path": "src/big.py",
+     "id": "b2",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.946,
+     "start_line": 6
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 15,
+     "file_path": "src/big.py",
+     "id": "b3",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.932,
+     "start_line": 11
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 5,
+     "file_path": "src/big.py",
+     "id": "b1",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.917,
+     "start_line": 1
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 9,
+     "file_path": "scripts/revert_and_test.py",
+     "id": "n4",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.871,
+     "start_line": 1
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 9,
+     "file_path": "conftest.py",
+     "id": "n3",
+     "ranking_signals": [
+      "test_definition"
+     ],
+     "score": 0.793,
+     "start_line": 1
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 9,
+     "file_path": "src/app.test.ts",
+     "id": "n1",
+     "score": 0.353,
+     "start_line": 1
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 9,
+     "file_path": "a/Mocks/x.py",
+     "id": "n5",
+     "score": 0.348,
+     "start_line": 1
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 9,
+     "file_path": "src\\tests\\win.py",
+     "id": "n7",
+     "score": 0.343,
+     "start_line": 1
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 9,
+     "file_path": "pkg/foo_test.go",
+     "id": "n2",
+     "score": 0.338,
+     "start_line": 1
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 9,
+     "file_path": "src/lib/x.stories.tsx",
+     "id": "n6",
+     "score": 0.329,
+     "start_line": 1
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 9,
+     "file_path": "docs/guide.md",
+     "id": "d1",
+     "score": 0.324,
+     "start_line": 1
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 20,
+     "file_path": "src/big.py",
+     "id": "b4",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.904,
+     "start_line": 16
+    }
+   ],
+   "top_k": 40
+  },
+  {
+   "diagnostics": {
+    "backfilled": 0,
+    "capped_files": [],
+    "capped_symbols": [],
+    "exhausted": true,
+    "max_per_file": 3,
+    "max_per_symbol": 2,
+    "suppressed": {},
+    "suppressed_symbols": {},
+    "suppressed_total": 0
+   },
+   "fts": [
+    [
+     "w2",
+     -5.004729382989029
+    ],
+    [
+     "n3",
+     -4.418780924899133
+    ],
+    [
+     "p1",
+     -4.1694158058844195
+    ],
+    [
+     "w1",
+     -4.064326280513205
+    ],
+    [
+     "b2",
+     -3.2109148196942874
+    ],
+    [
+     "b3",
+     -3.2109148196942874
+    ],
+    [
+     "b1",
+     -3.0595217604788276
+    ],
+    [
+     "b4",
+     -3.0595217604788276
+    ],
+    [
+     "n1",
+     -3.0595217604788276
+    ],
+    [
+     "n5",
+     -3.0595217604788276
+    ],
+    [
+     "n7",
+     -3.0595217604788276
+    ],
+    [
+     "n2",
+     -2.921762109745906
+    ],
+    [
+     "n4",
+     -2.921762109745906
+    ],
+    [
+     "n6",
+     -2.921762109745906
+    ],
+    [
+     "d1",
+     -2.574059237282822
+    ]
+   ],
+   "path": "tests",
+   "query": "widget",
+   "results": [],
+   "top_k": 40
+  },
+  {
+   "diagnostics": {
+    "backfilled": 0,
+    "capped_files": [],
+    "capped_symbols": [],
+    "exhausted": false,
+    "max_per_file": 3,
+    "max_per_symbol": 2,
+    "suppressed": {},
+    "suppressed_symbols": {},
+    "suppressed_total": 0
+   },
+   "fts": [
+    [
+     "z1",
+     -5.757645610852099
+    ],
+    [
+     "z2",
+     -5.757645610852099
+    ],
+    [
+     "z3",
+     -5.757645610852099
+    ]
+   ],
+   "path": "",
+   "query": "zebra",
+   "results": [
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 2,
+     "file_path": "src/plain.txt",
+     "id": "z1",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 1.0,
+     "start_line": 1
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 4,
+     "file_path": "src/plain.txt",
+     "id": "z2",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.984,
+     "start_line": 3
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 6,
+     "file_path": "src/plain.txt",
+     "id": "z3",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.968,
+     "start_line": 5
+    }
+   ],
+   "top_k": 3
+  },
+  {
+   "diagnostics": {
+    "backfilled": 0,
+    "capped_files": [],
+    "capped_symbols": [],
+    "exhausted": false,
+    "max_per_file": 3,
+    "max_per_symbol": 2,
+    "suppressed": {},
+    "suppressed_symbols": {},
+    "suppressed_total": 0
+   },
+   "fts": [
+    [
+     "f000",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f001",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f002",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f003",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f004",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f005",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f006",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f007",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f008",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f009",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f010",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f011",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f012",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f013",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f014",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f015",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f016",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f017",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f018",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f019",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f020",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f021",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f022",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f023",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f024",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f025",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f026",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f027",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f028",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f029",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f030",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f031",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f032",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f033",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f034",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f035",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f036",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f037",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f038",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f039",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f040",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f041",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f042",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f043",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f044",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f045",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f046",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f047",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f048",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f049",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f050",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f051",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f052",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f053",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f054",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f055",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f056",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f057",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f058",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f059",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f060",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f061",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f062",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f063",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f064",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f065",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f066",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f067",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f068",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f069",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f070",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f071",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f072",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f073",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f074",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f075",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f076",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f077",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f078",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f079",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f080",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f081",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f082",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f083",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f084",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f085",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f086",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f087",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f088",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f089",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f090",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f091",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f092",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f093",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f094",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f095",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f096",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f097",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f098",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f099",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f100",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f101",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f102",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f103",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f104",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f105",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f106",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f107",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f108",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f109",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f110",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f111",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f112",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f113",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f114",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f115",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f116",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f117",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f118",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f119",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f120",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f121",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f122",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f123",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f124",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f125",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f126",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f127",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f128",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f129",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f130",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f131",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f132",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f133",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f134",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f135",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f136",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f137",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f138",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f139",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f140",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f141",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f142",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f143",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f144",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f145",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f146",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f147",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f148",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f149",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f150",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f151",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f152",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f153",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f154",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f155",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f156",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f157",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f158",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f159",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f160",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f161",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f162",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f163",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f164",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f165",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f166",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f167",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f168",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f169",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f170",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f171",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f172",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f173",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f174",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f175",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f176",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f177",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f178",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f179",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f180",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f181",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f182",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f183",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f184",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f185",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f186",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f187",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f188",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f189",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f190",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f191",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f192",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f193",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f194",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f195",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f196",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f197",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f198",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f199",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f200",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f201",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f202",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f203",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f204",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f205",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f206",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f207",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f208",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f209",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f210",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f211",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f212",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f213",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f214",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f215",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f216",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f217",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f218",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f219",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f220",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f221",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f222",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f223",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f224",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f225",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f226",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f227",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f228",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f229",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f230",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f231",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f232",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f233",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f234",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f235",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f236",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f237",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f238",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f239",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f240",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f241",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f242",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f243",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f244",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f245",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f246",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f247",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f248",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f249",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f250",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f251",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f252",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f253",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f254",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f255",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f256",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f257",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f258",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f259",
+     -1.6545842217484009e-06
+    ],
+    [
+     "deep0",
+     -1.8910476528057778e-07
+    ],
+    [
+     "deep1",
+     -1.8910476528057778e-07
+    ],
+    [
+     "deep2",
+     -1.8910476528057778e-07
+    ]
+   ],
+   "path": "src/deep",
+   "query": "needle",
+   "results": [
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 9,
+     "file_path": "src/deep/d0.py",
+     "id": "deep0",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 1.0,
+     "start_line": 1
+    }
+   ],
+   "top_k": 1
+  },
+  {
+   "diagnostics": {
+    "backfilled": 0,
+    "capped_files": [],
+    "capped_symbols": [],
+    "exhausted": false,
+    "max_per_file": 3,
+    "max_per_symbol": 2,
+    "suppressed": {},
+    "suppressed_symbols": {},
+    "suppressed_total": 0
+   },
+   "fts": [
+    [
+     "f000",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f001",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f002",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f003",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f004",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f005",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f006",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f007",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f008",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f009",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f010",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f011",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f012",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f013",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f014",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f015",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f016",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f017",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f018",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f019",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f020",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f021",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f022",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f023",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f024",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f025",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f026",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f027",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f028",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f029",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f030",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f031",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f032",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f033",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f034",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f035",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f036",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f037",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f038",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f039",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f040",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f041",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f042",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f043",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f044",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f045",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f046",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f047",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f048",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f049",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f050",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f051",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f052",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f053",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f054",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f055",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f056",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f057",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f058",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f059",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f060",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f061",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f062",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f063",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f064",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f065",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f066",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f067",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f068",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f069",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f070",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f071",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f072",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f073",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f074",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f075",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f076",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f077",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f078",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f079",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f080",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f081",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f082",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f083",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f084",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f085",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f086",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f087",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f088",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f089",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f090",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f091",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f092",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f093",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f094",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f095",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f096",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f097",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f098",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f099",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f100",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f101",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f102",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f103",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f104",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f105",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f106",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f107",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f108",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f109",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f110",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f111",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f112",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f113",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f114",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f115",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f116",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f117",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f118",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f119",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f120",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f121",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f122",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f123",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f124",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f125",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f126",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f127",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f128",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f129",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f130",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f131",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f132",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f133",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f134",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f135",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f136",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f137",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f138",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f139",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f140",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f141",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f142",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f143",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f144",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f145",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f146",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f147",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f148",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f149",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f150",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f151",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f152",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f153",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f154",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f155",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f156",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f157",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f158",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f159",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f160",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f161",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f162",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f163",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f164",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f165",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f166",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f167",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f168",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f169",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f170",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f171",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f172",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f173",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f174",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f175",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f176",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f177",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f178",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f179",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f180",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f181",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f182",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f183",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f184",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f185",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f186",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f187",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f188",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f189",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f190",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f191",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f192",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f193",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f194",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f195",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f196",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f197",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f198",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f199",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f200",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f201",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f202",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f203",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f204",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f205",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f206",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f207",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f208",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f209",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f210",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f211",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f212",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f213",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f214",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f215",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f216",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f217",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f218",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f219",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f220",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f221",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f222",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f223",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f224",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f225",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f226",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f227",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f228",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f229",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f230",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f231",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f232",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f233",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f234",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f235",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f236",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f237",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f238",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f239",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f240",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f241",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f242",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f243",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f244",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f245",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f246",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f247",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f248",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f249",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f250",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f251",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f252",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f253",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f254",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f255",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f256",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f257",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f258",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f259",
+     -1.6545842217484009e-06
+    ],
+    [
+     "deep0",
+     -1.8910476528057778e-07
+    ],
+    [
+     "deep1",
+     -1.8910476528057778e-07
+    ],
+    [
+     "deep2",
+     -1.8910476528057778e-07
+    ]
+   ],
+   "path": "src/deep/",
+   "query": "needle",
+   "results": [
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 9,
+     "file_path": "src/deep/d0.py",
+     "id": "deep0",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 1.0,
+     "start_line": 1
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 9,
+     "file_path": "src/deep/d1.py",
+     "id": "deep1",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.984,
+     "start_line": 1
+    }
+   ],
+   "top_k": 2
+  },
+  {
+   "diagnostics": {
+    "backfilled": 0,
+    "capped_files": [],
+    "capped_symbols": [],
+    "exhausted": false,
+    "max_per_file": 3,
+    "max_per_symbol": 2,
+    "suppressed": {},
+    "suppressed_symbols": {},
+    "suppressed_total": 0
+   },
+   "fts": [
+    [
+     "f000",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f001",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f002",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f003",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f004",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f005",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f006",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f007",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f008",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f009",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f010",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f011",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f012",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f013",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f014",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f015",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f016",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f017",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f018",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f019",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f020",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f021",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f022",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f023",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f024",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f025",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f026",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f027",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f028",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f029",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f030",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f031",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f032",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f033",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f034",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f035",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f036",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f037",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f038",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f039",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f040",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f041",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f042",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f043",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f044",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f045",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f046",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f047",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f048",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f049",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f050",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f051",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f052",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f053",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f054",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f055",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f056",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f057",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f058",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f059",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f060",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f061",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f062",
+     -1.6545842217484009e-06
+    ],
+    [
+     "f063",
+     -1.6545842217484009e-06
+    ]
+   ],
+   "path": "",
+   "query": "needle",
+   "results": [
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 1,
+     "file_path": "src/filler/f000.py",
+     "id": "f000",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 1.0,
+     "start_line": 1
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 1,
+     "file_path": "src/filler/f001.py",
+     "id": "f001",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.984,
+     "start_line": 1
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 1,
+     "file_path": "src/filler/f002.py",
+     "id": "f002",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.968,
+     "start_line": 1
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 1,
+     "file_path": "src/filler/f003.py",
+     "id": "f003",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.952,
+     "start_line": 1
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 1,
+     "file_path": "src/filler/f004.py",
+     "id": "f004",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.937,
+     "start_line": 1
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 1,
+     "file_path": "src/filler/f005.py",
+     "id": "f005",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.923,
+     "start_line": 1
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 1,
+     "file_path": "src/filler/f006.py",
+     "id": "f006",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.909,
+     "start_line": 1
+    },
+    {
+     "channels": [
+      "full_text"
+     ],
+     "end_line": 1,
+     "file_path": "src/filler/f007.py",
+     "id": "f007",
+     "ranking_signals": [
+      "source"
+     ],
+     "score": 0.896,
+     "start_line": 1
+    }
+   ],
+   "top_k": 8
+  }
+ ],
+ "rows": [
+  {
+   "content": "def huge_fn():\n    frobnicate(widget)\ndef huge_fn():\n    frobnicate(widget)\ndef huge_fn():\n    frobnicate(widget)\ndef huge_fn():\n    frobnicate(widget)\ndef huge_fn():\n    frobnicate(widget)\ndef huge_fn():\n    frobnicate(widget)\ndef huge_fn():\n    frobnicate(widget)\ndef huge_fn():\n    frobnicate(widget)\ndef huge_fn():\n    frobnicate(widget)\ndef huge_fn():\n    frobnicate(widget)\ndef huge_fn():\n    frobnicate(widget)\ndef huge_fn():\n    frobnicate(widget)\ndef huge_fn():\n    frobnicate(widget)\ndef huge_fn():\n    frobnicate(widget)\ndef huge_fn():\n    frobnicate(widget)\ndef huge_fn():\n    frobnicate(widget)\ndef huge_fn():\n    frobnicate(widget)\ndef huge_fn():\n    frobnicate(widget)\ndef huge_fn():\n    frobnicate(widget)\ndef huge_fn():\n    frobnicate(widget)\n",
+   "end_line": 90,
+   "file_path": "src/large.py",
+   "full_chars": 760,
+   "id": "p1",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 1,
+   "start_line": 1,
+   "symbols": "huge_fn",
+   "token_est": 230
+  },
+  {
+   "content": "def huge_fn():\n    frobnicate(widget)\ndef huge_fn():\n    frobnicate(widget)\ndef huge_fn():\n    frobnicate(widget)\ndef huge_fn():\n    frobnicate(widget)\ndef huge_fn():\n    frobnicate(widget)\ndef huge_fn():\n    frobnicate(widget)\ndef huge_fn():\n    frobnicate(widget)\ndef huge_fn():\n    frobnicate(widget)\ndef huge_fn():\n    frobnicate(widget)\ndef huge_fn():\n    frobnicate(widget)\n",
+   "end_line": 45,
+   "file_path": "src/large.py",
+   "full_chars": 380,
+   "id": "w1",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "p1",
+   "rowid": 2,
+   "start_line": 1,
+   "symbols": "huge_fn",
+   "token_est": 115
+  },
+  {
+   "content": "    frobnicate(widget)\n    frobnicate(widget)\n    frobnicate(widget)\n    frobnicate(widget)\n    frobnicate(widget)\n    frobnicate(widget)\n    frobnicate(widget)\n    frobnicate(widget)\n    frobnicate(widget)\n    frobnicate(widget)\n",
+   "end_line": 90,
+   "file_path": "src/large.py",
+   "full_chars": 230,
+   "id": "w2",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "p1",
+   "rowid": 3,
+   "start_line": 40,
+   "symbols": "huge_fn",
+   "token_est": 69
+  },
+  {
+   "content": "def other_big():\n    gadget = 1\ndef other_big():\n    gadget = 1\ndef other_big():\n    gadget = 1\ndef other_big():\n    gadget = 1\ndef other_big():\n    gadget = 1\ndef other_big():\n    gadget = 1\ndef other_big():\n    gadget = 1\ndef other_big():\n    gadget = 1\ndef other_big():\n    gadget = 1\ndef other_big():\n    gadget = 1\ndef other_big():\n    gadget = 1\ndef other_big():\n    gadget = 1\ndef other_big():\n    gadget = 1\ndef other_big():\n    gadget = 1\ndef other_big():\n    gadget = 1\ndef other_big():\n    gadget = 1\ndef other_big():\n    gadget = 1\ndef other_big():\n    gadget = 1\ndef other_big():\n    gadget = 1\ndef other_big():\n    gadget = 1\n",
+   "end_line": 190,
+   "file_path": "src/large.py",
+   "full_chars": 640,
+   "id": "p2",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 4,
+   "start_line": 100,
+   "symbols": "other_big",
+   "token_est": 193
+  },
+  {
+   "content": "def other_big():\n    gadget frobnicate\ndef other_big():\n    gadget frobnicate\ndef other_big():\n    gadget frobnicate\ndef other_big():\n    gadget frobnicate\ndef other_big():\n    gadget frobnicate\ndef other_big():\n    gadget frobnicate\ndef other_big():\n    gadget frobnicate\ndef other_big():\n    gadget frobnicate\ndef other_big():\n    gadget frobnicate\n",
+   "end_line": 150,
+   "file_path": "src/large.py",
+   "full_chars": 351,
+   "id": "w3",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "p2",
+   "rowid": 5,
+   "start_line": 100,
+   "symbols": "",
+   "token_est": 106
+  },
+  {
+   "content": "frobnicate frobnicate frobnicate widget",
+   "end_line": 5,
+   "file_path": "src/big.py",
+   "full_chars": 39,
+   "id": "b1",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 6,
+   "start_line": 1,
+   "symbols": "alpha",
+   "token_est": 11
+  },
+  {
+   "content": "frobnicate frobnicate widget",
+   "end_line": 10,
+   "file_path": "src/big.py",
+   "full_chars": 28,
+   "id": "b2",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 7,
+   "start_line": 6,
+   "symbols": "beta",
+   "token_est": 8
+  },
+  {
+   "content": "frobnicate widget gadget",
+   "end_line": 15,
+   "file_path": "src/big.py",
+   "full_chars": 24,
+   "id": "b3",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 8,
+   "start_line": 11,
+   "symbols": "gamma",
+   "token_est": 7
+  },
+  {
+   "content": "frobnicate widget gadget gizmo",
+   "end_line": 20,
+   "file_path": "src/big.py",
+   "full_chars": 30,
+   "id": "b4",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 9,
+   "start_line": 16,
+   "symbols": "delta",
+   "token_est": 9
+  },
+  {
+   "content": "frobnicate gizmo",
+   "end_line": 25,
+   "file_path": "src/big.py",
+   "full_chars": 16,
+   "id": "b5",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 10,
+   "start_line": 21,
+   "symbols": "",
+   "token_est": 4
+  },
+  {
+   "content": "frobnicate",
+   "end_line": 30,
+   "file_path": "src/big.py",
+   "full_chars": 10,
+   "id": "b6",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 11,
+   "start_line": 26,
+   "symbols": "",
+   "token_est": 3
+  },
+  {
+   "content": "def parse_thing(x):\n    return frobnicate(x)",
+   "end_line": 10,
+   "file_path": "src/sym.py",
+   "full_chars": 44,
+   "id": "s1",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 12,
+   "start_line": 1,
+   "symbols": "parse_thing",
+   "token_est": 13
+  },
+  {
+   "content": "    # parse_thing continued frobnicate",
+   "end_line": 20,
+   "file_path": "src/sym.py",
+   "full_chars": 38,
+   "id": "s2",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 13,
+   "start_line": 11,
+   "symbols": "parse_thing helper",
+   "token_est": 11
+  },
+  {
+   "content": "    # parse_thing tail frobnicate frobnicate",
+   "end_line": 30,
+   "file_path": "src/sym.py",
+   "full_chars": 44,
+   "id": "s3",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 14,
+   "start_line": 21,
+   "symbols": "parse_thing",
+   "token_est": 13
+  },
+  {
+   "content": "def parse_thing():\n    parse_thing(); parse_thing(); parse_thing()",
+   "end_line": 9,
+   "file_path": "tests/test_sym.py",
+   "full_chars": 66,
+   "id": "t1",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 15,
+   "start_line": 1,
+   "symbols": "parse_thing",
+   "token_est": 20
+  },
+  {
+   "content": "runFrontier(a); runFrontier(b); runFrontier(c); runFrontier(d)",
+   "end_line": 9,
+   "file_path": "tests/test_run.py",
+   "full_chars": 62,
+   "id": "t2",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 16,
+   "start_line": 1,
+   "symbols": "test_run",
+   "token_est": 18
+  },
+  {
+   "content": "def runFrontier(queue):\n    pass",
+   "end_line": 9,
+   "file_path": "src/run.py",
+   "full_chars": 32,
+   "id": "r1",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 17,
+   "start_line": 1,
+   "symbols": "runFrontier",
+   "token_est": 9
+  },
+  {
+   "content": "Use parse_thing and runFrontier to frobnicate a widget.",
+   "end_line": 9,
+   "file_path": "docs/guide.md",
+   "full_chars": 55,
+   "id": "d1",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 18,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 16
+  },
+  {
+   "content": "frobnicate widget test",
+   "end_line": 9,
+   "file_path": "src/app.test.ts",
+   "full_chars": 22,
+   "id": "n1",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 19,
+   "start_line": 1,
+   "symbols": "appTest",
+   "token_est": 6
+  },
+  {
+   "content": "frobnicate widget go test",
+   "end_line": 9,
+   "file_path": "pkg/foo_test.go",
+   "full_chars": 25,
+   "id": "n2",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 20,
+   "start_line": 1,
+   "symbols": "TestFoo",
+   "token_est": 7
+  },
+  {
+   "content": "frobnicate widget fixture",
+   "end_line": 9,
+   "file_path": "conftest.py",
+   "full_chars": 25,
+   "id": "n3",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 21,
+   "start_line": 1,
+   "symbols": "widget",
+   "token_est": 7
+  },
+  {
+   "content": "frobnicate widget script",
+   "end_line": 9,
+   "file_path": "scripts/revert_and_test.py",
+   "full_chars": 24,
+   "id": "n4",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 22,
+   "start_line": 1,
+   "symbols": "revert",
+   "token_est": 7
+  },
+  {
+   "content": "frobnicate widget mock",
+   "end_line": 9,
+   "file_path": "a/Mocks/x.py",
+   "full_chars": 22,
+   "id": "n5",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 23,
+   "start_line": 1,
+   "symbols": "mocked",
+   "token_est": 6
+  },
+  {
+   "content": "frobnicate widget story",
+   "end_line": 9,
+   "file_path": "src/lib/x.stories.tsx",
+   "full_chars": 23,
+   "id": "n6",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 24,
+   "start_line": 1,
+   "symbols": "Story",
+   "token_est": 6
+  },
+  {
+   "content": "frobnicate widget windows",
+   "end_line": 9,
+   "file_path": "src\\tests\\win.py",
+   "full_chars": 25,
+   "id": "n7",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 25,
+   "start_line": 1,
+   "symbols": "win",
+   "token_est": 7
+  },
+  {
+   "content": "def ſtrange_name(): strange",
+   "end_line": 9,
+   "file_path": "src/uni.py",
+   "full_chars": 27,
+   "id": "u1",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 26,
+   "start_line": 1,
+   "symbols": "ſtrange_name",
+   "token_est": 8
+  },
+  {
+   "content": "def Kelvin_scale(): kelvin",
+   "end_line": 19,
+   "file_path": "src/uni.py",
+   "full_chars": 26,
+   "id": "u2",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 27,
+   "start_line": 10,
+   "symbols": "Kelvin_scale",
+   "token_est": 7
+  },
+  {
+   "content": "def ßeta_x(): sseta_x",
+   "end_line": 29,
+   "file_path": "src/uni.py",
+   "full_chars": 21,
+   "id": "u3",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 28,
+   "start_line": 20,
+   "symbols": "ßeta_x",
+   "token_est": 6
+  },
+  {
+   "content": "def İstanbul_x(): istanbul",
+   "end_line": 39,
+   "file_path": "src/uni.py",
+   "full_chars": 26,
+   "id": "u4",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 29,
+   "start_line": 30,
+   "symbols": "İstanbul_x",
+   "token_est": 7
+  },
+  {
+   "content": "HTTP responses over SSE stream",
+   "end_line": 9,
+   "file_path": "src/http.py",
+   "full_chars": 30,
+   "id": "h1",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 30,
+   "start_line": 1,
+   "symbols": "SSE",
+   "token_est": 9
+  },
+  {
+   "content": "error 404 not found 404",
+   "end_line": 9,
+   "file_path": "src/err.py",
+   "full_chars": 23,
+   "id": "e1",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 31,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "zebra",
+   "end_line": 2,
+   "file_path": "src/plain.txt",
+   "full_chars": 5,
+   "id": "z1",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 32,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 1
+  },
+  {
+   "content": "zebra",
+   "end_line": 4,
+   "file_path": "src/plain.txt",
+   "full_chars": 5,
+   "id": "z2",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 33,
+   "start_line": 3,
+   "symbols": "",
+   "token_est": 1
+  },
+  {
+   "content": "zebra",
+   "end_line": 6,
+   "file_path": "src/plain.txt",
+   "full_chars": 5,
+   "id": "z3",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 34,
+   "start_line": 5,
+   "symbols": "",
+   "token_est": 1
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f000.py",
+   "full_chars": 20,
+   "id": "f000",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 35,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f001.py",
+   "full_chars": 20,
+   "id": "f001",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 36,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f002.py",
+   "full_chars": 20,
+   "id": "f002",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 37,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f003.py",
+   "full_chars": 20,
+   "id": "f003",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 38,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f004.py",
+   "full_chars": 20,
+   "id": "f004",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 39,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f005.py",
+   "full_chars": 20,
+   "id": "f005",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 40,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f006.py",
+   "full_chars": 20,
+   "id": "f006",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 41,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f007.py",
+   "full_chars": 20,
+   "id": "f007",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 42,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f008.py",
+   "full_chars": 20,
+   "id": "f008",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 43,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f009.py",
+   "full_chars": 20,
+   "id": "f009",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 44,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f010.py",
+   "full_chars": 20,
+   "id": "f010",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 45,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f011.py",
+   "full_chars": 20,
+   "id": "f011",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 46,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f012.py",
+   "full_chars": 20,
+   "id": "f012",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 47,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f013.py",
+   "full_chars": 20,
+   "id": "f013",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 48,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f014.py",
+   "full_chars": 20,
+   "id": "f014",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 49,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f015.py",
+   "full_chars": 20,
+   "id": "f015",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 50,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f016.py",
+   "full_chars": 20,
+   "id": "f016",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 51,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f017.py",
+   "full_chars": 20,
+   "id": "f017",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 52,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f018.py",
+   "full_chars": 20,
+   "id": "f018",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 53,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f019.py",
+   "full_chars": 20,
+   "id": "f019",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 54,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f020.py",
+   "full_chars": 20,
+   "id": "f020",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 55,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f021.py",
+   "full_chars": 20,
+   "id": "f021",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 56,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f022.py",
+   "full_chars": 20,
+   "id": "f022",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 57,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f023.py",
+   "full_chars": 20,
+   "id": "f023",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 58,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f024.py",
+   "full_chars": 20,
+   "id": "f024",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 59,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f025.py",
+   "full_chars": 20,
+   "id": "f025",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 60,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f026.py",
+   "full_chars": 20,
+   "id": "f026",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 61,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f027.py",
+   "full_chars": 20,
+   "id": "f027",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 62,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f028.py",
+   "full_chars": 20,
+   "id": "f028",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 63,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f029.py",
+   "full_chars": 20,
+   "id": "f029",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 64,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f030.py",
+   "full_chars": 20,
+   "id": "f030",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 65,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f031.py",
+   "full_chars": 20,
+   "id": "f031",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 66,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f032.py",
+   "full_chars": 20,
+   "id": "f032",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 67,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f033.py",
+   "full_chars": 20,
+   "id": "f033",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 68,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f034.py",
+   "full_chars": 20,
+   "id": "f034",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 69,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f035.py",
+   "full_chars": 20,
+   "id": "f035",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 70,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f036.py",
+   "full_chars": 20,
+   "id": "f036",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 71,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f037.py",
+   "full_chars": 20,
+   "id": "f037",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 72,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f038.py",
+   "full_chars": 20,
+   "id": "f038",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 73,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f039.py",
+   "full_chars": 20,
+   "id": "f039",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 74,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f040.py",
+   "full_chars": 20,
+   "id": "f040",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 75,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f041.py",
+   "full_chars": 20,
+   "id": "f041",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 76,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f042.py",
+   "full_chars": 20,
+   "id": "f042",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 77,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f043.py",
+   "full_chars": 20,
+   "id": "f043",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 78,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f044.py",
+   "full_chars": 20,
+   "id": "f044",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 79,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f045.py",
+   "full_chars": 20,
+   "id": "f045",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 80,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f046.py",
+   "full_chars": 20,
+   "id": "f046",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 81,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f047.py",
+   "full_chars": 20,
+   "id": "f047",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 82,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f048.py",
+   "full_chars": 20,
+   "id": "f048",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 83,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f049.py",
+   "full_chars": 20,
+   "id": "f049",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 84,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f050.py",
+   "full_chars": 20,
+   "id": "f050",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 85,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f051.py",
+   "full_chars": 20,
+   "id": "f051",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 86,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f052.py",
+   "full_chars": 20,
+   "id": "f052",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 87,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f053.py",
+   "full_chars": 20,
+   "id": "f053",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 88,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f054.py",
+   "full_chars": 20,
+   "id": "f054",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 89,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f055.py",
+   "full_chars": 20,
+   "id": "f055",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 90,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f056.py",
+   "full_chars": 20,
+   "id": "f056",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 91,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f057.py",
+   "full_chars": 20,
+   "id": "f057",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 92,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f058.py",
+   "full_chars": 20,
+   "id": "f058",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 93,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f059.py",
+   "full_chars": 20,
+   "id": "f059",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 94,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f060.py",
+   "full_chars": 20,
+   "id": "f060",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 95,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f061.py",
+   "full_chars": 20,
+   "id": "f061",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 96,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f062.py",
+   "full_chars": 20,
+   "id": "f062",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 97,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f063.py",
+   "full_chars": 20,
+   "id": "f063",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 98,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f064.py",
+   "full_chars": 20,
+   "id": "f064",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 99,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f065.py",
+   "full_chars": 20,
+   "id": "f065",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 100,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f066.py",
+   "full_chars": 20,
+   "id": "f066",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 101,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f067.py",
+   "full_chars": 20,
+   "id": "f067",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 102,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f068.py",
+   "full_chars": 20,
+   "id": "f068",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 103,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f069.py",
+   "full_chars": 20,
+   "id": "f069",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 104,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f070.py",
+   "full_chars": 20,
+   "id": "f070",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 105,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f071.py",
+   "full_chars": 20,
+   "id": "f071",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 106,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f072.py",
+   "full_chars": 20,
+   "id": "f072",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 107,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f073.py",
+   "full_chars": 20,
+   "id": "f073",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 108,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f074.py",
+   "full_chars": 20,
+   "id": "f074",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 109,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f075.py",
+   "full_chars": 20,
+   "id": "f075",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 110,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f076.py",
+   "full_chars": 20,
+   "id": "f076",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 111,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f077.py",
+   "full_chars": 20,
+   "id": "f077",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 112,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f078.py",
+   "full_chars": 20,
+   "id": "f078",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 113,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f079.py",
+   "full_chars": 20,
+   "id": "f079",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 114,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f080.py",
+   "full_chars": 20,
+   "id": "f080",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 115,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f081.py",
+   "full_chars": 20,
+   "id": "f081",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 116,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f082.py",
+   "full_chars": 20,
+   "id": "f082",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 117,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f083.py",
+   "full_chars": 20,
+   "id": "f083",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 118,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f084.py",
+   "full_chars": 20,
+   "id": "f084",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 119,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f085.py",
+   "full_chars": 20,
+   "id": "f085",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 120,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f086.py",
+   "full_chars": 20,
+   "id": "f086",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 121,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f087.py",
+   "full_chars": 20,
+   "id": "f087",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 122,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f088.py",
+   "full_chars": 20,
+   "id": "f088",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 123,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f089.py",
+   "full_chars": 20,
+   "id": "f089",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 124,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f090.py",
+   "full_chars": 20,
+   "id": "f090",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 125,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f091.py",
+   "full_chars": 20,
+   "id": "f091",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 126,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f092.py",
+   "full_chars": 20,
+   "id": "f092",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 127,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f093.py",
+   "full_chars": 20,
+   "id": "f093",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 128,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f094.py",
+   "full_chars": 20,
+   "id": "f094",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 129,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f095.py",
+   "full_chars": 20,
+   "id": "f095",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 130,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f096.py",
+   "full_chars": 20,
+   "id": "f096",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 131,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f097.py",
+   "full_chars": 20,
+   "id": "f097",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 132,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f098.py",
+   "full_chars": 20,
+   "id": "f098",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 133,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f099.py",
+   "full_chars": 20,
+   "id": "f099",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 134,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f100.py",
+   "full_chars": 20,
+   "id": "f100",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 135,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f101.py",
+   "full_chars": 20,
+   "id": "f101",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 136,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f102.py",
+   "full_chars": 20,
+   "id": "f102",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 137,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f103.py",
+   "full_chars": 20,
+   "id": "f103",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 138,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f104.py",
+   "full_chars": 20,
+   "id": "f104",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 139,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f105.py",
+   "full_chars": 20,
+   "id": "f105",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 140,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f106.py",
+   "full_chars": 20,
+   "id": "f106",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 141,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f107.py",
+   "full_chars": 20,
+   "id": "f107",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 142,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f108.py",
+   "full_chars": 20,
+   "id": "f108",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 143,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f109.py",
+   "full_chars": 20,
+   "id": "f109",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 144,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f110.py",
+   "full_chars": 20,
+   "id": "f110",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 145,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f111.py",
+   "full_chars": 20,
+   "id": "f111",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 146,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f112.py",
+   "full_chars": 20,
+   "id": "f112",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 147,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f113.py",
+   "full_chars": 20,
+   "id": "f113",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 148,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f114.py",
+   "full_chars": 20,
+   "id": "f114",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 149,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f115.py",
+   "full_chars": 20,
+   "id": "f115",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 150,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f116.py",
+   "full_chars": 20,
+   "id": "f116",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 151,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f117.py",
+   "full_chars": 20,
+   "id": "f117",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 152,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f118.py",
+   "full_chars": 20,
+   "id": "f118",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 153,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f119.py",
+   "full_chars": 20,
+   "id": "f119",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 154,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f120.py",
+   "full_chars": 20,
+   "id": "f120",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 155,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f121.py",
+   "full_chars": 20,
+   "id": "f121",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 156,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f122.py",
+   "full_chars": 20,
+   "id": "f122",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 157,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f123.py",
+   "full_chars": 20,
+   "id": "f123",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 158,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f124.py",
+   "full_chars": 20,
+   "id": "f124",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 159,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f125.py",
+   "full_chars": 20,
+   "id": "f125",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 160,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f126.py",
+   "full_chars": 20,
+   "id": "f126",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 161,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f127.py",
+   "full_chars": 20,
+   "id": "f127",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 162,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f128.py",
+   "full_chars": 20,
+   "id": "f128",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 163,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f129.py",
+   "full_chars": 20,
+   "id": "f129",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 164,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f130.py",
+   "full_chars": 20,
+   "id": "f130",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 165,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f131.py",
+   "full_chars": 20,
+   "id": "f131",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 166,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f132.py",
+   "full_chars": 20,
+   "id": "f132",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 167,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f133.py",
+   "full_chars": 20,
+   "id": "f133",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 168,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f134.py",
+   "full_chars": 20,
+   "id": "f134",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 169,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f135.py",
+   "full_chars": 20,
+   "id": "f135",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 170,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f136.py",
+   "full_chars": 20,
+   "id": "f136",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 171,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f137.py",
+   "full_chars": 20,
+   "id": "f137",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 172,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f138.py",
+   "full_chars": 20,
+   "id": "f138",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 173,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f139.py",
+   "full_chars": 20,
+   "id": "f139",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 174,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f140.py",
+   "full_chars": 20,
+   "id": "f140",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 175,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f141.py",
+   "full_chars": 20,
+   "id": "f141",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 176,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f142.py",
+   "full_chars": 20,
+   "id": "f142",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 177,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f143.py",
+   "full_chars": 20,
+   "id": "f143",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 178,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f144.py",
+   "full_chars": 20,
+   "id": "f144",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 179,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f145.py",
+   "full_chars": 20,
+   "id": "f145",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 180,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f146.py",
+   "full_chars": 20,
+   "id": "f146",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 181,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f147.py",
+   "full_chars": 20,
+   "id": "f147",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 182,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f148.py",
+   "full_chars": 20,
+   "id": "f148",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 183,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f149.py",
+   "full_chars": 20,
+   "id": "f149",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 184,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f150.py",
+   "full_chars": 20,
+   "id": "f150",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 185,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f151.py",
+   "full_chars": 20,
+   "id": "f151",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 186,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f152.py",
+   "full_chars": 20,
+   "id": "f152",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 187,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f153.py",
+   "full_chars": 20,
+   "id": "f153",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 188,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f154.py",
+   "full_chars": 20,
+   "id": "f154",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 189,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f155.py",
+   "full_chars": 20,
+   "id": "f155",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 190,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f156.py",
+   "full_chars": 20,
+   "id": "f156",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 191,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f157.py",
+   "full_chars": 20,
+   "id": "f157",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 192,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f158.py",
+   "full_chars": 20,
+   "id": "f158",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 193,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f159.py",
+   "full_chars": 20,
+   "id": "f159",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 194,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f160.py",
+   "full_chars": 20,
+   "id": "f160",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 195,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f161.py",
+   "full_chars": 20,
+   "id": "f161",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 196,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f162.py",
+   "full_chars": 20,
+   "id": "f162",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 197,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f163.py",
+   "full_chars": 20,
+   "id": "f163",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 198,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f164.py",
+   "full_chars": 20,
+   "id": "f164",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 199,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f165.py",
+   "full_chars": 20,
+   "id": "f165",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 200,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f166.py",
+   "full_chars": 20,
+   "id": "f166",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 201,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f167.py",
+   "full_chars": 20,
+   "id": "f167",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 202,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f168.py",
+   "full_chars": 20,
+   "id": "f168",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 203,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f169.py",
+   "full_chars": 20,
+   "id": "f169",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 204,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f170.py",
+   "full_chars": 20,
+   "id": "f170",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 205,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f171.py",
+   "full_chars": 20,
+   "id": "f171",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 206,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f172.py",
+   "full_chars": 20,
+   "id": "f172",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 207,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f173.py",
+   "full_chars": 20,
+   "id": "f173",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 208,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f174.py",
+   "full_chars": 20,
+   "id": "f174",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 209,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f175.py",
+   "full_chars": 20,
+   "id": "f175",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 210,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f176.py",
+   "full_chars": 20,
+   "id": "f176",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 211,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f177.py",
+   "full_chars": 20,
+   "id": "f177",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 212,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f178.py",
+   "full_chars": 20,
+   "id": "f178",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 213,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f179.py",
+   "full_chars": 20,
+   "id": "f179",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 214,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f180.py",
+   "full_chars": 20,
+   "id": "f180",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 215,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f181.py",
+   "full_chars": 20,
+   "id": "f181",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 216,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f182.py",
+   "full_chars": 20,
+   "id": "f182",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 217,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f183.py",
+   "full_chars": 20,
+   "id": "f183",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 218,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f184.py",
+   "full_chars": 20,
+   "id": "f184",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 219,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f185.py",
+   "full_chars": 20,
+   "id": "f185",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 220,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f186.py",
+   "full_chars": 20,
+   "id": "f186",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 221,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f187.py",
+   "full_chars": 20,
+   "id": "f187",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 222,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f188.py",
+   "full_chars": 20,
+   "id": "f188",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 223,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f189.py",
+   "full_chars": 20,
+   "id": "f189",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 224,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f190.py",
+   "full_chars": 20,
+   "id": "f190",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 225,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f191.py",
+   "full_chars": 20,
+   "id": "f191",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 226,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f192.py",
+   "full_chars": 20,
+   "id": "f192",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 227,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f193.py",
+   "full_chars": 20,
+   "id": "f193",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 228,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f194.py",
+   "full_chars": 20,
+   "id": "f194",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 229,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f195.py",
+   "full_chars": 20,
+   "id": "f195",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 230,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f196.py",
+   "full_chars": 20,
+   "id": "f196",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 231,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f197.py",
+   "full_chars": 20,
+   "id": "f197",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 232,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f198.py",
+   "full_chars": 20,
+   "id": "f198",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 233,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f199.py",
+   "full_chars": 20,
+   "id": "f199",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 234,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f200.py",
+   "full_chars": 20,
+   "id": "f200",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 235,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f201.py",
+   "full_chars": 20,
+   "id": "f201",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 236,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f202.py",
+   "full_chars": 20,
+   "id": "f202",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 237,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f203.py",
+   "full_chars": 20,
+   "id": "f203",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 238,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f204.py",
+   "full_chars": 20,
+   "id": "f204",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 239,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f205.py",
+   "full_chars": 20,
+   "id": "f205",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 240,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f206.py",
+   "full_chars": 20,
+   "id": "f206",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 241,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f207.py",
+   "full_chars": 20,
+   "id": "f207",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 242,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f208.py",
+   "full_chars": 20,
+   "id": "f208",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 243,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f209.py",
+   "full_chars": 20,
+   "id": "f209",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 244,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f210.py",
+   "full_chars": 20,
+   "id": "f210",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 245,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f211.py",
+   "full_chars": 20,
+   "id": "f211",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 246,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f212.py",
+   "full_chars": 20,
+   "id": "f212",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 247,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f213.py",
+   "full_chars": 20,
+   "id": "f213",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 248,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f214.py",
+   "full_chars": 20,
+   "id": "f214",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 249,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f215.py",
+   "full_chars": 20,
+   "id": "f215",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 250,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f216.py",
+   "full_chars": 20,
+   "id": "f216",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 251,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f217.py",
+   "full_chars": 20,
+   "id": "f217",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 252,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f218.py",
+   "full_chars": 20,
+   "id": "f218",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 253,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f219.py",
+   "full_chars": 20,
+   "id": "f219",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 254,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f220.py",
+   "full_chars": 20,
+   "id": "f220",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 255,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f221.py",
+   "full_chars": 20,
+   "id": "f221",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 256,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f222.py",
+   "full_chars": 20,
+   "id": "f222",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 257,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f223.py",
+   "full_chars": 20,
+   "id": "f223",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 258,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f224.py",
+   "full_chars": 20,
+   "id": "f224",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 259,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f225.py",
+   "full_chars": 20,
+   "id": "f225",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 260,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f226.py",
+   "full_chars": 20,
+   "id": "f226",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 261,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f227.py",
+   "full_chars": 20,
+   "id": "f227",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 262,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f228.py",
+   "full_chars": 20,
+   "id": "f228",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 263,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f229.py",
+   "full_chars": 20,
+   "id": "f229",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 264,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f230.py",
+   "full_chars": 20,
+   "id": "f230",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 265,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f231.py",
+   "full_chars": 20,
+   "id": "f231",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 266,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f232.py",
+   "full_chars": 20,
+   "id": "f232",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 267,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f233.py",
+   "full_chars": 20,
+   "id": "f233",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 268,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f234.py",
+   "full_chars": 20,
+   "id": "f234",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 269,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f235.py",
+   "full_chars": 20,
+   "id": "f235",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 270,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f236.py",
+   "full_chars": 20,
+   "id": "f236",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 271,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f237.py",
+   "full_chars": 20,
+   "id": "f237",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 272,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f238.py",
+   "full_chars": 20,
+   "id": "f238",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 273,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f239.py",
+   "full_chars": 20,
+   "id": "f239",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 274,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f240.py",
+   "full_chars": 20,
+   "id": "f240",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 275,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f241.py",
+   "full_chars": 20,
+   "id": "f241",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 276,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f242.py",
+   "full_chars": 20,
+   "id": "f242",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 277,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f243.py",
+   "full_chars": 20,
+   "id": "f243",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 278,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f244.py",
+   "full_chars": 20,
+   "id": "f244",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 279,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f245.py",
+   "full_chars": 20,
+   "id": "f245",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 280,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f246.py",
+   "full_chars": 20,
+   "id": "f246",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 281,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f247.py",
+   "full_chars": 20,
+   "id": "f247",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 282,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f248.py",
+   "full_chars": 20,
+   "id": "f248",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 283,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f249.py",
+   "full_chars": 20,
+   "id": "f249",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 284,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f250.py",
+   "full_chars": 20,
+   "id": "f250",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 285,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f251.py",
+   "full_chars": 20,
+   "id": "f251",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 286,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f252.py",
+   "full_chars": 20,
+   "id": "f252",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 287,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f253.py",
+   "full_chars": 20,
+   "id": "f253",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 288,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f254.py",
+   "full_chars": 20,
+   "id": "f254",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 289,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f255.py",
+   "full_chars": 20,
+   "id": "f255",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 290,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f256.py",
+   "full_chars": 20,
+   "id": "f256",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 291,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f257.py",
+   "full_chars": 20,
+   "id": "f257",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 292,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f258.py",
+   "full_chars": 20,
+   "id": "f258",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 293,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle needle needle",
+   "end_line": 1,
+   "file_path": "src/filler/f259.py",
+   "full_chars": 20,
+   "id": "f259",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 294,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 6
+  },
+  {
+   "content": "needle padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words ",
+   "end_line": 9,
+   "file_path": "src/deep/d0.py",
+   "full_chars": 707,
+   "id": "deep0",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 295,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 214
+  },
+  {
+   "content": "needle padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words ",
+   "end_line": 9,
+   "file_path": "src/deep/d1.py",
+   "full_chars": 707,
+   "id": "deep1",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 296,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 214
+  },
+  {
+   "content": "needle padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words padding words ",
+   "end_line": 9,
+   "file_path": "src/deep/d2.py",
+   "full_chars": 707,
+   "id": "deep2",
+   "kind": "function",
+   "language": "python",
+   "parent_id": "",
+   "rowid": 297,
+   "start_line": 1,
+   "symbols": "",
+   "token_est": 214
+  }
+ ]
+}

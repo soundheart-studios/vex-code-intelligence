@@ -1,0 +1,174 @@
+[
+ [
+  "PURE_FUNCTION static int a();",
+  "PURE_FUNCTION static int a();"
+ ],
+ [
+  "// lead\nPURE_FUNCTION static int b();",
+  "// lead\n              static int b();"
+ ],
+ [
+  "/* lead */ PURE_FUNCTION inline int c();",
+  "/* lead */               inline int c();"
+ ],
+ [
+  "#include <x>\nPURE_FUNCTION virtual int d();",
+  "#include <x>\n              virtual int d();"
+ ],
+ [
+  "int z = MY_MACRO inline;",
+  "int z = MY_MACRO inline;"
+ ],
+ [
+  "void f(const T& s LIFETIME_BOUND);",
+  "void f(const T& s               );"
+ ],
+ [
+  "void f(const T& s LIFETIME_CAPTURE_BY_THIS);",
+  "void f(const T& s                         );"
+ ],
+ [
+  "void f(Fn (cb), const T& s LIFETIME_BOUND);",
+  "void f(Fn (cb), const T& s               );"
+ ],
+ [
+  "void f(Fn ((cb)), const T& s LIFETIME_BOUND, int x);",
+  "void f(Fn ((cb)), const T& s               , int x);"
+ ],
+ [
+  "void f(const T& s LIFETIME_BOUND = T());",
+  "void f(const T& s                = T());"
+ ],
+ [
+  "void f(int a LIFETIME_BOUND[4]);",
+  "void f(int a               [4]);"
+ ],
+ [
+  "void f(const T& LIFETIME_BOUND);",
+  "void f(const T& LIFETIME_BOUND);"
+ ],
+ [
+  "void f(LIFETIME_BOUND x);",
+  "void f(LIFETIME_BOUND x);"
+ ],
+ [
+  "const char* get() const LIFETIME_BOUND { return p; }",
+  "const char* get() const                { return p; }"
+ ],
+ [
+  "const char* get() const LIFETIME_CAPTURE_BY_THIS;",
+  "const char* get() const                         ;"
+ ],
+ [
+  "void g() ENABLE_IF_ATTR(x, \"y\") { }",
+  "void g()                        { }"
+ ],
+ [
+  "void g() ENABLE_IF_ATTR(x, \"y\");",
+  "void g() ENABLE_IF_ATTR(x, \"y\");"
+ ],
+ [
+  "void g() const PURE_FUNCTION { }",
+  "void g() const               { }"
+ ],
+ [
+  "void g() override MY_ATTR;",
+  "void g() override        ;"
+ ],
+ [
+  "void g() MY_ATTR(a) : base_() {}",
+  "void g()            : base_() {}"
+ ],
+ [
+  "class COMPONENT_EXPORT(URL) Widget {};",
+  "class                       Widget {};"
+ ],
+ [
+  "class COMPONENT_EXPORT(\"str\") Widget {};",
+  "class COMPONENT_EXPORT(\"str\") Widget {};"
+ ],
+ [
+  "class COMPONENT_EXPORT(URL Widget {};",
+  "class COMPONENT_EXPORT(URL Widget {};"
+ ],
+ [
+  "class BASE_EXPORT Widget : Base {};",
+  "class             Widget : Base {};"
+ ],
+ [
+  "class URL_IPC_EXPORT Widget;",
+  "class                Widget;"
+ ],
+ [
+  "struct GPU_EXPORT_PRIVATE Opts final {};",
+  "struct                    Opts final {};"
+ ],
+ [
+  "union FOO_EXPORT U {};",
+  "union            U {};"
+ ],
+ [
+  "class FOO_EXPORT U;",
+  "class FOO_EXPORT U;"
+ ],
+ [
+  "class NOT_AN_EXPORT_X Thing {};",
+  "class NOT_AN_EXPORT_X Thing {};"
+ ],
+ [
+  "class lower_EXPORT Thing {};",
+  "class lower_EXPORT Thing {};"
+ ],
+ [
+  "class A_B {};",
+  "class A_B {};"
+ ],
+ [
+  "x = R\"d(class BASE_EXPORT Raw {};)d\"; class BASE_EXPORT Real {};",
+  "x = R\"d(class BASE_EXPORT Raw {};)d\"; class             Real {};"
+ ],
+ [
+  "x = u8\"class BASE_EXPORT S {};\"; y = L'c';",
+  "x = u8\"class BASE_EXPORT S {};\"; y = L'c';"
+ ],
+ [
+  "#define M(x) \\\n  class BASE_EXPORT G {};\nclass BASE_EXPORT Real {};",
+  "#define M(x) \\\n  class BASE_EXPORT G {};\nclass             Real {};"
+ ],
+ [
+  "/* unterminated class BASE_EXPORT C {};",
+  "/* unterminated class BASE_EXPORT C {};"
+ ],
+ [
+  "\"unterminated class BASE_EXPORT S {};",
+  "\"unterminated class BASE_EXPORT S {};"
+ ],
+ [
+  "f(a, (b)) ); PURE_FUNCTION static int e();",
+  "f(a, (b)) );               static int e();"
+ ],
+ [
+  "template <> PURE_FUNCTION inline int h();",
+  "template <>               inline int h();"
+ ],
+ [
+  "} PURE_FUNCTION constexpr int i();",
+  "}               constexpr int i();"
+ ],
+ [
+  "] PURE_FUNCTION friend int j();",
+  "]               friend int j();"
+ ],
+ [
+  "x LIFETIME_BOUND {",
+  "x LIFETIME_BOUND {"
+ ],
+ [
+  "int k() && LIFETIME_BOUND { return 0; }",
+  "int k() &&                { return 0; }"
+ ],
+ [
+  "class\nBASE_EXPORT\r\nWidget\n{};",
+  "class\n           \r\nWidget\n{};"
+ ]
+]

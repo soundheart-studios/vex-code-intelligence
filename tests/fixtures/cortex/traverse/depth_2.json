@@ -1,0 +1,422 @@
+{
+  "args": {
+    "depth": 2,
+    "roots": [
+      "Serializer.loads",
+      "want_bytes"
+    ]
+  },
+  "response": {
+    "confidence_recovery": {
+      "detail": {
+        "floor": 0.7,
+        "meaning": "below this an edge is a name match with no receiver type -- verify before trusting it"
+      },
+      "hint": "16 item(s) withheld at limit 0.7. Retrieve them with: context(symbol='src.itsdangerous.serializer.py.Serializer.loads', confidence_min=0.0) -- this is reachable through Cortex; no file read needed.",
+      "limit": 0.7,
+      "next": [
+        "context(symbol='src.itsdangerous.serializer.py.Serializer.loads', confidence_min=0.0)",
+        "impact(symbol='src.itsdangerous.serializer.py.Serializer.loads', direction='both', confidence_min=0.0)"
+      ],
+      "reason": "graph_confidence_floor",
+      "withheld": 16
+    },
+    "edges": [
+      {
+        "confidence": 0.3333333333333333,
+        "id": "file:tests/test_itsdangerous/test_serializer.py->src.itsdangerous.serializer.py.Serializer.loads:REFS",
+        "source": "file:tests/test_itsdangerous/test_serializer.py",
+        "target": "src.itsdangerous.serializer.py.Serializer.loads",
+        "type": "REFS"
+      },
+      {
+        "confidence": 0.25,
+        "id": "file:tests/test_itsdangerous/test_timed.py->src.itsdangerous.serializer.py.Serializer.loads:REFS",
+        "source": "file:tests/test_itsdangerous/test_timed.py",
+        "target": "src.itsdangerous.serializer.py.Serializer.loads",
+        "type": "REFS"
+      },
+      {
+        "confidence": 0.9,
+        "id": "src.itsdangerous.serializer.py.Serializer._loads_unsafe_impl->src.itsdangerous.serializer.py.Serializer.loads:CALLS",
+        "source": "src.itsdangerous.serializer.py.Serializer._loads_unsafe_impl",
+        "target": "src.itsdangerous.serializer.py.Serializer.loads",
+        "type": "CALLS"
+      },
+      {
+        "confidence": 0.9,
+        "id": "src.itsdangerous.serializer.py.Serializer.load->src.itsdangerous.serializer.py.Serializer.loads:CALLS",
+        "source": "src.itsdangerous.serializer.py.Serializer.load",
+        "target": "src.itsdangerous.serializer.py.Serializer.loads",
+        "type": "CALLS"
+      },
+      {
+        "confidence": 0.9,
+        "id": "src.itsdangerous.serializer.py.Serializer.loads->src.itsdangerous.serializer.py.Serializer.iter_unsigners:CALLS",
+        "source": "src.itsdangerous.serializer.py.Serializer.loads",
+        "target": "src.itsdangerous.serializer.py.Serializer.iter_unsigners",
+        "type": "CALLS"
+      },
+      {
+        "confidence": 0.9,
+        "id": "src.itsdangerous.serializer.py.Serializer.loads->src.itsdangerous.serializer.py.Serializer.load_payload:CALLS",
+        "source": "src.itsdangerous.serializer.py.Serializer.loads",
+        "target": "src.itsdangerous.serializer.py.Serializer.load_payload",
+        "type": "CALLS"
+      },
+      {
+        "confidence": 0.5,
+        "id": "file:tests/test_itsdangerous/test_encoding.py->src.itsdangerous.encoding.py.want_bytes:REFS",
+        "source": "file:tests/test_itsdangerous/test_encoding.py",
+        "target": "src.itsdangerous.encoding.py.want_bytes",
+        "type": "REFS"
+      },
+      {
+        "confidence": 1.0,
+        "id": "file:src/itsdangerous/serializer.py->src.itsdangerous.encoding.py.want_bytes:REFS",
+        "source": "file:src/itsdangerous/serializer.py",
+        "target": "src.itsdangerous.encoding.py.want_bytes",
+        "type": "REFS"
+      },
+      {
+        "confidence": 1.0,
+        "id": "file:src/itsdangerous/signer.py->src.itsdangerous.encoding.py.want_bytes:REFS",
+        "source": "file:src/itsdangerous/signer.py",
+        "target": "src.itsdangerous.encoding.py.want_bytes",
+        "type": "REFS"
+      },
+      {
+        "confidence": 1.0,
+        "id": "file:src/itsdangerous/timed.py->src.itsdangerous.encoding.py.want_bytes:REFS",
+        "source": "file:src/itsdangerous/timed.py",
+        "target": "src.itsdangerous.encoding.py.want_bytes",
+        "type": "REFS"
+      },
+      {
+        "confidence": 0.95,
+        "id": "tests.test_itsdangerous.test_encoding.py.test_base64->src.itsdangerous.encoding.py.want_bytes:CALLS",
+        "source": "tests.test_itsdangerous.test_encoding.py.test_base64",
+        "target": "src.itsdangerous.encoding.py.want_bytes",
+        "type": "CALLS"
+      },
+      {
+        "confidence": 0.95,
+        "id": "tests.test_itsdangerous.test_encoding.py.test_want_bytes->src.itsdangerous.encoding.py.want_bytes:CALLS",
+        "source": "tests.test_itsdangerous.test_encoding.py.test_want_bytes",
+        "target": "src.itsdangerous.encoding.py.want_bytes",
+        "type": "CALLS"
+      },
+      {
+        "confidence": 0.9,
+        "id": "src.itsdangerous.encoding.py.base64_decode->src.itsdangerous.encoding.py.want_bytes:CALLS",
+        "source": "src.itsdangerous.encoding.py.base64_decode",
+        "target": "src.itsdangerous.encoding.py.want_bytes",
+        "type": "CALLS"
+      },
+      {
+        "confidence": 0.9,
+        "id": "src.itsdangerous.encoding.py.base64_encode->src.itsdangerous.encoding.py.want_bytes:CALLS",
+        "source": "src.itsdangerous.encoding.py.base64_encode",
+        "target": "src.itsdangerous.encoding.py.want_bytes",
+        "type": "CALLS"
+      },
+      {
+        "confidence": 0.9,
+        "id": "file:tests/test_itsdangerous/test_serializer.py->module:functools:IMPORTS",
+        "source": "file:tests/test_itsdangerous/test_serializer.py",
+        "target": "module:functools",
+        "type": "IMPORTS"
+      },
+      {
+        "confidence": 0.9,
+        "id": "file:tests/test_itsdangerous/test_serializer.py->module:hashlib:IMPORTS",
+        "source": "file:tests/test_itsdangerous/test_serializer.py",
+        "target": "module:hashlib",
+        "type": "IMPORTS"
+      },
+      {
+        "confidence": 0.9,
+        "id": "file:tests/test_itsdangerous/test_serializer.py->module:io:IMPORTS",
+        "source": "file:tests/test_itsdangerous/test_serializer.py",
+        "target": "module:io",
+        "type": "IMPORTS"
+      },
+      {
+        "confidence": 0.9,
+        "id": "file:tests/test_itsdangerous/test_serializer.py->module:itsdangerous.exc:IMPORTS",
+        "source": "file:tests/test_itsdangerous/test_serializer.py",
+        "target": "module:itsdangerous.exc",
+        "type": "IMPORTS"
+      },
+      {
+        "confidence": 0.9,
+        "id": "file:tests/test_itsdangerous/test_serializer.py->module:itsdangerous.serializer:IMPORTS",
+        "source": "file:tests/test_itsdangerous/test_serializer.py",
+        "target": "module:itsdangerous.serializer",
+        "type": "IMPORTS"
+      },
+      {
+        "confidence": 0.9,
+        "id": "file:tests/test_itsdangerous/test_serializer.py->module:itsdangerous.signer:IMPORTS",
+        "source": "file:tests/test_itsdangerous/test_serializer.py",
+        "target": "module:itsdangerous.signer",
+        "type": "IMPORTS"
+      },
+      {
+        "confidence": 0.9,
+        "id": "file:tests/test_itsdangerous/test_serializer.py->module:pickle:IMPORTS",
+        "source": "file:tests/test_itsdangerous/test_serializer.py",
+        "target": "module:pickle",
+        "type": "IMPORTS"
+      },
+      {
+        "confidence": 0.9,
+        "id": "file:tests/test_itsdangerous/test_serializer.py->module:pytest:IMPORTS",
+        "source": "file:tests/test_itsdangerous/test_serializer.py",
+        "target": "module:pytest",
+        "type": "IMPORTS"
+      }
+    ],
+    "limits": {
+      "depth": 2,
+      "edges": 48,
+      "nodes": 24
+    },
+    "nodes": [
+      {
+        "depth": 0,
+        "end_line": 343,
+        "file": "src/itsdangerous/serializer.py",
+        "id": "src.itsdangerous.serializer.py.Serializer.loads",
+        "kind": "function",
+        "label": "loads",
+        "start_line": 328,
+        "state": "match"
+      },
+      {
+        "depth": 0,
+        "end_line": 17,
+        "file": "src/itsdangerous/encoding.py",
+        "id": "src.itsdangerous.encoding.py.want_bytes",
+        "kind": "function",
+        "label": "want_bytes",
+        "start_line": 11,
+        "state": "match"
+      },
+      {
+        "depth": 1,
+        "file": "tests/test_itsdangerous/test_serializer.py",
+        "id": "file:tests/test_itsdangerous/test_serializer.py",
+        "kind": "file",
+        "label": "py",
+        "state": "normal"
+      },
+      {
+        "depth": 1,
+        "file": "tests/test_itsdangerous/test_timed.py",
+        "id": "file:tests/test_itsdangerous/test_timed.py",
+        "kind": "file",
+        "label": "py",
+        "state": "normal"
+      },
+      {
+        "depth": 1,
+        "end_line": 395,
+        "file": "src/itsdangerous/serializer.py",
+        "id": "src.itsdangerous.serializer.py.Serializer._loads_unsafe_impl",
+        "kind": "function",
+        "label": "_loads_unsafe_impl",
+        "start_line": 367,
+        "state": "normal"
+      },
+      {
+        "depth": 1,
+        "end_line": 347,
+        "file": "src/itsdangerous/serializer.py",
+        "id": "src.itsdangerous.serializer.py.Serializer.load",
+        "kind": "function",
+        "label": "load",
+        "start_line": 345,
+        "state": "normal"
+      },
+      {
+        "depth": 1,
+        "end_line": 307,
+        "file": "src/itsdangerous/serializer.py",
+        "id": "src.itsdangerous.serializer.py.Serializer.iter_unsigners",
+        "kind": "function",
+        "label": "iter_unsigners",
+        "start_line": 287,
+        "state": "normal"
+      },
+      {
+        "depth": 1,
+        "end_line": 269,
+        "file": "src/itsdangerous/serializer.py",
+        "id": "src.itsdangerous.serializer.py.Serializer.load_payload",
+        "kind": "function",
+        "label": "load_payload",
+        "start_line": 243,
+        "state": "normal"
+      },
+      {
+        "depth": 1,
+        "file": "tests/test_itsdangerous/test_encoding.py",
+        "id": "file:tests/test_itsdangerous/test_encoding.py",
+        "kind": "file",
+        "label": "py",
+        "state": "normal"
+      },
+      {
+        "depth": 1,
+        "file": "src/itsdangerous/serializer.py",
+        "id": "file:src/itsdangerous/serializer.py",
+        "kind": "file",
+        "label": "py",
+        "state": "normal"
+      },
+      {
+        "depth": 1,
+        "file": "src/itsdangerous/signer.py",
+        "id": "file:src/itsdangerous/signer.py",
+        "kind": "file",
+        "label": "py",
+        "state": "normal"
+      },
+      {
+        "depth": 1,
+        "file": "src/itsdangerous/timed.py",
+        "id": "file:src/itsdangerous/timed.py",
+        "kind": "file",
+        "label": "py",
+        "state": "normal"
+      },
+      {
+        "depth": 1,
+        "end_line": 22,
+        "file": "tests/test_itsdangerous/test_encoding.py",
+        "id": "tests.test_itsdangerous.test_encoding.py.test_base64",
+        "kind": "function",
+        "label": "test_base64",
+        "start_line": 18,
+        "state": "normal"
+      },
+      {
+        "depth": 1,
+        "end_line": 14,
+        "file": "tests/test_itsdangerous/test_encoding.py",
+        "id": "tests.test_itsdangerous.test_encoding.py.test_want_bytes",
+        "kind": "function",
+        "label": "test_want_bytes",
+        "start_line": 12,
+        "state": "normal"
+      },
+      {
+        "depth": 1,
+        "end_line": 38,
+        "file": "src/itsdangerous/encoding.py",
+        "id": "src.itsdangerous.encoding.py.base64_decode",
+        "kind": "function",
+        "label": "base64_decode",
+        "start_line": 28,
+        "state": "normal"
+      },
+      {
+        "depth": 1,
+        "end_line": 25,
+        "file": "src/itsdangerous/encoding.py",
+        "id": "src.itsdangerous.encoding.py.base64_encode",
+        "kind": "function",
+        "label": "base64_encode",
+        "start_line": 20,
+        "state": "normal"
+      },
+      {
+        "depth": 2,
+        "id": "module:functools",
+        "kind": "function",
+        "label": "functools",
+        "state": "normal"
+      },
+      {
+        "depth": 2,
+        "id": "module:hashlib",
+        "kind": "function",
+        "label": "hashlib",
+        "state": "normal"
+      },
+      {
+        "depth": 2,
+        "id": "module:io",
+        "kind": "function",
+        "label": "io",
+        "state": "normal"
+      },
+      {
+        "depth": 2,
+        "id": "module:itsdangerous.exc",
+        "kind": "function",
+        "label": "exc",
+        "state": "normal"
+      },
+      {
+        "depth": 2,
+        "id": "module:itsdangerous.serializer",
+        "kind": "function",
+        "label": "serializer",
+        "state": "normal"
+      },
+      {
+        "depth": 2,
+        "id": "module:itsdangerous.signer",
+        "kind": "function",
+        "label": "signer",
+        "state": "normal"
+      },
+      {
+        "depth": 2,
+        "id": "module:pickle",
+        "kind": "function",
+        "label": "pickle",
+        "state": "normal"
+      },
+      {
+        "depth": 2,
+        "id": "module:pytest",
+        "kind": "function",
+        "label": "pytest",
+        "state": "normal"
+      }
+    ],
+    "recovery": {
+      "detail": {
+        "depth_requested": 2,
+        "roots": [
+          "src.itsdangerous.serializer.py.Serializer.loads",
+          "src.itsdangerous.encoding.py.want_bytes"
+        ]
+      },
+      "hint": "8 item(s) withheld at limit 150. Retrieve them with: traverse(roots=['src.itsdangerous.serializer.py.Serializer.loads'], depth=1)  # narrow the frontier -- this is reachable through Cortex; no file read needed.",
+      "limit": 150,
+      "next": [
+        "traverse(roots=['src.itsdangerous.serializer.py.Serializer.loads'], depth=1)  # narrow the frontier",
+        "impact(symbol='src.itsdangerous.serializer.py.Serializer.loads', max_depth=1)  # direct edges only",
+        "context(symbol='src.itsdangerous.serializer.py.Serializer.loads')  # single-symbol neighborhood"
+      ],
+      "reason": "graph_node_cap",
+      "withheld": 8
+    },
+    "roots": [
+      "src.itsdangerous.serializer.py.Serializer.loads",
+      "src.itsdangerous.encoding.py.want_bytes"
+    ],
+    "truncated": true,
+    "warnings": [
+      "graph truncated at server budget"
+    ],
+    "withheld": {
+      "low_confidence": 16
+    }
+  },
+  "tool": "traverse"
+}

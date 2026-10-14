@@ -1,0 +1,12 @@
+[package]
+name = "vex-test-support"
+description = "Test helpers shared by every crate. Each test gets resources namespaced by $PW_RUN_ID so concurrent runs never collide."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dependencies]
+
+[dev-dependencies]
+serde_json.workspace = true

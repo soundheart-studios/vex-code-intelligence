@@ -1,0 +1,142 @@
+{
+  "bench": {
+    "chi": {
+      "correct": 16,
+      "missing": 1,
+      "wrong": 0
+    },
+    "express": {
+      "correct": 1,
+      "missing": 3,
+      "wrong": 0
+    },
+    "itsdangerous": {
+      "correct": 14,
+      "missing": 2,
+      "wrong": 0
+    },
+    "javapoet": {
+      "correct": 20,
+      "missing": 0,
+      "wrong": 1
+    },
+    "kotlinpoet": {
+      "correct": 7,
+      "missing": 10,
+      "wrong": 2
+    },
+    "ky": {
+      "correct": 23,
+      "missing": 0,
+      "wrong": 0
+    },
+    "leveldb": {
+      "correct": 18,
+      "missing": 1,
+      "wrong": 1
+    },
+    "mediatr": {
+      "correct": 2,
+      "missing": 2,
+      "wrong": 0
+    },
+    "psr7": {
+      "correct": 9,
+      "missing": 12,
+      "wrong": 0
+    },
+    "rack": {
+      "correct": 4,
+      "missing": 2,
+      "wrong": 8
+    },
+    "semver": {
+      "correct": 12,
+      "missing": 0,
+      "wrong": 1
+    }
+  },
+  "parity": {
+    "bash": {
+      "mismatches": 0
+    },
+    "c": {
+      "mismatches": 0
+    },
+    "cpp": {
+      "mismatches": 0
+    },
+    "csharp": {
+      "mismatches": 0
+    },
+    "elixir": {
+      "mismatches": 0
+    },
+    "fortran": {
+      "mismatches": 0
+    },
+    "go": {
+      "mismatches": 0
+    },
+    "groovy": {
+      "mismatches": 0
+    },
+    "hcl": {
+      "mismatches": 0
+    },
+    "java": {
+      "mismatches": 0
+    },
+    "javascript": {
+      "mismatches": 0
+    },
+    "json": {
+      "mismatches": 0
+    },
+    "julia": {
+      "mismatches": 0
+    },
+    "kotlin": {
+      "mismatches": 0
+    },
+    "lua": {
+      "mismatches": 0
+    },
+    "objc": {
+      "mismatches": 0
+    },
+    "php": {
+      "mismatches": 0
+    },
+    "powershell": {
+      "mismatches": 0
+    },
+    "python": {
+      "mismatches": 0
+    },
+    "ruby": {
+      "mismatches": 0
+    },
+    "rust": {
+      "mismatches": 0
+    },
+    "scala": {
+      "mismatches": 0
+    },
+    "sql": {
+      "mismatches": 0
+    },
+    "swift": {
+      "mismatches": 0
+    },
+    "typescript": {
+      "mismatches": 0
+    },
+    "verilog": {
+      "mismatches": 0
+    },
+    "zig": {
+      "mismatches": 0
+    }
+  }
+}

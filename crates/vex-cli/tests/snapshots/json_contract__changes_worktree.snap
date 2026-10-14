@@ -1,0 +1,6 @@
+---
+source: crates/vex-cli/tests/json_contract.rs
+expression: "e.json(& [\"changes\"])"
+---
+exit: 0
+{"schema":1,"summary":{"changed_files":1,"changed_symbols":1,"affected_symbols":2,"risk_level":"medium"},"changed":[{"symbol":"graphpkg.hub.py.leaf","kind":"function","file":"graphpkg/hub.py"}],"affected":[{"symbol":"graphpkg.hub.py.mid","via":"graphpkg.hub.py.leaf","depth":1,"confidence":0.9},{"symbol":"graphpkg.hub.py.top","via":"graphpkg.hub.py.leaf","depth":2,"confidence":0.81}],"note":"affected = upstream callers of changed symbols; verify confidence < 0.7 hits before assuming breakage"}

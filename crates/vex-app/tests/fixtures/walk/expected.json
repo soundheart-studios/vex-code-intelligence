@@ -1,0 +1,411 @@
+{
+ "walk": [
+  ".hidden.py",
+  "B.py",
+  "Cargo.toml",
+  "README.md",
+  "UPPER.PY",
+  "_x.py",
+  "a.py",
+  "config.yaml",
+  "edge.py",
+  "gen_d.py",
+  "header.h",
+  "main.py",
+  "script",
+  "xonly.ts",
+  "src/ünïcode.py",
+  "src/gen/one.py",
+  "src/gen/three.py",
+  "src/gen/two.py",
+  "src/app/main.py",
+  "src/app/util.ts",
+  "src/a/b/c/d.py",
+  "packages/other/src/x.py",
+  "libs/sub/a.py",
+  "lib/x/y/z.go",
+  "gen2/a.py",
+  "gen2/b.py",
+  "gen2/c.py",
+  "gen2/inner/a.py",
+  "gen2/inner/b.py",
+  "gen2/inner/c.py",
+  "exact/exact.yaml",
+  "exact/under.yaml",
+  "docs/public.md",
+  "data/dump1.yaml",
+  "data/dump2.yaml",
+  "data/pubspec.yaml",
+  "bin/tool"
+ ],
+ "skipped_caches": [
+  ".cache",
+  ".pytest_cache",
+  ".zvec-grep",
+  "foo.egg-info",
+  "src/.uv-cache"
+ ],
+ "preflight": {
+  "dirs": {
+   "(root)": {
+    "files": 14,
+    "est_chunks": 227,
+    "fallback_chunks": 3,
+    "generated_files": 0,
+    "generated_chunks": 0,
+    "data_files": 0,
+    "data_chunks": 0,
+    "languages": [
+     ".toml",
+     ".yaml",
+     "cpp",
+     "markdown",
+     "python",
+     "typescript"
+    ]
+   },
+   "bin": {
+    "files": 1,
+    "est_chunks": 1,
+    "fallback_chunks": 0,
+    "generated_files": 0,
+    "generated_chunks": 0,
+    "data_files": 0,
+    "data_chunks": 0,
+    "languages": [
+     "javascript"
+    ]
+   },
+   "data": {
+    "files": 3,
+    "est_chunks": 437,
+    "fallback_chunks": 437,
+    "generated_files": 0,
+    "generated_chunks": 0,
+    "data_files": 2,
+    "data_chunks": 416,
+    "languages": [
+     ".yaml"
+    ]
+   },
+   "docs": {
+    "files": 1,
+    "est_chunks": 1,
+    "fallback_chunks": 1,
+    "generated_files": 0,
+    "generated_chunks": 0,
+    "data_files": 0,
+    "data_chunks": 0,
+    "languages": [
+     "markdown"
+    ]
+   },
+   "exact": {
+    "files": 2,
+    "est_chunks": 36,
+    "fallback_chunks": 36,
+    "generated_files": 0,
+    "generated_chunks": 0,
+    "data_files": 1,
+    "data_chunks": 18,
+    "languages": [
+     ".yaml"
+    ]
+   },
+   "gen2": {
+    "files": 6,
+    "est_chunks": 738,
+    "fallback_chunks": 0,
+    "generated_files": 6,
+    "generated_chunks": 738,
+    "data_files": 0,
+    "data_chunks": 0,
+    "languages": [
+     "python"
+    ]
+   },
+   "lib/x": {
+    "files": 1,
+    "est_chunks": 1,
+    "fallback_chunks": 0,
+    "generated_files": 0,
+    "generated_chunks": 0,
+    "data_files": 0,
+    "data_chunks": 0,
+    "languages": [
+     "go"
+    ]
+   },
+   "libs": {
+    "files": 1,
+    "est_chunks": 1,
+    "fallback_chunks": 0,
+    "generated_files": 0,
+    "generated_chunks": 0,
+    "data_files": 0,
+    "data_chunks": 0,
+    "languages": [
+     "python"
+    ]
+   },
+   "packages/other": {
+    "files": 1,
+    "est_chunks": 1,
+    "fallback_chunks": 0,
+    "generated_files": 0,
+    "generated_chunks": 0,
+    "data_files": 0,
+    "data_chunks": 0,
+    "languages": [
+     "python"
+    ]
+   },
+   "src": {
+    "files": 1,
+    "est_chunks": 1,
+    "fallback_chunks": 0,
+    "generated_files": 0,
+    "generated_chunks": 0,
+    "data_files": 0,
+    "data_chunks": 0,
+    "languages": [
+     "python"
+    ]
+   },
+   "src/a": {
+    "files": 1,
+    "est_chunks": 1,
+    "fallback_chunks": 0,
+    "generated_files": 0,
+    "generated_chunks": 0,
+    "data_files": 0,
+    "data_chunks": 0,
+    "languages": [
+     "python"
+    ]
+   },
+   "src/app": {
+    "files": 2,
+    "est_chunks": 2,
+    "fallback_chunks": 0,
+    "generated_files": 0,
+    "generated_chunks": 0,
+    "data_files": 0,
+    "data_chunks": 0,
+    "languages": [
+     "python",
+     "typescript"
+    ]
+   },
+   "src/gen": {
+    "files": 3,
+    "est_chunks": 369,
+    "fallback_chunks": 0,
+    "generated_files": 3,
+    "generated_chunks": 369,
+    "data_files": 0,
+    "data_chunks": 0,
+    "languages": [
+     "python"
+    ]
+   }
+  },
+  "total_files": 37,
+  "total_est_chunks": 1816,
+  "suggestions": [
+   "data",
+   "gen2/inner",
+   "packages/other",
+   "src/gen"
+  ],
+  "suggested_savings": 1545,
+  "ignored_caches": [
+   ".cache",
+   ".pytest_cache",
+   ".zvec-grep",
+   "foo.egg-info",
+   "src/.uv-cache"
+  ]
+ },
+ "preflight_already_indexed": {
+  "dirs": {
+   "(root)": {
+    "files": 13,
+    "est_chunks": 226,
+    "fallback_chunks": 3,
+    "generated_files": 0,
+    "generated_chunks": 0,
+    "data_files": 0,
+    "data_chunks": 0,
+    "languages": [
+     ".toml",
+     ".yaml",
+     "cpp",
+     "markdown",
+     "python",
+     "typescript"
+    ]
+   },
+   "bin": {
+    "files": 1,
+    "est_chunks": 1,
+    "fallback_chunks": 0,
+    "generated_files": 0,
+    "generated_chunks": 0,
+    "data_files": 0,
+    "data_chunks": 0,
+    "languages": [
+     "javascript"
+    ]
+   },
+   "data": {
+    "files": 3,
+    "est_chunks": 437,
+    "fallback_chunks": 437,
+    "generated_files": 0,
+    "generated_chunks": 0,
+    "data_files": 2,
+    "data_chunks": 416,
+    "languages": [
+     ".yaml"
+    ]
+   },
+   "docs": {
+    "files": 1,
+    "est_chunks": 1,
+    "fallback_chunks": 1,
+    "generated_files": 0,
+    "generated_chunks": 0,
+    "data_files": 0,
+    "data_chunks": 0,
+    "languages": [
+     "markdown"
+    ]
+   },
+   "exact": {
+    "files": 2,
+    "est_chunks": 36,
+    "fallback_chunks": 36,
+    "generated_files": 0,
+    "generated_chunks": 0,
+    "data_files": 1,
+    "data_chunks": 18,
+    "languages": [
+     ".yaml"
+    ]
+   },
+   "gen2": {
+    "files": 6,
+    "est_chunks": 738,
+    "fallback_chunks": 0,
+    "generated_files": 6,
+    "generated_chunks": 738,
+    "data_files": 0,
+    "data_chunks": 0,
+    "languages": [
+     "python"
+    ]
+   },
+   "lib/x": {
+    "files": 1,
+    "est_chunks": 1,
+    "fallback_chunks": 0,
+    "generated_files": 0,
+    "generated_chunks": 0,
+    "data_files": 0,
+    "data_chunks": 0,
+    "languages": [
+     "go"
+    ]
+   },
+   "libs": {
+    "files": 1,
+    "est_chunks": 1,
+    "fallback_chunks": 0,
+    "generated_files": 0,
+    "generated_chunks": 0,
+    "data_files": 0,
+    "data_chunks": 0,
+    "languages": [
+     "python"
+    ]
+   },
+   "packages/other": {
+    "files": 1,
+    "est_chunks": 1,
+    "fallback_chunks": 0,
+    "generated_files": 0,
+    "generated_chunks": 0,
+    "data_files": 0,
+    "data_chunks": 0,
+    "languages": [
+     "python"
+    ]
+   },
+   "src": {
+    "files": 1,
+    "est_chunks": 1,
+    "fallback_chunks": 0,
+    "generated_files": 0,
+    "generated_chunks": 0,
+    "data_files": 0,
+    "data_chunks": 0,
+    "languages": [
+     "python"
+    ]
+   },
+   "src/a": {
+    "files": 1,
+    "est_chunks": 1,
+    "fallback_chunks": 0,
+    "generated_files": 0,
+    "generated_chunks": 0,
+    "data_files": 0,
+    "data_chunks": 0,
+    "languages": [
+     "python"
+    ]
+   },
+   "src/app": {
+    "files": 2,
+    "est_chunks": 2,
+    "fallback_chunks": 0,
+    "generated_files": 0,
+    "generated_chunks": 0,
+    "data_files": 0,
+    "data_chunks": 0,
+    "languages": [
+     "python",
+     "typescript"
+    ]
+   },
+   "src/gen": {
+    "files": 2,
+    "est_chunks": 246,
+    "fallback_chunks": 0,
+    "generated_files": 2,
+    "generated_chunks": 246,
+    "data_files": 0,
+    "data_chunks": 0,
+    "languages": [
+     "python"
+    ]
+   }
+  },
+  "total_files": 35,
+  "total_est_chunks": 1692,
+  "suggestions": [
+   "data",
+   "gen2/inner",
+   "packages/other"
+  ],
+  "suggested_savings": 1176,
+  "ignored_caches": [
+   ".cache",
+   ".pytest_cache",
+   ".zvec-grep",
+   "foo.egg-info",
+   "src/.uv-cache"
+  ]
+ }
+}

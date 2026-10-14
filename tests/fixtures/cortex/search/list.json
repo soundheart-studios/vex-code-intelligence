@@ -1,0 +1,177 @@
+{
+  "args": {
+    "query": [
+      "key derivation",
+      "bad signature exception",
+      "url safe"
+    ]
+  },
+  "response": {
+    "fetch_targets": [
+      "src.itsdangerous.signer.py.Signer.derive_key",
+      "src.itsdangerous.signer.py.Signer",
+      "src.itsdangerous.exc.py.BadData",
+      "src.itsdangerous.exc.py.BadPayload.__init__",
+      "src.itsdangerous.url_safe.py.URLSafeSerializer",
+      "src.itsdangerous.url_safe.py.URLSafeTimedSerializer"
+    ],
+    "leads": [
+      {
+        "file": "src/itsdangerous/signer.py",
+        "kind": "function",
+        "lines": "182-213",
+        "matched_queries": [
+          0
+        ],
+        "name": "derive_key",
+        "score": 1.0,
+        "source_available": true,
+        "symbol": "src.itsdangerous.signer.py.Signer.derive_key",
+        "target": "src.itsdangerous.signer.py.Signer.derive_key"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "kind": "class",
+        "lines": "76-266",
+        "matched_queries": [
+          0
+        ],
+        "name": "Signer",
+        "score": 0.923,
+        "source_available": true,
+        "symbol": "src.itsdangerous.signer.py.Signer",
+        "target": "src.itsdangerous.signer.py.Signer"
+      },
+      {
+        "file": "src/itsdangerous/exc.py",
+        "kind": "class",
+        "lines": "7-19",
+        "matched_queries": [
+          1
+        ],
+        "name": "BadData",
+        "score": 1.0,
+        "source_available": true,
+        "symbol": "src.itsdangerous.exc.py.BadData",
+        "target": "src.itsdangerous.exc.py.BadData"
+      },
+      {
+        "file": "src/itsdangerous/exc.py",
+        "kind": "function",
+        "lines": "101-106",
+        "matched_queries": [
+          1
+        ],
+        "name": "__init__",
+        "score": 0.912,
+        "source_available": true,
+        "symbol": "src.itsdangerous.exc.py.BadPayload.__init__",
+        "target": "src.itsdangerous.exc.py.BadPayload.__init__"
+      },
+      {
+        "file": "src/itsdangerous/url_safe.py",
+        "kind": "class",
+        "lines": "72-76",
+        "matched_queries": [
+          2
+        ],
+        "name": "URLSafeSerializer",
+        "score": 1.0,
+        "source_available": true,
+        "symbol": "src.itsdangerous.url_safe.py.URLSafeSerializer",
+        "target": "src.itsdangerous.url_safe.py.URLSafeSerializer"
+      },
+      {
+        "file": "src/itsdangerous/url_safe.py",
+        "kind": "class",
+        "lines": "79-83",
+        "matched_queries": [
+          2
+        ],
+        "name": "URLSafeTimedSerializer",
+        "score": 0.984,
+        "source_available": true,
+        "symbol": "src.itsdangerous.url_safe.py.URLSafeTimedSerializer",
+        "target": "src.itsdangerous.url_safe.py.URLSafeTimedSerializer"
+      }
+    ],
+    "limits": {
+      "discovery_top_k": 10,
+      "max_bytes": 12000,
+      "max_leads": 12,
+      "max_selected_leads": 12,
+      "queries": 6,
+      "top_k": 5
+    },
+    "next_action": "call expand exactly once with fetch_targets as its target list; do not search or read first. Search only if that batch reports a concrete missing evidence gap. NOTE: 'key derivation', 'url safe' named no symbol that exists in this index, so those leads are near matches rather than the thing asked about -- see `ranking` before treating them as evidence",
+    "queries": [
+      "key derivation",
+      "bad signature exception",
+      "url safe"
+    ],
+    "ranking": [
+      {
+        "exact_symbol": "no symbol is named exactly that, but the name appears inside indexed symbols -- 'key' is part of derive_key, secret_key, _make_keys_list; 'derivation' is part of test_key_derivation, test_invalid_key_derivation",
+        "score": "relative to the best hit in THIS response; 1.0 is the top result, not a confidence",
+        "top_gap": 0.077,
+        "verdict": "no clear winner: the top results scored within 0.077 of each other, which means the ranking is ambiguous, not that nothing is relevant"
+      },
+      {
+        "score": "relative to the best hit in THIS response; 1.0 is the top result, not a confidence",
+        "top_gap": 0.049,
+        "verdict": "no clear winner: the top results scored within 0.049 of each other, which means the ranking is ambiguous, not that nothing is relevant"
+      },
+      {
+        "exact_symbol": "no symbol is named exactly that, but the name appears inside indexed symbols -- 'url' is part of URLSafeSerializer, TestURLSafeSerializer, URLSafeSerializerMixin; 'safe' is part of load_unsafe, loads_unsafe, URLSafeSerializer",
+        "score": "relative to the best hit in THIS response; 1.0 is the top result, not a confidence",
+        "top_gap": 0.016,
+        "verdict": "no clear winner: the top results scored within 0.016 of each other, which means the ranking is ambiguous, not that nothing is relevant"
+      }
+    ],
+    "selector": {
+      "assignments": [
+        {
+          "question": 0,
+          "targets": [
+            "src.itsdangerous.signer.py.Signer.derive_key",
+            "src.itsdangerous.signer.py.Signer"
+          ]
+        },
+        {
+          "question": 1,
+          "targets": [
+            "src.itsdangerous.exc.py.BadData",
+            "src.itsdangerous.exc.py.BadPayload.__init__"
+          ]
+        },
+        {
+          "question": 2,
+          "targets": [
+            "src.itsdangerous.url_safe.py.URLSafeSerializer",
+            "src.itsdangerous.url_safe.py.URLSafeTimedSerializer"
+          ]
+        }
+      ],
+      "attempts": 0,
+      "bundle_limit": 4,
+      "eligible_candidates": 12,
+      "fallback_reason": "selection is rule-based",
+      "guardrail_filtered_matches": 16,
+      "model": "rules-v1",
+      "provider": "heuristic",
+      "rejected_ids": 0,
+      "selector_ms": 1,
+      "status": "fallback"
+    },
+    "stats": {
+      "candidates": 30,
+      "deduplicated_leads": 27,
+      "included_leads": 6,
+      "response_bytes": 4430,
+      "selected_leads": 6
+    },
+    "truncated": false,
+    "warming": null
+  },
+  "tool": "search"
+}

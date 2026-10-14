@@ -1,0 +1,6 @@
+---
+source: crates/vex-cli/tests/json_contract.rs
+expression: "e.json(& [\"grep\", \"(\"])"
+---
+exit: 1
+{"schema":1,"error":"bad pattern: regex parse error:\n    (?:()\n    ^\nerror: unclosed group"}

@@ -1,0 +1,13 @@
+{
+  "args": {
+    "detail": "minimal",
+    "target": "Serializer.loads"
+  },
+  "response": {
+    "file": "src/itsdangerous/serializer.py",
+    "lines": "328-343",
+    "source": "    def loads(\n        self, s: str | bytes, salt: str | bytes | None = None, **kwargs: t.Any\n    ) -> t.Any:\n        \"\"\"Reverse of :meth:`dumps`. Raises :exc:`.BadSignature` if the\n        signature validation fails.\n        \"\"\"",
+    "symbol": "src.itsdangerous.serializer.py.Serializer.loads"
+  },
+  "tool": "expand"
+}

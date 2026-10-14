@@ -1,0 +1,31 @@
+{
+ "ascii": "d5ce8374dfffebe06c96219f",
+ "nonascii": "003333ba46a5375b0d0c5697",
+ "empty_lines": "dab10f37b9f7edaa6dc2ef8d",
+ "uncapped_big": "07d1a1e1b09f943cc65bd1a8",
+ "residual": "cd049a2b14a1be9565944e94",
+ "cap_big": [
+  5000,
+  {
+   "full_chars": 6000
+  }
+ ],
+ "cap_uni": [
+  5000,
+  10000,
+  {
+   "full_chars": 5001
+  },
+  "349e5086ea495fe725baa7b08612d860e91c5e0dec8e42b4ec5ba1b051700f48"
+ ],
+ "cap_exact": [
+  5000,
+  {}
+ ],
+ "cap_setdefault": [
+  5000,
+  {
+   "full_chars": 7
+  }
+ ]
+}

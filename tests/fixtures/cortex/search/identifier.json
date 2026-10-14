@@ -1,0 +1,65 @@
+{
+  "args": {
+    "query": "want_bytes"
+  },
+  "response": {
+    "ranking": {
+      "score": "relative to the best hit in THIS response; 1.0 is the top result, not a confidence",
+      "top_gap": 0.459
+    },
+    "results": [
+      {
+        "content": "def want_bytes(\n    s: str | bytes, encoding: str = \"utf-8\", errors: str = \"strict\"\n) -> bytes:\n    if isinstance(s, str):\n        s = s.encode(encoding, errors)\n\n    return s",
+        "file": "src/itsdangerous/encoding.py",
+        "lines": "11-17",
+        "matched_by": [
+          "semantic",
+          "full_text",
+          "definition"
+        ],
+        "score": 1.0
+      },
+      {
+        "content": "def _make_keys_list(\n    secret_key: str | bytes | cabc.Iterable[str] | cabc.Iterable[bytes],\n) -> list[bytes]:\n    if isinstance(secret_key, (str, bytes)):\n        return [want_bytes(secret_key)]\n\n    return [want_bytes(s) for s in secret_key]  # pyright: ignore",
+        "file": "src/itsdangerous/signer.py",
+        "lines": "67-73",
+        "matched_by": [
+          "semantic",
+          "full_text"
+        ],
+        "score": 0.541
+      },
+      {
+        "content": "    def sign(self, value: str | bytes) -> bytes:\n        \"\"\"Signs the given string and also attaches time information.\"\"\"\n        value = want_bytes(value)\n        timestamp = base64_encode(int_to_bytes(self.get_timestamp()))\n        sep = want_bytes(self.sep)\n        value = value + sep + timestamp\n        return value + sep + self.get_signature(value)",
+        "file": "src/itsdangerous/timed.py",
+        "lines": "45-51",
+        "matched_by": [
+          "semantic",
+          "full_text"
+        ],
+        "score": 0.526
+      },
+      {
+        "content": "    def sign(self, value: str | bytes) -> bytes:\n        \"\"\"Signs the given string.\"\"\"\n        value = want_bytes(value)\n        return value + self.sep + self.get_signature(value)",
+        "file": "src/itsdangerous/signer.py",
+        "lines": "222-225",
+        "matched_by": [
+          "semantic",
+          "full_text"
+        ],
+        "score": 0.513
+      },
+      {
+        "content": "def base64_encode(string: str | bytes) -> bytes:\n    \"\"\"Base64 encode a string of bytes or text. The resulting bytes are\n    safe to use in URLs.\n    \"\"\"\n    string = want_bytes(string)\n    return base64.urlsafe_b64encode(string).rstrip(b\"=\")",
+        "file": "src/itsdangerous/encoding.py",
+        "lines": "20-25",
+        "matched_by": [
+          "semantic",
+          "full_text"
+        ],
+        "score": 0.503
+      }
+    ]
+  },
+  "tool": "search"
+}

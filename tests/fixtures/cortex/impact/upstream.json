@@ -1,0 +1,237 @@
+{
+  "args": {
+    "symbol": "want_bytes"
+  },
+  "response": {
+    "confidence_key": "0.95 import-bound, 0.9 same-file, 0.7 class-method, <=0.6 name-match only — verify low-confidence hits",
+    "depth_1_will_break": [
+      {
+        "confidence": 0.5,
+        "depth": 1,
+        "edge": "REFS",
+        "symbol": "file:tests/test_itsdangerous/test_encoding.py"
+      },
+      {
+        "confidence": 1.0,
+        "depth": 1,
+        "edge": "REFS",
+        "symbol": "file:src/itsdangerous/serializer.py"
+      },
+      {
+        "confidence": 1.0,
+        "depth": 1,
+        "edge": "REFS",
+        "symbol": "file:src/itsdangerous/signer.py"
+      },
+      {
+        "confidence": 1.0,
+        "depth": 1,
+        "edge": "REFS",
+        "symbol": "file:src/itsdangerous/timed.py"
+      },
+      {
+        "confidence": 0.95,
+        "depth": 1,
+        "edge": "CALLS",
+        "symbol": "tests.test_itsdangerous.test_encoding.py.test_base64"
+      },
+      {
+        "confidence": 0.95,
+        "depth": 1,
+        "edge": "CALLS",
+        "symbol": "tests.test_itsdangerous.test_encoding.py.test_want_bytes"
+      },
+      {
+        "confidence": 0.9,
+        "depth": 1,
+        "edge": "CALLS",
+        "symbol": "src.itsdangerous.encoding.py.base64_decode"
+      },
+      {
+        "confidence": 0.9,
+        "depth": 1,
+        "edge": "CALLS",
+        "symbol": "src.itsdangerous.encoding.py.base64_encode"
+      },
+      {
+        "confidence": 0.6,
+        "depth": 1,
+        "edge": "CALLS",
+        "symbol": "src.itsdangerous.serializer.py.Serializer.loads"
+      },
+      {
+        "confidence": 0.6,
+        "depth": 1,
+        "edge": "CALLS",
+        "symbol": "src.itsdangerous.serializer.py.Serializer.dumps"
+      },
+      {
+        "confidence": 0.6,
+        "depth": 1,
+        "edge": "CALLS",
+        "symbol": "src.itsdangerous.serializer.py.Serializer.dump_payload"
+      },
+      {
+        "confidence": 0.6,
+        "depth": 1,
+        "edge": "CALLS",
+        "symbol": "src.itsdangerous.serializer.py.Serializer.__init__"
+      },
+      {
+        "confidence": 0.6,
+        "depth": 1,
+        "edge": "CALLS",
+        "symbol": "src.itsdangerous.signer.py.Signer.unsign"
+      },
+      {
+        "confidence": 0.6,
+        "depth": 1,
+        "edge": "CALLS",
+        "symbol": "src.itsdangerous.signer.py.Signer.verify_signature"
+      },
+      {
+        "confidence": 0.6,
+        "depth": 1,
+        "edge": "CALLS",
+        "symbol": "src.itsdangerous.signer.py.Signer.sign"
+      },
+      {
+        "confidence": 0.6,
+        "depth": 1,
+        "edge": "CALLS",
+        "symbol": "src.itsdangerous.signer.py.Signer.get_signature"
+      },
+      {
+        "confidence": 0.6,
+        "depth": 1,
+        "edge": "CALLS",
+        "symbol": "src.itsdangerous.signer.py.Signer.derive_key"
+      },
+      {
+        "confidence": 0.6,
+        "depth": 1,
+        "edge": "CALLS",
+        "symbol": "src.itsdangerous.signer.py.Signer.__init__"
+      },
+      {
+        "confidence": 0.6,
+        "depth": 1,
+        "edge": "CALLS",
+        "symbol": "src.itsdangerous.signer.py._make_keys_list"
+      },
+      {
+        "confidence": 0.6,
+        "depth": 1,
+        "edge": "CALLS",
+        "symbol": "src.itsdangerous.timed.py.TimedSerializer.loads"
+      },
+      {
+        "confidence": 0.6,
+        "depth": 1,
+        "edge": "CALLS",
+        "symbol": "src.itsdangerous.timed.py.TimestampSigner.unsign"
+      },
+      {
+        "confidence": 0.6,
+        "depth": 1,
+        "edge": "CALLS",
+        "symbol": "src.itsdangerous.timed.py.TimestampSigner.sign"
+      }
+    ],
+    "direction": "upstream",
+    "target": "src.itsdangerous.encoding.py.want_bytes",
+    "transitive": [
+      {
+        "confidence": 0.23,
+        "depth": 2,
+        "edge": "REFS",
+        "symbol": "file:src/itsdangerous/url_safe.py"
+      },
+      {
+        "confidence": 0.85,
+        "depth": 2,
+        "edge": "CALLS",
+        "symbol": "tests.test_itsdangerous.test_encoding.py.test_base64_bad"
+      },
+      {
+        "confidence": 0.54,
+        "depth": 2,
+        "edge": "CALLS",
+        "symbol": "src.itsdangerous.url_safe.py.URLSafeSerializerMixin.load_payload"
+      },
+      {
+        "confidence": 0.54,
+        "depth": 2,
+        "edge": "CALLS",
+        "symbol": "src.itsdangerous.url_safe.py.URLSafeSerializerMixin.dump_payload"
+      },
+      {
+        "confidence": 0.45,
+        "depth": 2,
+        "edge": "REFS",
+        "symbol": "file:tests/test_itsdangerous/test_serializer.py"
+      },
+      {
+        "confidence": 0.23,
+        "depth": 2,
+        "edge": "REFS",
+        "symbol": "file:tests/test_itsdangerous/test_timed.py"
+      },
+      {
+        "confidence": 0.81,
+        "depth": 2,
+        "edge": "CALLS",
+        "symbol": "src.itsdangerous.serializer.py.Serializer.dump"
+      },
+      {
+        "confidence": 0.81,
+        "depth": 2,
+        "edge": "CALLS",
+        "symbol": "src.itsdangerous.serializer.py.Serializer._loads_unsafe_impl"
+      },
+      {
+        "confidence": 0.81,
+        "depth": 2,
+        "edge": "CALLS",
+        "symbol": "src.itsdangerous.serializer.py.Serializer.load"
+      },
+      {
+        "confidence": 0.23,
+        "depth": 2,
+        "edge": "REFS",
+        "symbol": "file:tests/test_itsdangerous/test_signer.py"
+      },
+      {
+        "confidence": 0.63,
+        "depth": 2,
+        "edge": "CALLS",
+        "symbol": "tests.test_itsdangerous.test_timed.py.TestTimestampSigner.test_malformed_timestamp"
+      },
+      {
+        "confidence": 0.63,
+        "depth": 2,
+        "edge": "CALLS",
+        "symbol": "tests.test_itsdangerous.test_timed.py.TestTimestampSigner.test_timestamp_missing"
+      },
+      {
+        "confidence": 0.81,
+        "depth": 2,
+        "edge": "CALLS",
+        "symbol": "src.itsdangerous.signer.py.Signer.validate"
+      },
+      {
+        "confidence": 0.81,
+        "depth": 2,
+        "edge": "CALLS",
+        "symbol": "src.itsdangerous.timed.py.TimestampSigner.validate"
+      },
+      {
+        "confidence": 0.73,
+        "depth": 3,
+        "edge": "CALLS",
+        "symbol": "src.itsdangerous.serializer.py.Serializer.loads_unsafe"
+      }
+    ]
+  },
+  "tool": "impact"
+}

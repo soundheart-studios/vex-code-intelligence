@@ -1,0 +1,993 @@
+[
+ {
+  "text": "class Foo {\n  def bar() { baz(1) }\n}\n",
+  "blanked": "class Foo {\n  def bar() { baz(1) }\n}\n",
+  "patterns": {
+   "TYPE_DECL": [
+    {
+     "span": [
+      0,
+      9
+     ],
+     "groups": [
+      [
+       0,
+       5
+      ],
+      [
+       6,
+       9
+      ]
+     ]
+    }
+   ],
+   "METHOD_HEAD": [
+    {
+     "span": [
+      12,
+      22
+     ],
+     "groups": [
+      [
+       18,
+       21
+      ]
+     ]
+    }
+   ],
+   "CTOR_HEAD": [],
+   "GRADLE_TASK": [],
+   "FEATURE_HEAD": [],
+   "CALL": [
+    {
+     "span": [
+      18,
+      22
+     ],
+     "groups": [
+      [
+       18,
+       21
+      ]
+     ]
+    },
+    {
+     "span": [
+      26,
+      30
+     ],
+     "groups": [
+      [
+       26,
+       29
+      ]
+     ]
+    }
+   ]
+  },
+  "declarations": [
+   [
+    "class",
+    "Foo",
+    0,
+    10,
+    36
+   ],
+   [
+    "method",
+    "bar",
+    14,
+    24,
+    34
+   ]
+  ]
+ },
+ {
+  "text": "@CompileStatic\npublic final class A extends B implements C {\n  private static int x = 1\n  @Override String toString() { \"A\" }\n  A(int x) { this.x = x }\n}\n",
+  "blanked": "@CompileStatic\npublic final class A extends B implements C {\n  private static int x = 1\n  @Override String toString() { \" \" }\n  A(int x) { this.x = x }\n}\n",
+  "patterns": {
+   "TYPE_DECL": [
+    {
+     "span": [
+      0,
+      35
+     ],
+     "groups": [
+      [
+       28,
+       33
+      ],
+      [
+       34,
+       35
+      ]
+     ]
+    }
+   ],
+   "METHOD_HEAD": [
+    {
+     "span": [
+      88,
+      116
+     ],
+     "groups": [
+      [
+       107,
+       115
+      ]
+     ]
+    }
+   ],
+   "CTOR_HEAD": [
+    {
+     "span": [
+      126,
+      130
+     ],
+     "groups": [
+      [
+       128,
+       129
+      ]
+     ]
+    }
+   ],
+   "GRADLE_TASK": [],
+   "FEATURE_HEAD": [],
+   "CALL": [
+    {
+     "span": [
+      107,
+      116
+     ],
+     "groups": [
+      [
+       107,
+       115
+      ]
+     ]
+    },
+    {
+     "span": [
+      128,
+      130
+     ],
+     "groups": [
+      [
+       128,
+       129
+      ]
+     ]
+    }
+   ]
+  },
+  "declarations": [
+   [
+    "class",
+    "A",
+    0,
+    59,
+    153
+   ],
+   [
+    "method",
+    "toString",
+    90,
+    118,
+    125
+   ],
+   [
+    "constructor",
+    "A",
+    128,
+    137,
+    151
+   ]
+  ]
+ },
+ {
+  "text": "interface I { void run() }\nenum E { ONE, TWO }\ntrait T { def t() {} }\n",
+  "blanked": "interface I { void run() }\nenum E { ONE, TWO }\ntrait T { def t() {} }\n",
+  "patterns": {
+   "TYPE_DECL": [
+    {
+     "span": [
+      0,
+      11
+     ],
+     "groups": [
+      [
+       0,
+       9
+      ],
+      [
+       10,
+       11
+      ]
+     ]
+    },
+    {
+     "span": [
+      27,
+      33
+     ],
+     "groups": [
+      [
+       27,
+       31
+      ],
+      [
+       32,
+       33
+      ]
+     ]
+    },
+    {
+     "span": [
+      47,
+      54
+     ],
+     "groups": [
+      [
+       47,
+       52
+      ],
+      [
+       53,
+       54
+      ]
+     ]
+    }
+   ],
+   "METHOD_HEAD": [],
+   "CTOR_HEAD": [],
+   "GRADLE_TASK": [],
+   "FEATURE_HEAD": [],
+   "CALL": [
+    {
+     "span": [
+      19,
+      23
+     ],
+     "groups": [
+      [
+       19,
+       22
+      ]
+     ]
+    },
+    {
+     "span": [
+      61,
+      63
+     ],
+     "groups": [
+      [
+       61,
+       62
+      ]
+     ]
+    }
+   ]
+  },
+  "declarations": [
+   [
+    "interface",
+    "I",
+    0,
+    12,
+    26
+   ],
+   [
+    "class",
+    "E",
+    27,
+    34,
+    46
+   ],
+   [
+    "class",
+    "T",
+    47,
+    55,
+    69
+   ]
+  ]
+ },
+ {
+  "text": "public <T> List<T> wrap(T t) throws IOException, Foo { [t] }\nstatic Map<String, List<Integer>>[] grid() { null }\n",
+  "blanked": "public <T> List<T> wrap(T t) throws IOException, Foo { [t] }\nstatic Map<String, List<Integer>>[] grid() { null }\n",
+  "patterns": {
+   "TYPE_DECL": [],
+   "METHOD_HEAD": [
+    {
+     "span": [
+      0,
+      24
+     ],
+     "groups": [
+      [
+       19,
+       23
+      ]
+     ]
+    },
+    {
+     "span": [
+      61,
+      102
+     ],
+     "groups": [
+      [
+       97,
+       101
+      ]
+     ]
+    }
+   ],
+   "CTOR_HEAD": [],
+   "GRADLE_TASK": [],
+   "FEATURE_HEAD": [],
+   "CALL": [
+    {
+     "span": [
+      19,
+      24
+     ],
+     "groups": [
+      [
+       19,
+       23
+      ]
+     ]
+    },
+    {
+     "span": [
+      97,
+      102
+     ],
+     "groups": [
+      [
+       97,
+       101
+      ]
+     ]
+    }
+   ]
+  },
+  "declarations": [
+   [
+    "method",
+    "wrap",
+    0,
+    53,
+    60
+   ],
+   [
+    "method",
+    "grid",
+    61,
+    104,
+    112
+   ]
+  ]
+ },
+ {
+  "text": "task hello(type: Copy) {\n  from 'src'\n}\ntask clean {\n  delete 'build'\n}\nhello()\n",
+  "blanked": "task hello(type: Copy) {\n  from '   '\n}\ntask clean {\n  delete '     '\n}\nhello()\n",
+  "patterns": {
+   "TYPE_DECL": [],
+   "METHOD_HEAD": [
+    {
+     "span": [
+      0,
+      11
+     ],
+     "groups": [
+      [
+       5,
+       10
+      ]
+     ]
+    }
+   ],
+   "CTOR_HEAD": [],
+   "GRADLE_TASK": [
+    {
+     "span": [
+      0,
+      24
+     ],
+     "groups": [
+      [
+       5,
+       10
+      ]
+     ]
+    },
+    {
+     "span": [
+      40,
+      52
+     ],
+     "groups": [
+      [
+       45,
+       50
+      ]
+     ]
+    }
+   ],
+   "FEATURE_HEAD": [],
+   "CALL": [
+    {
+     "span": [
+      5,
+      11
+     ],
+     "groups": [
+      [
+       5,
+       10
+      ]
+     ]
+    },
+    {
+     "span": [
+      72,
+      78
+     ],
+     "groups": [
+      [
+       72,
+       77
+      ]
+     ]
+    }
+   ]
+  },
+  "declarations": [
+   [
+    "task",
+    "hello",
+    0,
+    23,
+    39
+   ],
+   [
+    "task",
+    "clean",
+    40,
+    51,
+    71
+   ]
+  ]
+ },
+ {
+  "text": "def \"reads the data\"() {\n  expect: true\n}\ndef 'single quoted'() { when: x() }\n",
+  "blanked": "def \"              \"() {\n  expect: true\n}\ndef '             '() { when: x() }\n",
+  "patterns": {
+   "TYPE_DECL": [],
+   "METHOD_HEAD": [],
+   "CTOR_HEAD": [],
+   "GRADLE_TASK": [],
+   "FEATURE_HEAD": [
+    {
+     "span": [
+      0,
+      21
+     ],
+     "groups": [
+      [
+       4,
+       5
+      ],
+      [
+       5,
+       19
+      ]
+     ]
+    },
+    {
+     "span": [
+      42,
+      62
+     ],
+     "groups": [
+      [
+       46,
+       47
+      ],
+      [
+       47,
+       60
+      ]
+     ]
+    }
+   ],
+   "CALL": [
+    {
+     "span": [
+      72,
+      74
+     ],
+     "groups": [
+      [
+       72,
+       73
+      ]
+     ]
+    }
+   ]
+  },
+  "declarations": [
+   [
+    "method",
+    "reads the data",
+    0,
+    23,
+    41
+   ],
+   [
+    "method",
+    "single quoted",
+    42,
+    64,
+    77
+   ]
+  ]
+ },
+ {
+  "text": "if (x) { foo() } else { bar.baz.qux(1) }\nreturn new Foo()\nnew Bar(); this.go(); super.go()\n",
+  "blanked": "if (x) { foo() } else { bar.baz.qux(1) }\nreturn new Foo()\nnew Bar(); this.go(); super.go()\n",
+  "patterns": {
+   "TYPE_DECL": [],
+   "METHOD_HEAD": [
+    {
+     "span": [
+      58,
+      66
+     ],
+     "groups": [
+      [
+       62,
+       65
+      ]
+     ]
+    }
+   ],
+   "CTOR_HEAD": [],
+   "GRADLE_TASK": [],
+   "FEATURE_HEAD": [],
+   "CALL": [
+    {
+     "span": [
+      0,
+      4
+     ],
+     "groups": [
+      [
+       0,
+       2
+      ]
+     ]
+    },
+    {
+     "span": [
+      9,
+      13
+     ],
+     "groups": [
+      [
+       9,
+       12
+      ]
+     ]
+    },
+    {
+     "span": [
+      24,
+      36
+     ],
+     "groups": [
+      [
+       32,
+       35
+      ]
+     ]
+    },
+    {
+     "span": [
+      52,
+      56
+     ],
+     "groups": [
+      [
+       52,
+       55
+      ]
+     ]
+    },
+    {
+     "span": [
+      62,
+      66
+     ],
+     "groups": [
+      [
+       62,
+       65
+      ]
+     ]
+    },
+    {
+     "span": [
+      69,
+      77
+     ],
+     "groups": [
+      [
+       74,
+       76
+      ]
+     ]
+    },
+    {
+     "span": [
+      80,
+      89
+     ],
+     "groups": [
+      [
+       86,
+       88
+      ]
+     ]
+    }
+   ]
+  },
+  "declarations": []
+ },
+ {
+  "text": "def s = \"interp ${a.b(\"inner\")} done\" // comment foo()\n/* block bar() */ def t = '''multi\nline baz()''' + \"\"\"triple ${x}\n\"\"\"\n",
+  "blanked": "def s = \"                           \"                 \n                  def t = '''     \n          ''' + \"\"\"           \n\"\"\"\n",
+  "patterns": {
+   "TYPE_DECL": [],
+   "METHOD_HEAD": [],
+   "CTOR_HEAD": [],
+   "GRADLE_TASK": [],
+   "FEATURE_HEAD": [],
+   "CALL": []
+  },
+  "declarations": []
+ },
+ {
+  "text": "def u = \"unterminated\nnext() // é ünïcödé quux()\ndef ünï() { café() }\n",
+  "blanked": "def u = \"            \nnext()                    \ndef ünï() { café() }\n",
+  "patterns": {
+   "TYPE_DECL": [],
+   "METHOD_HEAD": [],
+   "CTOR_HEAD": [],
+   "GRADLE_TASK": [],
+   "FEATURE_HEAD": [],
+   "CALL": [
+    {
+     "span": [
+      22,
+      27
+     ],
+     "groups": [
+      [
+       22,
+       26
+      ]
+     ]
+    },
+    {
+     "span": [
+      63,
+      69
+     ],
+     "groups": [
+      [
+       63,
+       68
+      ]
+     ]
+    }
+   ]
+  },
+  "declarations": []
+ },
+ {
+  "text": "class Outer {\n  class Inner { def m() {} }\n  def n() { def local() {}; closure = { inner() } }\n}\n",
+  "blanked": "class Outer {\n  class Inner { def m() {} }\n  def n() { def local() {}; closure = { inner() } }\n}\n",
+  "patterns": {
+   "TYPE_DECL": [
+    {
+     "span": [
+      0,
+      11
+     ],
+     "groups": [
+      [
+       0,
+       5
+      ],
+      [
+       6,
+       11
+      ]
+     ]
+    },
+    {
+     "span": [
+      14,
+      27
+     ],
+     "groups": [
+      [
+       16,
+       21
+      ],
+      [
+       22,
+       27
+      ]
+     ]
+    }
+   ],
+   "METHOD_HEAD": [
+    {
+     "span": [
+      43,
+      51
+     ],
+     "groups": [
+      [
+       49,
+       50
+      ]
+     ]
+    }
+   ],
+   "CTOR_HEAD": [],
+   "GRADLE_TASK": [],
+   "FEATURE_HEAD": [],
+   "CALL": [
+    {
+     "span": [
+      34,
+      36
+     ],
+     "groups": [
+      [
+       34,
+       35
+      ]
+     ]
+    },
+    {
+     "span": [
+      49,
+      51
+     ],
+     "groups": [
+      [
+       49,
+       50
+      ]
+     ]
+    },
+    {
+     "span": [
+      59,
+      65
+     ],
+     "groups": [
+      [
+       59,
+       64
+      ]
+     ]
+    },
+    {
+     "span": [
+      83,
+      89
+     ],
+     "groups": [
+      [
+       83,
+       88
+      ]
+     ]
+    }
+   ]
+  },
+  "declarations": [
+   [
+    "class",
+    "Outer",
+    0,
+    12,
+    96
+   ],
+   [
+    "class",
+    "Inner",
+    16,
+    28,
+    42
+   ],
+   [
+    "method",
+    "n",
+    45,
+    53,
+    94
+   ]
+  ]
+ },
+ {
+  "text": "String x = \"esc\\\"aped ${y}\" + 'it\\'s'\nfoo(\"a\\\\\")\n",
+  "blanked": "String x = \"              \" + '     '\nfoo(\"   \")\n",
+  "patterns": {
+   "TYPE_DECL": [],
+   "METHOD_HEAD": [],
+   "CTOR_HEAD": [],
+   "GRADLE_TASK": [],
+   "FEATURE_HEAD": [],
+   "CALL": [
+    {
+     "span": [
+      38,
+      42
+     ],
+     "groups": [
+      [
+       38,
+       41
+      ]
+     ]
+    }
+   ]
+  },
+  "declarations": []
+ },
+ {
+  "text": "class Broken = 1\nclass Semi; class Real { }\n",
+  "blanked": "class Broken = 1\nclass Semi; class Real { }\n",
+  "patterns": {
+   "TYPE_DECL": [
+    {
+     "span": [
+      0,
+      12
+     ],
+     "groups": [
+      [
+       0,
+       5
+      ],
+      [
+       6,
+       12
+      ]
+     ]
+    },
+    {
+     "span": [
+      17,
+      27
+     ],
+     "groups": [
+      [
+       17,
+       22
+      ],
+      [
+       23,
+       27
+      ]
+     ]
+    }
+   ],
+   "METHOD_HEAD": [],
+   "CTOR_HEAD": [],
+   "GRADLE_TASK": [],
+   "FEATURE_HEAD": [],
+   "CALL": []
+  },
+  "declarations": []
+ },
+ {
+  "text": "def s = '${'\nnext() { after() }\n",
+  "blanked": "def s = '  '\nnext() { after() }\n",
+  "patterns": {
+   "TYPE_DECL": [],
+   "METHOD_HEAD": [],
+   "CTOR_HEAD": [],
+   "GRADLE_TASK": [],
+   "FEATURE_HEAD": [],
+   "CALL": [
+    {
+     "span": [
+      13,
+      18
+     ],
+     "groups": [
+      [
+       13,
+       17
+      ]
+     ]
+    },
+    {
+     "span": [
+      22,
+      28
+     ],
+     "groups": [
+      [
+       22,
+       27
+      ]
+     ]
+    }
+   ]
+  },
+  "declarations": []
+ },
+ {
+  "text": "def \"  spaced name  \"() {\n  expect: run()\n}\n",
+  "blanked": "def \"               \"() {\n  expect: run()\n}\n",
+  "patterns": {
+   "TYPE_DECL": [],
+   "METHOD_HEAD": [],
+   "CTOR_HEAD": [],
+   "GRADLE_TASK": [],
+   "FEATURE_HEAD": [
+    {
+     "span": [
+      0,
+      22
+     ],
+     "groups": [
+      [
+       4,
+       5
+      ],
+      [
+       5,
+       20
+      ]
+     ]
+    }
+   ],
+   "CALL": [
+    {
+     "span": [
+      36,
+      40
+     ],
+     "groups": [
+      [
+       36,
+       39
+      ]
+     ]
+    }
+   ]
+  },
+  "declarations": [
+   [
+    "method",
+    "spaced name",
+    0,
+    24,
+    43
+   ]
+  ]
+ }
+]

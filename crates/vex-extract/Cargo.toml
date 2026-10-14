@@ -1,0 +1,89 @@
+[package]
+name = "vex-extract"
+description = "Tree-sitter extraction: file bytes in, Parsed out. Pure: no I/O beyond the bytes it is given."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+# Grammars are pinned with `=` to the exact versions of Cortex's Python wheels
+# (docs/grammars.md). Never loosen these: a grammar bump changes Parsed.
+[features]
+default = ["lang-python", "lang-javascript", "lang-typescript", "lang-go", "lang-java", "lang-rust", "lang-c", "lang-cpp", "lang-csharp", "lang-objc", "lang-swift", "lang-scala", "lang-lua", "lang-zig", "lang-elixir", "lang-bash", "lang-json", "lang-julia", "lang-verilog", "lang-fortran", "lang-powershell", "lang-groovy", "lang-sql", "lang-hcl", "lang-kotlin", "lang-php", "lang-ruby"]
+lang-python = ["dep:tree-sitter-python"]
+lang-javascript = ["dep:tree-sitter-javascript"]
+lang-typescript = ["dep:tree-sitter-typescript"]
+lang-go = ["dep:tree-sitter-go"]
+lang-java = ["dep:tree-sitter-java"]
+lang-rust = ["dep:tree-sitter-rust"]
+lang-c = ["dep:tree-sitter-c"]
+lang-cpp = ["dep:tree-sitter-cpp"]
+lang-csharp = ["dep:tree-sitter-c-sharp"]
+lang-objc = ["dep:tree-sitter-objc", "lang-cpp"]
+lang-swift = ["dep:tree-sitter-swift"]
+lang-scala = ["dep:tree-sitter-scala"]
+lang-lua = ["dep:tree-sitter-lua"]
+lang-zig = ["dep:tree-sitter-zig"]
+lang-elixir = ["dep:tree-sitter-elixir"]
+lang-bash = ["dep:tree-sitter-bash"]
+lang-json = ["dep:tree-sitter-json"]
+lang-julia = ["dep:tree-sitter-julia"]
+lang-verilog = ["dep:tree-sitter-verilog"]
+lang-fortran = ["dep:tree-sitter-fortran"]
+lang-powershell = ["dep:tree-sitter-powershell"]
+lang-groovy = ["dep:tree-sitter-groovy"]
+lang-kotlin = ["dep:tree-sitter-kotlin-ng"]
+lang-php = ["dep:tree-sitter-php"]
+lang-ruby = ["dep:tree-sitter-ruby"]
+# Optional in Cortex; on by default because the golden environment had them.
+lang-sql = ["dep:tree-sitter-sequel"]
+lang-hcl = ["dep:cc", "dep:tree-sitter-language"]
+
+[dependencies]
+indexmap.workspace = true
+regex.workspace = true
+serde_json.workspace = true
+shlex.workspace = true
+vex-core.workspace = true
+tree-sitter = "=0.25.2"
+unicode-ident.workspace = true
+tree-sitter-python = { version = "=0.25.0", optional = true }
+tree-sitter-javascript = { version = "=0.25.0", optional = true }
+tree-sitter-typescript = { version = "=0.23.2", optional = true }
+tree-sitter-go = { version = "=0.25.0", optional = true }
+tree-sitter-java = { version = "=0.23.5", optional = true }
+tree-sitter-rust = { version = "=0.24.2", optional = true }
+tree-sitter-c = { version = "=0.24.2", optional = true }
+tree-sitter-cpp = { version = "=0.23.4", optional = true }
+tree-sitter-c-sharp = { version = "=0.23.5", optional = true }
+tree-sitter-objc = { version = "=3.0.2", optional = true }
+tree-sitter-swift = { version = "=0.7.3", optional = true }
+tree-sitter-scala = { version = "=0.26.0", optional = true }
+tree-sitter-lua = { version = "=0.5.0", optional = true }
+tree-sitter-zig = { version = "=1.1.2", optional = true }
+tree-sitter-elixir = { version = "=0.3.5", optional = true }
+tree-sitter-bash = { version = "=0.25.1", optional = true }
+tree-sitter-json = { version = "=0.24.8", optional = true }
+tree-sitter-julia = { version = "=0.23.1", optional = true }
+tree-sitter-verilog = { version = "=1.0.3", optional = true }
+tree-sitter-fortran = { version = "=0.6.0", optional = true }
+tree-sitter-powershell = { version = "=0.26.4", optional = true }
+tree-sitter-groovy = { version = "=0.1.2", optional = true }
+tree-sitter-kotlin-ng = { version = "=1.1.0", optional = true }
+# The PHP wheel is 0.24.1, which crates.io skips; 0.24.2's parser.c differs
+# from the 0.24.1 tag only in its version metadata (docs/grammars.md).
+tree-sitter-php = { version = "=0.24.2", optional = true }
+tree-sitter-ruby = { version = "=0.23.1", optional = true }
+tree-sitter-sequel = { version = "=0.3.11", optional = true }
+tree-sitter-language = { version = "0.1", optional = true }
+fancy-regex = "0.14"
+
+[dev-dependencies]
+vex-resolve.workspace = true
+base64.workspace = true
+sha2.workspace = true
+serde_json.workspace = true
+toml.workspace = true
+
+[build-dependencies]
+cc = { version = "1", optional = true }

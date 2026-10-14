@@ -1,0 +1,128 @@
+{
+  "args": {
+    "detail": "signature",
+    "symbol": "Signer.unsign"
+  },
+  "response": [
+    {
+      "file": "src/itsdangerous/signer.py",
+      "incoming": [
+        [
+          "file:tests/test_itsdangerous/test_signer.py",
+          "REFS",
+          0.3333333333333333,
+          "tests/test_itsdangerous/test_signer.py"
+        ],
+        [
+          "file:tests/test_itsdangerous/test_timed.py",
+          "REFS",
+          0.3333333333333333,
+          "tests/test_itsdangerous/test_timed.py"
+        ],
+        [
+          "file:src/itsdangerous/serializer.py",
+          "REFS",
+          0.08333333333333333,
+          "src/itsdangerous/serializer.py"
+        ],
+        [
+          "src.itsdangerous.signer.py.Signer.validate",
+          "CALLS",
+          0.9,
+          "src/itsdangerous/signer.py"
+        ]
+      ],
+      "kind": "function",
+      "lines": "244-256",
+      "outgoing": [
+        [
+          "src.itsdangerous.signer.py.Signer.verify_signature",
+          "CALLS",
+          0.9,
+          "src/itsdangerous/signer.py"
+        ],
+        [
+          "module:.encoding",
+          "IMPORTS",
+          0.9,
+          ""
+        ],
+        [
+          "module:.exc",
+          "IMPORTS",
+          0.9,
+          ""
+        ],
+        [
+          "module:collections.abc",
+          "IMPORTS",
+          0.9,
+          ""
+        ],
+        [
+          "module:hashlib",
+          "IMPORTS",
+          0.9,
+          ""
+        ],
+        [
+          "module:hmac",
+          "IMPORTS",
+          0.9,
+          ""
+        ],
+        [
+          "module:typing",
+          "IMPORTS",
+          0.9,
+          ""
+        ],
+        [
+          "src.itsdangerous.encoding.py.base64_decode",
+          "REFS",
+          0.25,
+          "src/itsdangerous/encoding.py"
+        ],
+        [
+          "src.itsdangerous.encoding.py.base64_encode",
+          "REFS",
+          0.25,
+          "src/itsdangerous/encoding.py"
+        ],
+        [
+          "src.itsdangerous.encoding.py.want_bytes",
+          "REFS",
+          1.0,
+          "src/itsdangerous/encoding.py"
+        ],
+        [
+          "src.itsdangerous.exc.py.BadSignature",
+          "REFS",
+          0.5,
+          "src/itsdangerous/exc.py"
+        ]
+      ],
+      "recovery": {
+        "detail": {
+          "below_confidence_floor": 2,
+          "floor": 0.7,
+          "meaning": "below the floor an edge is a name match with no receiver type; over the cap it is a real edge that did not fit, strongest kept",
+          "over_edge_cap": 0
+        },
+        "hint": "2 item(s) withheld at limit 25. Retrieve them with: impact(symbol='src.itsdangerous.signer.py.Signer.unsign', direction='both', depth=1) -- this is reachable through Cortex; no file read needed.",
+        "limit": 25,
+        "next": [
+          "impact(symbol='src.itsdangerous.signer.py.Signer.unsign', direction='both', depth=1)",
+          "context(symbol='src.itsdangerous.signer.py.Signer.unsign', confidence_min=0.0)"
+        ],
+        "reason": "context_edges_withheld",
+        "withheld": 2
+      },
+      "snippets": [
+        "    def unsign(self, signed_value: str | bytes) -> bytes:"
+      ],
+      "symbol": "src.itsdangerous.signer.py.Signer.unsign"
+    }
+  ],
+  "tool": "context"
+}

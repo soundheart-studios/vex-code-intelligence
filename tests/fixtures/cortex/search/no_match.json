@@ -1,0 +1,69 @@
+{
+  "args": {
+    "query": "zzqqxxnotaword"
+  },
+  "response": {
+    "ranking": {
+      "exact_symbol": "no symbol named 'zzqqxxnotaword' exists in this index -- these are approximate matches",
+      "score": "relative to the best hit in THIS response; 1.0 is the top result, not a confidence",
+      "top_gap": 0.016,
+      "verdict": "no clear winner: the top results scored within 0.016 of each other, which means the ranking is ambiguous, not that nothing is relevant"
+    },
+    "results": [
+      {
+        "content": "class _PDataSerializer(t.Protocol[_TSerialized]):",
+        "file": "src/itsdangerous/serializer.py",
+        "lines": "24-24",
+        "matched_by": [
+          "semantic"
+        ],
+        "score": 1.0
+      },
+      {
+        "content": "    # A signature with additional arguments is not handled correctly by type\n    # checkers right now, so an overload is used below for serializers that\n    # don't match this strict protocol.\n    def dumps(self, obj: t.Any, /) -> _TSerialized: ...",
+        "file": "src/itsdangerous/serializer.py",
+        "lines": "26-29",
+        "matched_by": [
+          "semantic"
+        ],
+        "score": 0.984
+      },
+      {
+        "content": "                payload = self.load_payload(base64d)\n\n                if return_timestamp:\n                    return payload, timestamp\n\n                return payload\n            except SignatureExpired:\n                # The signature was unsigned successfully but was\n                # expired. Do not try the next signer.\n                raise\n            except BadSignature as err:\n                last_exception = err\n\n        raise t.cast(BadSignature, last_exception)",
+        "file": "src/itsdangerous/timed.py",
+        "lines": "207-220",
+        "matched_by": [
+          "semantic"
+        ],
+        "part_of": {
+          "note": "you have the part that matched, not the whole chunk. Expand only if this span is not enough -- it costs 264 more tokens (2.8x)",
+          "reason": "symbol_window",
+          "symbol": "TimedSerializer.loads",
+          "tokens_here": 144,
+          "tokens_whole": 408,
+          "whole": "expand(target='TimedSerializer.loads')"
+        },
+        "score": 0.968
+      },
+      {
+        "content": "class TimestampSigner(Signer):\n    \"\"\"Works like the regular :class:`.Signer` but also records the time\n    of the signing and can be used to expire signatures. The\n    :meth:`unsign` method can raise :exc:`.SignatureExpired` if the\n    unsigning failed because the signature is expired.\n    \"\"\"\n",
+        "file": "src/itsdangerous/timed.py",
+        "lines": "22-28",
+        "matched_by": [
+          "semantic"
+        ],
+        "score": 0.952
+      },
+      {
+        "content": "    def __init__(\n        self,\n        message: str,\n        payload: t.Any | None = None,\n        date_signed: datetime | None = None,\n    ):\n        super().__init__(message, payload)\n\n        #: If the signature expired this exposes the date of when the\n        #: signature was created. This can be helpful in order to\n        #: tell the user how long a link has been gone stale.\n        #:\n        #: .. versionchanged:: 2.0\n        #:     The datetime value is timezone-aware rather than naive.\n        #:\n        #: .. versionadded:: 0.14\n        self.date_signed = date_signed",
+        "file": "src/itsdangerous/exc.py",
+        "lines": "41-57",
+        "matched_by": [
+          "semantic"
+        ],
+        "score": 0.937
+      }
+    ]
+  },
+  "tool": "search"
+}

@@ -1,0 +1,39 @@
+{
+  "args": {
+    "path": "src/itsdangerous/signer.py",
+    "pattern": "raise"
+  },
+  "response": {
+    "engine": "python",
+    "hits": [
+      {
+        "file": "src/itsdangerous/signer.py",
+        "line": "22",
+        "text": "        raise NotImplementedError()"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "line": "147",
+        "text": "            raise ValueError("
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "line": "213",
+        "text": "            raise TypeError(\"Unknown key derivation method\")"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "line": "249",
+        "text": "            raise BadSignature(f\"No {self.sep!r} found in value\")"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "line": "256",
+        "text": "        raise BadSignature(f\"Signature {sig!r} does not match\", payload=value)"
+      }
+    ],
+    "matches": 5,
+    "pattern": "raise"
+  },
+  "tool": "grep"
+}

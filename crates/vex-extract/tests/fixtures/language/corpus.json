@@ -1,0 +1,3929 @@
+{
+ "chromium-369/base/android/java/src/org/chromium/base/ActivityState.java": {
+  "language": "java"
+ },
+ "chromium-369/base/android/java/src/org/chromium/base/AndroidInfo.java": {
+  "language": "java"
+ },
+ "chromium-369/base/android/java/src/org/chromium/base/BundleUtils.java": {
+  "language": "java"
+ },
+ "chromium-369/base/android/java/src/org/chromium/base/Callback.java": {
+  "language": "java"
+ },
+ "chromium-369/base/android/java/src/org/chromium/base/CallbackUtils.java": {
+  "language": "java"
+ },
+ "chromium-369/base/android/java/src/org/chromium/base/ContentUriUtils.java": {
+  "language": "java"
+ },
+ "chromium-369/base/android/java/src/org/chromium/base/ContextUtils.java": {
+  "language": "java"
+ },
+ "chromium-369/base/android/java/src/org/chromium/base/DeviceInfo.java": {
+  "language": "java"
+ },
+ "chromium-369/base/android/java/src/org/chromium/base/DiscardableReferencePool.java": {
+  "language": "java"
+ },
+ "chromium-369/base/android/java/src/org/chromium/base/EarlyTraceEvent.java": {
+  "language": "java"
+ },
+ "chromium-369/base/android/java/src/org/chromium/base/FileUtils.java": {
+  "language": "java"
+ },
+ "chromium-369/base/android/java/src/org/chromium/base/Flag.java": {
+  "language": "java"
+ },
+ "chromium-369/base/android/java/src/org/chromium/base/Holder.java": {
+  "language": "java"
+ },
+ "chromium-369/base/android/java/src/org/chromium/base/IntentUtils.java": {
+  "language": "java"
+ },
+ "chromium-369/base/android/java/src/org/chromium/base/JNIUtils.java": {
+  "language": "java"
+ },
+ "chromium-369/base/android/java/src/org/chromium/base/JavaHandlerThread.java": {
+  "language": "java"
+ },
+ "chromium-369/base/android/java/src/org/chromium/base/JniOnceRunnable.java": {
+  "language": "java"
+ },
+ "chromium-369/base/android/java/src/org/chromium/base/Log.java": {
+  "language": "java"
+ },
+ "chromium-369/base/android/java/src/org/chromium/base/MutableIntParamWithSafeDefault.java": {
+  "language": "java"
+ },
+ "chromium-369/base/android/java/src/org/chromium/base/ObserverList.java": {
+  "language": "java"
+ },
+ "chromium-369/base/android/java/src/org/chromium/base/PackageManagerUtils.java": {
+  "language": "java"
+ },
+ "chromium-369/base/android/java/src/org/chromium/base/PowerMonitor.java": {
+  "language": "java"
+ },
+ "chromium-369/base/android/java/src/org/chromium/base/PowerMonitorReading.java": {
+  "language": "java"
+ },
+ "chromium-369/base/android/java/src/org/chromium/base/RadioUtils.java": {
+  "language": "java"
+ },
+ "chromium-369/base/android/java/src/org/chromium/base/TraceEvent.java": {
+  "language": "java"
+ },
+ "chromium-369/base/android/java/src/org/chromium/base/TriState.java": {
+  "language": "java"
+ },
+ "chromium-369/base/android/java/src/org/chromium/base/TriStateUtils.java": {
+  "language": "java"
+ },
+ "chromium-369/base/android/java/src/org/chromium/base/UnownedUserDataHost.java": {
+  "language": "java"
+ },
+ "chromium-369/base/android/java/src/org/chromium/base/VirtualDocumentPath.java": {
+  "language": "java"
+ },
+ "chromium-369/base/android/java/src/org/chromium/base/hid/HidManager.java": {
+  "language": "java"
+ },
+ "chromium-369/base/android/java/src/org/chromium/base/library_loader/LibraryPrefetcher.java": {
+  "language": "java"
+ },
+ "chromium-369/base/android/java/src/org/chromium/base/library_loader/LoaderErrors.java": {
+  "language": "java"
+ },
+ "chromium-369/base/android/java/src/org/chromium/base/memory/MemoryPressureUma.java": {
+  "language": "java"
+ },
+ "chromium-369/base/android/java/src/org/chromium/base/process_launcher/ChildConnectionAllocator.java": {
+  "language": "java"
+ },
+ "chromium-369/base/android/java/src/org/chromium/base/process_launcher/ChildProcessLauncher.java": {
+  "language": "java"
+ },
+ "chromium-369/base/android/java/src/org/chromium/base/process_launcher/ChildProcessServiceDelegate.java": {
+  "language": "java"
+ },
+ "chromium-369/base/android/java/src/org/chromium/base/process_launcher/ChildServiceConnection.java": {
+  "language": "java"
+ },
+ "chromium-369/base/android/java/src/org/chromium/base/shared_preferences/PreferenceKeyChecker.java": {
+  "language": "java"
+ },
+ "chromium-369/base/android/java/src/org/chromium/base/supplier/LazyOneshotSupplier.java": {
+  "language": "java"
+ },
+ "chromium-369/base/android/java/src/org/chromium/base/supplier/ObservableSuppliers.java": {
+  "language": "java"
+ },
+ "chromium-369/base/android/java/src/org/chromium/base/supplier/OneshotSupplierImpl.java": {
+  "language": "java"
+ },
+ "chromium-369/base/android/java/src/org/chromium/base/supplier/SyncOneshotSupplier.java": {
+  "language": "java"
+ },
+ "chromium-369/base/android/java/src/org/chromium/base/supplier/SyncOneshotSupplierImpl.java": {
+  "language": "java"
+ },
+ "chromium-369/base/android/java/src/org/chromium/base/supplier/UnwrapObservableSupplier.java": {
+  "language": "java"
+ },
+ "chromium-369/base/android/java/src/org/chromium/base/task/BackgroundOnlyAsyncTask.java": {
+  "language": "java"
+ },
+ "chromium-369/base/android/java/src/org/chromium/base/task/ChainedTasks.java": {
+  "language": "java"
+ },
+ "chromium-369/base/android/java/src/org/chromium/base/task/ChromeThreadPoolExecutor.java": {
+  "language": "java"
+ },
+ "chromium-369/base/android/java/src/org/chromium/base/task/SequencedTaskRunner.java": {
+  "language": "java"
+ },
+ "chromium-369/base/android/java/src/org/chromium/base/task/TaskRunner.java": {
+  "language": "java"
+ },
+ "chromium-369/base/android/java/src/org/chromium/base/task/UiThreadTaskRunnerImpl.java": {
+  "language": "java"
+ },
+ "chromium-369/base/json/json_common.h": {
+  "header_code_sha256": "2dd63034066eb883daa2a07aa2e5cb139f33eca34e80b5344c7c52cc27c2b2ef",
+  "language": "cpp"
+ },
+ "chromium-369/base/json/json_correctness_fuzzer.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/json/json_file_value_serializer.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/json/json_file_value_serializer.h": {
+  "header_code_sha256": "e5fece2e29b807d2de6cdd94c3af4a7dd76cf09816331f4cefd35ee2b3c0cb9a",
+  "language": "cpp"
+ },
+ "chromium-369/base/json/json_perftest.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/json/json_perftest_decodebench.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/json/json_reader.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/json/json_reader.h": {
+  "header_code_sha256": "d0efc256bde634175d7af9b3d4e946c4ae205c3cc41db9a5765ecc541467207b",
+  "language": "cpp"
+ },
+ "chromium-369/base/json/json_reader_fuzzer.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/json/json_reader_unittest.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/json/json_string_value_serializer.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/json/json_string_value_serializer.h": {
+  "header_code_sha256": "2f052b468fca9b4b565b0aa92e8c4da88006ec6415361128b554e00eb6bec090",
+  "language": "cpp"
+ },
+ "chromium-369/base/json/json_value_converter.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/json/json_value_converter.h": {
+  "header_code_sha256": "f67b4f2dcb73dc9adcce82013ff126d8fca46a6eadb92fb87dd1bda998b9abc9",
+  "language": "cpp"
+ },
+ "chromium-369/base/json/json_value_converter_unittest.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/json/json_value_serializer_unittest.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/json/json_writer.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/json/json_writer.h": {
+  "header_code_sha256": "44ca5778f615fe533d64d28b557207ea2879ce6015ae7044cbe9ab15949a245b",
+  "language": "cpp"
+ },
+ "chromium-369/base/json/json_writer_unittest.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/json/string_escape.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/json/string_escape.h": {
+  "header_code_sha256": "a9f79c916ed4d986864a443ed6a883f9457a375292edb508e5b745ed916a3604",
+  "language": "cpp"
+ },
+ "chromium-369/base/json/string_escape_fuzzer.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/json/string_escape_unittest.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/json/values_util.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/json/values_util.h": {
+  "header_code_sha256": "e635f237eb7c5cce3c0e78fbda7bfc14138cf3039c5ebd45fa9309eb349efda5",
+  "language": "cpp"
+ },
+ "chromium-369/base/json/values_util_unittest.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/abseil_string_number_conversions.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/abseil_string_number_conversions.h": {
+  "header_code_sha256": "6952d7233c1b4747197cfb84b61af3c1d89645424c848fbb80f21df8727ad4e9",
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/abseil_string_number_conversions_unittest.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/cstring_view.h": {
+  "header_code_sha256": "3adeb1075bb2d571c9121ac65f1b7c4bc84327ea949bea3416a3344efd15ff42",
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/cstring_view_unittest.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/durable_string_view.h": {
+  "header_code_sha256": "42a2c824c62e11a05c9b5df472be65b89dda3b6e07bb3b85e0855fb75b78cd62",
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/escape.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/escape.h": {
+  "header_code_sha256": "20ba1046855ad2fa451cdc1d315194b81f78aaf6a56bbafb3e84a31b8ab6e0aa",
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/escape_fuzzer.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/escape_unittest.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/join_string_internal.h": {
+  "header_code_sha256": "e28b8434b4f5ea011830033c5030b978a4dc740236aeb2c9f79331df768943e2",
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/lazy_string_builder.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/lazy_string_builder.h": {
+  "header_code_sha256": "278e8a032cf825eb38b45a596d368862a712391794185e3e56895a9caef353f7",
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/lazy_string_builder_unittest.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/levenshtein_distance.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/levenshtein_distance.h": {
+  "header_code_sha256": "a212c48e42029a1878f2dc2cc5f5085c6ce0d22aacf14dd246ed28a149edc8e7",
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/levenshtein_distance_unittest.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/no_trigraphs_unittest.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/pattern.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/pattern.h": {
+  "header_code_sha256": "cc0444633d5fa62dab0c26e02a5880f2f65e0aa77beb6ab5bf4a8d725543c782",
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/pattern_fuzzer.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/pattern_unittest.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/safe_sprintf.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/safe_sprintf.h": {
+  "header_code_sha256": "27df92ef770c1bc2503a1e4c6c5bf77dd907740d62ca875cb50e4f68ccbefaa6",
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/safe_sprintf_unittest.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/span_printf.h": {
+  "header_code_sha256": "abf694427441e07b6b58f13e4094f73f922719a754256a48a9d92f41a9fa91cf",
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/span_printf_unittest.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/strcat.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/strcat.h": {
+  "header_code_sha256": "bbaa22a19b1ad0ba65c15838e9eed037a3af7a4157fb343912d74b6d5257cb75",
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/strcat_internal.h": {
+  "header_code_sha256": "86a86a4b30ddd298c339a10d3d71dfaa5cffe0b884e7f74393d48b03bd29dbb1",
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/strcat_unittest.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/strcat_win.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/strcat_win.h": {
+  "header_code_sha256": "d1e1c520662814488d70a2b5080b19d6b98d0e842a2bb6e3df1c815cf77e8d29",
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/string_number_conversions.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/string_number_conversions.h": {
+  "header_code_sha256": "a40abf9f83b77800a7acf360bf7a4b4bcb069c39b5a971b2d56adeb30fe1f234",
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/string_number_conversions_fuzzer.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/string_number_conversions_internal.h": {
+  "header_code_sha256": "a2b67f151f5b3143fc929cbb8b8a7ff24af57d1b0b5e0a70109c1f0ac642d9cd",
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/string_number_conversions_unittest.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/string_number_conversions_win.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/string_number_conversions_win.h": {
+  "header_code_sha256": "a2eaa4189c7f5a33b32352a8cfb2a556daa4a2f925557bf645b06ee6189084b7",
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/string_piece_rust_unittest.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/string_slice.h": {
+  "header_code_sha256": "4099b8827649c1fa719bba4eb35aeb88d89b40640f1a985c8d7f5ec41b450d5b",
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/string_slice_unittest.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/string_split.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/string_split.h": {
+  "header_code_sha256": "34f27aef7798f591620a65a4b4a399b933e1a8221ba34dd825f8fefaa260bd83",
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/string_split_internal.h": {
+  "header_code_sha256": "f86aa43487b441389786666e1322662a45c50af16b09fc4249df30bf77420515",
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/string_split_unittest.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/string_split_win.h": {
+  "header_code_sha256": "a6890e2f57760341b62d671f27ffa1a4c321ac51cb1ff9e8d28ddaee5043ee82",
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/string_tokenizer.h": {
+  "header_code_sha256": "a628ab6d875b8ca65cbc79e305c3d9e6dfb2f7967889b3644faebba33c57f940",
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/string_tokenizer_fuzzer.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/string_tokenizer_unittest.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/string_util.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/string_util.h": {
+  "header_code_sha256": "c57981da98e1cf0e80ce4101c4a3bd68382a55f3b41cfdc5bf47ff5b4031caa8",
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/string_util_impl_helpers.h": {
+  "header_code_sha256": "2f8b9e2dda7afd3299a84ad1eaf00b5ec31e54fc2c26ab3b8c71fb6d33e52201",
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/string_util_internal.h": {
+  "header_code_sha256": "e183e6cc239de808f99441f490a89f278eb6fc5c9f3f68287dd4debbc20f849a",
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/string_util_perftest.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/string_util_posix.h": {
+  "header_code_sha256": "2e98f1b3539b7ac3150428ebc11739e9e774ab7793f06087c88b675674cdce82",
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/string_util_unittest.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/string_util_win.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/string_util_win.h": {
+  "header_code_sha256": "68a4ef12c2ee9e05c24877049921a3fc50e830a6e4a46e5235049380c98c88b6",
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/string_view_rust.h": {
+  "header_code_sha256": "bff5445238ac63aaf69f974f9d2b405ae5f6ead665f0b6a5a8e2941050e73379",
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/string_view_util.h": {
+  "header_code_sha256": "cab47770e6a1179dfde5dd324d4654fd24d753dfff94df48850b4b9f3d082b1e",
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/string_view_util_unittest.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/stringize_macros.h": {
+  "header_code_sha256": "218a59043cd9c94f938b7ecd2b4297ec4bef7280f7c0a0078144e1b79ef092cd",
+  "language": "c"
+ },
+ "chromium-369/base/strings/stringize_macros_unittest.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/stringprintf.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/stringprintf.h": {
+  "header_code_sha256": "ef265a3375f2ee32d978730fddf190572b05c9d68762159638a395d8ddf47f11",
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/stringprintf_unittest.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/sys_string_conversions.h": {
+  "header_code_sha256": "24dc318e49723cc957860f99dcc2ab3d4432c66ae5293dc1b8b601f9df07b719",
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/sys_string_conversions_apple.mm": {
+  "language": "objc"
+ },
+ "chromium-369/base/strings/sys_string_conversions_apple_unittest.mm": {
+  "language": "objc"
+ },
+ "chromium-369/base/strings/sys_string_conversions_fuzzer.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/sys_string_conversions_posix.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/sys_string_conversions_unittest.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/sys_string_conversions_win.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/to_string.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/to_string.h": {
+  "header_code_sha256": "d03d2283987fcbf0d1555c392589c1aa6bf7c37edc2a2ef1deba2cc0421c35d0",
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/to_string_unittest.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/trim_string_internal.h": {
+  "header_code_sha256": "de189814c4f65d400261d7094c8f04178e92b68dacc30cc12b13228347f166dd",
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/utf_offset_string_conversions.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/utf_offset_string_conversions.h": {
+  "header_code_sha256": "f52d3a467e21919db5f63deb65ed9dda251622021c4b8df74dc2c263bb9cf73b",
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/utf_offset_string_conversions_unittest.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/utf_ostream_operators.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/utf_ostream_operators.h": {
+  "header_code_sha256": "190bdb5e6cbf92c0cf599324d05554e1a305f875768edcc5010138fe1d4cb160",
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/utf_string_conversion_utils.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/utf_string_conversion_utils.h": {
+  "header_code_sha256": "88ac5079bd0ef914ca85893b1d3a45f96d4f4328eccdb59b18717d550d83c175",
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/utf_string_conversion_utils_unittest.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/utf_string_conversions.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/utf_string_conversions.h": {
+  "header_code_sha256": "09bc13c7fdeec42ab581da43b6e052f8b8a8f62feb606c9ab85b8f3859f17a89",
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/utf_string_conversions_fuzzer.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/utf_string_conversions_unittest.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/base/strings/whitespace_constants.h": {
+  "header_code_sha256": "0f36b131576837a883b24511ce267806d6bb44b1c9c973314a37ef20350ca217",
+  "language": "cpp"
+ },
+ "chromium-369/chrome/browser/resources/settings/ai_page/ai_policy_indicator.ts": {
+  "language": "typescript"
+ },
+ "chromium-369/chrome/browser/resources/settings/ai_page/ai_suggestions_page.ts": {
+  "language": "typescript"
+ },
+ "chromium-369/chrome/browser/resources/settings/appearance_page/appearance_page.html.ts": {
+  "language": "typescript"
+ },
+ "chromium-369/chrome/browser/resources/settings/appearance_page/home_url_input.html.ts": {
+  "language": "typescript"
+ },
+ "chromium-369/chrome/browser/resources/settings/autofill_page/autofill_page.ts": {
+  "language": "typescript"
+ },
+ "chromium-369/chrome/browser/resources/settings/autofill_page/suggestions_from_gemini/suggestions_from_gemini_page.ts": {
+  "language": "typescript"
+ },
+ "chromium-369/chrome/browser/resources/settings/clear_browsing_data_dialog/clear_browsing_data_browser_proxy.ts": {
+  "language": "typescript"
+ },
+ "chromium-369/chrome/browser/resources/settings/clear_browsing_data_dialog/clear_browsing_data_dialog.ts": {
+  "language": "typescript"
+ },
+ "chromium-369/chrome/browser/resources/settings/clear_browsing_data_dialog/history_deletion_dialog.html.ts": {
+  "language": "typescript"
+ },
+ "chromium-369/chrome/browser/resources/settings/clear_browsing_data_dialog/other_google_data_dialog.html.ts": {
+  "language": "typescript"
+ },
+ "chromium-369/chrome/browser/resources/settings/controls/pref_key_observer_mixin_lit.ts": {
+  "language": "typescript"
+ },
+ "chromium-369/chrome/browser/resources/settings/controls/settings_toggle_button.ts": {
+  "language": "typescript"
+ },
+ "chromium-369/chrome/browser/resources/settings/downloads_page/downloads_browser_proxy.ts": {
+  "language": "typescript"
+ },
+ "chromium-369/chrome/browser/resources/settings/downloads_page/downloads_page.ts": {
+  "language": "typescript"
+ },
+ "chromium-369/chrome/browser/resources/settings/ensure_lazy_loaded.ts": {
+  "language": "typescript"
+ },
+ "chromium-369/chrome/browser/resources/settings/glic_page/glic_page.html.ts": {
+  "language": "typescript"
+ },
+ "chromium-369/chrome/browser/resources/settings/languages_page/languages_page_index_cros.ts": {
+  "language": "typescript"
+ },
+ "chromium-369/chrome/browser/resources/settings/on_startup_page/on_startup_page.ts": {
+  "language": "typescript"
+ },
+ "chromium-369/chrome/browser/resources/settings/people_page/manage_profile.html.ts": {
+  "language": "typescript"
+ },
+ "chromium-369/chrome/browser/resources/settings/people_page/people_page_index.html.ts": {
+  "language": "typescript"
+ },
+ "chromium-369/chrome/browser/resources/settings/people_page/people_page_index.ts": {
+  "language": "typescript"
+ },
+ "chromium-369/chrome/browser/resources/settings/performance_page/memory_page.ts": {
+  "language": "typescript"
+ },
+ "chromium-369/chrome/browser/resources/settings/performance_page/performance_browser_proxy.ts": {
+  "language": "typescript"
+ },
+ "chromium-369/chrome/browser/resources/settings/performance_page/tab_discard/exception_current_sites_list.ts": {
+  "language": "typescript"
+ },
+ "chromium-369/chrome/browser/resources/settings/privacy_icons.html.ts": {
+  "language": "typescript"
+ },
+ "chromium-369/chrome/browser/resources/settings/privacy_page/privacy_guide/privacy_guide_availability_mixin.ts": {
+  "language": "typescript"
+ },
+ "chromium-369/chrome/browser/resources/settings/privacy_page/privacy_guide/privacy_guide_history_sync_fragment.html.ts": {
+  "language": "typescript"
+ },
+ "chromium-369/chrome/browser/resources/settings/privacy_page/privacy_guide/privacy_guide_page.html.ts": {
+  "language": "typescript"
+ },
+ "chromium-369/chrome/browser/resources/settings/privacy_page/security/fingerprint_progress_arc.ts": {
+  "language": "typescript"
+ },
+ "chromium-369/chrome/browser/resources/settings/privacy_page/security/security_keys_reset_dialog.ts": {
+  "language": "typescript"
+ },
+ "chromium-369/chrome/browser/resources/settings/privacy_page/security/security_page.ts": {
+  "language": "typescript"
+ },
+ "chromium-369/chrome/browser/resources/settings/reset_page/reset_profile_dialog.ts": {
+  "language": "typescript"
+ },
+ "chromium-369/chrome/browser/resources/settings/safety_hub/notification_permissions_module.html.ts": {
+  "language": "typescript"
+ },
+ "chromium-369/chrome/browser/resources/settings/search_page/search_engine_list_dialog.html.ts": {
+  "language": "typescript"
+ },
+ "chromium-369/chrome/browser/resources/settings/site_settings/all_sites.ts": {
+  "language": "typescript"
+ },
+ "chromium-369/chrome/browser/resources/settings/site_settings/all_sites_icons.html.ts": {
+  "language": "typescript"
+ },
+ "chromium-369/chrome/browser/resources/settings/site_settings/ar_page.ts": {
+  "language": "typescript"
+ },
+ "chromium-369/chrome/browser/resources/settings/site_settings/clipboard_page.ts": {
+  "language": "typescript"
+ },
+ "chromium-369/chrome/browser/resources/settings/site_settings/file_system_site_details.ts": {
+  "language": "typescript"
+ },
+ "chromium-369/chrome/browser/resources/settings/site_settings/geolocation_page.ts": {
+  "language": "typescript"
+ },
+ "chromium-369/chrome/browser/resources/settings/site_settings/idle_detection_page.ts": {
+  "language": "typescript"
+ },
+ "chromium-369/chrome/browser/resources/settings/site_settings/insecure_content_page.ts": {
+  "language": "typescript"
+ },
+ "chromium-369/chrome/browser/resources/settings/site_settings/local_fonts_page.ts": {
+  "language": "typescript"
+ },
+ "chromium-369/chrome/browser/resources/settings/site_settings/media_picker.ts": {
+  "language": "typescript"
+ },
+ "chromium-369/chrome/browser/resources/settings/site_settings/protected_content_page.ts": {
+  "language": "typescript"
+ },
+ "chromium-369/chrome/browser/resources/settings/site_settings/site_data.ts": {
+  "language": "typescript"
+ },
+ "chromium-369/chrome/browser/resources/settings/site_settings/storage_access_site_list.ts": {
+  "language": "typescript"
+ },
+ "chromium-369/chrome/browser/resources/settings/site_settings/v8_page.ts": {
+  "language": "typescript"
+ },
+ "chromium-369/chrome/browser/resources/settings/system_page/system_page.ts": {
+  "language": "typescript"
+ },
+ "chromium-369/chrome/browser/resources/settings/system_page/system_page_browser_proxy.ts": {
+  "language": "typescript"
+ },
+ "chromium-369/tools/metrics/PRESUBMIT.py": {
+  "language": "python"
+ },
+ "chromium-369/tools/metrics/PRESUBMIT_test.py": {
+  "language": "python"
+ },
+ "chromium-369/tools/metrics/actions/PRESUBMIT.py": {
+  "language": "python"
+ },
+ "chromium-369/tools/metrics/actions/action_utils.py": {
+  "language": "python"
+ },
+ "chromium-369/tools/metrics/actions/action_utils_test.py": {
+  "language": "python"
+ },
+ "chromium-369/tools/metrics/actions/actions_model_test.py": {
+  "language": "python"
+ },
+ "chromium-369/tools/metrics/actions/extract_actions.py": {
+  "language": "python"
+ },
+ "chromium-369/tools/metrics/actions/suffixes_to_variants.py": {
+  "language": "python"
+ },
+ "chromium-369/tools/metrics/common/enums.py": {
+  "language": "python"
+ },
+ "chromium-369/tools/metrics/common/model_shared.py": {
+  "language": "python"
+ },
+ "chromium-369/tools/metrics/common/setup_modules.py": {
+  "language": "python"
+ },
+ "chromium-369/tools/metrics/common/xml_utils.py": {
+  "language": "python"
+ },
+ "chromium-369/tools/metrics/histograms/PRESUBMIT.py": {
+  "language": "python"
+ },
+ "chromium-369/tools/metrics/histograms/expand_owners.py": {
+  "language": "python"
+ },
+ "chromium-369/tools/metrics/histograms/expand_owners_unittest.py": {
+  "language": "python"
+ },
+ "chromium-369/tools/metrics/histograms/extract_histograms.py": {
+  "language": "python"
+ },
+ "chromium-369/tools/metrics/histograms/generate_allowlist_from_histograms_file_unittest.py": {
+  "language": "python"
+ },
+ "chromium-369/tools/metrics/histograms/generate_flag_enums_test.py": {
+  "language": "python"
+ },
+ "chromium-369/tools/metrics/histograms/histogram_configuration_model_histograms_test.py": {
+  "language": "python"
+ },
+ "chromium-369/tools/metrics/histograms/histogram_metadata_json.py": {
+  "language": "python"
+ },
+ "chromium-369/tools/metrics/histograms/histogram_ownership.py": {
+  "language": "python"
+ },
+ "chromium-369/tools/metrics/histograms/histogram_paths.py": {
+  "language": "python"
+ },
+ "chromium-369/tools/metrics/histograms/pretty_print.py": {
+  "language": "python"
+ },
+ "chromium-369/tools/metrics/histograms/pretty_print_test.py": {
+  "language": "python"
+ },
+ "chromium-369/tools/metrics/histograms/print_histogram_names.py": {
+  "language": "python"
+ },
+ "chromium-369/tools/metrics/histograms/setup_modules.py": {
+  "language": "python"
+ },
+ "chromium-369/tools/metrics/histograms/split_enums.py": {
+  "language": "python"
+ },
+ "chromium-369/tools/metrics/histograms/split_xml_unittest.py": {
+  "language": "python"
+ },
+ "chromium-369/tools/metrics/histograms/update_autofill_enums.py": {
+  "language": "python"
+ },
+ "chromium-369/tools/metrics/histograms/update_document_policy_enum.py": {
+  "language": "python"
+ },
+ "chromium-369/tools/metrics/histograms/update_editor_commands.py": {
+  "language": "python"
+ },
+ "chromium-369/tools/metrics/histograms/update_extension_histograms.py": {
+  "language": "python"
+ },
+ "chromium-369/tools/metrics/histograms/update_gpu_driver_bug_workaround_entries.py": {
+  "language": "python"
+ },
+ "chromium-369/tools/metrics/histograms/update_permissions_policy_enum.py": {
+  "language": "python"
+ },
+ "chromium-369/tools/metrics/histograms/update_policies.py": {
+  "language": "python"
+ },
+ "chromium-369/tools/metrics/histograms/update_protocol_commands_enum.py": {
+  "language": "python"
+ },
+ "chromium-369/tools/metrics/histograms/validate_token.py": {
+  "language": "python"
+ },
+ "chromium-369/tools/metrics/private_metrics/dwa_builders_template.py": {
+  "language": "python"
+ },
+ "chromium-369/tools/metrics/private_metrics/dwa_model.py": {
+  "language": "python"
+ },
+ "chromium-369/tools/metrics/private_metrics/private_metrics_codegen.py": {
+  "language": "python"
+ },
+ "chromium-369/tools/metrics/private_metrics/validate_format.py": {
+  "language": "python"
+ },
+ "chromium-369/tools/metrics/python_support/quote_checker_test.py": {
+  "language": "python"
+ },
+ "chromium-369/tools/metrics/python_support/script_checker.py": {
+  "language": "python"
+ },
+ "chromium-369/tools/metrics/python_support/setup_modules_lib_test.py": {
+  "language": "python"
+ },
+ "chromium-369/tools/metrics/structured/code_generator_ts.py": {
+  "language": "python"
+ },
+ "chromium-369/tools/metrics/structured/model_unittest_wrapper.py": {
+  "language": "python"
+ },
+ "chromium-369/tools/metrics/structured/pretty_print.py": {
+  "language": "python"
+ },
+ "chromium-369/tools/metrics/structured/sync/model_util.py": {
+  "language": "python"
+ },
+ "chromium-369/tools/metrics/ukm/gen_builders.py": {
+  "language": "python"
+ },
+ "chromium-369/tools/metrics/ukm/gen_builders_test.py": {
+  "language": "python"
+ },
+ "chromium-369/url/android/gurl_android.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/android/gurl_android.h": {
+  "header_code_sha256": "1b1e6c8829c04ba3e1a0a3c9fcd2eb6d06b18113d5ca803bb83156c5ad948a58",
+  "language": "cpp"
+ },
+ "chromium-369/url/android/gurl_java_test_helper.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/android/gurl_test_init.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/android/gurl_test_init.h": {
+  "header_code_sha256": "fcca69fded2e409d4b3504cea5ce080c979eb16137443ef2cc8212a976bd2a38",
+  "language": "cpp"
+ },
+ "chromium-369/url/android/java/src/org/chromium/url/GURL.java": {
+  "language": "java"
+ },
+ "chromium-369/url/android/java/src/org/chromium/url/IDNStringUtil.java": {
+  "language": "java"
+ },
+ "chromium-369/url/android/java/src/org/chromium/url/Origin.java": {
+  "language": "java"
+ },
+ "chromium-369/url/android/java/src/org/chromium/url/Parsed.java": {
+  "language": "java"
+ },
+ "chromium-369/url/android/java/src/org/chromium/url/URI.java": {
+  "language": "java"
+ },
+ "chromium-369/url/android/javatests/src/org/chromium/url/GURLJavaTest.java": {
+  "language": "java"
+ },
+ "chromium-369/url/android/javatests/src/org/chromium/url/GURLJavaTestHelper.java": {
+  "language": "java"
+ },
+ "chromium-369/url/android/javatests/src/org/chromium/url/OriginJavaTest.java": {
+  "language": "java"
+ },
+ "chromium-369/url/android/javatests/src/org/chromium/url/OriginJavaTestHelper.java": {
+  "language": "java"
+ },
+ "chromium-369/url/android/origin_android.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/android/origin_java_test_helper.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/android/parsed_android.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/android/parsed_android.h": {
+  "header_code_sha256": "f42cd880ab83e82898510834600010932b3c6862cd0a3ee3681071d872c6f68d",
+  "language": "cpp"
+ },
+ "chromium-369/url/android/robolectric_jni_onload.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/android/test/java/src/org/chromium/url/JUnitTestGURLs.java": {
+  "language": "java"
+ },
+ "chromium-369/url/gurl.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/gurl.h": {
+  "header_code_sha256": "25104ea600189f846576473941759e4fc4b8dd2186ac9f9f65576e1a638266fb",
+  "language": "cpp"
+ },
+ "chromium-369/url/gurl.rs": {
+  "language": "rust"
+ },
+ "chromium-369/url/gurl_abstract_tests.h": {
+  "header_code_sha256": "f2e3b7d21db781c62b9eb2a1167a32e5424a6b5bc9cd049a9443223dca6cf314",
+  "language": "cpp"
+ },
+ "chromium-369/url/gurl_debug.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/gurl_debug.h": {
+  "header_code_sha256": "b215104ecc3322d33bc8c332a86d5a07eafa9ea704cf39480490d85f6a86ae2d",
+  "language": "cpp"
+ },
+ "chromium-369/url/gurl_fuzzer.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/gurl_shim.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/gurl_shim.h": {
+  "header_code_sha256": "a062f0525f70f67df5830ed59a76bdc13aa6685cbb464b1800e14eae80c45f45",
+  "language": "cpp"
+ },
+ "chromium-369/url/gurl_unittest.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/ipc/url_ipc_export.h": {
+  "header_code_sha256": "6b4cbbf47d917a822d59596c4e9ed70aa8d4bbef36fcca21801e2810a86f554e",
+  "language": "c"
+ },
+ "chromium-369/url/ipc/url_param_traits.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/ipc/url_param_traits.h": {
+  "header_code_sha256": "dab27869565be3ef5053b05c744a5591aa165891b182318981f9a83089d98070",
+  "language": "cpp"
+ },
+ "chromium-369/url/ipc/url_param_traits_unittest.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/mojom/origin_mojom_traits.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/mojom/origin_mojom_traits.h": {
+  "header_code_sha256": "2230f79701e1e00b548f60fd69a7e75c75400fa80f2fdb4d514ccf491536d95b",
+  "language": "cpp"
+ },
+ "chromium-369/url/mojom/scheme_host_port_mojom_traits.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/mojom/scheme_host_port_mojom_traits.h": {
+  "header_code_sha256": "6e438bb40237b296dd239e03218c8a3505ad6009649a25e1211a757e1995bedf",
+  "language": "cpp"
+ },
+ "chromium-369/url/mojom/scheme_host_port_mojom_traits_unittest.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/mojom/url_gurl_mojom_traits.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/mojom/url_gurl_mojom_traits.h": {
+  "header_code_sha256": "7d26d16ca489f45022abfcd7a78c2675059aadd2cfcd83ed989ba74901549ff9",
+  "language": "cpp"
+ },
+ "chromium-369/url/mojom/url_gurl_mojom_traits_unittest.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/origin.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/origin.h": {
+  "header_code_sha256": "0d3413071b857f45e7cf82644eff452ac2fe9dfc064d102efecc182040d408c4",
+  "language": "cpp"
+ },
+ "chromium-369/url/origin.rs": {
+  "language": "rust"
+ },
+ "chromium-369/url/origin_abstract_tests.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/origin_abstract_tests.h": {
+  "header_code_sha256": "c1599cc7ef215259391b375da6fb8430e3184e9e5529aaf763fd425138d0f2a9",
+  "language": "cpp"
+ },
+ "chromium-369/url/origin_debug.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/origin_debug.h": {
+  "header_code_sha256": "0036c6083db6fc0b919638501cc5d51cd6e2247e4a28f95c2f75dd2a42f7d463",
+  "language": "cpp"
+ },
+ "chromium-369/url/origin_shim.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/origin_shim.h": {
+  "header_code_sha256": "c13b5b71f31d274be3b5a7b39dab3fb0ff9a276dbe4288d8c549cc1e495d377b",
+  "language": "cpp"
+ },
+ "chromium-369/url/origin_unittest.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/run_all_unittests.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/scheme_host_port.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/scheme_host_port.h": {
+  "header_code_sha256": "06df7446dc7d91718e03e08599eb968902dc032b85043cd981ddac19d334746a",
+  "language": "cpp"
+ },
+ "chromium-369/url/scheme_host_port_perftest.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/scheme_host_port_unittest.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/third_party/mozilla/url_parse.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/third_party/mozilla/url_parse.h": {
+  "header_code_sha256": "e7b4861ea57510f6fcb531595b1d92b0756d09b43d6d2312aae773e5e5406371",
+  "language": "cpp"
+ },
+ "chromium-369/url/url.rs": {
+  "language": "rust"
+ },
+ "chromium-369/url/url_canon.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/url_canon.h": {
+  "header_code_sha256": "c6a2bc819a0f4316941255b8d85d2f7150d0d99ed695ea389b67a8afc2c659df",
+  "language": "cpp"
+ },
+ "chromium-369/url/url_canon_etc.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/url_canon_filesystemurl.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/url_canon_fileurl.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/url_canon_host.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/url_canon_icu.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/url_canon_icu.h": {
+  "header_code_sha256": "c646193cd4017fa71a104dee67756ffe8c38faa40f63e4ee9f1e8b2bebb92291",
+  "language": "cpp"
+ },
+ "chromium-369/url/url_canon_icu_fuzzer.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/url_canon_icu_test_helpers.h": {
+  "header_code_sha256": "d4043fb0ea0ba1604cbcaffbc0b82d68a68cc24bcd9fd77ad44abc4556211adf",
+  "language": "cpp"
+ },
+ "chromium-369/url/url_canon_icu_unittest.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/url_canon_internal.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/url_canon_internal.h": {
+  "header_code_sha256": "06f180aec57ab392bd305d37ae957db37d110be09a473704c7130fef535b3cea",
+  "language": "cpp"
+ },
+ "chromium-369/url/url_canon_ip.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/url_canon_ip.h": {
+  "header_code_sha256": "eb5a65252e5dca6ddabae2425804bf321c6f729ae73fed2c6bc241c733e3260c",
+  "language": "cpp"
+ },
+ "chromium-369/url/url_canon_mailtourl.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/url_canon_non_special_url.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/url_canon_path.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/url_canon_pathurl.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/url_canon_query.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/url_canon_relative.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/url_canon_stdstring.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/url_canon_stdstring.h": {
+  "header_code_sha256": "a6b0b6fe735591d9a98b42b4e8d491483f2f4145207d236cdf1febd944460677",
+  "language": "cpp"
+ },
+ "chromium-369/url/url_canon_stdurl.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/url_canon_unittest.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/url_constants.h": {
+  "header_code_sha256": "eebec59c6009a2c19dc5e43fba00c999d012c12c901dd1d4cc082ebfd0941062",
+  "language": "cpp"
+ },
+ "chromium-369/url/url_constants_ios.h": {
+  "header_code_sha256": "9f129bb086b69f45c4b7b5943f021e3caef15f6a09f9331e1e18460715275dd2",
+  "language": "cpp"
+ },
+ "chromium-369/url/url_features.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/url_features.h": {
+  "header_code_sha256": "ab510032889ec682c211904bde7fc711cd867b781f8f2b0aeaa7564572214da9",
+  "language": "cpp"
+ },
+ "chromium-369/url/url_file.h": {
+  "header_code_sha256": "880104bdf24ccdf832487cbc740b5e7332459063f80a28389a9fc0fef6461752",
+  "language": "cpp"
+ },
+ "chromium-369/url/url_idna_icu.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/url_idna_icu_alternatives_android.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/url_parse_file.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/url_parse_internal.h": {
+  "header_code_sha256": "c0b8d89658fdebfb1702db02d467e2f5a1d77fee472a964a30f6ed2fb156dba3",
+  "language": "cpp"
+ },
+ "chromium-369/url/url_parse_perftest.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/url_parse_unittest.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/url_test_utils.h": {
+  "header_code_sha256": "43d2d543461e2eade801ec9efe45468b1a2a2e1690a676a18cd8c03ef95a3ed0",
+  "language": "cpp"
+ },
+ "chromium-369/url/url_util.cc": {
+  "language": "cpp"
+ },
+ "chromium-369/url/url_util.h": {
+  "header_code_sha256": "a82aaa408e6ef0513354cbb99286c086a189e0ed600537707e425ae5db162c34",
+  "language": "cpp"
+ },
+ "chromium-369/url/url_util_internal.h": {
+  "header_code_sha256": "b2f52222ae14645b1bf8d89a55e8d461ad1d03019ed4ec488b86e2b096a81875",
+  "language": "cpp"
+ },
+ "chromium-369/url/url_util_unittest.cc": {
+  "language": "cpp"
+ },
+ "graph/chi/chain.go": {
+  "language": "go"
+ },
+ "graph/chi/chi.go": {
+  "language": "go"
+ },
+ "graph/chi/context.go": {
+  "language": "go"
+ },
+ "graph/chi/mux.go": {
+  "language": "go"
+ },
+ "graph/chi/tree.go": {
+  "language": "go"
+ },
+ "graph/express/lib/application.js": {
+  "language": "javascript"
+ },
+ "graph/express/lib/express.js": {
+  "language": "javascript"
+ },
+ "graph/express/lib/request.js": {
+  "language": "javascript"
+ },
+ "graph/express/lib/response.js": {
+  "language": "javascript"
+ },
+ "graph/express/lib/utils.js": {
+  "language": "javascript"
+ },
+ "graph/express/lib/view.js": {
+  "language": "javascript"
+ },
+ "graph/itsdangerous/src/itsdangerous/__init__.py": {
+  "language": "python"
+ },
+ "graph/itsdangerous/src/itsdangerous/_json.py": {
+  "language": "python"
+ },
+ "graph/itsdangerous/src/itsdangerous/encoding.py": {
+  "language": "python"
+ },
+ "graph/itsdangerous/src/itsdangerous/exc.py": {
+  "language": "python"
+ },
+ "graph/itsdangerous/src/itsdangerous/serializer.py": {
+  "language": "python"
+ },
+ "graph/itsdangerous/src/itsdangerous/signer.py": {
+  "language": "python"
+ },
+ "graph/itsdangerous/src/itsdangerous/timed.py": {
+  "language": "python"
+ },
+ "graph/itsdangerous/src/itsdangerous/url_safe.py": {
+  "language": "python"
+ },
+ "graph/javapoet/src/main/java/com/squareup/javapoet/AnnotationSpec.java": {
+  "language": "java"
+ },
+ "graph/javapoet/src/main/java/com/squareup/javapoet/ArrayTypeName.java": {
+  "language": "java"
+ },
+ "graph/javapoet/src/main/java/com/squareup/javapoet/ClassName.java": {
+  "language": "java"
+ },
+ "graph/javapoet/src/main/java/com/squareup/javapoet/CodeBlock.java": {
+  "language": "java"
+ },
+ "graph/javapoet/src/main/java/com/squareup/javapoet/CodeWriter.java": {
+  "language": "java"
+ },
+ "graph/javapoet/src/main/java/com/squareup/javapoet/FieldSpec.java": {
+  "language": "java"
+ },
+ "graph/javapoet/src/main/java/com/squareup/javapoet/JavaFile.java": {
+  "language": "java"
+ },
+ "graph/javapoet/src/main/java/com/squareup/javapoet/LineWrapper.java": {
+  "language": "java"
+ },
+ "graph/javapoet/src/main/java/com/squareup/javapoet/MethodSpec.java": {
+  "language": "java"
+ },
+ "graph/javapoet/src/main/java/com/squareup/javapoet/NameAllocator.java": {
+  "language": "java"
+ },
+ "graph/javapoet/src/main/java/com/squareup/javapoet/ParameterSpec.java": {
+  "language": "java"
+ },
+ "graph/javapoet/src/main/java/com/squareup/javapoet/ParameterizedTypeName.java": {
+  "language": "java"
+ },
+ "graph/javapoet/src/main/java/com/squareup/javapoet/TypeName.java": {
+  "language": "java"
+ },
+ "graph/javapoet/src/main/java/com/squareup/javapoet/TypeSpec.java": {
+  "language": "java"
+ },
+ "graph/javapoet/src/main/java/com/squareup/javapoet/TypeVariableName.java": {
+  "language": "java"
+ },
+ "graph/javapoet/src/main/java/com/squareup/javapoet/Util.java": {
+  "language": "java"
+ },
+ "graph/javapoet/src/main/java/com/squareup/javapoet/WildcardTypeName.java": {
+  "language": "java"
+ },
+ "graph/kotlinpoet/kotlinpoet/src/commonMain/kotlin/com/squareup/kotlinpoet/CodePoint.kt": {
+  "language": "kotlin"
+ },
+ "graph/kotlinpoet/kotlinpoet/src/commonMain/kotlin/com/squareup/kotlinpoet/DelicateKotlinPoetApi.kt": {
+  "language": "kotlin"
+ },
+ "graph/kotlinpoet/kotlinpoet/src/commonMain/kotlin/com/squareup/kotlinpoet/ExperimentalKotlinPoetApi.kt": {
+  "language": "kotlin"
+ },
+ "graph/kotlinpoet/kotlinpoet/src/commonMain/kotlin/com/squareup/kotlinpoet/Import.kt": {
+  "language": "kotlin"
+ },
+ "graph/kotlinpoet/kotlinpoet/src/commonMain/kotlin/com/squareup/kotlinpoet/KModifier.kt": {
+  "language": "kotlin"
+ },
+ "graph/kotlinpoet/kotlinpoet/src/commonMain/kotlin/com/squareup/kotlinpoet/KOperator.kt": {
+  "language": "kotlin"
+ },
+ "graph/kotlinpoet/kotlinpoet/src/commonMain/kotlin/com/squareup/kotlinpoet/LineWrapper.kt": {
+  "language": "kotlin"
+ },
+ "graph/kotlinpoet/kotlinpoet/src/commonMain/kotlin/com/squareup/kotlinpoet/NameAllocator.kt": {
+  "language": "kotlin"
+ },
+ "graph/kotlinpoet/kotlinpoet/src/commonMain/kotlin/com/squareup/kotlinpoet/Util.kt": {
+  "language": "kotlin"
+ },
+ "graph/kotlinpoet/kotlinpoet/src/jvmMain/kotlin/com/squareup/kotlinpoet/Annotatable.kt": {
+  "language": "kotlin"
+ },
+ "graph/kotlinpoet/kotlinpoet/src/jvmMain/kotlin/com/squareup/kotlinpoet/AnnotationSpec.kt": {
+  "language": "kotlin"
+ },
+ "graph/kotlinpoet/kotlinpoet/src/jvmMain/kotlin/com/squareup/kotlinpoet/ClassName.kt": {
+  "language": "kotlin"
+ },
+ "graph/kotlinpoet/kotlinpoet/src/jvmMain/kotlin/com/squareup/kotlinpoet/CodeBlock.kt": {
+  "language": "kotlin"
+ },
+ "graph/kotlinpoet/kotlinpoet/src/jvmMain/kotlin/com/squareup/kotlinpoet/CodeBlockHolder.kt": {
+  "language": "kotlin"
+ },
+ "graph/kotlinpoet/kotlinpoet/src/jvmMain/kotlin/com/squareup/kotlinpoet/CodePoint.jvm.kt": {
+  "language": "kotlin"
+ },
+ "graph/kotlinpoet/kotlinpoet/src/jvmMain/kotlin/com/squareup/kotlinpoet/CodeWriter.kt": {
+  "language": "kotlin"
+ },
+ "graph/kotlinpoet/kotlinpoet/src/jvmMain/kotlin/com/squareup/kotlinpoet/ContextParameter.kt": {
+  "language": "kotlin"
+ },
+ "graph/kotlinpoet/kotlinpoet/src/jvmMain/kotlin/com/squareup/kotlinpoet/ContextReceivable.kt": {
+  "language": "kotlin"
+ },
+ "graph/kotlinpoet/kotlinpoet/src/jvmMain/kotlin/com/squareup/kotlinpoet/Documentable.kt": {
+  "language": "kotlin"
+ },
+ "graph/kotlinpoet/kotlinpoet/src/jvmMain/kotlin/com/squareup/kotlinpoet/Dynamic.kt": {
+  "language": "kotlin"
+ },
+ "graph/kotlinpoet/kotlinpoet/src/jvmMain/kotlin/com/squareup/kotlinpoet/FileSpec.kt": {
+  "language": "kotlin"
+ },
+ "graph/kotlinpoet/kotlinpoet/src/jvmMain/kotlin/com/squareup/kotlinpoet/FunSpec.kt": {
+  "language": "kotlin"
+ },
+ "graph/kotlinpoet/kotlinpoet/src/jvmMain/kotlin/com/squareup/kotlinpoet/LambdaTypeName.kt": {
+  "language": "kotlin"
+ },
+ "graph/kotlinpoet/kotlinpoet/src/jvmMain/kotlin/com/squareup/kotlinpoet/MemberName.kt": {
+  "language": "kotlin"
+ },
+ "graph/kotlinpoet/kotlinpoet/src/jvmMain/kotlin/com/squareup/kotlinpoet/MemberSpecHolder.kt": {
+  "language": "kotlin"
+ },
+ "graph/kotlinpoet/kotlinpoet/src/jvmMain/kotlin/com/squareup/kotlinpoet/OriginatingElementsHolder.kt": {
+  "language": "kotlin"
+ },
+ "graph/kotlinpoet/kotlinpoet/src/jvmMain/kotlin/com/squareup/kotlinpoet/ParameterSpec.kt": {
+  "language": "kotlin"
+ },
+ "graph/kotlinpoet/kotlinpoet/src/jvmMain/kotlin/com/squareup/kotlinpoet/ParameterizedTypeName.kt": {
+  "language": "kotlin"
+ },
+ "graph/kotlinpoet/kotlinpoet/src/jvmMain/kotlin/com/squareup/kotlinpoet/PropertySpec.kt": {
+  "language": "kotlin"
+ },
+ "graph/kotlinpoet/kotlinpoet/src/jvmMain/kotlin/com/squareup/kotlinpoet/Taggable.kt": {
+  "language": "kotlin"
+ },
+ "graph/kotlinpoet/kotlinpoet/src/jvmMain/kotlin/com/squareup/kotlinpoet/TypeAliasSpec.kt": {
+  "language": "kotlin"
+ },
+ "graph/kotlinpoet/kotlinpoet/src/jvmMain/kotlin/com/squareup/kotlinpoet/TypeName.kt": {
+  "language": "kotlin"
+ },
+ "graph/kotlinpoet/kotlinpoet/src/jvmMain/kotlin/com/squareup/kotlinpoet/TypeSpec.kt": {
+  "language": "kotlin"
+ },
+ "graph/kotlinpoet/kotlinpoet/src/jvmMain/kotlin/com/squareup/kotlinpoet/TypeSpecHolder.kt": {
+  "language": "kotlin"
+ },
+ "graph/kotlinpoet/kotlinpoet/src/jvmMain/kotlin/com/squareup/kotlinpoet/TypeVariableName.kt": {
+  "language": "kotlin"
+ },
+ "graph/kotlinpoet/kotlinpoet/src/jvmMain/kotlin/com/squareup/kotlinpoet/Util.jvm.kt": {
+  "language": "kotlin"
+ },
+ "graph/kotlinpoet/kotlinpoet/src/jvmMain/kotlin/com/squareup/kotlinpoet/WildcardTypeName.kt": {
+  "language": "kotlin"
+ },
+ "graph/kotlinpoet/kotlinpoet/src/jvmMain/kotlin/com/squareup/kotlinpoet/jvm/JvmAnnotations.kt": {
+  "language": "kotlin"
+ },
+ "graph/kotlinpoet/kotlinpoet/src/jvmMain/kotlin/com/squareup/kotlinpoet/tags/TypeAliasTag.kt": {
+  "language": "kotlin"
+ },
+ "graph/ky/source/core/Ky.ts": {
+  "language": "typescript"
+ },
+ "graph/ky/source/core/constants.ts": {
+  "language": "typescript"
+ },
+ "graph/ky/source/core/retry-timing.ts": {
+  "language": "typescript"
+ },
+ "graph/ky/source/errors/ForceRetryError.ts": {
+  "language": "typescript"
+ },
+ "graph/ky/source/errors/HTTPError.ts": {
+  "language": "typescript"
+ },
+ "graph/ky/source/errors/KyError.ts": {
+  "language": "typescript"
+ },
+ "graph/ky/source/errors/NetworkError.ts": {
+  "language": "typescript"
+ },
+ "graph/ky/source/errors/NonError.ts": {
+  "language": "typescript"
+ },
+ "graph/ky/source/errors/ResponseSizeError.ts": {
+  "language": "typescript"
+ },
+ "graph/ky/source/errors/SchemaValidationError.ts": {
+  "language": "typescript"
+ },
+ "graph/ky/source/errors/TimeoutError.ts": {
+  "language": "typescript"
+ },
+ "graph/ky/source/index.ts": {
+  "language": "typescript"
+ },
+ "graph/ky/source/types/ResponsePromise.ts": {
+  "language": "typescript"
+ },
+ "graph/ky/source/types/common.ts": {
+  "language": "typescript"
+ },
+ "graph/ky/source/types/hooks.ts": {
+  "language": "typescript"
+ },
+ "graph/ky/source/types/ky.ts": {
+  "language": "typescript"
+ },
+ "graph/ky/source/types/options.ts": {
+  "language": "typescript"
+ },
+ "graph/ky/source/types/request.ts": {
+  "language": "typescript"
+ },
+ "graph/ky/source/types/response.ts": {
+  "language": "typescript"
+ },
+ "graph/ky/source/types/retry.ts": {
+  "language": "typescript"
+ },
+ "graph/ky/source/types/standard-schema.ts": {
+  "language": "typescript"
+ },
+ "graph/ky/source/utils/body.ts": {
+  "language": "typescript"
+ },
+ "graph/ky/source/utils/delay.ts": {
+  "language": "typescript"
+ },
+ "graph/ky/source/utils/is-network-error.ts": {
+  "language": "typescript"
+ },
+ "graph/ky/source/utils/is.ts": {
+  "language": "typescript"
+ },
+ "graph/ky/source/utils/merge.ts": {
+  "language": "typescript"
+ },
+ "graph/ky/source/utils/normalize.ts": {
+  "language": "typescript"
+ },
+ "graph/ky/source/utils/options.ts": {
+  "language": "typescript"
+ },
+ "graph/ky/source/utils/timeout.ts": {
+  "language": "typescript"
+ },
+ "graph/ky/source/utils/type-guards.ts": {
+  "language": "typescript"
+ },
+ "graph/ky/source/utils/types.ts": {
+  "language": "typescript"
+ },
+ "graph/leveldb/db/builder.cc": {
+  "language": "cpp"
+ },
+ "graph/leveldb/db/builder.h": {
+  "header_code_sha256": "1c6599c09a386caed0c1f625fde6e0d7f80d8cf35b774f360c70456228ec5a77",
+  "language": "cpp"
+ },
+ "graph/leveldb/db/c.cc": {
+  "language": "cpp"
+ },
+ "graph/leveldb/db/db_impl.cc": {
+  "language": "cpp"
+ },
+ "graph/leveldb/db/db_impl.h": {
+  "header_code_sha256": "14e07805c35e71e70459de42fcdf118f81a4a553d99d1fe5c1b079bac6c2902c",
+  "language": "cpp"
+ },
+ "graph/leveldb/db/db_iter.cc": {
+  "language": "cpp"
+ },
+ "graph/leveldb/db/db_iter.h": {
+  "header_code_sha256": "e5d12f6aacb59fcd3d004d442b66291b72d1da5a1ca8b1bbf34eeaf55f3561f4",
+  "language": "cpp"
+ },
+ "graph/leveldb/db/dbformat.cc": {
+  "language": "cpp"
+ },
+ "graph/leveldb/db/dbformat.h": {
+  "header_code_sha256": "8ba2e3c857f3debff66112672c73d4fa6d9337a404e6f580757d3df707b16b72",
+  "language": "cpp"
+ },
+ "graph/leveldb/db/dumpfile.cc": {
+  "language": "cpp"
+ },
+ "graph/leveldb/db/filename.cc": {
+  "language": "cpp"
+ },
+ "graph/leveldb/db/filename.h": {
+  "header_code_sha256": "7a4609f673fc173e47d0303f83d772c3971a4f83d55553e19a0041be944e5cfb",
+  "language": "cpp"
+ },
+ "graph/leveldb/db/leveldbutil.cc": {
+  "language": "cpp"
+ },
+ "graph/leveldb/db/log_format.h": {
+  "header_code_sha256": "7b3ec7361b799ff46627f1efe4ceaa3c6de447c787f28e7acd50e8cd0431b689",
+  "language": "cpp"
+ },
+ "graph/leveldb/db/log_reader.cc": {
+  "language": "cpp"
+ },
+ "graph/leveldb/db/log_reader.h": {
+  "header_code_sha256": "ea838c7d5ccf1c52e80dfbd21bb0e23afb33647fbebb0a1eca912af51d4e359c",
+  "language": "cpp"
+ },
+ "graph/leveldb/db/log_writer.cc": {
+  "language": "cpp"
+ },
+ "graph/leveldb/db/log_writer.h": {
+  "header_code_sha256": "3caa88e9cc94059b62b9b17d523f0a34c805d3918329b30ed6c414d949a49f6e",
+  "language": "cpp"
+ },
+ "graph/leveldb/db/memtable.cc": {
+  "language": "cpp"
+ },
+ "graph/leveldb/db/memtable.h": {
+  "header_code_sha256": "d8bb023e69cf1fbff6935f22b9c017985d7b854270890192d44e9beb6a02c838",
+  "language": "cpp"
+ },
+ "graph/leveldb/db/repair.cc": {
+  "language": "cpp"
+ },
+ "graph/leveldb/db/skiplist.h": {
+  "header_code_sha256": "2475887673f4caf94ee17af1f916a0a0b8e401866bdeac34221ad95f2a5ba790",
+  "language": "cpp"
+ },
+ "graph/leveldb/db/snapshot.h": {
+  "header_code_sha256": "805bdf612b69d1002f4223b0f742a49b05dfbb68515fd95a5dfddb1f39959374",
+  "language": "cpp"
+ },
+ "graph/leveldb/db/table_cache.cc": {
+  "language": "cpp"
+ },
+ "graph/leveldb/db/table_cache.h": {
+  "header_code_sha256": "d2f56f88579af9c9e9754d7b6a3363cc93d875bf2b6c51cfc493358fae4cfa80",
+  "language": "cpp"
+ },
+ "graph/leveldb/db/version_edit.cc": {
+  "language": "cpp"
+ },
+ "graph/leveldb/db/version_edit.h": {
+  "header_code_sha256": "558a0002ecd5c6b52b26504db96861261dad5432f3285e3c82825e7851538886",
+  "language": "cpp"
+ },
+ "graph/leveldb/db/version_set.cc": {
+  "language": "cpp"
+ },
+ "graph/leveldb/db/version_set.h": {
+  "header_code_sha256": "8c136f5f017d567a9865a68eeac35ded58699dcb6bc90af2d3d0c41b65cbe19b",
+  "language": "cpp"
+ },
+ "graph/leveldb/db/write_batch.cc": {
+  "language": "cpp"
+ },
+ "graph/leveldb/db/write_batch_internal.h": {
+  "header_code_sha256": "4506ab90e45f599ce8136f62d6464b49f4c6d52c93b5ff07422169bb1e8b04e6",
+  "language": "cpp"
+ },
+ "graph/leveldb/include/leveldb/c.h": {
+  "header_code_sha256": "4ee9dd40cdfe519f45110e2dfb40f71528f76b7045453e369aa6302a23837b41",
+  "language": "c"
+ },
+ "graph/leveldb/include/leveldb/cache.h": {
+  "header_code_sha256": "5da860424a28863b4fc23cbe9b91c4d1a8e619e6cdd127a0228fc92b9060496c",
+  "language": "cpp"
+ },
+ "graph/leveldb/include/leveldb/comparator.h": {
+  "header_code_sha256": "42db89e0f6c0e4eb30816c11a0ee4463e20886c96f061f5e02de23ca5625e71f",
+  "language": "cpp"
+ },
+ "graph/leveldb/include/leveldb/db.h": {
+  "header_code_sha256": "617636840fda884eb366474d8991a917e7c1453e203dfb9b5296c5ecb873fbe0",
+  "language": "cpp"
+ },
+ "graph/leveldb/include/leveldb/dumpfile.h": {
+  "header_code_sha256": "c22803b0c524caa52acf36a9b2632144c3faeee9cb1c82ce9c5b81a222d9deb5",
+  "language": "cpp"
+ },
+ "graph/leveldb/include/leveldb/env.h": {
+  "header_code_sha256": "039a268f8692484e0218ef630129b9e71508314aa27ae45f2efc5d836f121f74",
+  "language": "cpp"
+ },
+ "graph/leveldb/include/leveldb/export.h": {
+  "header_code_sha256": "ddb7458d7c2e52edf67d3dfa2b0a90c8472776dff78fc319d94628ad14a81277",
+  "language": "c"
+ },
+ "graph/leveldb/include/leveldb/filter_policy.h": {
+  "header_code_sha256": "ac675b6b40e778f6001528f88773aa8b071ebfce3ed7b022df3519416f21f41a",
+  "language": "cpp"
+ },
+ "graph/leveldb/include/leveldb/iterator.h": {
+  "header_code_sha256": "5f8d2d3809fc61b483e9f6d554d4a0230ccdda0fc101ee9645d1af8ca2890a1c",
+  "language": "cpp"
+ },
+ "graph/leveldb/include/leveldb/options.h": {
+  "header_code_sha256": "154a718fb59937fdb9bd153ab7a3830456318e59d4751ad0388d9a5bb666aa71",
+  "language": "cpp"
+ },
+ "graph/leveldb/include/leveldb/slice.h": {
+  "header_code_sha256": "83130c2a3c1f68d397a813ba832b66c3df855247470ccb6d61912c63aa245e3b",
+  "language": "cpp"
+ },
+ "graph/leveldb/include/leveldb/status.h": {
+  "header_code_sha256": "1f7e775f89c23da145b070748bf214fcb5a8e24ea9c54f5d045864cbe6185f8f",
+  "language": "cpp"
+ },
+ "graph/leveldb/include/leveldb/table.h": {
+  "header_code_sha256": "6acc4b3b8987c095e222507e4f90fd24f07629f434548f315a943440949ab436",
+  "language": "cpp"
+ },
+ "graph/leveldb/include/leveldb/table_builder.h": {
+  "header_code_sha256": "759c6adcb7a63e388a80c1577e96e51a797ca0a5bce82a1c3928a03314584503",
+  "language": "cpp"
+ },
+ "graph/leveldb/include/leveldb/write_batch.h": {
+  "header_code_sha256": "d58928f466e8f91ef8c54b9b10fe0ead2e800b0240fdbb3ca75824133d710b4f",
+  "language": "cpp"
+ },
+ "graph/leveldb/table/block.cc": {
+  "language": "cpp"
+ },
+ "graph/leveldb/table/block.h": {
+  "header_code_sha256": "8af1f2872dbd1792291fdefb92849b82df436198414699e9d98c03694793322a",
+  "language": "cpp"
+ },
+ "graph/leveldb/table/block_builder.cc": {
+  "language": "cpp"
+ },
+ "graph/leveldb/table/block_builder.h": {
+  "header_code_sha256": "e643eec4457b363a5e1228fd35b17f995db538dc3946424fe4786e321a7ec78a",
+  "language": "cpp"
+ },
+ "graph/leveldb/table/filter_block.cc": {
+  "language": "cpp"
+ },
+ "graph/leveldb/table/filter_block.h": {
+  "header_code_sha256": "0618eb455386f2ed0b66ed9560c813a000e2bef6b52284f0940be64331c29f83",
+  "language": "cpp"
+ },
+ "graph/leveldb/table/format.cc": {
+  "language": "cpp"
+ },
+ "graph/leveldb/table/format.h": {
+  "header_code_sha256": "0533eb4803152c1fb0b7f8920f955955a2393693971cb38abfa16ffd80e4d44b",
+  "language": "cpp"
+ },
+ "graph/leveldb/table/iterator.cc": {
+  "language": "cpp"
+ },
+ "graph/leveldb/table/iterator_wrapper.h": {
+  "header_code_sha256": "9299fbcbb73b36e8942d185d84a26aa700b68528990e886c2a724be80edc62c4",
+  "language": "cpp"
+ },
+ "graph/leveldb/table/merger.cc": {
+  "language": "cpp"
+ },
+ "graph/leveldb/table/merger.h": {
+  "header_code_sha256": "f5406064f95736af9b284bc40a66becea0c3aaa70e08481fa3e331b46250cbb6",
+  "language": "cpp"
+ },
+ "graph/leveldb/table/table.cc": {
+  "language": "cpp"
+ },
+ "graph/leveldb/table/table_builder.cc": {
+  "language": "cpp"
+ },
+ "graph/leveldb/table/two_level_iterator.cc": {
+  "language": "cpp"
+ },
+ "graph/leveldb/table/two_level_iterator.h": {
+  "header_code_sha256": "afaab07635ed8987f0fad170161de5865fb5f8840733a359bd8a7133e4477cf6",
+  "language": "cpp"
+ },
+ "graph/leveldb/util/arena.cc": {
+  "language": "cpp"
+ },
+ "graph/leveldb/util/arena.h": {
+  "header_code_sha256": "9a7d6468238dd2c535ade2e5dbe05142a63ee4ae9678ddced9d4457958626564",
+  "language": "cpp"
+ },
+ "graph/leveldb/util/bloom.cc": {
+  "language": "cpp"
+ },
+ "graph/leveldb/util/cache.cc": {
+  "language": "cpp"
+ },
+ "graph/leveldb/util/coding.cc": {
+  "language": "cpp"
+ },
+ "graph/leveldb/util/coding.h": {
+  "header_code_sha256": "70050eb30b713d51a77f10da25a3e3800c40d88a96e71cb2d37812d6ee91845c",
+  "language": "cpp"
+ },
+ "graph/leveldb/util/comparator.cc": {
+  "language": "cpp"
+ },
+ "graph/leveldb/util/crc32c.cc": {
+  "language": "cpp"
+ },
+ "graph/leveldb/util/crc32c.h": {
+  "header_code_sha256": "d1e0000321165c79088b54a93a2a9a1d0a3fe51f327fed42509d8c2e9deb14fd",
+  "language": "cpp"
+ },
+ "graph/leveldb/util/env.cc": {
+  "language": "cpp"
+ },
+ "graph/leveldb/util/env_posix.cc": {
+  "language": "cpp"
+ },
+ "graph/leveldb/util/env_windows.cc": {
+  "language": "cpp"
+ },
+ "graph/leveldb/util/filter_policy.cc": {
+  "language": "cpp"
+ },
+ "graph/leveldb/util/hash.cc": {
+  "language": "cpp"
+ },
+ "graph/leveldb/util/hash.h": {
+  "header_code_sha256": "035186ba84a8d7e43af6cc57860ca434beeaa323656d0d1ce4e0df1db5ceef79",
+  "language": "cpp"
+ },
+ "graph/leveldb/util/histogram.cc": {
+  "language": "cpp"
+ },
+ "graph/leveldb/util/histogram.h": {
+  "header_code_sha256": "8732db9d4a14988bf2e1cc4de09ae92f5968acd6604ff35aa55e15f8d15fa1a4",
+  "language": "cpp"
+ },
+ "graph/leveldb/util/logging.cc": {
+  "language": "cpp"
+ },
+ "graph/leveldb/util/logging.h": {
+  "header_code_sha256": "ed5af2e5206f13173ae8e62f15cfe5be227539eac49124d0a3f8b88b191af00b",
+  "language": "cpp"
+ },
+ "graph/leveldb/util/mutexlock.h": {
+  "header_code_sha256": "f3d78208b55ad7ae29352847c1feb9bfa15f0f1fbd7aa426aca743cc8a78ddee",
+  "language": "cpp"
+ },
+ "graph/leveldb/util/no_destructor.h": {
+  "header_code_sha256": "76cd2fd4ca31357ad462d3e96d486d97ee5564f29c1c2f5e43eb372242ca12e3",
+  "language": "cpp"
+ },
+ "graph/leveldb/util/options.cc": {
+  "language": "cpp"
+ },
+ "graph/leveldb/util/posix_logger.h": {
+  "header_code_sha256": "1b061e8eba998a043a5caa108eae7c7593364023939627844f89b5ab8b9a7b47",
+  "language": "cpp"
+ },
+ "graph/leveldb/util/random.h": {
+  "header_code_sha256": "ae758bd5473eadcbe75a93d6228de751fc3b8952b065a8b18a0d9735dfc599d9",
+  "language": "cpp"
+ },
+ "graph/leveldb/util/status.cc": {
+  "language": "cpp"
+ },
+ "graph/leveldb/util/windows_logger.h": {
+  "header_code_sha256": "eebe8da2580c236e46d5ba645d15c3674a8e7675d3d6baed50d69f1370418f04",
+  "language": "cpp"
+ },
+ "graph/mediatr/src/MediatR/Entities/OpenBehavior.cs": {
+  "language": "csharp"
+ },
+ "graph/mediatr/src/MediatR/IMediator.cs": {
+  "language": "csharp"
+ },
+ "graph/mediatr/src/MediatR/INotificationHandler.cs": {
+  "language": "csharp"
+ },
+ "graph/mediatr/src/MediatR/INotificationPublisher.cs": {
+  "language": "csharp"
+ },
+ "graph/mediatr/src/MediatR/IPipelineBehavior.cs": {
+  "language": "csharp"
+ },
+ "graph/mediatr/src/MediatR/IPublisher.cs": {
+  "language": "csharp"
+ },
+ "graph/mediatr/src/MediatR/IRequestHandler.cs": {
+  "language": "csharp"
+ },
+ "graph/mediatr/src/MediatR/ISender.cs": {
+  "language": "csharp"
+ },
+ "graph/mediatr/src/MediatR/IStreamPipelineBehavior.cs": {
+  "language": "csharp"
+ },
+ "graph/mediatr/src/MediatR/IStreamRequestHandler.cs": {
+  "language": "csharp"
+ },
+ "graph/mediatr/src/MediatR/Internal/HandlersOrderer.cs": {
+  "language": "csharp"
+ },
+ "graph/mediatr/src/MediatR/Internal/ObjectDetails.cs": {
+  "language": "csharp"
+ },
+ "graph/mediatr/src/MediatR/Licensing/BuildInfo.cs": {
+  "language": "csharp"
+ },
+ "graph/mediatr/src/MediatR/Licensing/Edition.cs": {
+  "language": "csharp"
+ },
+ "graph/mediatr/src/MediatR/Licensing/License.cs": {
+  "language": "csharp"
+ },
+ "graph/mediatr/src/MediatR/Licensing/LicenseAccessor.cs": {
+  "language": "csharp"
+ },
+ "graph/mediatr/src/MediatR/Licensing/LicenseValidator.cs": {
+  "language": "csharp"
+ },
+ "graph/mediatr/src/MediatR/Licensing/ProductType.cs": {
+  "language": "csharp"
+ },
+ "graph/mediatr/src/MediatR/Mediator.cs": {
+  "language": "csharp"
+ },
+ "graph/mediatr/src/MediatR/MicrosoftExtensionsDI/MediatRServiceCollectionExtensions.cs": {
+  "language": "csharp"
+ },
+ "graph/mediatr/src/MediatR/MicrosoftExtensionsDI/MediatrServiceConfiguration.cs": {
+  "language": "csharp"
+ },
+ "graph/mediatr/src/MediatR/MicrosoftExtensionsDI/RequestExceptionActionProcessorStrategy.cs": {
+  "language": "csharp"
+ },
+ "graph/mediatr/src/MediatR/NotificationHandlerExecutor.cs": {
+  "language": "csharp"
+ },
+ "graph/mediatr/src/MediatR/NotificationPublishers/ForeachAwaitPublisher.cs": {
+  "language": "csharp"
+ },
+ "graph/mediatr/src/MediatR/NotificationPublishers/TaskWhenAllPublisher.cs": {
+  "language": "csharp"
+ },
+ "graph/mediatr/src/MediatR/Pipeline/IRequestExceptionAction.cs": {
+  "language": "csharp"
+ },
+ "graph/mediatr/src/MediatR/Pipeline/IRequestExceptionHandler.cs": {
+  "language": "csharp"
+ },
+ "graph/mediatr/src/MediatR/Pipeline/IRequestPostProcessor.cs": {
+  "language": "csharp"
+ },
+ "graph/mediatr/src/MediatR/Pipeline/IRequestPreProcessor.cs": {
+  "language": "csharp"
+ },
+ "graph/mediatr/src/MediatR/Pipeline/RequestExceptionActionProcessorBehavior.cs": {
+  "language": "csharp"
+ },
+ "graph/mediatr/src/MediatR/Pipeline/RequestExceptionHandlerState.cs": {
+  "language": "csharp"
+ },
+ "graph/mediatr/src/MediatR/Pipeline/RequestExceptionProcessorBehavior.cs": {
+  "language": "csharp"
+ },
+ "graph/mediatr/src/MediatR/Pipeline/RequestPostProcessorBehavior.cs": {
+  "language": "csharp"
+ },
+ "graph/mediatr/src/MediatR/Pipeline/RequestPreProcessorBehavior.cs": {
+  "language": "csharp"
+ },
+ "graph/mediatr/src/MediatR/Registration/ServiceRegistrar.cs": {
+  "language": "csharp"
+ },
+ "graph/mediatr/src/MediatR/TypeForwardings.cs": {
+  "language": "csharp"
+ },
+ "graph/mediatr/src/MediatR/Wrappers/NotificationHandlerWrapper.cs": {
+  "language": "csharp"
+ },
+ "graph/mediatr/src/MediatR/Wrappers/RequestHandlerWrapper.cs": {
+  "language": "csharp"
+ },
+ "graph/mediatr/src/MediatR/Wrappers/StreamRequestHandlerWrapper.cs": {
+  "language": "csharp"
+ },
+ "graph/psr7/src/AppendStream.php": {
+  "language": "php"
+ },
+ "graph/psr7/src/BufferStream.php": {
+  "language": "php"
+ },
+ "graph/psr7/src/CachingStream.php": {
+  "language": "php"
+ },
+ "graph/psr7/src/DiagnosticValue.php": {
+  "language": "php"
+ },
+ "graph/psr7/src/DroppingStream.php": {
+  "language": "php"
+ },
+ "graph/psr7/src/Exception/MalformedUriException.php": {
+  "language": "php"
+ },
+ "graph/psr7/src/Exception/TimeoutException.php": {
+  "language": "php"
+ },
+ "graph/psr7/src/FnStream.php": {
+  "language": "php"
+ },
+ "graph/psr7/src/Header.php": {
+  "language": "php"
+ },
+ "graph/psr7/src/HttpFactory.php": {
+  "language": "php"
+ },
+ "graph/psr7/src/InflateStream.php": {
+  "language": "php"
+ },
+ "graph/psr7/src/Integers.php": {
+  "language": "php"
+ },
+ "graph/psr7/src/LazyOpenStream.php": {
+  "language": "php"
+ },
+ "graph/psr7/src/LimitStream.php": {
+  "language": "php"
+ },
+ "graph/psr7/src/Message.php": {
+  "language": "php"
+ },
+ "graph/psr7/src/MessageParser.php": {
+  "language": "php"
+ },
+ "graph/psr7/src/MessageTrait.php": {
+  "language": "php"
+ },
+ "graph/psr7/src/MimeType.php": {
+  "language": "php"
+ },
+ "graph/psr7/src/MultipartStream.php": {
+  "language": "php"
+ },
+ "graph/psr7/src/NoSeekStream.php": {
+  "language": "php"
+ },
+ "graph/psr7/src/NonSerializableStreamTrait.php": {
+  "language": "php"
+ },
+ "graph/psr7/src/PumpStream.php": {
+  "language": "php"
+ },
+ "graph/psr7/src/Query.php": {
+  "language": "php"
+ },
+ "graph/psr7/src/Request.php": {
+  "language": "php"
+ },
+ "graph/psr7/src/Response.php": {
+  "language": "php"
+ },
+ "graph/psr7/src/Rfc3986.php": {
+  "language": "php"
+ },
+ "graph/psr7/src/Rfc9110.php": {
+  "language": "php"
+ },
+ "graph/psr7/src/Rfc9112.php": {
+  "language": "php"
+ },
+ "graph/psr7/src/ServerRequest.php": {
+  "language": "php"
+ },
+ "graph/psr7/src/ServerRequestGlobalsFactory.php": {
+  "language": "php"
+ },
+ "graph/psr7/src/Stream.php": {
+  "language": "php"
+ },
+ "graph/psr7/src/StreamDecoratorTrait.php": {
+  "language": "php"
+ },
+ "graph/psr7/src/StreamTimeout.php": {
+  "language": "php"
+ },
+ "graph/psr7/src/StreamWrapper.php": {
+  "language": "php"
+ },
+ "graph/psr7/src/UploadedFile.php": {
+  "language": "php"
+ },
+ "graph/psr7/src/UploadedFileNormalizer.php": {
+  "language": "php"
+ },
+ "graph/psr7/src/Uri.php": {
+  "language": "php"
+ },
+ "graph/psr7/src/UriComparator.php": {
+  "language": "php"
+ },
+ "graph/psr7/src/UriNormalizer.php": {
+  "language": "php"
+ },
+ "graph/psr7/src/UriParser.php": {
+  "language": "php"
+ },
+ "graph/psr7/src/UriResolver.php": {
+  "language": "php"
+ },
+ "graph/psr7/src/Utils.php": {
+  "language": "php"
+ },
+ "graph/rack/lib/rack.rb": {
+  "language": "ruby"
+ },
+ "graph/rack/lib/rack/auth/abstract/handler.rb": {
+  "language": "ruby"
+ },
+ "graph/rack/lib/rack/auth/abstract/request.rb": {
+  "language": "ruby"
+ },
+ "graph/rack/lib/rack/auth/basic.rb": {
+  "language": "ruby"
+ },
+ "graph/rack/lib/rack/bad_request.rb": {
+  "language": "ruby"
+ },
+ "graph/rack/lib/rack/body_proxy.rb": {
+  "language": "ruby"
+ },
+ "graph/rack/lib/rack/builder.rb": {
+  "language": "ruby"
+ },
+ "graph/rack/lib/rack/cascade.rb": {
+  "language": "ruby"
+ },
+ "graph/rack/lib/rack/common_logger.rb": {
+  "language": "ruby"
+ },
+ "graph/rack/lib/rack/conditional_get.rb": {
+  "language": "ruby"
+ },
+ "graph/rack/lib/rack/config.rb": {
+  "language": "ruby"
+ },
+ "graph/rack/lib/rack/constants.rb": {
+  "language": "ruby"
+ },
+ "graph/rack/lib/rack/content_length.rb": {
+  "language": "ruby"
+ },
+ "graph/rack/lib/rack/content_type.rb": {
+  "language": "ruby"
+ },
+ "graph/rack/lib/rack/deflater.rb": {
+  "language": "ruby"
+ },
+ "graph/rack/lib/rack/directory.rb": {
+  "language": "ruby"
+ },
+ "graph/rack/lib/rack/etag.rb": {
+  "language": "ruby"
+ },
+ "graph/rack/lib/rack/events.rb": {
+  "language": "ruby"
+ },
+ "graph/rack/lib/rack/files.rb": {
+  "language": "ruby"
+ },
+ "graph/rack/lib/rack/head.rb": {
+  "language": "ruby"
+ },
+ "graph/rack/lib/rack/headers.rb": {
+  "language": "ruby"
+ },
+ "graph/rack/lib/rack/lint.rb": {
+  "language": "ruby"
+ },
+ "graph/rack/lib/rack/lock.rb": {
+  "language": "ruby"
+ },
+ "graph/rack/lib/rack/media_type.rb": {
+  "language": "ruby"
+ },
+ "graph/rack/lib/rack/method_override.rb": {
+  "language": "ruby"
+ },
+ "graph/rack/lib/rack/mime.rb": {
+  "language": "ruby"
+ },
+ "graph/rack/lib/rack/mock.rb": {
+  "language": "ruby"
+ },
+ "graph/rack/lib/rack/mock_request.rb": {
+  "language": "ruby"
+ },
+ "graph/rack/lib/rack/mock_response.rb": {
+  "language": "ruby"
+ },
+ "graph/rack/lib/rack/multipart.rb": {
+  "language": "ruby"
+ },
+ "graph/rack/lib/rack/multipart/generator.rb": {
+  "language": "ruby"
+ },
+ "graph/rack/lib/rack/multipart/parser.rb": {
+  "language": "ruby"
+ },
+ "graph/rack/lib/rack/multipart/uploaded_file.rb": {
+  "language": "ruby"
+ },
+ "graph/rack/lib/rack/null_logger.rb": {
+  "language": "ruby"
+ },
+ "graph/rack/lib/rack/query_parser.rb": {
+  "language": "ruby"
+ },
+ "graph/rack/lib/rack/ractorize.rb": {
+  "language": "ruby"
+ },
+ "graph/rack/lib/rack/recursive.rb": {
+  "language": "ruby"
+ },
+ "graph/rack/lib/rack/reloader.rb": {
+  "language": "ruby"
+ },
+ "graph/rack/lib/rack/request.rb": {
+  "language": "ruby"
+ },
+ "graph/rack/lib/rack/response.rb": {
+  "language": "ruby"
+ },
+ "graph/rack/lib/rack/rewindable_input.rb": {
+  "language": "ruby"
+ },
+ "graph/rack/lib/rack/runtime.rb": {
+  "language": "ruby"
+ },
+ "graph/rack/lib/rack/sendfile.rb": {
+  "language": "ruby"
+ },
+ "graph/rack/lib/rack/show_exceptions.rb": {
+  "language": "ruby"
+ },
+ "graph/rack/lib/rack/show_status.rb": {
+  "language": "ruby"
+ },
+ "graph/rack/lib/rack/static.rb": {
+  "language": "ruby"
+ },
+ "graph/rack/lib/rack/tempfile_reaper.rb": {
+  "language": "ruby"
+ },
+ "graph/rack/lib/rack/urlmap.rb": {
+  "language": "ruby"
+ },
+ "graph/rack/lib/rack/utils.rb": {
+  "language": "ruby"
+ },
+ "graph/rack/lib/rack/version.rb": {
+  "language": "ruby"
+ },
+ "graph/semver/src/display.rs": {
+  "language": "rust"
+ },
+ "graph/semver/src/error.rs": {
+  "language": "rust"
+ },
+ "graph/semver/src/eval.rs": {
+  "language": "rust"
+ },
+ "graph/semver/src/identifier.rs": {
+  "language": "rust"
+ },
+ "graph/semver/src/impls.rs": {
+  "language": "rust"
+ },
+ "graph/semver/src/lib.rs": {
+  "language": "rust"
+ },
+ "graph/semver/src/parse.rs": {
+  "language": "rust"
+ },
+ "graph/semver/src/serde.rs": {
+  "language": "rust"
+ },
+ "language-475/DataStructures.jl/benchmark/bench_sparse_int_set.jl": {
+  "language": "julia"
+ },
+ "language-475/DataStructures.jl/src/balanced_tree.jl": {
+  "language": "julia"
+ },
+ "language-475/DataStructures.jl/src/default_dict.jl": {
+  "language": "julia"
+ },
+ "language-475/DataStructures.jl/src/dibit_vector.jl": {
+  "language": "julia"
+ },
+ "language-475/DataStructures.jl/src/dict_support.jl": {
+  "language": "julia"
+ },
+ "language-475/DataStructures.jl/src/heaps.jl": {
+  "language": "julia"
+ },
+ "language-475/DataStructures.jl/src/heaps/minmax_heap.jl": {
+  "language": "julia"
+ },
+ "language-475/DataStructures.jl/src/int_set.jl": {
+  "language": "julia"
+ },
+ "language-475/DataStructures.jl/src/red_black_tree.jl": {
+  "language": "julia"
+ },
+ "language-475/DataStructures.jl/src/robin_dict.jl": {
+  "language": "julia"
+ },
+ "language-475/DataStructures.jl/src/sorted_set.jl": {
+  "language": "julia"
+ },
+ "language-475/DataStructures.jl/src/splay_tree.jl": {
+  "language": "julia"
+ },
+ "language-475/DataStructures.jl/src/swiss_dict.jl": {
+  "language": "julia"
+ },
+ "language-475/DataStructures.jl/test/runtests.jl": {
+  "language": "julia"
+ },
+ "language-475/DataStructures.jl/test/test_binheap.jl": {
+  "language": "julia"
+ },
+ "language-475/DataStructures.jl/test/test_deprecations.jl": {
+  "language": "julia"
+ },
+ "language-475/DataStructures.jl/test/test_disjoint_set.jl": {
+  "language": "julia"
+ },
+ "language-475/DataStructures.jl/test/test_mutable_binheap.jl": {
+  "language": "julia"
+ },
+ "language-475/DataStructures.jl/test/test_red_black_tree.jl": {
+  "language": "julia"
+ },
+ "language-475/DataStructures.jl/test/test_splay_tree.jl": {
+  "language": "julia"
+ },
+ "language-475/chromium/agents/skills/webui-lit-migration/scripts/run_codemod_script.sh": {
+  "language": "bash"
+ },
+ "language-475/chromium/android_webview/javatests/src/org/chromium/android_webview/test/AwComposeTest.kt": {
+  "language": "kotlin"
+ },
+ "language-475/chromium/android_webview/tools/system_webview_shell/apk/run_startup_time_test.sh": {
+  "language": "bash"
+ },
+ "language-475/chromium/ash/webui/common/resources/cr.js": {
+  "language": "javascript"
+ },
+ "language-475/chromium/ash/webui/common/resources/multidevice_setup/mojo_api.js": {
+  "language": "javascript"
+ },
+ "language-475/chromium/ash/webui/common/resources/multidevice_setup/multidevice_setup_delegate.js": {
+  "language": "javascript"
+ },
+ "language-475/chromium/ash/webui/common/resources/parse_html_subset.js": {
+  "language": "javascript"
+ },
+ "language-475/chromium/ash/webui/recorder_app_ui/resources/.stylelintrc.js": {
+  "language": "javascript"
+ },
+ "language-475/chromium/ash/webui/recorder_app_ui/resources/static/audio_worklet.js": {
+  "language": "javascript"
+ },
+ "language-475/chromium/base/files/file_path.rs": {
+  "language": "rust"
+ },
+ "language-475/chromium/base/i18n/transliterator.rs": {
+  "language": "rust"
+ },
+ "language-475/chromium/base/logging/rust_logger/custom_panic_hook.rs": {
+  "language": "rust"
+ },
+ "language-475/chromium/base/logging/rust_logger/lib.rs": {
+  "language": "rust"
+ },
+ "language-475/chromium/base/mac/test/launch_application_test_helper_main.m": {
+  "language": "objc"
+ },
+ "language-475/chromium/base/message_loop/message_pump_apple_unittest.mm": {
+  "language": "objc"
+ },
+ "language-475/chromium/base/test/scoped_feature_list.rs": {
+  "language": "rust"
+ },
+ "language-475/chromium/base/test/task_environment.rs": {
+  "language": "rust"
+ },
+ "language-475/chromium/base/tracing/stdlib/chrome/event_latency.sql": {
+  "language": "sql"
+ },
+ "language-475/chromium/base/tracing/stdlib/chrome/graphics_pipeline.sql": {
+  "language": "sql"
+ },
+ "language-475/chromium/base/tracing/stdlib/chrome/input.sql": {
+  "language": "sql"
+ },
+ "language-475/chromium/base/tracing/stdlib/chrome/interactions.sql": {
+  "language": "sql"
+ },
+ "language-475/chromium/base/tracing/stdlib/chrome/jetstream_3.sql": {
+  "language": "sql"
+ },
+ "language-475/chromium/base/tracing/stdlib/chrome/loadline_2.sql": {
+  "language": "sql"
+ },
+ "language-475/chromium/base/tracing/stdlib/chrome/scroll_jank/predictor_error.sql": {
+  "language": "sql"
+ },
+ "language-475/chromium/base/tracing/stdlib/chrome/scroll_jank/scroll_jank_intervals.sql": {
+  "language": "sql"
+ },
+ "language-475/chromium/base/tracing/stdlib/chrome/scroll_jank/scroll_jank_v3.sql": {
+  "language": "sql"
+ },
+ "language-475/chromium/base/tracing/stdlib/chrome/scroll_jank/scroll_jank_v3_cause.sql": {
+  "language": "sql"
+ },
+ "language-475/chromium/base/tracing/stdlib/chrome/scroll_jank/utils.sql": {
+  "language": "sql"
+ },
+ "language-475/chromium/base/tracing/stdlib/chrome/speedometer_3.sql": {
+  "language": "sql"
+ },
+ "language-475/chromium/base/tracing/stdlib/chrome/startups.sql": {
+  "language": "sql"
+ },
+ "language-475/chromium/base/tracing/stdlib/chrome/tasks.sql": {
+  "language": "sql"
+ },
+ "language-475/chromium/base/tracing/stdlib/chrome/vsync_intervals.sql": {
+  "language": "sql"
+ },
+ "language-475/chromium/base/tracing/stdlib/chrome/web_content_interactions.sql": {
+  "language": "sql"
+ },
+ "language-475/chromium/build/android/connect_lldb.sh": {
+  "language": "bash"
+ },
+ "language-475/chromium/build/android/envsetup.sh": {
+  "language": "bash"
+ },
+ "language-475/chromium/build/modules/modularize/no_modules_compile_command.sh": {
+  "language": "bash"
+ },
+ "language-475/chromium/build/rust/chromium_prelude/import_attribute.rs": {
+  "language": "rust"
+ },
+ "language-475/chromium/build/rust/tests/bindgen_static_fns_test/lib.c": {
+  "language": "c"
+ },
+ "language-475/chromium/build/rust/tests/bindgen_test/lib.c": {
+  "language": "c"
+ },
+ "language-475/chromium/build/rust/tests/test_bin_crate/crate/build.rs": {
+  "language": "rust"
+ },
+ "language-475/chromium/build/rust/tests/test_proc_macro_crate_2/crate/src/lib.rs": {
+  "language": "rust"
+ },
+ "language-475/chromium/build/rust/tests/test_rlib_crate/crate/src/lib.rs": {
+  "language": "rust"
+ },
+ "language-475/chromium/build/rust/tests/test_rust_unittests/main.rs": {
+  "language": "rust"
+ },
+ "language-475/chromium/build/rust/tests/test_simple_rust_exe/main.rs": {
+  "language": "rust"
+ },
+ "language-475/chromium/build/sanitizers/dlcloseshim.c": {
+  "language": "c"
+ },
+ "language-475/chromium/chrome/app/chrome_exe_main_mac.c": {
+  "language": "c"
+ },
+ "language-475/chromium/chrome/browser/mac/aperitif_unittest.mm": {
+  "language": "objc"
+ },
+ "language-475/chromium/chrome/browser/resources/chrome_app/manifest.json": {
+  "language": "json"
+ },
+ "language-475/chromium/chrome/browser/resources/chromeos/accessibility/accessibility_common/dictation/dictation_ui_test.js": {
+  "language": "javascript"
+ },
+ "language-475/chromium/chrome/browser/resources/chromeos/accessibility/chromevox/mv2/background/color_test.js": {
+  "language": "javascript"
+ },
+ "language-475/chromium/chrome/browser/resources/chromeos/accessibility/chromevox/mv2/background/input/smart_sticky_mode_test.js": {
+  "language": "javascript"
+ },
+ "language-475/chromium/chrome/browser/resources/chromeos/accessibility/chromevox/mv2/testing/fake_dom.js": {
+  "language": "javascript"
+ },
+ "language-475/chromium/chrome/browser/resources/chromeos/accessibility/chromevox/mv3/background/braille/braille_translator_manager_test.js": {
+  "language": "javascript"
+ },
+ "language-475/chromium/chrome/browser/resources/chromeos/accessibility/chromevox/mv3/background/editing/intent_handler_test.js": {
+  "language": "javascript"
+ },
+ "language-475/chromium/chrome/browser/resources/chromeos/accessibility/chromevox/mv3/panel/panel_test.js": {
+  "language": "javascript"
+ },
+ "language-475/chromium/chrome/browser/resources/chromeos/accessibility/common/automation_util_test.js": {
+  "language": "javascript"
+ },
+ "language-475/chromium/chrome/browser/resources/chromeos/accessibility/common/local_storage_test.js": {
+  "language": "javascript"
+ },
+ "language-475/chromium/chrome/browser/resources/chromeos/accessibility/common/paragraph_utils_unittest.js": {
+  "language": "javascript"
+ },
+ "language-475/chromium/chrome/browser/resources/chromeos/accessibility/common/testing/accessibility_test_base.js": {
+  "language": "javascript"
+ },
+ "language-475/chromium/chrome/browser/resources/chromeos/accessibility/common/testing/common.js": {
+  "language": "javascript"
+ },
+ "language-475/chromium/chrome/browser/resources/chromeos/accessibility/common/testing/mock_audio.js": {
+  "language": "javascript"
+ },
+ "language-475/chromium/chrome/browser/resources/chromeos/accessibility/common/testing/mock_input_method_private.js": {
+  "language": "javascript"
+ },
+ "language-475/chromium/chrome/browser/resources/chromeos/accessibility/common/tutorial/constants.js": {
+  "language": "javascript"
+ },
+ "language-475/chromium/chrome/browser/resources/chromeos/accessibility/switch_access/test_utility.js": {
+  "language": "javascript"
+ },
+ "language-475/chromium/chrome/browser/resources/chromeos/mobile_setup_portal.js": {
+  "language": "javascript"
+ },
+ "language-475/chromium/chrome/browser/resources/chromeos/multidevice_internals/logging_tab.js": {
+  "language": "javascript"
+ },
+ "language-475/chromium/chrome/browser/resources/glic/tsconfig.json": {
+  "language": "json"
+ },
+ "language-475/chromium/chrome/browser/resources/network_speech_synthesis/mv3/manifest.json": {
+  "language": "json"
+ },
+ "language-475/chromium/chrome/browser/resources/network_speech_synthesis/mv3/service_worker.js": {
+  "language": "javascript"
+ },
+ "language-475/chromium/chrome/browser/resources/omnibox/aim_eligibility_extension/manifest.json": {
+  "language": "json"
+ },
+ "language-475/chromium/chrome/browser/tabmodel/internal/android/java/src/org/chromium/chrome/browser/tabmodel/AsyncTabParamsManagerImpl.kt": {
+  "language": "kotlin"
+ },
+ "language-475/chromium/chrome/browser/ui/android/bricks/internal/java/src/org/chromium/chrome/browser/bricks/BricksCoordinator.kt": {
+  "language": "kotlin"
+ },
+ "language-475/chromium/chrome/browser/ui/android/bricks/internal/java/src/org/chromium/chrome/browser/bricks/progress/ProgressBar.kt": {
+  "language": "kotlin"
+ },
+ "language-475/chromium/chrome/browser/ui/android/bricks/internal/java/src/org/chromium/chrome/browser/bricks/progress/ProgressCoordinator.kt": {
+  "language": "kotlin"
+ },
+ "language-475/chromium/chrome/browser/ui/android/bricks/internal/java/src/org/chromium/chrome/browser/bricks/progress/ProgressMediator.kt": {
+  "language": "kotlin"
+ },
+ "language-475/chromium/chrome/browser/ui/android/bricks/internal/java/src/org/chromium/chrome/browser/bricks/progress/ProgressProvider.kt": {
+  "language": "kotlin"
+ },
+ "language-475/chromium/chrome/browser/ui/android/bricks/internal/java/src/org/chromium/chrome/browser/bricks/progress/ProgressUiState.kt": {
+  "language": "kotlin"
+ },
+ "language-475/chromium/chrome/browser/ui/android/bricks/internal/java/src/org/chromium/chrome/browser/bricks/progress/VibesProgressProvider.kt": {
+  "language": "kotlin"
+ },
+ "language-475/chromium/chrome/browser/ui/android/bricks/internal/java/src/org/chromium/chrome/browser/bricks/switches/ComposeMaterialSwitchWithText.kt": {
+  "language": "kotlin"
+ },
+ "language-475/chromium/chrome/browser/ui/android/bricks/internal/java/src/org/chromium/chrome/browser/bricks/switches/ComposeMaterialSwitchWithTitleAndSummary.kt": {
+  "language": "kotlin"
+ },
+ "language-475/chromium/chrome/browser/ui/android/bricks/internal/java/src/org/chromium/chrome/browser/bricks/switches/ComposeSwitchComponent.kt": {
+  "language": "kotlin"
+ },
+ "language-475/chromium/chrome/browser/ui/android/bricks/internal/java/src/org/chromium/chrome/browser/bricks/theme/ChromeDesignTokens.kt": {
+  "language": "kotlin"
+ },
+ "language-475/chromium/chrome/browser/ui/android/extensions/windowing/test/test_extension/test_utils.js": {
+  "language": "javascript"
+ },
+ "language-475/chromium/chrome/browser/ui/cocoa/scoped_menu_bar_lock.mm": {
+  "language": "objc"
+ },
+ "language-475/chromium/chrome/browser/web_applications/isolated_web_apps/key_distribution/preload/manifest.json": {
+  "language": "json"
+ },
+ "language-475/chromium/chrome/renderer/resources/extensions/notifications_custom_bindings.js": {
+  "language": "javascript"
+ },
+ "language-475/chromium/chrome/renderer/resources/extensions/page_action_custom_bindings.js": {
+  "language": "javascript"
+ },
+ "language-475/chromium/chrome/test/chromeos/autotest/files/client/deps/perf_data_dep/setup_test_links.sh": {
+  "language": "bash"
+ },
+ "language-475/chromium/chrome/updater/mac/client_lib/CRURegistration.m": {
+  "language": "objc"
+ },
+ "language-475/chromium/chrome/updater/mac/client_lib/CRURegistrationPaths.m": {
+  "language": "objc"
+ },
+ "language-475/chromium/chrome/updater/mac/client_lib/CRURegistrationTestPaths.m": {
+  "language": "objc"
+ },
+ "language-475/chromium/chrome/updater/mac/launcher_constants_prod.c": {
+  "language": "c"
+ },
+ "language-475/chromium/chrome/updater/mac/launcher_constants_test.c": {
+  "language": "c"
+ },
+ "language-475/chromium/chrome/updater/mac/launcher_main.c": {
+  "language": "c"
+ },
+ "language-475/chromium/codelabs/rust/solutions/exercise_2_testing/addnumberslib.rs": {
+  "language": "rust"
+ },
+ "language-475/chromium/components/cbor/rust/reader.rs": {
+  "language": "rust"
+ },
+ "language-475/chromium/components/dom_distiller/core/javascript/image_classifier.js": {
+  "language": "javascript"
+ },
+ "language-475/chromium/components/feed/core/v2/tools/make_feed_query_request.sh": {
+  "language": "bash"
+ },
+ "language-475/chromium/components/private_verification_tokens/common/athm_ffi/privacy_pass_unittest.rs": {
+  "language": "rust"
+ },
+ "language-475/chromium/components/qr_code_generator/qr_code_generator_ffi_glue.rs": {
+  "language": "rust"
+ },
+ "language-475/chromium/components/security_interstitials/core/browser/resources/enhanced_protection_message.js": {
+  "language": "javascript"
+ },
+ "language-475/chromium/components/security_interstitials/core/browser/resources/interstitial_webview_content_restriction.js": {
+  "language": "javascript"
+ },
+ "language-475/chromium/components/security_interstitials/core/browser/resources/interstitial_webview_quiet.js": {
+  "language": "javascript"
+ },
+ "language-475/chromium/components/subresource_filter/tools/filter_many.sh": {
+  "language": "bash"
+ },
+ "language-475/chromium/components/subresource_filter/tools/generate_ads_hosts.sh": {
+  "language": "bash"
+ },
+ "language-475/chromium/components/url_formatter/spoof_checks/common_words/data/generate_common_words.sh": {
+  "language": "bash"
+ },
+ "language-475/chromium/components/web_package/rust/parser.rs": {
+  "language": "rust"
+ },
+ "language-475/chromium/components/web_package/rust/web_package_rust_unittests.rs": {
+  "language": "rust"
+ },
+ "language-475/chromium/components/web_package/signed_web_bundles/rust/signature_verifier.rs": {
+  "language": "rust"
+ },
+ "language-475/chromium/content/app/ios/appex/gpu_process.swift": {
+  "language": "swift"
+ },
+ "language-475/chromium/content/browser/security/cpsp/process_state.rs": {
+  "language": "rust"
+ },
+ "language-475/chromium/content/common/child_process_id.rs": {
+  "language": "rust"
+ },
+ "language-475/chromium/extensions/renderer/resources/automation/automation_event.js": {
+  "language": "javascript"
+ },
+ "language-475/chromium/extensions/renderer/resources/guest_view/extension_options/extension_options.js": {
+  "language": "javascript"
+ },
+ "language-475/chromium/extensions/renderer/resources/guest_view/extension_options/extension_options_events.js": {
+  "language": "javascript"
+ },
+ "language-475/chromium/extensions/renderer/resources/guest_view/guest_view_events.js": {
+  "language": "javascript"
+ },
+ "language-475/chromium/extensions/renderer/resources/set_icon.js": {
+  "language": "javascript"
+ },
+ "language-475/chromium/extensions/renderer/resources/web_request_event.js": {
+  "language": "javascript"
+ },
+ "language-475/chromium/ios/chrome/app/app_startup_parameters.mm": {
+  "language": "objc"
+ },
+ "language-475/chromium/ios/chrome/browser/autofill/model/form_suggestion_controller_unittest.mm": {
+  "language": "objc"
+ },
+ "language-475/chromium/ios/chrome/browser/content_suggestions/app_bundle_promo/coordinator/app_bundle_promo_mediator_unittest.mm": {
+  "language": "objc"
+ },
+ "language-475/chromium/ios/chrome/browser/content_suggestions/send_tab_to_self/coordinator/send_tab_promo_mediator.mm": {
+  "language": "objc"
+ },
+ "language-475/chromium/ios/chrome/browser/download/ui/download_list/download_list_table_view_cell_content_configuration.mm": {
+  "language": "objc"
+ },
+ "language-475/chromium/ios/chrome/browser/fullscreen/ui_bundled/test/fullscreen_app_interface.mm": {
+  "language": "objc"
+ },
+ "language-475/chromium/ios/chrome/browser/home_customization/coordinator/home_customization_background_configuration_mediator.mm": {
+  "language": "objc"
+ },
+ "language-475/chromium/ios/chrome/browser/home_customization/ui/home_customization_background_skeleton_cell.mm": {
+  "language": "objc"
+ },
+ "language-475/chromium/ios/chrome/browser/policy/model/browser_dm_token_storage_ios_unittest.mm": {
+  "language": "objc"
+ },
+ "language-475/chromium/ios/chrome/browser/popup_menu/overflow_menu/ui/overflow_menu_action_section.swift": {
+  "language": "swift"
+ },
+ "language-475/chromium/ios/chrome/browser/popup_menu/overflow_menu/ui/overflow_menu_list_style.swift": {
+  "language": "swift"
+ },
+ "language-475/chromium/ios/chrome/browser/popup_menu/overflow_menu/ui/overflow_menu_ui_configuration.swift": {
+  "language": "swift"
+ },
+ "language-475/chromium/ios/chrome/browser/price_insights/ui/price_history_provider.swift": {
+  "language": "swift"
+ },
+ "language-475/chromium/ios/chrome/browser/price_notifications/ui_bundled/cells/price_notifications_menu_button.mm": {
+  "language": "objc"
+ },
+ "language-475/chromium/ios/chrome/browser/reader_mode/coordinator/reader_mode_coordinator.mm": {
+  "language": "objc"
+ },
+ "language-475/chromium/ios/chrome/browser/safari_data_import/model/features.mm": {
+  "language": "objc"
+ },
+ "language-475/chromium/ios/chrome/browser/safe_browsing/model/safe_browsing_client_impl_unittest.mm": {
+  "language": "objc"
+ },
+ "language-475/chromium/ios/chrome/browser/settings/bulk_upload/coordinator/bulk_upload_coordinator.mm": {
+  "language": "objc"
+ },
+ "language-475/chromium/ios/chrome/browser/settings/ui_bundled/cells/settings_cells_constants.mm": {
+  "language": "objc"
+ },
+ "language-475/chromium/ios/chrome/browser/settings/ui_bundled/password/saved_passwords_presenter_observer.mm": {
+  "language": "objc"
+ },
+ "language-475/chromium/ios/chrome/browser/shared/model/web_state_list/removing_indexes.mm": {
+  "language": "objc"
+ },
+ "language-475/chromium/ios/chrome/browser/signin/model/signin_util_internal_unittest.mm": {
+  "language": "objc"
+ },
+ "language-475/chromium/ios/chrome/browser/snapshots/model/image_file_manager.swift": {
+  "language": "swift"
+ },
+ "language-475/chromium/ios/chrome/browser/snapshots/model/snapshot_generator.swift": {
+  "language": "swift"
+ },
+ "language-475/chromium/ios/chrome/browser/snapshots/model/snapshot_lru_cache.swift": {
+  "language": "swift"
+ },
+ "language-475/chromium/ios/chrome/browser/snapshots/model/snapshot_storage.swift": {
+  "language": "swift"
+ },
+ "language-475/chromium/ios/chrome/browser/spotlight_debugger/ui_bundled/spotlight_debugger_searchable_item_detail_view_controller.swift": {
+  "language": "swift"
+ },
+ "language-475/chromium/ios/chrome/browser/supervised_user/model/supervised_user_interstitial_java_script_feature.mm": {
+  "language": "objc"
+ },
+ "language-475/chromium/ios/chrome/browser/tab_switcher/tab_strip/ui/tab_strip_constants.swift": {
+  "language": "swift"
+ },
+ "language-475/chromium/ios/chrome/browser/tab_switcher/tab_strip/ui/tab_strip_decoration_view.swift": {
+  "language": "swift"
+ },
+ "language-475/chromium/ios/chrome/browser/tab_switcher/tab_strip/ui/tab_strip_layout.swift": {
+  "language": "swift"
+ },
+ "language-475/chromium/ios/chrome/browser/toolbar/legacy/ui_bundled/fullscreen/toolbars_size_broadcasting_util.mm": {
+  "language": "objc"
+ },
+ "language-475/chromium/ios/chrome/browser/url_loading/model/url_loading_observer_bridge_unittest.mm": {
+  "language": "objc"
+ },
+ "language-475/chromium/ios/chrome/browser/widget_kit/model/widget_metrics_logger.swift": {
+  "language": "swift"
+ },
+ "language-475/chromium/ios/chrome/credential_provider_extension/passkey_util.swift": {
+  "language": "swift"
+ },
+ "language-475/chromium/ios/chrome/test/fakes/fake_ui_navigation_controller.mm": {
+  "language": "objc"
+ },
+ "language-475/chromium/ios/chrome/test/providers/app_store_bundle/test_app_store_bundle_service.mm": {
+  "language": "objc"
+ },
+ "language-475/chromium/ios/chrome/test/swift_interop/closure/observer_xctest.swift": {
+  "language": "swift"
+ },
+ "language-475/chromium/ios/chrome/test/swift_interop/struct/struct_xctest.swift": {
+  "language": "swift"
+ },
+ "language-475/chromium/ios/chrome/widget_kit_extension/dino_game_widget.swift": {
+  "language": "swift"
+ },
+ "language-475/chromium/ios/chrome/widget_kit_extension/search_passwords_widget.swift": {
+  "language": "swift"
+ },
+ "language-475/chromium/ios/chrome/widget_kit_extension/shortcuts_widget.swift": {
+  "language": "swift"
+ },
+ "language-475/chromium/ios/components/order_file/order_file.c": {
+  "language": "c"
+ },
+ "language-475/chromium/ios/components/ui_util/dynamic_type_util.mm": {
+  "language": "objc"
+ },
+ "language-475/chromium/ios/web_view/shell/shell_app_delegate.m": {
+  "language": "objc"
+ },
+ "language-475/chromium/ios/web_view/shell/shell_auth_service_fake.m": {
+  "language": "objc"
+ },
+ "language-475/chromium/ios/web_view/shell/shell_autofill_delegate.m": {
+  "language": "objc"
+ },
+ "language-475/chromium/ios/web_view/shell/shell_exe_main.m": {
+  "language": "objc"
+ },
+ "language-475/chromium/ios/web_view/shell/shell_risk_data_loader_fake.m": {
+  "language": "objc"
+ },
+ "language-475/chromium/ios/web_view/shell/shell_translation_delegate.m": {
+  "language": "objc"
+ },
+ "language-475/chromium/ios/web_view/shell/shell_trusted_vault_provider_fake.m": {
+  "language": "objc"
+ },
+ "language-475/chromium/ios/web_view/shell/shell_view_controller.m": {
+  "language": "objc"
+ },
+ "language-475/chromium/media/formats/mpeg/parse_adts.rs": {
+  "language": "rust"
+ },
+ "language-475/chromium/mojo/public/c/system/tests/core_unittest_pure_c.c": {
+  "language": "c"
+ },
+ "language-475/chromium/mojo/public/js/lib/connector.js": {
+  "language": "javascript"
+ },
+ "language-475/chromium/mojo/public/rust/bindings/multiplex_router/control_messages.rs": {
+  "language": "rust"
+ },
+ "language-475/chromium/mojo/public/rust/c_mojo_api/data_pipe.rs": {
+  "language": "rust"
+ },
+ "language-475/chromium/mojo/public/rust/c_mojo_api/message_pipe.rs": {
+  "language": "rust"
+ },
+ "language-475/chromium/mojo/public/rust/mojom_value_parser/parsing_trait.rs": {
+  "language": "rust"
+ },
+ "language-475/chromium/mojo/public/rust/system/message.rs": {
+  "language": "rust"
+ },
+ "language-475/chromium/net/data/ssl/scripts/generate-test-keys.sh": {
+  "language": "bash"
+ },
+ "language-475/chromium/remoting/host/installer/mac/do_signing.sh": {
+  "language": "bash"
+ },
+ "language-475/chromium/sandbox/linux/suid/process_util_linux.c": {
+  "language": "c"
+ },
+ "language-475/chromium/sandbox/linux/suid/sandbox.c": {
+  "language": "c"
+ },
+ "language-475/chromium/services/data_decoder/xml/parser.rs": {
+  "language": "rust"
+ },
+ "language-475/chromium/testing/rust_gtest_interop/rust_gtest_interop.rs": {
+  "language": "rust"
+ },
+ "language-475/chromium/third_party/android_deps/autorolled/build.gradle": {
+  "language": "groovy"
+ },
+ "language-475/chromium/third_party/android_deps/build.gradle": {
+  "language": "groovy"
+ },
+ "language-475/chromium/third_party/android_deps/buildSrc/src/main/groovy/BuildConfigGenerator.groovy": {
+  "language": "groovy"
+ },
+ "language-475/chromium/third_party/android_deps/buildSrc/src/main/groovy/ChromiumDepGraph.groovy": {
+  "language": "groovy"
+ },
+ "language-475/chromium/third_party/android_deps/buildSrc/src/main/groovy/ChromiumPlugin.groovy": {
+  "language": "groovy"
+ },
+ "language-475/chromium/third_party/androidx/build.gradle": {
+  "language": "groovy"
+ },
+ "language-475/chromium/third_party/blink/web_tests/http/tests/cache/post-redirect-get.php": {
+  "language": "php"
+ },
+ "language-475/chromium/third_party/blink/web_tests/http/tests/cache/resources/etag.php": {
+  "language": "php"
+ },
+ "language-475/chromium/third_party/blink/web_tests/http/tests/devtools/service-workers/resources/service-workers-bypass-for-network-cors-target.php": {
+  "language": "php"
+ },
+ "language-475/chromium/third_party/blink/web_tests/http/tests/fetch/resources/bom-utf-16le.php": {
+  "language": "php"
+ },
+ "language-475/chromium/third_party/blink/web_tests/http/tests/inspector-protocol/network/resources/set-cookie-name-value-pair-exceeds-max-size.php": {
+  "language": "php"
+ },
+ "language-475/chromium/third_party/blink/web_tests/http/tests/misc/resources/bad-charset-alias.php": {
+  "language": "php"
+ },
+ "language-475/chromium/third_party/blink/web_tests/http/tests/misc/resources/charset-sniffer-end-sniffing.php": {
+  "language": "php"
+ },
+ "language-475/chromium/third_party/blink/web_tests/http/tests/navigation/useragent.php": {
+  "language": "php"
+ },
+ "language-475/chromium/third_party/blink/web_tests/http/tests/prefetch/link_header_prefetch.php": {
+  "language": "php"
+ },
+ "language-475/chromium/third_party/blink/web_tests/http/tests/security/referrerPolicyHeader/referrer-policy-cross-origin-redirect.php": {
+  "language": "php"
+ },
+ "language-475/chromium/third_party/blink/web_tests/http/tests/serviceworker/resources/mime-type-worker.php": {
+  "language": "php"
+ },
+ "language-475/chromium/third_party/blink/web_tests/http/tests/workers/resources/xhr-response.php": {
+  "language": "php"
+ },
+ "language-475/chromium/third_party/blink/web_tests/http/tests/xmlhttprequest/resources/echo-content.php": {
+  "language": "php"
+ },
+ "language-475/chromium/third_party/blink/web_tests/http/tests/xmlhttprequest/resources/echo-random.php": {
+  "language": "php"
+ },
+ "language-475/chromium/third_party/blink/web_tests/http/tests/xmlhttprequest/resources/top-bit-set-header.php": {
+  "language": "php"
+ },
+ "language-475/chromium/third_party/crashpad/crashpad/doc/appengine/src/crashpad-home/main.go": {
+  "language": "go"
+ },
+ "language-475/chromium/third_party/grpc/source/src/core/ext/upbdefs-gen/envoy/config/metrics/v3/stats.upbdefs.c": {
+  "language": "c"
+ },
+ "language-475/chromium/third_party/libgav1/update_readme.go": {
+  "language": "go"
+ },
+ "language-475/chromium/third_party/ocmock/OCMock/NSValue+OCMAdditions.m": {
+  "language": "objc"
+ },
+ "language-475/chromium/third_party/ocmock/OCMock/OCMExpectationRecorder.m": {
+  "language": "objc"
+ },
+ "language-475/chromium/third_party/opus/src/silk/NLSF_VQ_weights_laroia.c": {
+  "language": "c"
+ },
+ "language-475/chromium/third_party/protobuf/csharp/compatibility_tests/v3.0.0/src/Google.Protobuf.Test/IssuesTest.cs": {
+  "language": "csharp"
+ },
+ "language-475/chromium/third_party/protobuf/csharp/compatibility_tests/v3.0.0/src/Google.Protobuf.Test/TestCornerCases.cs": {
+  "language": "csharp"
+ },
+ "language-475/chromium/third_party/protobuf/csharp/install_dotnet_sdk.ps1": {
+  "language": "powershell"
+ },
+ "language-475/chromium/third_party/protobuf/csharp/src/Google.Protobuf.Test.TestProtos/OldExtensions2.cs": {
+  "language": "csharp"
+ },
+ "language-475/chromium/third_party/protobuf/csharp/src/Google.Protobuf.Test/Buffers/ArrayBufferWriter.cs": {
+  "language": "csharp"
+ },
+ "language-475/chromium/third_party/protobuf/csharp/src/Google.Protobuf.Test/Collections/MapFieldTest.cs": {
+  "language": "csharp"
+ },
+ "language-475/chromium/third_party/protobuf/csharp/src/Google.Protobuf.Test/MessageExtensionsTest.cs": {
+  "language": "csharp"
+ },
+ "language-475/chromium/third_party/protobuf/csharp/src/Google.Protobuf.Test/Reflection/DescriptorsTest.cs": {
+  "language": "csharp"
+ },
+ "language-475/chromium/third_party/protobuf/csharp/src/Google.Protobuf.Test/SampleEnum.cs": {
+  "language": "csharp"
+ },
+ "language-475/chromium/third_party/protobuf/csharp/src/Google.Protobuf.Test/WellKnownTypes/TimestampTest.cs": {
+  "language": "csharp"
+ },
+ "language-475/chromium/third_party/protobuf/csharp/src/Google.Protobuf/ByteArray.cs": {
+  "language": "csharp"
+ },
+ "language-475/chromium/third_party/protobuf/csharp/src/Google.Protobuf/Compatibility/DynamicallyAccessedMemberTypes.cs": {
+  "language": "csharp"
+ },
+ "language-475/chromium/third_party/protobuf/csharp/src/Google.Protobuf/ExtensionValue.cs": {
+  "language": "csharp"
+ },
+ "language-475/chromium/third_party/protobuf/csharp/src/Google.Protobuf/JsonParser.cs": {
+  "language": "csharp"
+ },
+ "language-475/chromium/third_party/protobuf/csharp/src/Google.Protobuf/ParsingPrimitivesWrappers.cs": {
+  "language": "csharp"
+ },
+ "language-475/chromium/third_party/protobuf/csharp/src/Google.Protobuf/Reflection/CSharpFeatures.pb.cs": {
+  "language": "csharp"
+ },
+ "language-475/chromium/third_party/protobuf/csharp/src/Google.Protobuf/Reflection/MapFieldAccessor.cs": {
+  "language": "csharp"
+ },
+ "language-475/chromium/third_party/protobuf/csharp/src/Google.Protobuf/UnsafeCollectionOperations.cs": {
+  "language": "csharp"
+ },
+ "language-475/chromium/third_party/protobuf/csharp/src/Google.Protobuf/WellKnownTypes/Any.pb.cs": {
+  "language": "csharp"
+ },
+ "language-475/chromium/third_party/protobuf/csharp/src/Google.Protobuf/WellKnownTypes/FieldMask.pb.cs": {
+  "language": "csharp"
+ },
+ "language-475/chromium/third_party/protobuf/csharp/src/Google.Protobuf/WireFormat.cs": {
+  "language": "csharp"
+ },
+ "language-475/chromium/third_party/protobuf/examples/go/cmd/add_person/add_person.go": {
+  "language": "go"
+ },
+ "language-475/chromium/third_party/protobuf/examples/go/cmd/add_person/add_person_test.go": {
+  "language": "go"
+ },
+ "language-475/chromium/third_party/protobuf/examples/go/cmd/list_people/list_people.go": {
+  "language": "go"
+ },
+ "language-475/chromium/third_party/protobuf/examples/go/cmd/list_people/list_people_test.go": {
+  "language": "go"
+ },
+ "language-475/chromium/third_party/protobuf/java/kotlin/src/main/kotlin/com/google/protobuf/Anies.kt": {
+  "language": "kotlin"
+ },
+ "language-475/chromium/third_party/protobuf/java/kotlin/src/main/kotlin/com/google/protobuf/OnlyForUseByGeneratedProtoCode.kt": {
+  "language": "kotlin"
+ },
+ "language-475/chromium/third_party/protobuf/java/kotlin/src/main/kotlin/com/google/protobuf/ProtoHiddenFromObjC.kt": {
+  "language": "kotlin"
+ },
+ "language-475/chromium/third_party/protobuf/java/kotlin/src/test/kotlin/com/google/protobuf/ByteStringsTest.kt": {
+  "language": "kotlin"
+ },
+ "language-475/chromium/third_party/protobuf/java/kotlin/src/test/kotlin/com/google/protobuf/DslMapTest.kt": {
+  "language": "kotlin"
+ },
+ "language-475/chromium/third_party/protobuf/java/kotlin/src/test/kotlin/com/google/protobuf/ExtendableMessageExtensionsTest.kt": {
+  "language": "kotlin"
+ },
+ "language-475/chromium/third_party/protobuf/java/kotlin/src/test/kotlin/com/google/protobuf/Proto2Test.kt": {
+  "language": "kotlin"
+ },
+ "language-475/chromium/third_party/protobuf/lua/test_upb.lua": {
+  "language": "lua"
+ },
+ "language-475/chromium/third_party/protobuf/lua/upb.lua": {
+  "language": "lua"
+ },
+ "language-475/chromium/third_party/protobuf/objectivec/Tests/GPBCompileTest10.m": {
+  "language": "objc"
+ },
+ "language-475/chromium/third_party/protobuf/php/src/GPBMetadata/Google/Protobuf/Internal/Descriptor.php": {
+  "language": "php"
+ },
+ "language-475/chromium/third_party/protobuf/php/src/Google/Protobuf/Descriptor.php": {
+  "language": "php"
+ },
+ "language-475/chromium/third_party/protobuf/php/src/Google/Protobuf/Internal/FieldOptions/OptionRetention.php": {
+  "language": "php"
+ },
+ "language-475/chromium/third_party/protobuf/php/src/Google/Protobuf/Internal/MessageOptions.php": {
+  "language": "php"
+ },
+ "language-475/chromium/third_party/protobuf/php/tests/MapFieldTest.php": {
+  "language": "php"
+ },
+ "language-475/chromium/third_party/protobuf/ruby/lib/google/protobuf/ffi/descriptor.rb": {
+  "language": "ruby"
+ },
+ "language-475/chromium/third_party/protobuf/ruby/lib/google/protobuf/ffi/ffi.rb": {
+  "language": "ruby"
+ },
+ "language-475/chromium/third_party/protobuf/ruby/lib/google/protobuf/ffi/internal/convert.rb": {
+  "language": "ruby"
+ },
+ "language-475/chromium/third_party/protobuf/ruby/lib/google/protobuf/ffi/oneof_descriptor.rb": {
+  "language": "ruby"
+ },
+ "language-475/chromium/third_party/protobuf/ruby/lib/google/protobuf/ffi/service_descriptor.rb": {
+  "language": "ruby"
+ },
+ "language-475/chromium/third_party/protobuf/ruby/lib/google/protobuf/internal/object_cache.rb": {
+  "language": "ruby"
+ },
+ "language-475/chromium/third_party/protobuf/ruby/lib/google/protobuf/repeated_field.rb": {
+  "language": "ruby"
+ },
+ "language-475/chromium/third_party/protobuf/ruby/lib/google/protobuf_ffi.rb": {
+  "language": "ruby"
+ },
+ "language-475/chromium/third_party/protobuf/ruby/lib/google/protobuf_native.rb": {
+  "language": "ruby"
+ },
+ "language-475/chromium/third_party/protobuf/ruby/tests/basic_proto2.rb": {
+  "language": "ruby"
+ },
+ "language-475/chromium/third_party/protobuf/ruby/tests/encode_decode_test.rb": {
+  "language": "ruby"
+ },
+ "language-475/chromium/third_party/protobuf/ruby/tests/generated_code_proto2_test.rb": {
+  "language": "ruby"
+ },
+ "language-475/chromium/third_party/protobuf/ruby/tests/implementation.rb": {
+  "language": "ruby"
+ },
+ "language-475/chromium/third_party/protobuf/ruby/tests/object_cache_test.rb": {
+  "language": "ruby"
+ },
+ "language-475/chromium/third_party/protobuf/ruby/tests/repeated_field_test.rb": {
+  "language": "ruby"
+ },
+ "language-475/chromium/third_party/protobuf/ruby/tests/service_test.rb": {
+  "language": "ruby"
+ },
+ "language-475/chromium/third_party/protobuf/ruby/tests/type_errors.rb": {
+  "language": "ruby"
+ },
+ "language-475/chromium/third_party/protobuf/ruby/tests/utf8.rb": {
+  "language": "ruby"
+ },
+ "language-475/chromium/third_party/protobuf/ruby/tests/well_known_types_test.rb": {
+  "language": "ruby"
+ },
+ "language-475/chromium/third_party/protobuf/upb/message/compare.c": {
+  "language": "c"
+ },
+ "language-475/chromium/third_party/tflite_support/src/tensorflow_lite_support/ios/sources/TFLCommonUtils.m": {
+  "language": "objc"
+ },
+ "language-475/chromium/third_party/tflite_support/src/tensorflow_lite_support/ios/task/core/sources/TFLBaseOptions+Helpers.m": {
+  "language": "objc"
+ },
+ "language-475/chromium/third_party/tflite_support/src/tensorflow_lite_support/ios/test/task/audio/core/audio_record/utils/sources/AVAudioPCMBuffer+Utils.m": {
+  "language": "objc"
+ },
+ "language-475/chromium/third_party/tflite_support/src/tensorflow_lite_support/ios/test/task/vision/image_classifier/TFLImageClassifierTests.m": {
+  "language": "objc"
+ },
+ "language-475/chromium/third_party/utf/src/runetype/isalpharune.c": {
+  "language": "c"
+ },
+ "language-475/chromium/tools/android/adb_reboot/adb_reboot.c": {
+  "language": "c"
+ },
+ "language-475/chromium/tools/android/dependency_analysis/js/src/vue_custom_events.js": {
+  "language": "javascript"
+ },
+ "language-475/chromium/tools/android/elf_compression/decompression_hook/decompression_hook.c": {
+  "language": "c"
+ },
+ "language-475/chromium/tools/android/memtrack_helper/memtrack_helper.c": {
+  "language": "c"
+ },
+ "language-475/chromium/tools/android/memtrack_helper/memtrack_helper_test_client.c": {
+  "language": "c"
+ },
+ "language-475/chromium/tools/android/ps_ext/ps_ext.c": {
+  "language": "c"
+ },
+ "language-475/chromium/tools/android/tracing/profile-chrome-startup.sh": {
+  "language": "bash"
+ },
+ "language-475/chromium/tools/binary_size/libsupersize/viewer/static/manifest.json": {
+  "language": "json"
+ },
+ "language-475/chromium/tools/binary_size/libsupersize/viewer/static/ui-base.js": {
+  "language": "javascript"
+ },
+ "language-475/chromium/tools/cr/cr.sh": {
+  "language": "bash"
+ },
+ "language-475/chromium/tools/crates/grep_for_vet_relevant_keywords.sh": {
+  "language": "bash"
+ },
+ "language-475/chromium/tools/fuchsia/comparative_tester/display_perf_results.js": {
+  "language": "javascript"
+ },
+ "language-475/chromium/tools/get_swarming_logs/get_all.sh": {
+  "language": "bash"
+ },
+ "language-475/chromium/tools/get_swarming_logs/get_one.sh": {
+  "language": "bash"
+ },
+ "language-475/chromium/tools/mac/icons/makeicns2.m": {
+  "language": "objc"
+ },
+ "language-475/chromium/tools/mac/power/check_env.sh": {
+  "language": "bash"
+ },
+ "language-475/chromium/tools/perf/benchmarks/service_worker_perf.js": {
+  "language": "javascript"
+ },
+ "language-475/chromium/tools/perf/chrome-health-run-weekly.sh": {
+  "language": "bash"
+ },
+ "language-475/chromium/tools/perf/core/tbmv3/metrics/cpu_time_metric.sql": {
+  "language": "sql"
+ },
+ "language-475/chromium/tools/perf/core/tbmv3/metrics/dummy_metric.sql": {
+  "language": "sql"
+ },
+ "language-475/chromium/tools/perf/core/tbmv3/metrics/power_cpu_estimate.sql": {
+  "language": "sql"
+ },
+ "language-475/chromium/tools/perf/core/tbmv3/metrics/webview_power_usage_metric.sql": {
+  "language": "sql"
+ },
+ "language-475/chromium/tools/perf/page_sets/tough_canvas_cases/canvas2d_balls_common/bouncing_balls_draw_ball_as_rect.js": {
+  "language": "javascript"
+ },
+ "language-475/chromium/tools/perf/page_sets/tough_canvas_cases/rendering_throughput/bench.js": {
+  "language": "javascript"
+ },
+ "language-475/chromium/tools/perf/page_sets/webrtc_cases/codec_constraints.js": {
+  "language": "javascript"
+ },
+ "language-475/chromium/tools/traceline/traceline/dump_syscalls_idarub.rb": {
+  "language": "ruby"
+ },
+ "language-475/chromium/tools/vscode/settings.json": {
+  "language": "json"
+ },
+ "language-475/chromium/ui/accelerated_widget_mac/ca_layer_frame_sink_provider.mm": {
+  "language": "objc"
+ },
+ "language-475/chromium/ui/accessibility/extensions/colorenhancer/src/cvd_type.js": {
+  "language": "javascript"
+ },
+ "language-475/chromium/ui/accessibility/extensions/highcontrast/manifest.json": {
+  "language": "json"
+ },
+ "language-475/chromium/ui/android/texture_compressor/lib_tests.rs": {
+  "language": "rust"
+ },
+ "language-475/chromium/ui/base/cocoa/defaults_utils.mm": {
+  "language": "objc"
+ },
+ "language-475/chromium/ui/base/test/scoped_fake_full_keyboard_access.mm": {
+  "language": "objc"
+ },
+ "language-475/chromium/ui/file_manager/image_loader/piex/package.json": {
+  "language": "json"
+ },
+ "language-475/chromium/ui/qt/gen_qt_shim_moc.sh": {
+  "language": "bash"
+ },
+ "language-475/chromium/ui/webui/resources/tools/lit_template_formatter/format_html.js": {
+  "language": "javascript"
+ },
+ "language-475/chromium/ui/webui/resources/tools/tests/bundle_js/expected/foo_ui_multi_bundle.rollup.js": {
+  "language": "javascript"
+ },
+ "language-475/chromium/ui/webui/resources/tools/tests/bundle_js/src/foo.js": {
+  "language": "javascript"
+ },
+ "language-475/chromium/ui/webui/resources/tools/tests/eslint_ts/tsconfig.json": {
+  "language": "json"
+ },
+ "language-475/fpm/example_packages/both_lib_types/src/both_lib_types.f90": {
+  "language": "fortran"
+ },
+ "language-475/fpm/example_packages/features_default_profile/src/features_default_profile.f90": {
+  "language": "fortran"
+ },
+ "language-475/fpm/example_packages/features_with_dependency/app/main.f90": {
+  "language": "fortran"
+ },
+ "language-475/fpm/example_packages/features_with_dependency/src/features_with_dependency.f90": {
+  "language": "fortran"
+ },
+ "language-475/fpm/example_packages/hello_complex_2/test/farewell_test.f90": {
+  "language": "fortran"
+ },
+ "language-475/fpm/example_packages/hello_fpm_path/crate/utils1/src/say_hello.f90": {
+  "language": "fortran"
+ },
+ "language-475/fpm/example_packages/implicit-external/src/impl.f90": {
+  "language": "fortran"
+ },
+ "language-475/fpm/example_packages/makefile_complex/app/main.f90": {
+  "language": "fortran"
+ },
+ "language-475/fpm/example_packages/many_targets/example/example2.f90": {
+  "language": "fortran"
+ },
+ "language-475/fpm/example_packages/many_targets/test/test3.f90": {
+  "language": "fortran"
+ },
+ "language-475/fpm/example_packages/program_with_cpp_guarded_module/app/main.f90": {
+  "language": "fortran"
+ },
+ "language-475/fpm/example_packages/tree_shake/src/subdir/constants.f90": {
+  "language": "fortran"
+ },
+ "language-475/fpm/src/fpm/manifest/install.f90": {
+  "language": "fortran"
+ },
+ "language-475/fpm/src/fpm/manifest/preprocess.f90": {
+  "language": "fortran"
+ },
+ "language-475/fpm/src/fpm/toml.f90": {
+  "language": "fortran"
+ },
+ "language-475/fpm/src/fpm_meta.f90": {
+  "language": "fortran"
+ },
+ "language-475/fpm/test/cli_test/cli_test.f90": {
+  "language": "fortran"
+ },
+ "language-475/fpm/test/fpm_test/test_compiler.f90": {
+  "language": "fortran"
+ },
+ "language-475/fpm/test/fpm_test/test_features.f90": {
+  "language": "fortran"
+ },
+ "language-475/fpm/test/fpm_test/test_module_dependencies.f90": {
+  "language": "fortran"
+ },
+ "language-475/os-lib/os/nohometest/src/NoHomeTests.scala": {
+  "language": "scala"
+ },
+ "language-475/os-lib/os/src-jvm/ResourcePath.scala": {
+  "language": "scala"
+ },
+ "language-475/os-lib/os/src/FileOps.scala": {
+  "language": "scala"
+ },
+ "language-475/os-lib/os/src/Internals.scala": {
+  "language": "scala"
+ },
+ "language-475/os-lib/os/src/Path.scala": {
+  "language": "scala"
+ },
+ "language-475/os-lib/os/src/StatOps.scala": {
+  "language": "scala"
+ },
+ "language-475/os-lib/os/src/SubProcess.scala": {
+  "language": "scala"
+ },
+ "language-475/os-lib/os/src/ZipOps.scala": {
+  "language": "scala"
+ },
+ "language-475/os-lib/os/test/src-jvm/ExampleResourcess.scala": {
+  "language": "scala"
+ },
+ "language-475/os-lib/os/test/src-jvm/PathTestsCustomFilesystem.scala": {
+  "language": "scala"
+ },
+ "language-475/os-lib/os/test/src-jvm/SpawningSubprocessesTests.scala": {
+  "language": "scala"
+ },
+ "language-475/os-lib/os/test/src/FilesystemMetadataTests.scala": {
+  "language": "scala"
+ },
+ "language-475/os-lib/os/test/src/ListingWalkingTests.scala": {
+  "language": "scala"
+ },
+ "language-475/os-lib/os/test/src/ManipulatingFilesFoldersTests.scala": {
+  "language": "scala"
+ },
+ "language-475/os-lib/os/test/src/ReadingWritingTests.scala": {
+  "language": "scala"
+ },
+ "language-475/os-lib/os/test/src/SourceTests.scala": {
+  "language": "scala"
+ },
+ "language-475/os-lib/os/test/src/TestUtil.scala": {
+  "language": "scala"
+ },
+ "language-475/os-lib/os/test/testSpawnExitHook/src/TestSpawnExitHook.scala": {
+  "language": "scala"
+ },
+ "language-475/os-lib/os/watch/src/Watcher.scala": {
+  "language": "scala"
+ },
+ "language-475/os-lib/os/watch/src/package.scala": {
+  "language": "scala"
+ },
+ "language-475/plug/lib/plug.ex": {
+  "language": "elixir"
+ },
+ "language-475/plug/lib/plug/application.ex": {
+  "language": "elixir"
+ },
+ "language-475/plug/lib/plug/method_override.ex": {
+  "language": "elixir"
+ },
+ "language-475/plug/lib/plug/parsers/json.ex": {
+  "language": "elixir"
+ },
+ "language-475/plug/lib/plug/parsers/urlencoded.ex": {
+  "language": "elixir"
+ },
+ "language-475/plug/lib/plug/request_id.ex": {
+  "language": "elixir"
+ },
+ "language-475/plug/lib/plug/rewrite_on.ex": {
+  "language": "elixir"
+ },
+ "language-475/plug/lib/plug/session/store.ex": {
+  "language": "elixir"
+ },
+ "language-475/plug/lib/plug/static.ex": {
+  "language": "elixir"
+ },
+ "language-475/plug/lib/plug/test.ex": {
+  "language": "elixir"
+ },
+ "language-475/plug/lib/plug/upload.ex": {
+  "language": "elixir"
+ },
+ "language-475/plug/test/plug/basic_auth_test.exs": {
+  "language": "elixir"
+ },
+ "language-475/plug/test/plug/builder_test.exs": {
+  "language": "elixir"
+ },
+ "language-475/plug/test/plug/conn/wrapper_error_test.exs": {
+  "language": "elixir"
+ },
+ "language-475/plug/test/plug/debugger_test.exs": {
+  "language": "elixir"
+ },
+ "language-475/plug/test/plug/html_test.exs": {
+  "language": "elixir"
+ },
+ "language-475/plug/test/plug/rewrite_on_test.exs": {
+  "language": "elixir"
+ },
+ "language-475/plug/test/plug/router_test.exs": {
+  "language": "elixir"
+ },
+ "language-475/plug/test/plug/ssl_test.exs": {
+  "language": "elixir"
+ },
+ "language-475/plug/test/test_helper.exs": {
+  "language": "elixir"
+ },
+ "language-475/primitives/apps/ssr-testing/app/navigation-menu/page.tsx": {
+  "language": "typescript"
+ },
+ "language-475/primitives/apps/ssr-testing/app/roving-focus-group/page.tsx": {
+  "language": "typescript"
+ },
+ "language-475/primitives/apps/ssr-testing/app/separator/page.tsx": {
+  "language": "typescript"
+ },
+ "language-475/primitives/apps/storybook/stories/arrow.stories.tsx": {
+  "language": "typescript"
+ },
+ "language-475/primitives/apps/storybook/stories/checkbox.stories.tsx": {
+  "language": "typescript"
+ },
+ "language-475/primitives/apps/storybook/stories/dialog.stories.tsx": {
+  "language": "typescript"
+ },
+ "language-475/primitives/apps/storybook/stories/radio-group.stories.tsx": {
+  "language": "typescript"
+ },
+ "language-475/primitives/apps/storybook/stories/roving-focus-group.stories.tsx": {
+  "language": "typescript"
+ },
+ "language-475/primitives/packages/core/primitive/src/primitive.tsx": {
+  "language": "typescript"
+ },
+ "language-475/primitives/packages/react/accessible-icon/src/accesible-icon.test.tsx": {
+  "language": "typescript"
+ },
+ "language-475/primitives/packages/react/checkbox/src/checkbox.test.tsx": {
+  "language": "typescript"
+ },
+ "language-475/primitives/packages/react/navigation-menu/src/navigation-menu.test.tsx": {
+  "language": "typescript"
+ },
+ "language-475/primitives/packages/react/one-time-password-field/src/one-time-password-field.tsx": {
+  "language": "typescript"
+ },
+ "language-475/primitives/packages/react/portal/src/portal.tsx": {
+  "language": "typescript"
+ },
+ "language-475/primitives/packages/react/radio-group/src/radio-group.test.tsx": {
+  "language": "typescript"
+ },
+ "language-475/primitives/packages/react/toggle/src/toggle.tsx": {
+  "language": "typescript"
+ },
+ "language-475/primitives/packages/react/toolbar/src/toolbar.tsx": {
+  "language": "typescript"
+ },
+ "language-475/primitives/packages/react/use-callback-ref/src/use-callback-ref.tsx": {
+  "language": "typescript"
+ },
+ "language-475/primitives/packages/react/use-is-hydrated/src/use-is-hydrated.tsx": {
+  "language": "typescript"
+ },
+ "language-475/primitives/packages/react/visually-hidden/src/visually-hidden.test.tsx": {
+  "language": "typescript"
+ },
+ "language-475/terraform-aws-vpc/examples/block-public-access/outputs.tf": {
+  "language": "hcl"
+ },
+ "language-475/terraform-aws-vpc/examples/complete/main.tf": {
+  "language": "hcl"
+ },
+ "language-475/terraform-aws-vpc/examples/complete/outputs.tf": {
+  "language": "hcl"
+ },
+ "language-475/terraform-aws-vpc/examples/complete/versions.tf": {
+  "language": "hcl"
+ },
+ "language-475/terraform-aws-vpc/examples/ipam/outputs.tf": {
+  "language": "hcl"
+ },
+ "language-475/terraform-aws-vpc/examples/ipam/versions.tf": {
+  "language": "hcl"
+ },
+ "language-475/terraform-aws-vpc/examples/ipv6-dualstack/versions.tf": {
+  "language": "hcl"
+ },
+ "language-475/terraform-aws-vpc/examples/ipv6-only/outputs.tf": {
+  "language": "hcl"
+ },
+ "language-475/terraform-aws-vpc/examples/ipv6-only/versions.tf": {
+  "language": "hcl"
+ },
+ "language-475/terraform-aws-vpc/examples/manage-default-vpc/main.tf": {
+  "language": "hcl"
+ },
+ "language-475/terraform-aws-vpc/examples/network-acls/main.tf": {
+  "language": "hcl"
+ },
+ "language-475/terraform-aws-vpc/examples/network-acls/versions.tf": {
+  "language": "hcl"
+ },
+ "language-475/terraform-aws-vpc/examples/separate-route-tables/outputs.tf": {
+  "language": "hcl"
+ },
+ "language-475/terraform-aws-vpc/examples/separate-route-tables/versions.tf": {
+  "language": "hcl"
+ },
+ "language-475/terraform-aws-vpc/modules/vpc-endpoints/outputs.tf": {
+  "language": "hcl"
+ },
+ "language-475/terraform-aws-vpc/modules/vpc-endpoints/variables.tf": {
+  "language": "hcl"
+ },
+ "language-475/terraform-aws-vpc/variables.tf": {
+  "language": "hcl"
+ },
+ "language-475/terraform-aws-vpc/wrappers/flow-log/outputs.tf": {
+  "language": "hcl"
+ },
+ "language-475/terraform-aws-vpc/wrappers/vpc-endpoints/outputs.tf": {
+  "language": "hcl"
+ },
+ "language-475/terraform-aws-vpc/wrappers/vpc-endpoints/versions.tf": {
+  "language": "hcl"
+ },
+ "language-475/verilog-ethernet/example/ADM_PCIE_9V3/fpga_25g/rtl/debounce_switch.v": {
+  "language": "verilog"
+ },
+ "language-475/verilog-ethernet/example/ExaNIC_X25/fpga_25g/rtl/sync_signal.v": {
+  "language": "verilog"
+ },
+ "language-475/verilog-ethernet/example/HTG9200/fpga_fmc_htg_6qsfp_25g/rtl/sync_signal.v": {
+  "language": "verilog"
+ },
+ "language-475/verilog-ethernet/example/KC705/fpga_sgmii/rtl/debounce_switch.v": {
+  "language": "verilog"
+ },
+ "language-475/verilog-ethernet/example/S10DX_DK/fpga_10g/rtl/axis2avst.v": {
+  "language": "verilog"
+ },
+ "language-475/verilog-ethernet/example/VCU118/fpga_fmc_htg_6qsfp_25g/pll/si5341_i2c_init.v": {
+  "language": "verilog"
+ },
+ "language-475/verilog-ethernet/example/fb2CG/fpga_25g/rtl/eth_xcvr_phy_quad_wrapper.v": {
+  "language": "verilog"
+ },
+ "language-475/verilog-ethernet/lib/axis/rtl/axis_cobs_encode.v": {
+  "language": "verilog"
+ },
+ "language-475/verilog-ethernet/lib/axis/rtl/axis_ram_switch.v": {
+  "language": "verilog"
+ },
+ "language-475/verilog-ethernet/lib/axis/tb/test_axis_async_fifo_64.v": {
+  "language": "verilog"
+ },
+ "language-475/verilog-ethernet/lib/axis/tb/test_axis_crosspoint_4x4_64.v": {
+  "language": "verilog"
+ },
+ "language-475/verilog-ethernet/lib/axis/tb/test_axis_srl_register.v": {
+  "language": "verilog"
+ },
+ "language-475/verilog-ethernet/rtl/axis_eth_fcs.v": {
+  "language": "verilog"
+ },
+ "language-475/verilog-ethernet/rtl/gmii_phy_if.v": {
+  "language": "verilog"
+ },
+ "language-475/verilog-ethernet/rtl/ip_64.v": {
+  "language": "verilog"
+ },
+ "language-475/verilog-ethernet/rtl/mac_ctrl_tx.v": {
+  "language": "verilog"
+ },
+ "language-475/verilog-ethernet/rtl/ptp_perout.v": {
+  "language": "verilog"
+ },
+ "language-475/verilog-ethernet/rtl/udp_mux.v": {
+  "language": "verilog"
+ },
+ "language-475/verilog-ethernet/tb/test_axis_xgmii_tx_64.v": {
+  "language": "verilog"
+ },
+ "language-475/verilog-ethernet/tb/test_eth_mac_10g_fifo_32.v": {
+  "language": "verilog"
+ },
+ "language-475/zls/src/analyser/analyser.zig": {
+  "language": "zig"
+ },
+ "language-475/zls/src/analyser/completions.zig": {
+  "language": "zig"
+ },
+ "language-475/zls/src/configuration.zig": {
+  "language": "zig"
+ },
+ "language-475/zls/src/features/diagnostics.zig": {
+  "language": "zig"
+ },
+ "language-475/zls/src/features/references.zig": {
+  "language": "zig"
+ },
+ "language-475/zls/src/features/workspace_symbols.zig": {
+  "language": "zig"
+ },
+ "language-475/zls/src/offsets.zig": {
+  "language": "zig"
+ },
+ "language-475/zls/src/testing.zig": {
+  "language": "zig"
+ },
+ "language-475/zls/tests/ErrorBuilder.zig": {
+  "language": "zig"
+ },
+ "language-475/zls/tests/analysis/basic.zig": {
+  "language": "zig"
+ },
+ "language-475/zls/tests/analysis/builtins.zig": {
+  "language": "zig"
+ },
+ "language-475/zls/tests/analysis/meta.zig": {
+  "language": "zig"
+ },
+ "language-475/zls/tests/analysis/result_location_type.zig": {
+  "language": "zig"
+ },
+ "language-475/zls/tests/analysis/string_literal.zig": {
+  "language": "zig"
+ },
+ "language-475/zls/tests/analysis_check.zig": {
+  "language": "zig"
+ },
+ "language-475/zls/tests/context.zig": {
+  "language": "zig"
+ },
+ "language-475/zls/tests/lsp_features/hover.zig": {
+  "language": "zig"
+ },
+ "language-475/zls/tests/utility/ast.zig": {
+  "language": "zig"
+ },
+ "language-475/zls/tests/utility/diff.zig": {
+  "language": "zig"
+ },
+ "language-475/zls/tests/utility/position_context.zig": {
+  "language": "zig"
+ },
+ "language-supplement/Pester/Pester.BuildAnalyzerRules/Pester.BuildAnalyzerRules.psm1": {
+  "language": "powershell"
+ },
+ "language-supplement/Pester/publish/signModule.ps1": {
+  "language": "powershell"
+ },
+ "language-supplement/Pester/src/functions/assert/Boolean/Should-BeFalsy.ps1": {
+  "language": "powershell"
+ },
+ "language-supplement/Pester/src/functions/assert/Time/Should-BeAfter.ps1": {
+  "language": "powershell"
+ },
+ "language-supplement/Pester/tst/CoverageTestFile.ps1": {
+  "language": "powershell"
+ },
+ "language-supplement/Pester/tst/Format.Tests.ps1": {
+  "language": "powershell"
+ },
+ "language-supplement/Pester/tst/Pester.CustomAssertion.ts.ps1": {
+  "language": "powershell"
+ },
+ "language-supplement/Pester/tst/Pester.RSpec.Demo.ts.ps1": {
+  "language": "powershell"
+ },
+ "language-supplement/Pester/tst/Pester.RSpec.Pester4ResultObject.ts.ps1": {
+  "language": "powershell"
+ },
+ "language-supplement/Pester/tst/Pester.RSpec.Shuffle.ts.ps1": {
+  "language": "powershell"
+ },
+ "language-supplement/Pester/tst/Pester.Rspec.Filtering.ts.ps1": {
+  "language": "powershell"
+ },
+ "language-supplement/Pester/tst/functions/SetupTeardown.Tests.ps1": {
+  "language": "powershell"
+ },
+ "language-supplement/Pester/tst/functions/assert/Boolean/Should-BeTrue.Tests.ps1": {
+  "language": "powershell"
+ },
+ "language-supplement/Pester/tst/functions/assert/Collection/Should-Any.Tests.ps1": {
+  "language": "powershell"
+ },
+ "language-supplement/Pester/tst/functions/assert/Collection/Should-BeCollection.Tests.ps1": {
+  "language": "powershell"
+ },
+ "language-supplement/Pester/tst/functions/assert/General/Should-BeGreaterThanOrEqual.Tests.ps1": {
+  "language": "powershell"
+ },
+ "language-supplement/Pester/tst/functions/assert/Hashtable/Should-BeHashtable.Tests.ps1": {
+  "language": "powershell"
+ },
+ "language-supplement/Pester/tst/functions/assert/String/Should-BeString.Tests.ps1": {
+  "language": "powershell"
+ },
+ "language-supplement/Pester/tst/functions/assertions/BeLessThan.Tests.ps1": {
+  "language": "powershell"
+ },
+ "language-supplement/Pester/tst/testProjects/BasicTests/folder2/file1.Tests.ps1": {
+  "language": "powershell"
+ },
+ "language-supplement/chromium/chrome/browser/resources/chromeos/desk_api/manifest.json": {
+  "language": "json"
+ },
+ "language-supplement/chromium/chrome/browser/resources/contextual_tasks/extension/manifest.json": {
+  "language": "json"
+ },
+ "language-supplement/chromium/chrome/browser/resources/glic/glic_api_impl/generate_impl/tsconfig.json": {
+  "language": "json"
+ },
+ "language-supplement/chromium/chrome/browser/ui/android/extensions/windowing/test/test_extension/manifest.json": {
+  "language": "json"
+ },
+ "language-supplement/chromium/tools/chrome_extensions/open_my_editor/ext/manifest.json": {
+  "language": "json"
+ },
+ "language-supplement/chromium/tools/code_coverage/js_source_maps/create_js_source_maps/package.json": {
+  "language": "json"
+ },
+ "language-supplement/chromium/tools/code_coverage/js_source_maps/merge_js_source_maps/package.json": {
+  "language": "json"
+ },
+ "language-supplement/chromium/ui/accessibility/extensions/color_contrast_companion/manifest.json": {
+  "language": "json"
+ },
+ "language-supplement/chromium/ui/file_manager/image_loader/manifest.json": {
+  "language": "json"
+ },
+ "language-supplement/chromium/ui/webui/resources/tools/codemods/package.json": {
+  "language": "json"
+ },
+ "language-supplement/cobra/active_help.go": {
+  "language": "go"
+ },
+ "language-supplement/cobra/bash_completions.go": {
+  "language": "go"
+ },
+ "language-supplement/cobra/bash_completions_test.go": {
+  "language": "go"
+ },
+ "language-supplement/cobra/cobra.go": {
+  "language": "go"
+ },
+ "language-supplement/cobra/cobra_test.go": {
+  "language": "go"
+ },
+ "language-supplement/cobra/command.go": {
+  "language": "go"
+ },
+ "language-supplement/cobra/command_test.go": {
+  "language": "go"
+ },
+ "language-supplement/cobra/completions_test.go": {
+  "language": "go"
+ },
+ "language-supplement/cobra/doc/cmd_test.go": {
+  "language": "go"
+ },
+ "language-supplement/cobra/doc/man_docs_test.go": {
+  "language": "go"
+ },
+ "language-supplement/cobra/doc/rest_docs.go": {
+  "language": "go"
+ },
+ "language-supplement/cobra/doc/rest_docs_test.go": {
+  "language": "go"
+ },
+ "language-supplement/cobra/doc/yaml_docs_test.go": {
+  "language": "go"
+ },
+ "language-supplement/cobra/fish_completions.go": {
+  "language": "go"
+ },
+ "language-supplement/cobra/fish_completions_test.go": {
+  "language": "go"
+ },
+ "language-supplement/cobra/flag_groups.go": {
+  "language": "go"
+ },
+ "language-supplement/cobra/powershell_completions.go": {
+  "language": "go"
+ },
+ "language-supplement/cobra/powershell_completions_test.go": {
+  "language": "go"
+ },
+ "language-supplement/cobra/zsh_completions.go": {
+  "language": "go"
+ },
+ "language-supplement/cobra/zsh_completions_test.go": {
+  "language": "go"
+ },
+ "language-supplement/nextflow/modules/nextflow/src/main/groovy/nextflow/container/ContainerConfig.groovy": {
+  "language": "groovy"
+ },
+ "language-supplement/nextflow/modules/nextflow/src/main/groovy/nextflow/container/ContainerNameValidator.groovy": {
+  "language": "groovy"
+ },
+ "language-supplement/nextflow/modules/nextflow/src/main/groovy/nextflow/container/ShifterConfig.groovy": {
+  "language": "groovy"
+ },
+ "language-supplement/nextflow/modules/nextflow/src/main/groovy/nextflow/exception/IllegalInvocationException.groovy": {
+  "language": "groovy"
+ },
+ "language-supplement/nextflow/modules/nextflow/src/main/groovy/nextflow/fusion/FusionScriptLauncher.groovy": {
+  "language": "groovy"
+ },
+ "language-supplement/nextflow/modules/nextflow/src/main/groovy/nextflow/processor/TaskBean.groovy": {
+  "language": "groovy"
+ },
+ "language-supplement/nextflow/modules/nextflow/src/main/groovy/nextflow/script/IncludeDef.groovy": {
+  "language": "groovy"
+ },
+ "language-supplement/nextflow/modules/nextflow/src/main/groovy/nextflow/script/params/DefaultInParam.groovy": {
+  "language": "groovy"
+ },
+ "language-supplement/nextflow/modules/nextflow/src/test/groovy/nextflow/agent/AgentModuleRunToolTest.groovy": {
+  "language": "groovy"
+ },
+ "language-supplement/nextflow/modules/nextflow/src/test/groovy/nextflow/executor/PbsExecutorTest.groovy": {
+  "language": "groovy"
+ },
+ "language-supplement/nextflow/modules/nextflow/src/test/groovy/nextflow/executor/local/AgentTaskHandlerTest.groovy": {
+  "language": "groovy"
+ },
+ "language-supplement/nextflow/modules/nextflow/src/test/groovy/nextflow/file/SequentialFileStoreTest.groovy": {
+  "language": "groovy"
+ },
+ "language-supplement/nextflow/modules/nextflow/src/test/groovy/nextflow/trace/TraceFileObserverTest.groovy": {
+  "language": "groovy"
+ },
+ "language-supplement/nextflow/modules/nextflow/src/test/groovy/nextflow/util/ConfigHelperTest.groovy": {
+  "language": "groovy"
+ },
+ "language-supplement/nextflow/modules/nf-cli-v1/src/main/groovy/nextflow/cli/CmdAuth.groovy": {
+  "language": "groovy"
+ },
+ "language-supplement/nextflow/modules/nf-cli-v1/src/main/groovy/nextflow/k8s/K8sDriverLauncher.groovy": {
+  "language": "groovy"
+ },
+ "language-supplement/nextflow/modules/nf-commons/src/main/nextflow/util/RateUnit.groovy": {
+  "language": "groovy"
+ },
+ "language-supplement/nextflow/plugins/nf-amazon/src/test/nextflow/extension/PublishOpS3Test.groovy": {
+  "language": "groovy"
+ },
+ "language-supplement/nextflow/plugins/nf-k8s/src/main/nextflow/k8s/model/PodNodeSelector.groovy": {
+  "language": "groovy"
+ },
+ "language-supplement/nextflow/plugins/nf-wave/src/test/io/seqera/wave/plugin/resolver/WaveContainerResolverTest.groovy": {
+  "language": "groovy"
+ },
+ "language-supplement/plenary.nvim/data/plenary/filetypes/builtin.lua": {
+  "language": "lua"
+ },
+ "language-supplement/plenary.nvim/lua/luassert/match.lua": {
+  "language": "lua"
+ },
+ "language-supplement/plenary.nvim/lua/luassert/modifiers.lua": {
+  "language": "lua"
+ },
+ "language-supplement/plenary.nvim/lua/luassert/stub.lua": {
+  "language": "lua"
+ },
+ "language-supplement/plenary.nvim/lua/plenary/async/api.lua": {
+  "language": "lua"
+ },
+ "language-supplement/plenary.nvim/lua/plenary/async/async.lua": {
+  "language": "lua"
+ },
+ "language-supplement/plenary.nvim/lua/plenary/async/init.lua": {
+  "language": "lua"
+ },
+ "language-supplement/plenary.nvim/lua/plenary/async/lsp.lua": {
+  "language": "lua"
+ },
+ "language-supplement/plenary.nvim/lua/plenary/async_lib/tests.lua": {
+  "language": "lua"
+ },
+ "language-supplement/plenary.nvim/lua/plenary/filetype.lua": {
+  "language": "lua"
+ },
+ "language-supplement/plenary.nvim/lua/plenary/profile/memory_profiler.lua": {
+  "language": "lua"
+ },
+ "language-supplement/plenary.nvim/lua/plenary/tbl.lua": {
+  "language": "lua"
+ },
+ "language-supplement/plenary.nvim/lua/plenary/window/init.lua": {
+  "language": "lua"
+ },
+ "language-supplement/plenary.nvim/scripts/generate_luassert_types.lua": {
+  "language": "lua"
+ },
+ "language-supplement/plenary.nvim/scripts/update_filetypes_from_github.lua": {
+  "language": "lua"
+ },
+ "language-supplement/plenary.nvim/tests/plenary/async/condvar_spec.lua": {
+  "language": "lua"
+ },
+ "language-supplement/plenary.nvim/tests/plenary/functional_spec.lua": {
+  "language": "lua"
+ },
+ "language-supplement/plenary.nvim/tests/plenary/iterators_spec.lua": {
+  "language": "lua"
+ },
+ "language-supplement/plenary.nvim/tests/plenary/job/validation_spec.lua": {
+  "language": "lua"
+ },
+ "language-supplement/plenary.nvim/tests/plenary/json_spec.lua": {
+  "language": "lua"
+ }
+}

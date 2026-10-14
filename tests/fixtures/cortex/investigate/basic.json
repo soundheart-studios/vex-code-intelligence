@@ -1,0 +1,133 @@
+{
+  "args": {
+    "queries": [
+      "how is a timestamp checked",
+      "json serializer"
+    ]
+  },
+  "response": {
+    "fetch_targets": [
+      "src.itsdangerous.timed.py.TimestampSigner.unsign",
+      "src.itsdangerous.timed.py.TimestampSigner.get_timestamp",
+      "src.itsdangerous.serializer.py.Serializer",
+      "src.itsdangerous.url_safe.py.URLSafeSerializerMixin.dump_payload"
+    ],
+    "leads": [
+      {
+        "file": "src/itsdangerous/timed.py",
+        "kind": "function",
+        "lines": "72-158",
+        "matched_queries": [
+          0
+        ],
+        "name": "unsign",
+        "score": 1.0,
+        "source_available": true,
+        "symbol": "src.itsdangerous.timed.py.TimestampSigner.unsign",
+        "target": "src.itsdangerous.timed.py.TimestampSigner.unsign"
+      },
+      {
+        "file": "src/itsdangerous/timed.py",
+        "kind": "function",
+        "lines": "29-33",
+        "matched_queries": [
+          0
+        ],
+        "name": "get_timestamp",
+        "score": 0.989,
+        "source_available": true,
+        "symbol": "src.itsdangerous.timed.py.TimestampSigner.get_timestamp",
+        "target": "src.itsdangerous.timed.py.TimestampSigner.get_timestamp"
+      },
+      {
+        "file": "src/itsdangerous/serializer.py",
+        "kind": "class",
+        "lines": "40-404",
+        "matched_queries": [
+          1
+        ],
+        "name": "Serializer",
+        "score": 1.0,
+        "source_available": true,
+        "symbol": "src.itsdangerous.serializer.py.Serializer",
+        "target": "src.itsdangerous.serializer.py.Serializer"
+      },
+      {
+        "file": "src/itsdangerous/url_safe.py",
+        "kind": "function",
+        "lines": "55-69",
+        "matched_queries": [
+          1
+        ],
+        "name": "dump_payload",
+        "score": 0.563,
+        "source_available": true,
+        "symbol": "src.itsdangerous.url_safe.py.URLSafeSerializerMixin.dump_payload",
+        "target": "src.itsdangerous.url_safe.py.URLSafeSerializerMixin.dump_payload"
+      }
+    ],
+    "limits": {
+      "discovery_top_k": 10,
+      "max_bytes": 12000,
+      "max_leads": 12,
+      "max_selected_leads": 12,
+      "queries": 6,
+      "top_k": 3
+    },
+    "next_action": "call expand exactly once with fetch_targets as its target list; do not search or read first. Search only if that batch reports a concrete missing evidence gap",
+    "queries": [
+      "how is a timestamp checked",
+      "json serializer"
+    ],
+    "ranking": [
+      {
+        "score": "relative to the best hit in THIS response; 1.0 is the top result, not a confidence",
+        "top_gap": 0.011,
+        "verdict": "no clear winner: the top results scored within 0.011 of each other, which means the ranking is ambiguous, not that nothing is relevant"
+      },
+      {
+        "score": "relative to the best hit in THIS response; 1.0 is the top result, not a confidence",
+        "top_gap": 0.052,
+        "verdict": "no clear winner: the top results scored within 0.052 of each other, which means the ranking is ambiguous, not that nothing is relevant"
+      }
+    ],
+    "selector": {
+      "assignments": [
+        {
+          "question": 0,
+          "targets": [
+            "src.itsdangerous.timed.py.TimestampSigner.unsign",
+            "src.itsdangerous.timed.py.TimestampSigner.get_timestamp"
+          ]
+        },
+        {
+          "question": 1,
+          "targets": [
+            "src.itsdangerous.serializer.py.Serializer",
+            "src.itsdangerous.url_safe.py.URLSafeSerializerMixin.dump_payload"
+          ]
+        }
+      ],
+      "attempts": 0,
+      "bundle_limit": 4,
+      "eligible_candidates": 8,
+      "fallback_reason": "selection is rule-based",
+      "guardrail_filtered_matches": 10,
+      "model": "rules-v1",
+      "provider": "heuristic",
+      "rejected_ids": 0,
+      "selector_ms": 0,
+      "status": "fallback"
+    },
+    "stats": {
+      "candidates": 20,
+      "deduplicated_leads": 18,
+      "included_leads": 4,
+      "response_bytes": 2953,
+      "selected_leads": 4
+    },
+    "truncated": false,
+    "warming": null
+  },
+  "tool": "investigate"
+}

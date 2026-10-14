@@ -1,0 +1,39 @@
+{
+  "args": {
+    "max_bytes": 600,
+    "query": "unsign"
+  },
+  "response": {
+    "ranking": {
+      "budget": {
+        "detail": {
+          "note": "ranked but not returned, best-first: these are the next results, not worse matches for a different question",
+          "unit": "results"
+        },
+        "hint": "4 item(s) withheld at limit 600. Retrieve them with: search(query='unsign', top_k=5, max_bytes=1200) -- this is reachable through Cortex; no file read needed.",
+        "limit": 600,
+        "next": [
+          "search(query='unsign', top_k=5, max_bytes=1200)"
+        ],
+        "reason": "response_byte_budget",
+        "withheld": 4
+      },
+      "gap_note": "only one result: nothing to compare the top hit against, so decisiveness is unmeasured",
+      "score": "relative to the best hit in THIS response; 1.0 is the top result, not a confidence",
+      "top_gap": null
+    },
+    "results": [
+      {
+        "content": "    @t.overload\n    def unsign(  # pyright: ignore\n        self,\n        signed_value: str | bytes,\n        max_age: int | None = None,\n        return_timestamp: t.Literal[False] = False,\n    ) -> bytes: ...",
+        "file": "src/itsdangerous/timed.py",
+        "lines": "56-62",
+        "matched_by": [
+          "semantic",
+          "full_text"
+        ],
+        "score": 1.0
+      }
+    ]
+  },
+  "tool": "search"
+}

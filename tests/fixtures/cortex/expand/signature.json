@@ -1,0 +1,13 @@
+{
+  "args": {
+    "detail": "signature",
+    "target": "Serializer.loads"
+  },
+  "response": {
+    "file": "src/itsdangerous/serializer.py",
+    "lines": "328-343",
+    "source": "    def loads(\n        self, s: str | bytes, salt: str | bytes | None = None, **kwargs: t.Any\n    ) -> t.Any:",
+    "symbol": "src.itsdangerous.serializer.py.Serializer.loads"
+  },
+  "tool": "expand"
+}

@@ -1,0 +1,7 @@
+{
+  "args": {
+    "budget_tokens": 300
+  },
+  "response": "src/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74\nsrc/itsdangerous/encoding.py:\n  fu want_bytes  <-4 refs  L11\n  fu base64_encode  <-4 refs  L20\n  fu base64_decode  <-4 refs  L28\n  fu int_to_bytes  <-2 refs  L49\n  fu bytes_to_int  <-2 refs  L53\nsrc/itsdangerous/signer.py:\n  fu sign  <-4 refs  L222\n  fu unsign  <-3 refs  L244\n  cl Signer  <-2 refs  L76\n  fu verify_signature  <-1 refs  L227\n  fu verify_signature  <-1 refs  L24\n  fu validate  <-1 refs  L258\n  fu get_signature  <-1 refs  L215\n  fu get_signature  <-1 refs  L62",
+  "tool": "map"
+}

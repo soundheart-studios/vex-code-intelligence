@@ -1,0 +1,7 @@
+{
+  "args": {},
+  "response": {
+    "summary": "no uncommitted changes detected (or not a git repo)"
+  },
+  "tool": "detect_changes"
+}

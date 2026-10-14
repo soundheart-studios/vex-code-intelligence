@@ -1,0 +1,130 @@
+{
+  "args": {
+    "roots": [
+      "Signer.unsign"
+    ]
+  },
+  "response": {
+    "confidence_recovery": {
+      "detail": {
+        "floor": 0.7,
+        "meaning": "below this an edge is a name match with no receiver type -- verify before trusting it"
+      },
+      "hint": "2 item(s) withheld at limit 0.7. Retrieve them with: context(symbol='src.itsdangerous.signer.py.Signer.unsign', confidence_min=0.0) -- this is reachable through Cortex; no file read needed.",
+      "limit": 0.7,
+      "next": [
+        "context(symbol='src.itsdangerous.signer.py.Signer.unsign', confidence_min=0.0)",
+        "impact(symbol='src.itsdangerous.signer.py.Signer.unsign', direction='both', confidence_min=0.0)"
+      ],
+      "reason": "graph_confidence_floor",
+      "withheld": 2
+    },
+    "edges": [
+      {
+        "confidence": 0.3333333333333333,
+        "id": "file:tests/test_itsdangerous/test_signer.py->src.itsdangerous.signer.py.Signer.unsign:REFS",
+        "source": "file:tests/test_itsdangerous/test_signer.py",
+        "target": "src.itsdangerous.signer.py.Signer.unsign",
+        "type": "REFS"
+      },
+      {
+        "confidence": 0.3333333333333333,
+        "id": "file:tests/test_itsdangerous/test_timed.py->src.itsdangerous.signer.py.Signer.unsign:REFS",
+        "source": "file:tests/test_itsdangerous/test_timed.py",
+        "target": "src.itsdangerous.signer.py.Signer.unsign",
+        "type": "REFS"
+      },
+      {
+        "confidence": 0.08333333333333333,
+        "id": "file:src/itsdangerous/serializer.py->src.itsdangerous.signer.py.Signer.unsign:REFS",
+        "source": "file:src/itsdangerous/serializer.py",
+        "target": "src.itsdangerous.signer.py.Signer.unsign",
+        "type": "REFS"
+      },
+      {
+        "confidence": 0.9,
+        "id": "src.itsdangerous.signer.py.Signer.validate->src.itsdangerous.signer.py.Signer.unsign:CALLS",
+        "source": "src.itsdangerous.signer.py.Signer.validate",
+        "target": "src.itsdangerous.signer.py.Signer.unsign",
+        "type": "CALLS"
+      },
+      {
+        "confidence": 0.9,
+        "id": "src.itsdangerous.signer.py.Signer.unsign->src.itsdangerous.signer.py.Signer.verify_signature:CALLS",
+        "source": "src.itsdangerous.signer.py.Signer.unsign",
+        "target": "src.itsdangerous.signer.py.Signer.verify_signature",
+        "type": "CALLS"
+      }
+    ],
+    "limits": {
+      "depth": 1,
+      "edges": 48,
+      "nodes": 24
+    },
+    "nodes": [
+      {
+        "depth": 0,
+        "end_line": 256,
+        "file": "src/itsdangerous/signer.py",
+        "id": "src.itsdangerous.signer.py.Signer.unsign",
+        "kind": "function",
+        "label": "unsign",
+        "start_line": 244,
+        "state": "match"
+      },
+      {
+        "depth": 1,
+        "file": "tests/test_itsdangerous/test_signer.py",
+        "id": "file:tests/test_itsdangerous/test_signer.py",
+        "kind": "file",
+        "label": "py",
+        "state": "normal"
+      },
+      {
+        "depth": 1,
+        "file": "tests/test_itsdangerous/test_timed.py",
+        "id": "file:tests/test_itsdangerous/test_timed.py",
+        "kind": "file",
+        "label": "py",
+        "state": "normal"
+      },
+      {
+        "depth": 1,
+        "file": "src/itsdangerous/serializer.py",
+        "id": "file:src/itsdangerous/serializer.py",
+        "kind": "file",
+        "label": "py",
+        "state": "normal"
+      },
+      {
+        "depth": 1,
+        "end_line": 266,
+        "file": "src/itsdangerous/signer.py",
+        "id": "src.itsdangerous.signer.py.Signer.validate",
+        "kind": "function",
+        "label": "validate",
+        "start_line": 258,
+        "state": "normal"
+      },
+      {
+        "depth": 1,
+        "end_line": 242,
+        "file": "src/itsdangerous/signer.py",
+        "id": "src.itsdangerous.signer.py.Signer.verify_signature",
+        "kind": "function",
+        "label": "verify_signature",
+        "start_line": 227,
+        "state": "normal"
+      }
+    ],
+    "roots": [
+      "src.itsdangerous.signer.py.Signer.unsign"
+    ],
+    "truncated": false,
+    "warnings": [],
+    "withheld": {
+      "low_confidence": 2
+    }
+  },
+  "tool": "traverse"
+}

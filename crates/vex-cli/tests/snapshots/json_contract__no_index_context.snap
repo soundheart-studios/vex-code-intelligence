@@ -1,0 +1,6 @@
+---
+source: crates/vex-cli/tests/json_contract.rs
+expression: "format!(\"exit: {code}\\n{}\", redact(&out, &bare))"
+---
+exit: 2
+{"schema":1,"error":"no_index","message":"<ROOT> has no vex index yet; run `vex init` there first"}

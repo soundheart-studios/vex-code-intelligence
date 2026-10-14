@@ -1,0 +1,196 @@
+{
+  "args": {
+    "max_depth": 1
+  },
+  "response": {
+    "affected": [
+      {
+        "confidence": 1.0,
+        "depth": 1,
+        "symbol": "file:src/itsdangerous/serializer.py",
+        "via": "src.itsdangerous.encoding.py.want_bytes"
+      },
+      {
+        "confidence": 1.0,
+        "depth": 1,
+        "symbol": "file:src/itsdangerous/signer.py",
+        "via": "src.itsdangerous.encoding.py.want_bytes"
+      },
+      {
+        "confidence": 1.0,
+        "depth": 1,
+        "symbol": "file:src/itsdangerous/timed.py",
+        "via": "src.itsdangerous.encoding.py.want_bytes"
+      },
+      {
+        "confidence": 0.95,
+        "depth": 1,
+        "symbol": "tests.test_itsdangerous.test_encoding.py.test_base64",
+        "via": "src.itsdangerous.encoding.py.want_bytes"
+      },
+      {
+        "confidence": 0.95,
+        "depth": 1,
+        "symbol": "tests.test_itsdangerous.test_encoding.py.test_want_bytes",
+        "via": "src.itsdangerous.encoding.py.want_bytes"
+      },
+      {
+        "confidence": 0.95,
+        "depth": 1,
+        "symbol": "tests.test_itsdangerous.test_signer.py.TestSigner.test_secret_keys",
+        "via": "src.itsdangerous.signer.py.Signer"
+      },
+      {
+        "confidence": 0.95,
+        "depth": 1,
+        "symbol": "tests.test_itsdangerous.test_timed.py.TestTimestampSigner.test_malformed_timestamp",
+        "via": "src.itsdangerous.signer.py.Signer"
+      },
+      {
+        "confidence": 0.95,
+        "depth": 1,
+        "symbol": "tests.test_itsdangerous.test_timed.py.TestTimestampSigner.test_timestamp_missing",
+        "via": "src.itsdangerous.signer.py.Signer"
+      },
+      {
+        "confidence": 0.9,
+        "depth": 1,
+        "symbol": "src.itsdangerous.encoding.py.base64_decode",
+        "via": "src.itsdangerous.encoding.py.want_bytes"
+      },
+      {
+        "confidence": 0.9,
+        "depth": 1,
+        "symbol": "src.itsdangerous.encoding.py.base64_encode",
+        "via": "src.itsdangerous.encoding.py.want_bytes"
+      },
+      {
+        "confidence": 0.9,
+        "depth": 1,
+        "symbol": "src.itsdangerous.signer.py.Signer.sign",
+        "via": "src.itsdangerous.signer.py.Signer.get_signature"
+      },
+      {
+        "confidence": 0.6,
+        "depth": 1,
+        "symbol": "src.itsdangerous.serializer.py.Serializer.loads",
+        "via": "src.itsdangerous.encoding.py.want_bytes"
+      },
+      {
+        "confidence": 0.6,
+        "depth": 1,
+        "symbol": "src.itsdangerous.serializer.py.Serializer.dumps",
+        "via": "src.itsdangerous.encoding.py.want_bytes"
+      },
+      {
+        "confidence": 0.6,
+        "depth": 1,
+        "symbol": "src.itsdangerous.serializer.py.Serializer.dump_payload",
+        "via": "src.itsdangerous.encoding.py.want_bytes"
+      },
+      {
+        "confidence": 0.6,
+        "depth": 1,
+        "symbol": "src.itsdangerous.serializer.py.Serializer.__init__",
+        "via": "src.itsdangerous.encoding.py.want_bytes"
+      },
+      {
+        "confidence": 0.6,
+        "depth": 1,
+        "symbol": "src.itsdangerous.signer.py.Signer.unsign",
+        "via": "src.itsdangerous.encoding.py.want_bytes"
+      },
+      {
+        "confidence": 0.6,
+        "depth": 1,
+        "symbol": "src.itsdangerous.signer.py.Signer.verify_signature",
+        "via": "src.itsdangerous.encoding.py.want_bytes"
+      },
+      {
+        "confidence": 0.6,
+        "depth": 1,
+        "symbol": "src.itsdangerous.signer.py.Signer.get_signature",
+        "via": "src.itsdangerous.encoding.py.want_bytes"
+      },
+      {
+        "confidence": 0.6,
+        "depth": 1,
+        "symbol": "src.itsdangerous.signer.py.Signer.derive_key",
+        "via": "src.itsdangerous.encoding.py.want_bytes"
+      },
+      {
+        "confidence": 0.6,
+        "depth": 1,
+        "symbol": "src.itsdangerous.signer.py.Signer.__init__",
+        "via": "src.itsdangerous.encoding.py.want_bytes"
+      },
+      {
+        "confidence": 0.6,
+        "depth": 1,
+        "symbol": "src.itsdangerous.signer.py._make_keys_list",
+        "via": "src.itsdangerous.encoding.py.want_bytes"
+      },
+      {
+        "confidence": 0.6,
+        "depth": 1,
+        "symbol": "src.itsdangerous.timed.py.TimedSerializer.loads",
+        "via": "src.itsdangerous.encoding.py.want_bytes"
+      },
+      {
+        "confidence": 0.6,
+        "depth": 1,
+        "symbol": "src.itsdangerous.timed.py.TimestampSigner.unsign",
+        "via": "src.itsdangerous.encoding.py.want_bytes"
+      },
+      {
+        "confidence": 0.6,
+        "depth": 1,
+        "symbol": "src.itsdangerous.timed.py.TimestampSigner.sign",
+        "via": "src.itsdangerous.encoding.py.want_bytes"
+      },
+      {
+        "confidence": 0.5,
+        "depth": 1,
+        "symbol": "file:tests/test_itsdangerous/test_encoding.py",
+        "via": "src.itsdangerous.encoding.py.want_bytes"
+      },
+      {
+        "confidence": 0.5,
+        "depth": 1,
+        "symbol": "file:tests/test_itsdangerous/test_signer.py",
+        "via": "src.itsdangerous.signer.py.Signer"
+      },
+      {
+        "confidence": 0.5,
+        "depth": 1,
+        "symbol": "file:tests/test_itsdangerous/test_timed.py",
+        "via": "src.itsdangerous.signer.py.Signer"
+      }
+    ],
+    "changed": [
+      {
+        "file": "src/itsdangerous/encoding.py",
+        "kind": "function",
+        "symbol": "src.itsdangerous.encoding.py.want_bytes"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "kind": "class",
+        "symbol": "src.itsdangerous.signer.py.Signer"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "kind": "function",
+        "symbol": "src.itsdangerous.signer.py.Signer.get_signature"
+      }
+    ],
+    "note": "affected = upstream callers of changed symbols; verify confidence < 0.7 hits before assuming breakage",
+    "summary": {
+      "affected_symbols": 27,
+      "changed_files": 2,
+      "changed_symbols": 3,
+      "risk_level": "high"
+    }
+  },
+  "tool": "detect_changes"
+}

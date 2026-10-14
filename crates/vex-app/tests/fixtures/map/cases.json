@@ -1,0 +1,3948 @@
+{
+ "cases": [
+  {
+   "call": {
+    "focus": null
+   },
+   "wire": "src/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74\nsrc/itsdangerous/encoding.py:\n  fu want_bytes  <-4 refs  L11\n  fu base64_encode  <-4 refs  L20\n  fu base64_decode  <-4 refs  L28\n  fu int_to_bytes  <-2 refs  L49\n  fu bytes_to_int  <-2 refs  L53\nsrc/itsdangerous/signer.py:\n  fu sign  <-4 refs  L222\n  fu unsign  <-3 refs  L244\n  cl Signer  <-2 refs  L76\n  fu verify_signature  <-1 refs  L227\n  fu verify_signature  <-1 refs  L24\n  fu validate  <-1 refs  L258\n  fu get_signature  <-1 refs  L215\n  fu get_signature  <-1 refs  L62\ngraphpkg/hub.py:\n  fu top  <-1 refs  L17\n  fu hub  <-1 refs  L4\n  fu pong  L25\n  fu ping  L21\n  fu mid  L13\n  fu leaf  L9\nsrc/itsdangerous/serializer.py:\n  fu load_payload  <-3 refs  L243\n  fu loads  <-2 refs  L328\n  fu loads  <-2 refs  L25\n  fu dumps  <-2 refs  L309\n  fu dumps  <-2 refs  L29\n  fu make_signer  <-1 refs  L278\n  fu loads_unsafe  <-1 refs  L349\n  fu load_unsafe  <-1 refs  L397\nmappkg/many.py:\n  fu kappa  <-1 refs  L39\n  fu beta  <-1 refs  L7\n  fu alpha  <-1 refs  L3\n  fu zeta  L23\n  fu user  L47\n  fu theta  L31\n  fu lam  L43\n  fu iota  L35\ntests/test_itsdangerous/test_timed.py:\n  fu ts  L20\n  fu test_timestamp_missing  L49\n  fu test_sig_error_date_signed  L87\n  fu test_return_timestamp  L45\n  fu test_return_payload  L113\n  fu test_max_age  L101\n  fu test_max_age  L34\n  fu test_malformed_timestamp  L59\nsrc/itsdangerous/timed.py:\n  fu sign  <-4 refs  L45\n  fu unsign  <-3 refs  L57\n  fu loads  <-2 refs  L185\n  fu validate  <-1 refs  L160\n  fu loads_unsafe  <-1 refs  L222\n  fu iter_unsigners  <-1 refs  L177\n  fu timestamp_to_datetime  L35\n  fu get_timestamp  L29\nmappkg/ünïcode.py:\n  fu länge  <-1 refs  L13\n  fu größe  <-1 refs  L4\n  cl Straße  <-1 refs  L12\n  fu 名前  L8\ntests/test_itsdangerous/test_url_safe.py:\n  fu value  L17\n  fu serializer_factory  L23\n  fu serializer_factory  L13\n  cl TestURLSafeTimedSerializer  L21\n  cl TestURLSafeSerializer  L11\nsrc/itsdangerous/_json.py:\n  fu loads  <-2 refs  L11\n  fu dumps  <-2 refs  L15\n  cl _CompactJSON  L7\ntests/test_itsdangerous/test_serializer.py:\n  fu unsign  <-3 refs  L102\n  fu value  L45\n  fu test_signer_kwargs  L138\n  fu test_signer_cls  L130\n  fu test_serializer_kwargs  L145\n  fu test_serializer  L51\n  fu test_loads_unsafe  L90\n  fu test_iter_unsigners  L166",
+   "included": [
+    "src/itsdangerous/exc.py",
+    "src/itsdangerous/encoding.py",
+    "src/itsdangerous/signer.py",
+    "graphpkg/hub.py",
+    "src/itsdangerous/serializer.py",
+    "mappkg/many.py",
+    "tests/test_itsdangerous/test_timed.py",
+    "src/itsdangerous/timed.py",
+    "mappkg/ünïcode.py",
+    "tests/test_itsdangerous/test_url_safe.py",
+    "src/itsdangerous/_json.py",
+    "tests/test_itsdangerous/test_serializer.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": []
+   },
+   "wire": "src/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74\nsrc/itsdangerous/encoding.py:\n  fu want_bytes  <-4 refs  L11\n  fu base64_encode  <-4 refs  L20\n  fu base64_decode  <-4 refs  L28\n  fu int_to_bytes  <-2 refs  L49\n  fu bytes_to_int  <-2 refs  L53\nsrc/itsdangerous/signer.py:\n  fu sign  <-4 refs  L222\n  fu unsign  <-3 refs  L244\n  cl Signer  <-2 refs  L76\n  fu verify_signature  <-1 refs  L227\n  fu verify_signature  <-1 refs  L24\n  fu validate  <-1 refs  L258\n  fu get_signature  <-1 refs  L215\n  fu get_signature  <-1 refs  L62\ngraphpkg/hub.py:\n  fu top  <-1 refs  L17\n  fu hub  <-1 refs  L4\n  fu pong  L25\n  fu ping  L21\n  fu mid  L13\n  fu leaf  L9\nsrc/itsdangerous/serializer.py:\n  fu load_payload  <-3 refs  L243\n  fu loads  <-2 refs  L328\n  fu loads  <-2 refs  L25\n  fu dumps  <-2 refs  L309\n  fu dumps  <-2 refs  L29\n  fu make_signer  <-1 refs  L278\n  fu loads_unsafe  <-1 refs  L349\n  fu load_unsafe  <-1 refs  L397\nmappkg/many.py:\n  fu kappa  <-1 refs  L39\n  fu beta  <-1 refs  L7\n  fu alpha  <-1 refs  L3\n  fu zeta  L23\n  fu user  L47\n  fu theta  L31\n  fu lam  L43\n  fu iota  L35\ntests/test_itsdangerous/test_timed.py:\n  fu ts  L20\n  fu test_timestamp_missing  L49\n  fu test_sig_error_date_signed  L87\n  fu test_return_timestamp  L45\n  fu test_return_payload  L113\n  fu test_max_age  L101\n  fu test_max_age  L34\n  fu test_malformed_timestamp  L59\nsrc/itsdangerous/timed.py:\n  fu sign  <-4 refs  L45\n  fu unsign  <-3 refs  L57\n  fu loads  <-2 refs  L185\n  fu validate  <-1 refs  L160\n  fu loads_unsafe  <-1 refs  L222\n  fu iter_unsigners  <-1 refs  L177\n  fu timestamp_to_datetime  L35\n  fu get_timestamp  L29\nmappkg/ünïcode.py:\n  fu länge  <-1 refs  L13\n  fu größe  <-1 refs  L4\n  cl Straße  <-1 refs  L12\n  fu 名前  L8\ntests/test_itsdangerous/test_url_safe.py:\n  fu value  L17\n  fu serializer_factory  L23\n  fu serializer_factory  L13\n  cl TestURLSafeTimedSerializer  L21\n  cl TestURLSafeSerializer  L11\nsrc/itsdangerous/_json.py:\n  fu loads  <-2 refs  L11\n  fu dumps  <-2 refs  L15\n  cl _CompactJSON  L7\ntests/test_itsdangerous/test_serializer.py:\n  fu unsign  <-3 refs  L102\n  fu value  L45\n  fu test_signer_kwargs  L138\n  fu test_signer_cls  L130\n  fu test_serializer_kwargs  L145\n  fu test_serializer  L51\n  fu test_loads_unsafe  L90\n  fu test_iter_unsigners  L166",
+   "included": [
+    "src/itsdangerous/exc.py",
+    "src/itsdangerous/encoding.py",
+    "src/itsdangerous/signer.py",
+    "graphpkg/hub.py",
+    "src/itsdangerous/serializer.py",
+    "mappkg/many.py",
+    "tests/test_itsdangerous/test_timed.py",
+    "src/itsdangerous/timed.py",
+    "mappkg/ünïcode.py",
+    "tests/test_itsdangerous/test_url_safe.py",
+    "src/itsdangerous/_json.py",
+    "tests/test_itsdangerous/test_serializer.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": [
+     "graphpkg/"
+    ]
+   },
+   "wire": "graphpkg/hub.py:\n  fu top  <-1 refs  L17\n  fu hub  <-1 refs  L4\n  fu pong  L25\n  fu ping  L21\n  fu mid  L13\n  fu leaf  L9\ngraphpkg/__init__.py:\ngraphpkg/ambiguous.py:\n  fu run_any  L14\n  fu process  L10\n  fu process  L5\n  fu go  L19\n  cl Gamma  L18\n  cl Beta  L9\n  cl Alpha  L4\ngraphpkg/callers.py:\n  fu over_top  L126\n  fu c29  L122\n  fu c28  L118\n  fu c27  L114\n  fu c26  L110\n  fu c25  L106\n  fu c24  L102\n  fu c23  L98\ngraphpkg/control.py:\n  fu inner  L23\n  fu control  L4\n  cl Local  L26\nsrc/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74\nsrc/itsdangerous/encoding.py:\n  fu want_bytes  <-4 refs  L11\n  fu base64_encode  <-4 refs  L20\n  fu base64_decode  <-4 refs  L28\n  fu int_to_bytes  <-2 refs  L49\n  fu bytes_to_int  <-2 refs  L53\nsrc/itsdangerous/signer.py:\n  fu sign  <-4 refs  L222\n  fu unsign  <-3 refs  L244\n  cl Signer  <-2 refs  L76\n  fu verify_signature  <-1 refs  L227\n  fu verify_signature  <-1 refs  L24\n  fu validate  <-1 refs  L258\n  fu get_signature  <-1 refs  L215\n  fu get_signature  <-1 refs  L62\nsrc/itsdangerous/serializer.py:\n  fu load_payload  <-3 refs  L243\n  fu loads  <-2 refs  L328\n  fu loads  <-2 refs  L25\n  fu dumps  <-2 refs  L309\n  fu dumps  <-2 refs  L29\n  fu make_signer  <-1 refs  L278\n  fu loads_unsafe  <-1 refs  L349\n  fu load_unsafe  <-1 refs  L397\nmappkg/many.py:\n  fu kappa  <-1 refs  L39\n  fu beta  <-1 refs  L7\n  fu alpha  <-1 refs  L3\n  fu zeta  L23\n  fu user  L47\n  fu theta  L31\n  fu lam  L43\n  fu iota  L35\ntests/test_itsdangerous/test_timed.py:\n  fu ts  L20\n  fu test_timestamp_missing  L49\n  fu test_sig_error_date_signed  L87\n  fu test_return_timestamp  L45\n  fu test_return_payload  L113\n  fu test_max_age  L101\n  fu test_max_age  L34\n  fu test_malformed_timestamp  L59\nsrc/itsdangerous/timed.py:\n  fu sign  <-4 refs  L45\n  fu unsign  <-3 refs  L57\n  fu loads  <-2 refs  L185\n  fu validate  <-1 refs  L160\n  fu loads_unsafe  <-1 refs  L222\n  fu iter_unsigners  <-1 refs  L177\n  fu timestamp_to_datetime  L35\n  fu get_timestamp  L29",
+   "included": [
+    "graphpkg/hub.py",
+    "graphpkg/__init__.py",
+    "graphpkg/ambiguous.py",
+    "graphpkg/callers.py",
+    "graphpkg/control.py",
+    "src/itsdangerous/exc.py",
+    "src/itsdangerous/encoding.py",
+    "src/itsdangerous/signer.py",
+    "src/itsdangerous/serializer.py",
+    "mappkg/many.py",
+    "tests/test_itsdangerous/test_timed.py",
+    "src/itsdangerous/timed.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": [
+     "hub"
+    ]
+   },
+   "wire": "graphpkg/hub.py:\n  fu top  <-1 refs  L17\n  fu hub  <-1 refs  L4\n  fu pong  L25\n  fu ping  L21\n  fu mid  L13\n  fu leaf  L9\nsrc/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74\nsrc/itsdangerous/encoding.py:\n  fu want_bytes  <-4 refs  L11\n  fu base64_encode  <-4 refs  L20\n  fu base64_decode  <-4 refs  L28\n  fu int_to_bytes  <-2 refs  L49\n  fu bytes_to_int  <-2 refs  L53\nsrc/itsdangerous/signer.py:\n  fu sign  <-4 refs  L222\n  fu unsign  <-3 refs  L244\n  cl Signer  <-2 refs  L76\n  fu verify_signature  <-1 refs  L227\n  fu verify_signature  <-1 refs  L24\n  fu validate  <-1 refs  L258\n  fu get_signature  <-1 refs  L215\n  fu get_signature  <-1 refs  L62\nsrc/itsdangerous/serializer.py:\n  fu load_payload  <-3 refs  L243\n  fu loads  <-2 refs  L328\n  fu loads  <-2 refs  L25\n  fu dumps  <-2 refs  L309\n  fu dumps  <-2 refs  L29\n  fu make_signer  <-1 refs  L278\n  fu loads_unsafe  <-1 refs  L349\n  fu load_unsafe  <-1 refs  L397\nmappkg/many.py:\n  fu kappa  <-1 refs  L39\n  fu beta  <-1 refs  L7\n  fu alpha  <-1 refs  L3\n  fu zeta  L23\n  fu user  L47\n  fu theta  L31\n  fu lam  L43\n  fu iota  L35\ntests/test_itsdangerous/test_timed.py:\n  fu ts  L20\n  fu test_timestamp_missing  L49\n  fu test_sig_error_date_signed  L87\n  fu test_return_timestamp  L45\n  fu test_return_payload  L113\n  fu test_max_age  L101\n  fu test_max_age  L34\n  fu test_malformed_timestamp  L59\nsrc/itsdangerous/timed.py:\n  fu sign  <-4 refs  L45\n  fu unsign  <-3 refs  L57\n  fu loads  <-2 refs  L185\n  fu validate  <-1 refs  L160\n  fu loads_unsafe  <-1 refs  L222\n  fu iter_unsigners  <-1 refs  L177\n  fu timestamp_to_datetime  L35\n  fu get_timestamp  L29\nmappkg/ünïcode.py:\n  fu länge  <-1 refs  L13\n  fu größe  <-1 refs  L4\n  cl Straße  <-1 refs  L12\n  fu 名前  L8\ntests/test_itsdangerous/test_url_safe.py:\n  fu value  L17\n  fu serializer_factory  L23\n  fu serializer_factory  L13\n  cl TestURLSafeTimedSerializer  L21\n  cl TestURLSafeSerializer  L11\nsrc/itsdangerous/_json.py:\n  fu loads  <-2 refs  L11\n  fu dumps  <-2 refs  L15\n  cl _CompactJSON  L7\ntests/test_itsdangerous/test_serializer.py:\n  fu unsign  <-3 refs  L102\n  fu value  L45\n  fu test_signer_kwargs  L138\n  fu test_signer_cls  L130\n  fu test_serializer_kwargs  L145\n  fu test_serializer  L51\n  fu test_loads_unsafe  L90\n  fu test_iter_unsigners  L166",
+   "included": [
+    "graphpkg/hub.py",
+    "src/itsdangerous/exc.py",
+    "src/itsdangerous/encoding.py",
+    "src/itsdangerous/signer.py",
+    "src/itsdangerous/serializer.py",
+    "mappkg/many.py",
+    "tests/test_itsdangerous/test_timed.py",
+    "src/itsdangerous/timed.py",
+    "mappkg/ünïcode.py",
+    "tests/test_itsdangerous/test_url_safe.py",
+    "src/itsdangerous/_json.py",
+    "tests/test_itsdangerous/test_serializer.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": [
+     "nosuch"
+    ]
+   },
+   "wire": "src/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74\nsrc/itsdangerous/encoding.py:\n  fu want_bytes  <-4 refs  L11\n  fu base64_encode  <-4 refs  L20\n  fu base64_decode  <-4 refs  L28\n  fu int_to_bytes  <-2 refs  L49\n  fu bytes_to_int  <-2 refs  L53\nsrc/itsdangerous/signer.py:\n  fu sign  <-4 refs  L222\n  fu unsign  <-3 refs  L244\n  cl Signer  <-2 refs  L76\n  fu verify_signature  <-1 refs  L227\n  fu verify_signature  <-1 refs  L24\n  fu validate  <-1 refs  L258\n  fu get_signature  <-1 refs  L215\n  fu get_signature  <-1 refs  L62\ngraphpkg/hub.py:\n  fu top  <-1 refs  L17\n  fu hub  <-1 refs  L4\n  fu pong  L25\n  fu ping  L21\n  fu mid  L13\n  fu leaf  L9\nsrc/itsdangerous/serializer.py:\n  fu load_payload  <-3 refs  L243\n  fu loads  <-2 refs  L328\n  fu loads  <-2 refs  L25\n  fu dumps  <-2 refs  L309\n  fu dumps  <-2 refs  L29\n  fu make_signer  <-1 refs  L278\n  fu loads_unsafe  <-1 refs  L349\n  fu load_unsafe  <-1 refs  L397\nmappkg/many.py:\n  fu kappa  <-1 refs  L39\n  fu beta  <-1 refs  L7\n  fu alpha  <-1 refs  L3\n  fu zeta  L23\n  fu user  L47\n  fu theta  L31\n  fu lam  L43\n  fu iota  L35\ntests/test_itsdangerous/test_timed.py:\n  fu ts  L20\n  fu test_timestamp_missing  L49\n  fu test_sig_error_date_signed  L87\n  fu test_return_timestamp  L45\n  fu test_return_payload  L113\n  fu test_max_age  L101\n  fu test_max_age  L34\n  fu test_malformed_timestamp  L59\nsrc/itsdangerous/timed.py:\n  fu sign  <-4 refs  L45\n  fu unsign  <-3 refs  L57\n  fu loads  <-2 refs  L185\n  fu validate  <-1 refs  L160\n  fu loads_unsafe  <-1 refs  L222\n  fu iter_unsigners  <-1 refs  L177\n  fu timestamp_to_datetime  L35\n  fu get_timestamp  L29\nmappkg/ünïcode.py:\n  fu länge  <-1 refs  L13\n  fu größe  <-1 refs  L4\n  cl Straße  <-1 refs  L12\n  fu 名前  L8\ntests/test_itsdangerous/test_url_safe.py:\n  fu value  L17\n  fu serializer_factory  L23\n  fu serializer_factory  L13\n  cl TestURLSafeTimedSerializer  L21\n  cl TestURLSafeSerializer  L11\nsrc/itsdangerous/_json.py:\n  fu loads  <-2 refs  L11\n  fu dumps  <-2 refs  L15\n  cl _CompactJSON  L7\ntests/test_itsdangerous/test_serializer.py:\n  fu unsign  <-3 refs  L102\n  fu value  L45\n  fu test_signer_kwargs  L138\n  fu test_signer_cls  L130\n  fu test_serializer_kwargs  L145\n  fu test_serializer  L51\n  fu test_loads_unsafe  L90\n  fu test_iter_unsigners  L166",
+   "included": [
+    "src/itsdangerous/exc.py",
+    "src/itsdangerous/encoding.py",
+    "src/itsdangerous/signer.py",
+    "graphpkg/hub.py",
+    "src/itsdangerous/serializer.py",
+    "mappkg/many.py",
+    "tests/test_itsdangerous/test_timed.py",
+    "src/itsdangerous/timed.py",
+    "mappkg/ünïcode.py",
+    "tests/test_itsdangerous/test_url_safe.py",
+    "src/itsdangerous/_json.py",
+    "tests/test_itsdangerous/test_serializer.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": [
+     ""
+    ]
+   },
+   "wire": "src/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74\nsrc/itsdangerous/encoding.py:\n  fu want_bytes  <-4 refs  L11\n  fu base64_encode  <-4 refs  L20\n  fu base64_decode  <-4 refs  L28\n  fu int_to_bytes  <-2 refs  L49\n  fu bytes_to_int  <-2 refs  L53\nsrc/itsdangerous/signer.py:\n  fu sign  <-4 refs  L222\n  fu unsign  <-3 refs  L244\n  cl Signer  <-2 refs  L76\n  fu verify_signature  <-1 refs  L227\n  fu verify_signature  <-1 refs  L24\n  fu validate  <-1 refs  L258\n  fu get_signature  <-1 refs  L215\n  fu get_signature  <-1 refs  L62\ngraphpkg/hub.py:\n  fu top  <-1 refs  L17\n  fu hub  <-1 refs  L4\n  fu pong  L25\n  fu ping  L21\n  fu mid  L13\n  fu leaf  L9\nsrc/itsdangerous/serializer.py:\n  fu load_payload  <-3 refs  L243\n  fu loads  <-2 refs  L328\n  fu loads  <-2 refs  L25\n  fu dumps  <-2 refs  L309\n  fu dumps  <-2 refs  L29\n  fu make_signer  <-1 refs  L278\n  fu loads_unsafe  <-1 refs  L349\n  fu load_unsafe  <-1 refs  L397\nmappkg/many.py:\n  fu kappa  <-1 refs  L39\n  fu beta  <-1 refs  L7\n  fu alpha  <-1 refs  L3\n  fu zeta  L23\n  fu user  L47\n  fu theta  L31\n  fu lam  L43\n  fu iota  L35\ntests/test_itsdangerous/test_timed.py:\n  fu ts  L20\n  fu test_timestamp_missing  L49\n  fu test_sig_error_date_signed  L87\n  fu test_return_timestamp  L45\n  fu test_return_payload  L113\n  fu test_max_age  L101\n  fu test_max_age  L34\n  fu test_malformed_timestamp  L59\nsrc/itsdangerous/timed.py:\n  fu sign  <-4 refs  L45\n  fu unsign  <-3 refs  L57\n  fu loads  <-2 refs  L185\n  fu validate  <-1 refs  L160\n  fu loads_unsafe  <-1 refs  L222\n  fu iter_unsigners  <-1 refs  L177\n  fu timestamp_to_datetime  L35\n  fu get_timestamp  L29\nmappkg/ünïcode.py:\n  fu länge  <-1 refs  L13\n  fu größe  <-1 refs  L4\n  cl Straße  <-1 refs  L12\n  fu 名前  L8\ntests/test_itsdangerous/test_url_safe.py:\n  fu value  L17\n  fu serializer_factory  L23\n  fu serializer_factory  L13\n  cl TestURLSafeTimedSerializer  L21\n  cl TestURLSafeSerializer  L11\nsrc/itsdangerous/_json.py:\n  fu loads  <-2 refs  L11\n  fu dumps  <-2 refs  L15\n  cl _CompactJSON  L7\ntests/test_itsdangerous/test_serializer.py:\n  fu unsign  <-3 refs  L102\n  fu value  L45\n  fu test_signer_kwargs  L138\n  fu test_signer_cls  L130\n  fu test_serializer_kwargs  L145\n  fu test_serializer  L51\n  fu test_loads_unsafe  L90\n  fu test_iter_unsigners  L166",
+   "included": [
+    "src/itsdangerous/exc.py",
+    "src/itsdangerous/encoding.py",
+    "src/itsdangerous/signer.py",
+    "graphpkg/hub.py",
+    "src/itsdangerous/serializer.py",
+    "mappkg/many.py",
+    "tests/test_itsdangerous/test_timed.py",
+    "src/itsdangerous/timed.py",
+    "mappkg/ünïcode.py",
+    "tests/test_itsdangerous/test_url_safe.py",
+    "src/itsdangerous/_json.py",
+    "tests/test_itsdangerous/test_serializer.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": [
+     "src/",
+     "graphpkg/control"
+    ]
+   },
+   "wire": "src/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74\nsrc/itsdangerous/encoding.py:\n  fu want_bytes  <-4 refs  L11\n  fu base64_encode  <-4 refs  L20\n  fu base64_decode  <-4 refs  L28\n  fu int_to_bytes  <-2 refs  L49\n  fu bytes_to_int  <-2 refs  L53\nsrc/itsdangerous/signer.py:\n  fu sign  <-4 refs  L222\n  fu unsign  <-3 refs  L244\n  cl Signer  <-2 refs  L76\n  fu verify_signature  <-1 refs  L227\n  fu verify_signature  <-1 refs  L24\n  fu validate  <-1 refs  L258\n  fu get_signature  <-1 refs  L215\n  fu get_signature  <-1 refs  L62\nsrc/itsdangerous/serializer.py:\n  fu load_payload  <-3 refs  L243\n  fu loads  <-2 refs  L328\n  fu loads  <-2 refs  L25\n  fu dumps  <-2 refs  L309\n  fu dumps  <-2 refs  L29\n  fu make_signer  <-1 refs  L278\n  fu loads_unsafe  <-1 refs  L349\n  fu load_unsafe  <-1 refs  L397\nsrc/itsdangerous/timed.py:\n  fu sign  <-4 refs  L45\n  fu unsign  <-3 refs  L57\n  fu loads  <-2 refs  L185\n  fu validate  <-1 refs  L160\n  fu loads_unsafe  <-1 refs  L222\n  fu iter_unsigners  <-1 refs  L177\n  fu timestamp_to_datetime  L35\n  fu get_timestamp  L29\nsrc/itsdangerous/_json.py:\n  fu loads  <-2 refs  L11\n  fu dumps  <-2 refs  L15\n  cl _CompactJSON  L7\nsrc/itsdangerous/url_safe.py:\n  fu load_payload  <-3 refs  L23\n  fu dump_payload  L55\n  cl URLSafeTimedSerializer  L79\n  cl URLSafeSerializerMixin  L15\n  cl URLSafeSerializer  L72\ngraphpkg/control.py:\n  fu inner  L23\n  fu control  L4\n  cl Local  L26\nsrc/itsdangerous/__init__.py:\ngraphpkg/hub.py:\n  fu top  <-1 refs  L17\n  fu hub  <-1 refs  L4\n  fu pong  L25\n  fu ping  L21\n  fu mid  L13\n  fu leaf  L9\ntests/test_itsdangerous/test_signer.py:\n  fu signer  <-1 refs  L24\n  fu get_signature  <-1 refs  L14\n  fu test_signer  L27\n  fu test_secret_keys  L94\n  fu test_no_separator  L34\n  fu test_key_derivation  L70\n  fu test_invalid_separator  L61\n  fu test_invalid_key_derivation  L74\ntests/test_itsdangerous/test_timed.py:\n  fu ts  L20\n  fu test_timestamp_missing  L49\n  fu test_sig_error_date_signed  L87\n  fu test_return_timestamp  L45\n  fu test_return_payload  L113\n  fu test_max_age  L101\n  fu test_max_age  L34\n  fu test_malformed_timestamp  L59",
+   "included": [
+    "src/itsdangerous/exc.py",
+    "src/itsdangerous/encoding.py",
+    "src/itsdangerous/signer.py",
+    "src/itsdangerous/serializer.py",
+    "src/itsdangerous/timed.py",
+    "src/itsdangerous/_json.py",
+    "src/itsdangerous/url_safe.py",
+    "graphpkg/control.py",
+    "src/itsdangerous/__init__.py",
+    "graphpkg/hub.py",
+    "tests/test_itsdangerous/test_signer.py",
+    "tests/test_itsdangerous/test_timed.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": [
+     "ü"
+    ]
+   },
+   "wire": "mappkg/ünïcode.py:\n  fu länge  <-1 refs  L13\n  fu größe  <-1 refs  L4\n  cl Straße  <-1 refs  L12\n  fu 名前  L8\nsrc/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74\nsrc/itsdangerous/encoding.py:\n  fu want_bytes  <-4 refs  L11\n  fu base64_encode  <-4 refs  L20\n  fu base64_decode  <-4 refs  L28\n  fu int_to_bytes  <-2 refs  L49\n  fu bytes_to_int  <-2 refs  L53\nsrc/itsdangerous/signer.py:\n  fu sign  <-4 refs  L222\n  fu unsign  <-3 refs  L244\n  cl Signer  <-2 refs  L76\n  fu verify_signature  <-1 refs  L227\n  fu verify_signature  <-1 refs  L24\n  fu validate  <-1 refs  L258\n  fu get_signature  <-1 refs  L215\n  fu get_signature  <-1 refs  L62\ngraphpkg/hub.py:\n  fu top  <-1 refs  L17\n  fu hub  <-1 refs  L4\n  fu pong  L25\n  fu ping  L21\n  fu mid  L13\n  fu leaf  L9\nsrc/itsdangerous/serializer.py:\n  fu load_payload  <-3 refs  L243\n  fu loads  <-2 refs  L328\n  fu loads  <-2 refs  L25\n  fu dumps  <-2 refs  L309\n  fu dumps  <-2 refs  L29\n  fu make_signer  <-1 refs  L278\n  fu loads_unsafe  <-1 refs  L349\n  fu load_unsafe  <-1 refs  L397\nmappkg/many.py:\n  fu kappa  <-1 refs  L39\n  fu beta  <-1 refs  L7\n  fu alpha  <-1 refs  L3\n  fu zeta  L23\n  fu user  L47\n  fu theta  L31\n  fu lam  L43\n  fu iota  L35\ntests/test_itsdangerous/test_timed.py:\n  fu ts  L20\n  fu test_timestamp_missing  L49\n  fu test_sig_error_date_signed  L87\n  fu test_return_timestamp  L45\n  fu test_return_payload  L113\n  fu test_max_age  L101\n  fu test_max_age  L34\n  fu test_malformed_timestamp  L59\nsrc/itsdangerous/timed.py:\n  fu sign  <-4 refs  L45\n  fu unsign  <-3 refs  L57\n  fu loads  <-2 refs  L185\n  fu validate  <-1 refs  L160\n  fu loads_unsafe  <-1 refs  L222\n  fu iter_unsigners  <-1 refs  L177\n  fu timestamp_to_datetime  L35\n  fu get_timestamp  L29\ntests/test_itsdangerous/test_url_safe.py:\n  fu value  L17\n  fu serializer_factory  L23\n  fu serializer_factory  L13\n  cl TestURLSafeTimedSerializer  L21\n  cl TestURLSafeSerializer  L11\nsrc/itsdangerous/_json.py:\n  fu loads  <-2 refs  L11\n  fu dumps  <-2 refs  L15\n  cl _CompactJSON  L7\ntests/test_itsdangerous/test_serializer.py:\n  fu unsign  <-3 refs  L102\n  fu value  L45\n  fu test_signer_kwargs  L138\n  fu test_signer_cls  L130\n  fu test_serializer_kwargs  L145\n  fu test_serializer  L51\n  fu test_loads_unsafe  L90\n  fu test_iter_unsigners  L166",
+   "included": [
+    "mappkg/ünïcode.py",
+    "src/itsdangerous/exc.py",
+    "src/itsdangerous/encoding.py",
+    "src/itsdangerous/signer.py",
+    "graphpkg/hub.py",
+    "src/itsdangerous/serializer.py",
+    "mappkg/many.py",
+    "tests/test_itsdangerous/test_timed.py",
+    "src/itsdangerous/timed.py",
+    "tests/test_itsdangerous/test_url_safe.py",
+    "src/itsdangerous/_json.py",
+    "tests/test_itsdangerous/test_serializer.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": [
+     "tests/"
+    ]
+   },
+   "wire": "src/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74\nsrc/itsdangerous/encoding.py:\n  fu want_bytes  <-4 refs  L11\n  fu base64_encode  <-4 refs  L20\n  fu base64_decode  <-4 refs  L28\n  fu int_to_bytes  <-2 refs  L49\n  fu bytes_to_int  <-2 refs  L53\nsrc/itsdangerous/signer.py:\n  fu sign  <-4 refs  L222\n  fu unsign  <-3 refs  L244\n  cl Signer  <-2 refs  L76\n  fu verify_signature  <-1 refs  L227\n  fu verify_signature  <-1 refs  L24\n  fu validate  <-1 refs  L258\n  fu get_signature  <-1 refs  L215\n  fu get_signature  <-1 refs  L62\ntests/test_itsdangerous/test_timed.py:\n  fu ts  L20\n  fu test_timestamp_missing  L49\n  fu test_sig_error_date_signed  L87\n  fu test_return_timestamp  L45\n  fu test_return_payload  L113\n  fu test_max_age  L101\n  fu test_max_age  L34\n  fu test_malformed_timestamp  L59\ntests/test_itsdangerous/test_url_safe.py:\n  fu value  L17\n  fu serializer_factory  L23\n  fu serializer_factory  L13\n  cl TestURLSafeTimedSerializer  L21\n  cl TestURLSafeSerializer  L11\ntests/test_itsdangerous/test_serializer.py:\n  fu unsign  <-3 refs  L102\n  fu value  L45\n  fu test_signer_kwargs  L138\n  fu test_signer_cls  L130\n  fu test_serializer_kwargs  L145\n  fu test_serializer  L51\n  fu test_loads_unsafe  L90\n  fu test_iter_unsigners  L166\ntests/test_itsdangerous/test_signer.py:\n  fu signer  <-1 refs  L24\n  fu get_signature  <-1 refs  L14\n  fu test_signer  L27\n  fu test_secret_keys  L94\n  fu test_no_separator  L34\n  fu test_key_derivation  L70\n  fu test_invalid_separator  L61\n  fu test_invalid_key_derivation  L74\ntests/test_itsdangerous/__init__.py:\ntests/test_itsdangerous/test_encoding.py:\n  fu test_want_bytes  L12\n  fu test_int_bytes  L33\n  fu test_base64_bad  L25\n  fu test_base64  L18\nsrc/itsdangerous/serializer.py:\n  fu load_payload  <-3 refs  L243\n  fu loads  <-2 refs  L328\n  fu loads  <-2 refs  L25\n  fu dumps  <-2 refs  L309\n  fu dumps  <-2 refs  L29\n  fu make_signer  <-1 refs  L278\n  fu loads_unsafe  <-1 refs  L349\n  fu load_unsafe  <-1 refs  L397\nsrc/itsdangerous/timed.py:\n  fu sign  <-4 refs  L45\n  fu unsign  <-3 refs  L57\n  fu loads  <-2 refs  L185\n  fu validate  <-1 refs  L160\n  fu loads_unsafe  <-1 refs  L222\n  fu iter_unsigners  <-1 refs  L177\n  fu timestamp_to_datetime  L35\n  fu get_timestamp  L29\nsrc/itsdangerous/_json.py:\n  fu loads  <-2 refs  L11\n  fu dumps  <-2 refs  L15\n  cl _CompactJSON  L7",
+   "included": [
+    "src/itsdangerous/exc.py",
+    "src/itsdangerous/encoding.py",
+    "src/itsdangerous/signer.py",
+    "tests/test_itsdangerous/test_timed.py",
+    "tests/test_itsdangerous/test_url_safe.py",
+    "tests/test_itsdangerous/test_serializer.py",
+    "tests/test_itsdangerous/test_signer.py",
+    "tests/test_itsdangerous/__init__.py",
+    "tests/test_itsdangerous/test_encoding.py",
+    "src/itsdangerous/serializer.py",
+    "src/itsdangerous/timed.py",
+    "src/itsdangerous/_json.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": [
+     "README.md"
+    ]
+   },
+   "wire": "README.md:\nsrc/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74\nsrc/itsdangerous/encoding.py:\n  fu want_bytes  <-4 refs  L11\n  fu base64_encode  <-4 refs  L20\n  fu base64_decode  <-4 refs  L28\n  fu int_to_bytes  <-2 refs  L49\n  fu bytes_to_int  <-2 refs  L53\nsrc/itsdangerous/signer.py:\n  fu sign  <-4 refs  L222\n  fu unsign  <-3 refs  L244\n  cl Signer  <-2 refs  L76\n  fu verify_signature  <-1 refs  L227\n  fu verify_signature  <-1 refs  L24\n  fu validate  <-1 refs  L258\n  fu get_signature  <-1 refs  L215\n  fu get_signature  <-1 refs  L62\ngraphpkg/hub.py:\n  fu top  <-1 refs  L17\n  fu hub  <-1 refs  L4\n  fu pong  L25\n  fu ping  L21\n  fu mid  L13\n  fu leaf  L9\nsrc/itsdangerous/serializer.py:\n  fu load_payload  <-3 refs  L243\n  fu loads  <-2 refs  L328\n  fu loads  <-2 refs  L25\n  fu dumps  <-2 refs  L309\n  fu dumps  <-2 refs  L29\n  fu make_signer  <-1 refs  L278\n  fu loads_unsafe  <-1 refs  L349\n  fu load_unsafe  <-1 refs  L397\nmappkg/many.py:\n  fu kappa  <-1 refs  L39\n  fu beta  <-1 refs  L7\n  fu alpha  <-1 refs  L3\n  fu zeta  L23\n  fu user  L47\n  fu theta  L31\n  fu lam  L43\n  fu iota  L35\ntests/test_itsdangerous/test_timed.py:\n  fu ts  L20\n  fu test_timestamp_missing  L49\n  fu test_sig_error_date_signed  L87\n  fu test_return_timestamp  L45\n  fu test_return_payload  L113\n  fu test_max_age  L101\n  fu test_max_age  L34\n  fu test_malformed_timestamp  L59\nsrc/itsdangerous/timed.py:\n  fu sign  <-4 refs  L45\n  fu unsign  <-3 refs  L57\n  fu loads  <-2 refs  L185\n  fu validate  <-1 refs  L160\n  fu loads_unsafe  <-1 refs  L222\n  fu iter_unsigners  <-1 refs  L177\n  fu timestamp_to_datetime  L35\n  fu get_timestamp  L29\nmappkg/ünïcode.py:\n  fu länge  <-1 refs  L13\n  fu größe  <-1 refs  L4\n  cl Straße  <-1 refs  L12\n  fu 名前  L8\ntests/test_itsdangerous/test_url_safe.py:\n  fu value  L17\n  fu serializer_factory  L23\n  fu serializer_factory  L13\n  cl TestURLSafeTimedSerializer  L21\n  cl TestURLSafeSerializer  L11\nsrc/itsdangerous/_json.py:\n  fu loads  <-2 refs  L11\n  fu dumps  <-2 refs  L15\n  cl _CompactJSON  L7",
+   "included": [
+    "README.md",
+    "src/itsdangerous/exc.py",
+    "src/itsdangerous/encoding.py",
+    "src/itsdangerous/signer.py",
+    "graphpkg/hub.py",
+    "src/itsdangerous/serializer.py",
+    "mappkg/many.py",
+    "tests/test_itsdangerous/test_timed.py",
+    "src/itsdangerous/timed.py",
+    "mappkg/ünïcode.py",
+    "tests/test_itsdangerous/test_url_safe.py",
+    "src/itsdangerous/_json.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": [
+     "mappkg/",
+     "mappkg/many"
+    ]
+   },
+   "wire": "mappkg/many.py:\n  fu kappa  <-1 refs  L39\n  fu beta  <-1 refs  L7\n  fu alpha  <-1 refs  L3\n  fu zeta  L23\n  fu user  L47\n  fu theta  L31\n  fu lam  L43\n  fu iota  L35\nmappkg/ünïcode.py:\n  fu länge  <-1 refs  L13\n  fu größe  <-1 refs  L4\n  cl Straße  <-1 refs  L12\n  fu 名前  L8\nmappkg/__init__.py:\nmappkg/uses.py:\n  fu consume  L5\nsrc/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74\nsrc/itsdangerous/encoding.py:\n  fu want_bytes  <-4 refs  L11\n  fu base64_encode  <-4 refs  L20\n  fu base64_decode  <-4 refs  L28\n  fu int_to_bytes  <-2 refs  L49\n  fu bytes_to_int  <-2 refs  L53\nsrc/itsdangerous/signer.py:\n  fu sign  <-4 refs  L222\n  fu unsign  <-3 refs  L244\n  cl Signer  <-2 refs  L76\n  fu verify_signature  <-1 refs  L227\n  fu verify_signature  <-1 refs  L24\n  fu validate  <-1 refs  L258\n  fu get_signature  <-1 refs  L215\n  fu get_signature  <-1 refs  L62\ngraphpkg/hub.py:\n  fu top  <-1 refs  L17\n  fu hub  <-1 refs  L4\n  fu pong  L25\n  fu ping  L21\n  fu mid  L13\n  fu leaf  L9\nsrc/itsdangerous/serializer.py:\n  fu load_payload  <-3 refs  L243\n  fu loads  <-2 refs  L328\n  fu loads  <-2 refs  L25\n  fu dumps  <-2 refs  L309\n  fu dumps  <-2 refs  L29\n  fu make_signer  <-1 refs  L278\n  fu loads_unsafe  <-1 refs  L349\n  fu load_unsafe  <-1 refs  L397\ntests/test_itsdangerous/test_timed.py:\n  fu ts  L20\n  fu test_timestamp_missing  L49\n  fu test_sig_error_date_signed  L87\n  fu test_return_timestamp  L45\n  fu test_return_payload  L113\n  fu test_max_age  L101\n  fu test_max_age  L34\n  fu test_malformed_timestamp  L59\nsrc/itsdangerous/timed.py:\n  fu sign  <-4 refs  L45\n  fu unsign  <-3 refs  L57\n  fu loads  <-2 refs  L185\n  fu validate  <-1 refs  L160\n  fu loads_unsafe  <-1 refs  L222\n  fu iter_unsigners  <-1 refs  L177\n  fu timestamp_to_datetime  L35\n  fu get_timestamp  L29\ntests/test_itsdangerous/test_url_safe.py:\n  fu value  L17\n  fu serializer_factory  L23\n  fu serializer_factory  L13\n  cl TestURLSafeTimedSerializer  L21\n  cl TestURLSafeSerializer  L11",
+   "included": [
+    "mappkg/many.py",
+    "mappkg/ünïcode.py",
+    "mappkg/__init__.py",
+    "mappkg/uses.py",
+    "src/itsdangerous/exc.py",
+    "src/itsdangerous/encoding.py",
+    "src/itsdangerous/signer.py",
+    "graphpkg/hub.py",
+    "src/itsdangerous/serializer.py",
+    "tests/test_itsdangerous/test_timed.py",
+    "src/itsdangerous/timed.py",
+    "tests/test_itsdangerous/test_url_safe.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": null,
+    "budget_tokens": 800
+   },
+   "wire": "src/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74\nsrc/itsdangerous/encoding.py:\n  fu want_bytes  <-4 refs  L11\n  fu base64_encode  <-4 refs  L20\n  fu base64_decode  <-4 refs  L28\n  fu int_to_bytes  <-2 refs  L49\n  fu bytes_to_int  <-2 refs  L53\nsrc/itsdangerous/signer.py:\n  fu sign  <-4 refs  L222\n  fu unsign  <-3 refs  L244\n  cl Signer  <-2 refs  L76\n  fu verify_signature  <-1 refs  L227\n  fu verify_signature  <-1 refs  L24\n  fu validate  <-1 refs  L258\n  fu get_signature  <-1 refs  L215\n  fu get_signature  <-1 refs  L62\ngraphpkg/hub.py:\n  fu top  <-1 refs  L17\n  fu hub  <-1 refs  L4\n  fu pong  L25\n  fu ping  L21\n  fu mid  L13\n  fu leaf  L9\nsrc/itsdangerous/serializer.py:\n  fu load_payload  <-3 refs  L243\n  fu loads  <-2 refs  L328\n  fu loads  <-2 refs  L25\n  fu dumps  <-2 refs  L309\n  fu dumps  <-2 refs  L29\n  fu make_signer  <-1 refs  L278\n  fu loads_unsafe  <-1 refs  L349\n  fu load_unsafe  <-1 refs  L397\nmappkg/many.py:\n  fu kappa  <-1 refs  L39\n  fu beta  <-1 refs  L7\n  fu alpha  <-1 refs  L3\n  fu zeta  L23\n  fu user  L47\n  fu theta  L31\n  fu lam  L43\n  fu iota  L35\ntests/test_itsdangerous/test_timed.py:\n  fu ts  L20\n  fu test_timestamp_missing  L49\n  fu test_sig_error_date_signed  L87\n  fu test_return_timestamp  L45\n  fu test_return_payload  L113\n  fu test_max_age  L101\n  fu test_max_age  L34\n  fu test_malformed_timestamp  L59\nsrc/itsdangerous/timed.py:\n  fu sign  <-4 refs  L45\n  fu unsign  <-3 refs  L57\n  fu loads  <-2 refs  L185\n  fu validate  <-1 refs  L160\n  fu loads_unsafe  <-1 refs  L222\n  fu iter_unsigners  <-1 refs  L177\n  fu timestamp_to_datetime  L35\n  fu get_timestamp  L29\nmappkg/ünïcode.py:\n  fu länge  <-1 refs  L13\n  fu größe  <-1 refs  L4\n  cl Straße  <-1 refs  L12\n  fu 名前  L8\ntests/test_itsdangerous/test_url_safe.py:\n  fu value  L17\n  fu serializer_factory  L23\n  fu serializer_factory  L13\n  cl TestURLSafeTimedSerializer  L21\n  cl TestURLSafeSerializer  L11\nsrc/itsdangerous/_json.py:\n  fu loads  <-2 refs  L11\n  fu dumps  <-2 refs  L15\n  cl _CompactJSON  L7\ntests/test_itsdangerous/test_serializer.py:\n  fu unsign  <-3 refs  L102\n  fu value  L45\n  fu test_signer_kwargs  L138\n  fu test_signer_cls  L130\n  fu test_serializer_kwargs  L145\n  fu test_serializer  L51\n  fu test_loads_unsafe  L90\n  fu test_iter_unsigners  L166",
+   "included": [
+    "src/itsdangerous/exc.py",
+    "src/itsdangerous/encoding.py",
+    "src/itsdangerous/signer.py",
+    "graphpkg/hub.py",
+    "src/itsdangerous/serializer.py",
+    "mappkg/many.py",
+    "tests/test_itsdangerous/test_timed.py",
+    "src/itsdangerous/timed.py",
+    "mappkg/ünïcode.py",
+    "tests/test_itsdangerous/test_url_safe.py",
+    "src/itsdangerous/_json.py",
+    "tests/test_itsdangerous/test_serializer.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": null,
+    "budget_tokens": 0
+   },
+   "wire": "(index empty — run reindex first)",
+   "included": []
+  },
+  {
+   "call": {
+    "focus": null,
+    "budget_tokens": -1
+   },
+   "wire": "(index empty — run reindex first)",
+   "included": []
+  },
+  {
+   "call": {
+    "focus": null,
+    "budget_tokens": 1
+   },
+   "wire": "(index empty — run reindex first)",
+   "included": []
+  },
+  {
+   "call": {
+    "focus": null,
+    "budget_tokens": 2
+   },
+   "wire": "(index empty — run reindex first)",
+   "included": []
+  },
+  {
+   "call": {
+    "focus": null,
+    "budget_tokens": 5
+   },
+   "wire": "(index empty — run reindex first)",
+   "included": []
+  },
+  {
+   "call": {
+    "focus": null,
+    "budget_tokens": 50
+   },
+   "wire": "(index empty — run reindex first)",
+   "included": []
+  },
+  {
+   "call": {
+    "focus": null,
+    "budget_tokens": 100000
+   },
+   "wire": "src/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74\nsrc/itsdangerous/encoding.py:\n  fu want_bytes  <-4 refs  L11\n  fu base64_encode  <-4 refs  L20\n  fu base64_decode  <-4 refs  L28\n  fu int_to_bytes  <-2 refs  L49\n  fu bytes_to_int  <-2 refs  L53\nsrc/itsdangerous/signer.py:\n  fu sign  <-4 refs  L222\n  fu unsign  <-3 refs  L244\n  cl Signer  <-2 refs  L76\n  fu verify_signature  <-1 refs  L227\n  fu verify_signature  <-1 refs  L24\n  fu validate  <-1 refs  L258\n  fu get_signature  <-1 refs  L215\n  fu get_signature  <-1 refs  L62\ngraphpkg/hub.py:\n  fu top  <-1 refs  L17\n  fu hub  <-1 refs  L4\n  fu pong  L25\n  fu ping  L21\n  fu mid  L13\n  fu leaf  L9\nsrc/itsdangerous/serializer.py:\n  fu load_payload  <-3 refs  L243\n  fu loads  <-2 refs  L328\n  fu loads  <-2 refs  L25\n  fu dumps  <-2 refs  L309\n  fu dumps  <-2 refs  L29\n  fu make_signer  <-1 refs  L278\n  fu loads_unsafe  <-1 refs  L349\n  fu load_unsafe  <-1 refs  L397\nmappkg/many.py:\n  fu kappa  <-1 refs  L39\n  fu beta  <-1 refs  L7\n  fu alpha  <-1 refs  L3\n  fu zeta  L23\n  fu user  L47\n  fu theta  L31\n  fu lam  L43\n  fu iota  L35\ntests/test_itsdangerous/test_timed.py:\n  fu ts  L20\n  fu test_timestamp_missing  L49\n  fu test_sig_error_date_signed  L87\n  fu test_return_timestamp  L45\n  fu test_return_payload  L113\n  fu test_max_age  L101\n  fu test_max_age  L34\n  fu test_malformed_timestamp  L59\nsrc/itsdangerous/timed.py:\n  fu sign  <-4 refs  L45\n  fu unsign  <-3 refs  L57\n  fu loads  <-2 refs  L185\n  fu validate  <-1 refs  L160\n  fu loads_unsafe  <-1 refs  L222\n  fu iter_unsigners  <-1 refs  L177\n  fu timestamp_to_datetime  L35\n  fu get_timestamp  L29\nmappkg/ünïcode.py:\n  fu länge  <-1 refs  L13\n  fu größe  <-1 refs  L4\n  cl Straße  <-1 refs  L12\n  fu 名前  L8\ntests/test_itsdangerous/test_url_safe.py:\n  fu value  L17\n  fu serializer_factory  L23\n  fu serializer_factory  L13\n  cl TestURLSafeTimedSerializer  L21\n  cl TestURLSafeSerializer  L11\nsrc/itsdangerous/_json.py:\n  fu loads  <-2 refs  L11\n  fu dumps  <-2 refs  L15\n  cl _CompactJSON  L7\ntests/test_itsdangerous/test_serializer.py:\n  fu unsign  <-3 refs  L102\n  fu value  L45\n  fu test_signer_kwargs  L138\n  fu test_signer_cls  L130\n  fu test_serializer_kwargs  L145\n  fu test_serializer  L51\n  fu test_loads_unsafe  L90\n  fu test_iter_unsigners  L166",
+   "included": [
+    "src/itsdangerous/exc.py",
+    "src/itsdangerous/encoding.py",
+    "src/itsdangerous/signer.py",
+    "graphpkg/hub.py",
+    "src/itsdangerous/serializer.py",
+    "mappkg/many.py",
+    "tests/test_itsdangerous/test_timed.py",
+    "src/itsdangerous/timed.py",
+    "mappkg/ünïcode.py",
+    "tests/test_itsdangerous/test_url_safe.py",
+    "src/itsdangerous/_json.py",
+    "tests/test_itsdangerous/test_serializer.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": [
+     "graphpkg/"
+    ],
+    "budget_tokens": 0
+   },
+   "wire": "(index empty — run reindex first)",
+   "included": []
+  },
+  {
+   "call": {
+    "focus": [
+     "graphpkg/"
+    ],
+    "budget_tokens": 1
+   },
+   "wire": "(index empty — run reindex first)",
+   "included": []
+  },
+  {
+   "call": {
+    "focus": [
+     "graphpkg/"
+    ],
+    "budget_tokens": 30
+   },
+   "wire": "(index empty — run reindex first)",
+   "included": []
+  },
+  {
+   "call": {
+    "focus": null,
+    "budget_tokens": 76
+   },
+   "wire": "(index empty — run reindex first)",
+   "included": []
+  },
+  {
+   "call": {
+    "focus": null,
+    "budget_tokens": 77
+   },
+   "wire": "src/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74",
+   "included": [
+    "src/itsdangerous/exc.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": null,
+    "budget_tokens": 137
+   },
+   "wire": "src/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74",
+   "included": [
+    "src/itsdangerous/exc.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": null,
+    "budget_tokens": 138
+   },
+   "wire": "src/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74\nsrc/itsdangerous/encoding.py:\n  fu want_bytes  <-4 refs  L11\n  fu base64_encode  <-4 refs  L20\n  fu base64_decode  <-4 refs  L28\n  fu int_to_bytes  <-2 refs  L49\n  fu bytes_to_int  <-2 refs  L53",
+   "included": [
+    "src/itsdangerous/exc.py",
+    "src/itsdangerous/encoding.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": null,
+    "budget_tokens": 226
+   },
+   "wire": "src/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74\nsrc/itsdangerous/encoding.py:\n  fu want_bytes  <-4 refs  L11\n  fu base64_encode  <-4 refs  L20\n  fu base64_decode  <-4 refs  L28\n  fu int_to_bytes  <-2 refs  L49\n  fu bytes_to_int  <-2 refs  L53",
+   "included": [
+    "src/itsdangerous/exc.py",
+    "src/itsdangerous/encoding.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": null,
+    "budget_tokens": 227
+   },
+   "wire": "src/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74\nsrc/itsdangerous/encoding.py:\n  fu want_bytes  <-4 refs  L11\n  fu base64_encode  <-4 refs  L20\n  fu base64_decode  <-4 refs  L28\n  fu int_to_bytes  <-2 refs  L49\n  fu bytes_to_int  <-2 refs  L53\nsrc/itsdangerous/signer.py:\n  fu sign  <-4 refs  L222\n  fu unsign  <-3 refs  L244\n  cl Signer  <-2 refs  L76\n  fu verify_signature  <-1 refs  L227\n  fu verify_signature  <-1 refs  L24\n  fu validate  <-1 refs  L258\n  fu get_signature  <-1 refs  L215\n  fu get_signature  <-1 refs  L62",
+   "included": [
+    "src/itsdangerous/exc.py",
+    "src/itsdangerous/encoding.py",
+    "src/itsdangerous/signer.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": null,
+    "budget_tokens": 261
+   },
+   "wire": "src/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74\nsrc/itsdangerous/encoding.py:\n  fu want_bytes  <-4 refs  L11\n  fu base64_encode  <-4 refs  L20\n  fu base64_decode  <-4 refs  L28\n  fu int_to_bytes  <-2 refs  L49\n  fu bytes_to_int  <-2 refs  L53\nsrc/itsdangerous/signer.py:\n  fu sign  <-4 refs  L222\n  fu unsign  <-3 refs  L244\n  cl Signer  <-2 refs  L76\n  fu verify_signature  <-1 refs  L227\n  fu verify_signature  <-1 refs  L24\n  fu validate  <-1 refs  L258\n  fu get_signature  <-1 refs  L215\n  fu get_signature  <-1 refs  L62",
+   "included": [
+    "src/itsdangerous/exc.py",
+    "src/itsdangerous/encoding.py",
+    "src/itsdangerous/signer.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": null,
+    "budget_tokens": 262
+   },
+   "wire": "src/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74\nsrc/itsdangerous/encoding.py:\n  fu want_bytes  <-4 refs  L11\n  fu base64_encode  <-4 refs  L20\n  fu base64_decode  <-4 refs  L28\n  fu int_to_bytes  <-2 refs  L49\n  fu bytes_to_int  <-2 refs  L53\nsrc/itsdangerous/signer.py:\n  fu sign  <-4 refs  L222\n  fu unsign  <-3 refs  L244\n  cl Signer  <-2 refs  L76\n  fu verify_signature  <-1 refs  L227\n  fu verify_signature  <-1 refs  L24\n  fu validate  <-1 refs  L258\n  fu get_signature  <-1 refs  L215\n  fu get_signature  <-1 refs  L62\ngraphpkg/hub.py:\n  fu top  <-1 refs  L17\n  fu hub  <-1 refs  L4\n  fu pong  L25\n  fu ping  L21\n  fu mid  L13\n  fu leaf  L9",
+   "included": [
+    "src/itsdangerous/exc.py",
+    "src/itsdangerous/encoding.py",
+    "src/itsdangerous/signer.py",
+    "graphpkg/hub.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": null,
+    "budget_tokens": 345
+   },
+   "wire": "src/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74\nsrc/itsdangerous/encoding.py:\n  fu want_bytes  <-4 refs  L11\n  fu base64_encode  <-4 refs  L20\n  fu base64_decode  <-4 refs  L28\n  fu int_to_bytes  <-2 refs  L49\n  fu bytes_to_int  <-2 refs  L53\nsrc/itsdangerous/signer.py:\n  fu sign  <-4 refs  L222\n  fu unsign  <-3 refs  L244\n  cl Signer  <-2 refs  L76\n  fu verify_signature  <-1 refs  L227\n  fu verify_signature  <-1 refs  L24\n  fu validate  <-1 refs  L258\n  fu get_signature  <-1 refs  L215\n  fu get_signature  <-1 refs  L62\ngraphpkg/hub.py:\n  fu top  <-1 refs  L17\n  fu hub  <-1 refs  L4\n  fu pong  L25\n  fu ping  L21\n  fu mid  L13\n  fu leaf  L9",
+   "included": [
+    "src/itsdangerous/exc.py",
+    "src/itsdangerous/encoding.py",
+    "src/itsdangerous/signer.py",
+    "graphpkg/hub.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": null,
+    "budget_tokens": 346
+   },
+   "wire": "src/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74\nsrc/itsdangerous/encoding.py:\n  fu want_bytes  <-4 refs  L11\n  fu base64_encode  <-4 refs  L20\n  fu base64_decode  <-4 refs  L28\n  fu int_to_bytes  <-2 refs  L49\n  fu bytes_to_int  <-2 refs  L53\nsrc/itsdangerous/signer.py:\n  fu sign  <-4 refs  L222\n  fu unsign  <-3 refs  L244\n  cl Signer  <-2 refs  L76\n  fu verify_signature  <-1 refs  L227\n  fu verify_signature  <-1 refs  L24\n  fu validate  <-1 refs  L258\n  fu get_signature  <-1 refs  L215\n  fu get_signature  <-1 refs  L62\ngraphpkg/hub.py:\n  fu top  <-1 refs  L17\n  fu hub  <-1 refs  L4\n  fu pong  L25\n  fu ping  L21\n  fu mid  L13\n  fu leaf  L9\nsrc/itsdangerous/serializer.py:\n  fu load_payload  <-3 refs  L243\n  fu loads  <-2 refs  L328\n  fu loads  <-2 refs  L25\n  fu dumps  <-2 refs  L309\n  fu dumps  <-2 refs  L29\n  fu make_signer  <-1 refs  L278\n  fu loads_unsafe  <-1 refs  L349\n  fu load_unsafe  <-1 refs  L397",
+   "included": [
+    "src/itsdangerous/exc.py",
+    "src/itsdangerous/encoding.py",
+    "src/itsdangerous/signer.py",
+    "graphpkg/hub.py",
+    "src/itsdangerous/serializer.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": null,
+    "budget_tokens": 394
+   },
+   "wire": "src/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74\nsrc/itsdangerous/encoding.py:\n  fu want_bytes  <-4 refs  L11\n  fu base64_encode  <-4 refs  L20\n  fu base64_decode  <-4 refs  L28\n  fu int_to_bytes  <-2 refs  L49\n  fu bytes_to_int  <-2 refs  L53\nsrc/itsdangerous/signer.py:\n  fu sign  <-4 refs  L222\n  fu unsign  <-3 refs  L244\n  cl Signer  <-2 refs  L76\n  fu verify_signature  <-1 refs  L227\n  fu verify_signature  <-1 refs  L24\n  fu validate  <-1 refs  L258\n  fu get_signature  <-1 refs  L215\n  fu get_signature  <-1 refs  L62\ngraphpkg/hub.py:\n  fu top  <-1 refs  L17\n  fu hub  <-1 refs  L4\n  fu pong  L25\n  fu ping  L21\n  fu mid  L13\n  fu leaf  L9\nsrc/itsdangerous/serializer.py:\n  fu load_payload  <-3 refs  L243\n  fu loads  <-2 refs  L328\n  fu loads  <-2 refs  L25\n  fu dumps  <-2 refs  L309\n  fu dumps  <-2 refs  L29\n  fu make_signer  <-1 refs  L278\n  fu loads_unsafe  <-1 refs  L349\n  fu load_unsafe  <-1 refs  L397",
+   "included": [
+    "src/itsdangerous/exc.py",
+    "src/itsdangerous/encoding.py",
+    "src/itsdangerous/signer.py",
+    "graphpkg/hub.py",
+    "src/itsdangerous/serializer.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": null,
+    "budget_tokens": 395
+   },
+   "wire": "src/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74\nsrc/itsdangerous/encoding.py:\n  fu want_bytes  <-4 refs  L11\n  fu base64_encode  <-4 refs  L20\n  fu base64_decode  <-4 refs  L28\n  fu int_to_bytes  <-2 refs  L49\n  fu bytes_to_int  <-2 refs  L53\nsrc/itsdangerous/signer.py:\n  fu sign  <-4 refs  L222\n  fu unsign  <-3 refs  L244\n  cl Signer  <-2 refs  L76\n  fu verify_signature  <-1 refs  L227\n  fu verify_signature  <-1 refs  L24\n  fu validate  <-1 refs  L258\n  fu get_signature  <-1 refs  L215\n  fu get_signature  <-1 refs  L62\ngraphpkg/hub.py:\n  fu top  <-1 refs  L17\n  fu hub  <-1 refs  L4\n  fu pong  L25\n  fu ping  L21\n  fu mid  L13\n  fu leaf  L9\nsrc/itsdangerous/serializer.py:\n  fu load_payload  <-3 refs  L243\n  fu loads  <-2 refs  L328\n  fu loads  <-2 refs  L25\n  fu dumps  <-2 refs  L309\n  fu dumps  <-2 refs  L29\n  fu make_signer  <-1 refs  L278\n  fu loads_unsafe  <-1 refs  L349\n  fu load_unsafe  <-1 refs  L397\nmappkg/many.py:\n  fu kappa  <-1 refs  L39\n  fu beta  <-1 refs  L7\n  fu alpha  <-1 refs  L3\n  fu zeta  L23\n  fu user  L47\n  fu theta  L31\n  fu lam  L43\n  fu iota  L35",
+   "included": [
+    "src/itsdangerous/exc.py",
+    "src/itsdangerous/encoding.py",
+    "src/itsdangerous/signer.py",
+    "graphpkg/hub.py",
+    "src/itsdangerous/serializer.py",
+    "mappkg/many.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": null,
+    "budget_tokens": 477
+   },
+   "wire": "src/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74\nsrc/itsdangerous/encoding.py:\n  fu want_bytes  <-4 refs  L11\n  fu base64_encode  <-4 refs  L20\n  fu base64_decode  <-4 refs  L28\n  fu int_to_bytes  <-2 refs  L49\n  fu bytes_to_int  <-2 refs  L53\nsrc/itsdangerous/signer.py:\n  fu sign  <-4 refs  L222\n  fu unsign  <-3 refs  L244\n  cl Signer  <-2 refs  L76\n  fu verify_signature  <-1 refs  L227\n  fu verify_signature  <-1 refs  L24\n  fu validate  <-1 refs  L258\n  fu get_signature  <-1 refs  L215\n  fu get_signature  <-1 refs  L62\ngraphpkg/hub.py:\n  fu top  <-1 refs  L17\n  fu hub  <-1 refs  L4\n  fu pong  L25\n  fu ping  L21\n  fu mid  L13\n  fu leaf  L9\nsrc/itsdangerous/serializer.py:\n  fu load_payload  <-3 refs  L243\n  fu loads  <-2 refs  L328\n  fu loads  <-2 refs  L25\n  fu dumps  <-2 refs  L309\n  fu dumps  <-2 refs  L29\n  fu make_signer  <-1 refs  L278\n  fu loads_unsafe  <-1 refs  L349\n  fu load_unsafe  <-1 refs  L397\nmappkg/many.py:\n  fu kappa  <-1 refs  L39\n  fu beta  <-1 refs  L7\n  fu alpha  <-1 refs  L3\n  fu zeta  L23\n  fu user  L47\n  fu theta  L31\n  fu lam  L43\n  fu iota  L35",
+   "included": [
+    "src/itsdangerous/exc.py",
+    "src/itsdangerous/encoding.py",
+    "src/itsdangerous/signer.py",
+    "graphpkg/hub.py",
+    "src/itsdangerous/serializer.py",
+    "mappkg/many.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": null,
+    "budget_tokens": 478
+   },
+   "wire": "src/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74\nsrc/itsdangerous/encoding.py:\n  fu want_bytes  <-4 refs  L11\n  fu base64_encode  <-4 refs  L20\n  fu base64_decode  <-4 refs  L28\n  fu int_to_bytes  <-2 refs  L49\n  fu bytes_to_int  <-2 refs  L53\nsrc/itsdangerous/signer.py:\n  fu sign  <-4 refs  L222\n  fu unsign  <-3 refs  L244\n  cl Signer  <-2 refs  L76\n  fu verify_signature  <-1 refs  L227\n  fu verify_signature  <-1 refs  L24\n  fu validate  <-1 refs  L258\n  fu get_signature  <-1 refs  L215\n  fu get_signature  <-1 refs  L62\ngraphpkg/hub.py:\n  fu top  <-1 refs  L17\n  fu hub  <-1 refs  L4\n  fu pong  L25\n  fu ping  L21\n  fu mid  L13\n  fu leaf  L9\nsrc/itsdangerous/serializer.py:\n  fu load_payload  <-3 refs  L243\n  fu loads  <-2 refs  L328\n  fu loads  <-2 refs  L25\n  fu dumps  <-2 refs  L309\n  fu dumps  <-2 refs  L29\n  fu make_signer  <-1 refs  L278\n  fu loads_unsafe  <-1 refs  L349\n  fu load_unsafe  <-1 refs  L397\nmappkg/many.py:\n  fu kappa  <-1 refs  L39\n  fu beta  <-1 refs  L7\n  fu alpha  <-1 refs  L3\n  fu zeta  L23\n  fu user  L47\n  fu theta  L31\n  fu lam  L43\n  fu iota  L35\ntests/test_itsdangerous/test_timed.py:\n  fu ts  L20\n  fu test_timestamp_missing  L49\n  fu test_sig_error_date_signed  L87\n  fu test_return_timestamp  L45\n  fu test_return_payload  L113\n  fu test_max_age  L101\n  fu test_max_age  L34\n  fu test_malformed_timestamp  L59",
+   "included": [
+    "src/itsdangerous/exc.py",
+    "src/itsdangerous/encoding.py",
+    "src/itsdangerous/signer.py",
+    "graphpkg/hub.py",
+    "src/itsdangerous/serializer.py",
+    "mappkg/many.py",
+    "tests/test_itsdangerous/test_timed.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": null,
+    "budget_tokens": 557
+   },
+   "wire": "src/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74\nsrc/itsdangerous/encoding.py:\n  fu want_bytes  <-4 refs  L11\n  fu base64_encode  <-4 refs  L20\n  fu base64_decode  <-4 refs  L28\n  fu int_to_bytes  <-2 refs  L49\n  fu bytes_to_int  <-2 refs  L53\nsrc/itsdangerous/signer.py:\n  fu sign  <-4 refs  L222\n  fu unsign  <-3 refs  L244\n  cl Signer  <-2 refs  L76\n  fu verify_signature  <-1 refs  L227\n  fu verify_signature  <-1 refs  L24\n  fu validate  <-1 refs  L258\n  fu get_signature  <-1 refs  L215\n  fu get_signature  <-1 refs  L62\ngraphpkg/hub.py:\n  fu top  <-1 refs  L17\n  fu hub  <-1 refs  L4\n  fu pong  L25\n  fu ping  L21\n  fu mid  L13\n  fu leaf  L9\nsrc/itsdangerous/serializer.py:\n  fu load_payload  <-3 refs  L243\n  fu loads  <-2 refs  L328\n  fu loads  <-2 refs  L25\n  fu dumps  <-2 refs  L309\n  fu dumps  <-2 refs  L29\n  fu make_signer  <-1 refs  L278\n  fu loads_unsafe  <-1 refs  L349\n  fu load_unsafe  <-1 refs  L397\nmappkg/many.py:\n  fu kappa  <-1 refs  L39\n  fu beta  <-1 refs  L7\n  fu alpha  <-1 refs  L3\n  fu zeta  L23\n  fu user  L47\n  fu theta  L31\n  fu lam  L43\n  fu iota  L35\ntests/test_itsdangerous/test_timed.py:\n  fu ts  L20\n  fu test_timestamp_missing  L49\n  fu test_sig_error_date_signed  L87\n  fu test_return_timestamp  L45\n  fu test_return_payload  L113\n  fu test_max_age  L101\n  fu test_max_age  L34\n  fu test_malformed_timestamp  L59",
+   "included": [
+    "src/itsdangerous/exc.py",
+    "src/itsdangerous/encoding.py",
+    "src/itsdangerous/signer.py",
+    "graphpkg/hub.py",
+    "src/itsdangerous/serializer.py",
+    "mappkg/many.py",
+    "tests/test_itsdangerous/test_timed.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": null,
+    "budget_tokens": 558
+   },
+   "wire": "src/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74\nsrc/itsdangerous/encoding.py:\n  fu want_bytes  <-4 refs  L11\n  fu base64_encode  <-4 refs  L20\n  fu base64_decode  <-4 refs  L28\n  fu int_to_bytes  <-2 refs  L49\n  fu bytes_to_int  <-2 refs  L53\nsrc/itsdangerous/signer.py:\n  fu sign  <-4 refs  L222\n  fu unsign  <-3 refs  L244\n  cl Signer  <-2 refs  L76\n  fu verify_signature  <-1 refs  L227\n  fu verify_signature  <-1 refs  L24\n  fu validate  <-1 refs  L258\n  fu get_signature  <-1 refs  L215\n  fu get_signature  <-1 refs  L62\ngraphpkg/hub.py:\n  fu top  <-1 refs  L17\n  fu hub  <-1 refs  L4\n  fu pong  L25\n  fu ping  L21\n  fu mid  L13\n  fu leaf  L9\nsrc/itsdangerous/serializer.py:\n  fu load_payload  <-3 refs  L243\n  fu loads  <-2 refs  L328\n  fu loads  <-2 refs  L25\n  fu dumps  <-2 refs  L309\n  fu dumps  <-2 refs  L29\n  fu make_signer  <-1 refs  L278\n  fu loads_unsafe  <-1 refs  L349\n  fu load_unsafe  <-1 refs  L397\nmappkg/many.py:\n  fu kappa  <-1 refs  L39\n  fu beta  <-1 refs  L7\n  fu alpha  <-1 refs  L3\n  fu zeta  L23\n  fu user  L47\n  fu theta  L31\n  fu lam  L43\n  fu iota  L35\ntests/test_itsdangerous/test_timed.py:\n  fu ts  L20\n  fu test_timestamp_missing  L49\n  fu test_sig_error_date_signed  L87\n  fu test_return_timestamp  L45\n  fu test_return_payload  L113\n  fu test_max_age  L101\n  fu test_max_age  L34\n  fu test_malformed_timestamp  L59\nsrc/itsdangerous/timed.py:\n  fu sign  <-4 refs  L45\n  fu unsign  <-3 refs  L57\n  fu loads  <-2 refs  L185\n  fu validate  <-1 refs  L160\n  fu loads_unsafe  <-1 refs  L222\n  fu iter_unsigners  <-1 refs  L177\n  fu timestamp_to_datetime  L35\n  fu get_timestamp  L29",
+   "included": [
+    "src/itsdangerous/exc.py",
+    "src/itsdangerous/encoding.py",
+    "src/itsdangerous/signer.py",
+    "graphpkg/hub.py",
+    "src/itsdangerous/serializer.py",
+    "mappkg/many.py",
+    "tests/test_itsdangerous/test_timed.py",
+    "src/itsdangerous/timed.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": null,
+    "budget_tokens": 590
+   },
+   "wire": "src/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74\nsrc/itsdangerous/encoding.py:\n  fu want_bytes  <-4 refs  L11\n  fu base64_encode  <-4 refs  L20\n  fu base64_decode  <-4 refs  L28\n  fu int_to_bytes  <-2 refs  L49\n  fu bytes_to_int  <-2 refs  L53\nsrc/itsdangerous/signer.py:\n  fu sign  <-4 refs  L222\n  fu unsign  <-3 refs  L244\n  cl Signer  <-2 refs  L76\n  fu verify_signature  <-1 refs  L227\n  fu verify_signature  <-1 refs  L24\n  fu validate  <-1 refs  L258\n  fu get_signature  <-1 refs  L215\n  fu get_signature  <-1 refs  L62\ngraphpkg/hub.py:\n  fu top  <-1 refs  L17\n  fu hub  <-1 refs  L4\n  fu pong  L25\n  fu ping  L21\n  fu mid  L13\n  fu leaf  L9\nsrc/itsdangerous/serializer.py:\n  fu load_payload  <-3 refs  L243\n  fu loads  <-2 refs  L328\n  fu loads  <-2 refs  L25\n  fu dumps  <-2 refs  L309\n  fu dumps  <-2 refs  L29\n  fu make_signer  <-1 refs  L278\n  fu loads_unsafe  <-1 refs  L349\n  fu load_unsafe  <-1 refs  L397\nmappkg/many.py:\n  fu kappa  <-1 refs  L39\n  fu beta  <-1 refs  L7\n  fu alpha  <-1 refs  L3\n  fu zeta  L23\n  fu user  L47\n  fu theta  L31\n  fu lam  L43\n  fu iota  L35\ntests/test_itsdangerous/test_timed.py:\n  fu ts  L20\n  fu test_timestamp_missing  L49\n  fu test_sig_error_date_signed  L87\n  fu test_return_timestamp  L45\n  fu test_return_payload  L113\n  fu test_max_age  L101\n  fu test_max_age  L34\n  fu test_malformed_timestamp  L59\nsrc/itsdangerous/timed.py:\n  fu sign  <-4 refs  L45\n  fu unsign  <-3 refs  L57\n  fu loads  <-2 refs  L185\n  fu validate  <-1 refs  L160\n  fu loads_unsafe  <-1 refs  L222\n  fu iter_unsigners  <-1 refs  L177\n  fu timestamp_to_datetime  L35\n  fu get_timestamp  L29",
+   "included": [
+    "src/itsdangerous/exc.py",
+    "src/itsdangerous/encoding.py",
+    "src/itsdangerous/signer.py",
+    "graphpkg/hub.py",
+    "src/itsdangerous/serializer.py",
+    "mappkg/many.py",
+    "tests/test_itsdangerous/test_timed.py",
+    "src/itsdangerous/timed.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": null,
+    "budget_tokens": 591
+   },
+   "wire": "src/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74\nsrc/itsdangerous/encoding.py:\n  fu want_bytes  <-4 refs  L11\n  fu base64_encode  <-4 refs  L20\n  fu base64_decode  <-4 refs  L28\n  fu int_to_bytes  <-2 refs  L49\n  fu bytes_to_int  <-2 refs  L53\nsrc/itsdangerous/signer.py:\n  fu sign  <-4 refs  L222\n  fu unsign  <-3 refs  L244\n  cl Signer  <-2 refs  L76\n  fu verify_signature  <-1 refs  L227\n  fu verify_signature  <-1 refs  L24\n  fu validate  <-1 refs  L258\n  fu get_signature  <-1 refs  L215\n  fu get_signature  <-1 refs  L62\ngraphpkg/hub.py:\n  fu top  <-1 refs  L17\n  fu hub  <-1 refs  L4\n  fu pong  L25\n  fu ping  L21\n  fu mid  L13\n  fu leaf  L9\nsrc/itsdangerous/serializer.py:\n  fu load_payload  <-3 refs  L243\n  fu loads  <-2 refs  L328\n  fu loads  <-2 refs  L25\n  fu dumps  <-2 refs  L309\n  fu dumps  <-2 refs  L29\n  fu make_signer  <-1 refs  L278\n  fu loads_unsafe  <-1 refs  L349\n  fu load_unsafe  <-1 refs  L397\nmappkg/many.py:\n  fu kappa  <-1 refs  L39\n  fu beta  <-1 refs  L7\n  fu alpha  <-1 refs  L3\n  fu zeta  L23\n  fu user  L47\n  fu theta  L31\n  fu lam  L43\n  fu iota  L35\ntests/test_itsdangerous/test_timed.py:\n  fu ts  L20\n  fu test_timestamp_missing  L49\n  fu test_sig_error_date_signed  L87\n  fu test_return_timestamp  L45\n  fu test_return_payload  L113\n  fu test_max_age  L101\n  fu test_max_age  L34\n  fu test_malformed_timestamp  L59\nsrc/itsdangerous/timed.py:\n  fu sign  <-4 refs  L45\n  fu unsign  <-3 refs  L57\n  fu loads  <-2 refs  L185\n  fu validate  <-1 refs  L160\n  fu loads_unsafe  <-1 refs  L222\n  fu iter_unsigners  <-1 refs  L177\n  fu timestamp_to_datetime  L35\n  fu get_timestamp  L29\nmappkg/ünïcode.py:\n  fu länge  <-1 refs  L13\n  fu größe  <-1 refs  L4\n  cl Straße  <-1 refs  L12\n  fu 名前  L8",
+   "included": [
+    "src/itsdangerous/exc.py",
+    "src/itsdangerous/encoding.py",
+    "src/itsdangerous/signer.py",
+    "graphpkg/hub.py",
+    "src/itsdangerous/serializer.py",
+    "mappkg/many.py",
+    "tests/test_itsdangerous/test_timed.py",
+    "src/itsdangerous/timed.py",
+    "mappkg/ünïcode.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": null,
+    "budget_tokens": 648
+   },
+   "wire": "src/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74\nsrc/itsdangerous/encoding.py:\n  fu want_bytes  <-4 refs  L11\n  fu base64_encode  <-4 refs  L20\n  fu base64_decode  <-4 refs  L28\n  fu int_to_bytes  <-2 refs  L49\n  fu bytes_to_int  <-2 refs  L53\nsrc/itsdangerous/signer.py:\n  fu sign  <-4 refs  L222\n  fu unsign  <-3 refs  L244\n  cl Signer  <-2 refs  L76\n  fu verify_signature  <-1 refs  L227\n  fu verify_signature  <-1 refs  L24\n  fu validate  <-1 refs  L258\n  fu get_signature  <-1 refs  L215\n  fu get_signature  <-1 refs  L62\ngraphpkg/hub.py:\n  fu top  <-1 refs  L17\n  fu hub  <-1 refs  L4\n  fu pong  L25\n  fu ping  L21\n  fu mid  L13\n  fu leaf  L9\nsrc/itsdangerous/serializer.py:\n  fu load_payload  <-3 refs  L243\n  fu loads  <-2 refs  L328\n  fu loads  <-2 refs  L25\n  fu dumps  <-2 refs  L309\n  fu dumps  <-2 refs  L29\n  fu make_signer  <-1 refs  L278\n  fu loads_unsafe  <-1 refs  L349\n  fu load_unsafe  <-1 refs  L397\nmappkg/many.py:\n  fu kappa  <-1 refs  L39\n  fu beta  <-1 refs  L7\n  fu alpha  <-1 refs  L3\n  fu zeta  L23\n  fu user  L47\n  fu theta  L31\n  fu lam  L43\n  fu iota  L35\ntests/test_itsdangerous/test_timed.py:\n  fu ts  L20\n  fu test_timestamp_missing  L49\n  fu test_sig_error_date_signed  L87\n  fu test_return_timestamp  L45\n  fu test_return_payload  L113\n  fu test_max_age  L101\n  fu test_max_age  L34\n  fu test_malformed_timestamp  L59\nsrc/itsdangerous/timed.py:\n  fu sign  <-4 refs  L45\n  fu unsign  <-3 refs  L57\n  fu loads  <-2 refs  L185\n  fu validate  <-1 refs  L160\n  fu loads_unsafe  <-1 refs  L222\n  fu iter_unsigners  <-1 refs  L177\n  fu timestamp_to_datetime  L35\n  fu get_timestamp  L29\nmappkg/ünïcode.py:\n  fu länge  <-1 refs  L13\n  fu größe  <-1 refs  L4\n  cl Straße  <-1 refs  L12\n  fu 名前  L8",
+   "included": [
+    "src/itsdangerous/exc.py",
+    "src/itsdangerous/encoding.py",
+    "src/itsdangerous/signer.py",
+    "graphpkg/hub.py",
+    "src/itsdangerous/serializer.py",
+    "mappkg/many.py",
+    "tests/test_itsdangerous/test_timed.py",
+    "src/itsdangerous/timed.py",
+    "mappkg/ünïcode.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": null,
+    "budget_tokens": 649
+   },
+   "wire": "src/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74\nsrc/itsdangerous/encoding.py:\n  fu want_bytes  <-4 refs  L11\n  fu base64_encode  <-4 refs  L20\n  fu base64_decode  <-4 refs  L28\n  fu int_to_bytes  <-2 refs  L49\n  fu bytes_to_int  <-2 refs  L53\nsrc/itsdangerous/signer.py:\n  fu sign  <-4 refs  L222\n  fu unsign  <-3 refs  L244\n  cl Signer  <-2 refs  L76\n  fu verify_signature  <-1 refs  L227\n  fu verify_signature  <-1 refs  L24\n  fu validate  <-1 refs  L258\n  fu get_signature  <-1 refs  L215\n  fu get_signature  <-1 refs  L62\ngraphpkg/hub.py:\n  fu top  <-1 refs  L17\n  fu hub  <-1 refs  L4\n  fu pong  L25\n  fu ping  L21\n  fu mid  L13\n  fu leaf  L9\nsrc/itsdangerous/serializer.py:\n  fu load_payload  <-3 refs  L243\n  fu loads  <-2 refs  L328\n  fu loads  <-2 refs  L25\n  fu dumps  <-2 refs  L309\n  fu dumps  <-2 refs  L29\n  fu make_signer  <-1 refs  L278\n  fu loads_unsafe  <-1 refs  L349\n  fu load_unsafe  <-1 refs  L397\nmappkg/many.py:\n  fu kappa  <-1 refs  L39\n  fu beta  <-1 refs  L7\n  fu alpha  <-1 refs  L3\n  fu zeta  L23\n  fu user  L47\n  fu theta  L31\n  fu lam  L43\n  fu iota  L35\ntests/test_itsdangerous/test_timed.py:\n  fu ts  L20\n  fu test_timestamp_missing  L49\n  fu test_sig_error_date_signed  L87\n  fu test_return_timestamp  L45\n  fu test_return_payload  L113\n  fu test_max_age  L101\n  fu test_max_age  L34\n  fu test_malformed_timestamp  L59\nsrc/itsdangerous/timed.py:\n  fu sign  <-4 refs  L45\n  fu unsign  <-3 refs  L57\n  fu loads  <-2 refs  L185\n  fu validate  <-1 refs  L160\n  fu loads_unsafe  <-1 refs  L222\n  fu iter_unsigners  <-1 refs  L177\n  fu timestamp_to_datetime  L35\n  fu get_timestamp  L29\nmappkg/ünïcode.py:\n  fu länge  <-1 refs  L13\n  fu größe  <-1 refs  L4\n  cl Straße  <-1 refs  L12\n  fu 名前  L8\ntests/test_itsdangerous/test_url_safe.py:\n  fu value  L17\n  fu serializer_factory  L23\n  fu serializer_factory  L13\n  cl TestURLSafeTimedSerializer  L21\n  cl TestURLSafeSerializer  L11",
+   "included": [
+    "src/itsdangerous/exc.py",
+    "src/itsdangerous/encoding.py",
+    "src/itsdangerous/signer.py",
+    "graphpkg/hub.py",
+    "src/itsdangerous/serializer.py",
+    "mappkg/many.py",
+    "tests/test_itsdangerous/test_timed.py",
+    "src/itsdangerous/timed.py",
+    "mappkg/ünïcode.py",
+    "tests/test_itsdangerous/test_url_safe.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": null,
+    "budget_tokens": 679
+   },
+   "wire": "src/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74\nsrc/itsdangerous/encoding.py:\n  fu want_bytes  <-4 refs  L11\n  fu base64_encode  <-4 refs  L20\n  fu base64_decode  <-4 refs  L28\n  fu int_to_bytes  <-2 refs  L49\n  fu bytes_to_int  <-2 refs  L53\nsrc/itsdangerous/signer.py:\n  fu sign  <-4 refs  L222\n  fu unsign  <-3 refs  L244\n  cl Signer  <-2 refs  L76\n  fu verify_signature  <-1 refs  L227\n  fu verify_signature  <-1 refs  L24\n  fu validate  <-1 refs  L258\n  fu get_signature  <-1 refs  L215\n  fu get_signature  <-1 refs  L62\ngraphpkg/hub.py:\n  fu top  <-1 refs  L17\n  fu hub  <-1 refs  L4\n  fu pong  L25\n  fu ping  L21\n  fu mid  L13\n  fu leaf  L9\nsrc/itsdangerous/serializer.py:\n  fu load_payload  <-3 refs  L243\n  fu loads  <-2 refs  L328\n  fu loads  <-2 refs  L25\n  fu dumps  <-2 refs  L309\n  fu dumps  <-2 refs  L29\n  fu make_signer  <-1 refs  L278\n  fu loads_unsafe  <-1 refs  L349\n  fu load_unsafe  <-1 refs  L397\nmappkg/many.py:\n  fu kappa  <-1 refs  L39\n  fu beta  <-1 refs  L7\n  fu alpha  <-1 refs  L3\n  fu zeta  L23\n  fu user  L47\n  fu theta  L31\n  fu lam  L43\n  fu iota  L35\ntests/test_itsdangerous/test_timed.py:\n  fu ts  L20\n  fu test_timestamp_missing  L49\n  fu test_sig_error_date_signed  L87\n  fu test_return_timestamp  L45\n  fu test_return_payload  L113\n  fu test_max_age  L101\n  fu test_max_age  L34\n  fu test_malformed_timestamp  L59\nsrc/itsdangerous/timed.py:\n  fu sign  <-4 refs  L45\n  fu unsign  <-3 refs  L57\n  fu loads  <-2 refs  L185\n  fu validate  <-1 refs  L160\n  fu loads_unsafe  <-1 refs  L222\n  fu iter_unsigners  <-1 refs  L177\n  fu timestamp_to_datetime  L35\n  fu get_timestamp  L29\nmappkg/ünïcode.py:\n  fu länge  <-1 refs  L13\n  fu größe  <-1 refs  L4\n  cl Straße  <-1 refs  L12\n  fu 名前  L8\ntests/test_itsdangerous/test_url_safe.py:\n  fu value  L17\n  fu serializer_factory  L23\n  fu serializer_factory  L13\n  cl TestURLSafeTimedSerializer  L21\n  cl TestURLSafeSerializer  L11",
+   "included": [
+    "src/itsdangerous/exc.py",
+    "src/itsdangerous/encoding.py",
+    "src/itsdangerous/signer.py",
+    "graphpkg/hub.py",
+    "src/itsdangerous/serializer.py",
+    "mappkg/many.py",
+    "tests/test_itsdangerous/test_timed.py",
+    "src/itsdangerous/timed.py",
+    "mappkg/ünïcode.py",
+    "tests/test_itsdangerous/test_url_safe.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": null,
+    "budget_tokens": 680
+   },
+   "wire": "src/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74\nsrc/itsdangerous/encoding.py:\n  fu want_bytes  <-4 refs  L11\n  fu base64_encode  <-4 refs  L20\n  fu base64_decode  <-4 refs  L28\n  fu int_to_bytes  <-2 refs  L49\n  fu bytes_to_int  <-2 refs  L53\nsrc/itsdangerous/signer.py:\n  fu sign  <-4 refs  L222\n  fu unsign  <-3 refs  L244\n  cl Signer  <-2 refs  L76\n  fu verify_signature  <-1 refs  L227\n  fu verify_signature  <-1 refs  L24\n  fu validate  <-1 refs  L258\n  fu get_signature  <-1 refs  L215\n  fu get_signature  <-1 refs  L62\ngraphpkg/hub.py:\n  fu top  <-1 refs  L17\n  fu hub  <-1 refs  L4\n  fu pong  L25\n  fu ping  L21\n  fu mid  L13\n  fu leaf  L9\nsrc/itsdangerous/serializer.py:\n  fu load_payload  <-3 refs  L243\n  fu loads  <-2 refs  L328\n  fu loads  <-2 refs  L25\n  fu dumps  <-2 refs  L309\n  fu dumps  <-2 refs  L29\n  fu make_signer  <-1 refs  L278\n  fu loads_unsafe  <-1 refs  L349\n  fu load_unsafe  <-1 refs  L397\nmappkg/many.py:\n  fu kappa  <-1 refs  L39\n  fu beta  <-1 refs  L7\n  fu alpha  <-1 refs  L3\n  fu zeta  L23\n  fu user  L47\n  fu theta  L31\n  fu lam  L43\n  fu iota  L35\ntests/test_itsdangerous/test_timed.py:\n  fu ts  L20\n  fu test_timestamp_missing  L49\n  fu test_sig_error_date_signed  L87\n  fu test_return_timestamp  L45\n  fu test_return_payload  L113\n  fu test_max_age  L101\n  fu test_max_age  L34\n  fu test_malformed_timestamp  L59\nsrc/itsdangerous/timed.py:\n  fu sign  <-4 refs  L45\n  fu unsign  <-3 refs  L57\n  fu loads  <-2 refs  L185\n  fu validate  <-1 refs  L160\n  fu loads_unsafe  <-1 refs  L222\n  fu iter_unsigners  <-1 refs  L177\n  fu timestamp_to_datetime  L35\n  fu get_timestamp  L29\nmappkg/ünïcode.py:\n  fu länge  <-1 refs  L13\n  fu größe  <-1 refs  L4\n  cl Straße  <-1 refs  L12\n  fu 名前  L8\ntests/test_itsdangerous/test_url_safe.py:\n  fu value  L17\n  fu serializer_factory  L23\n  fu serializer_factory  L13\n  cl TestURLSafeTimedSerializer  L21\n  cl TestURLSafeSerializer  L11\nsrc/itsdangerous/_json.py:\n  fu loads  <-2 refs  L11\n  fu dumps  <-2 refs  L15\n  cl _CompactJSON  L7",
+   "included": [
+    "src/itsdangerous/exc.py",
+    "src/itsdangerous/encoding.py",
+    "src/itsdangerous/signer.py",
+    "graphpkg/hub.py",
+    "src/itsdangerous/serializer.py",
+    "mappkg/many.py",
+    "tests/test_itsdangerous/test_timed.py",
+    "src/itsdangerous/timed.py",
+    "mappkg/ünïcode.py",
+    "tests/test_itsdangerous/test_url_safe.py",
+    "src/itsdangerous/_json.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": null,
+    "budget_tokens": 762
+   },
+   "wire": "src/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74\nsrc/itsdangerous/encoding.py:\n  fu want_bytes  <-4 refs  L11\n  fu base64_encode  <-4 refs  L20\n  fu base64_decode  <-4 refs  L28\n  fu int_to_bytes  <-2 refs  L49\n  fu bytes_to_int  <-2 refs  L53\nsrc/itsdangerous/signer.py:\n  fu sign  <-4 refs  L222\n  fu unsign  <-3 refs  L244\n  cl Signer  <-2 refs  L76\n  fu verify_signature  <-1 refs  L227\n  fu verify_signature  <-1 refs  L24\n  fu validate  <-1 refs  L258\n  fu get_signature  <-1 refs  L215\n  fu get_signature  <-1 refs  L62\ngraphpkg/hub.py:\n  fu top  <-1 refs  L17\n  fu hub  <-1 refs  L4\n  fu pong  L25\n  fu ping  L21\n  fu mid  L13\n  fu leaf  L9\nsrc/itsdangerous/serializer.py:\n  fu load_payload  <-3 refs  L243\n  fu loads  <-2 refs  L328\n  fu loads  <-2 refs  L25\n  fu dumps  <-2 refs  L309\n  fu dumps  <-2 refs  L29\n  fu make_signer  <-1 refs  L278\n  fu loads_unsafe  <-1 refs  L349\n  fu load_unsafe  <-1 refs  L397\nmappkg/many.py:\n  fu kappa  <-1 refs  L39\n  fu beta  <-1 refs  L7\n  fu alpha  <-1 refs  L3\n  fu zeta  L23\n  fu user  L47\n  fu theta  L31\n  fu lam  L43\n  fu iota  L35\ntests/test_itsdangerous/test_timed.py:\n  fu ts  L20\n  fu test_timestamp_missing  L49\n  fu test_sig_error_date_signed  L87\n  fu test_return_timestamp  L45\n  fu test_return_payload  L113\n  fu test_max_age  L101\n  fu test_max_age  L34\n  fu test_malformed_timestamp  L59\nsrc/itsdangerous/timed.py:\n  fu sign  <-4 refs  L45\n  fu unsign  <-3 refs  L57\n  fu loads  <-2 refs  L185\n  fu validate  <-1 refs  L160\n  fu loads_unsafe  <-1 refs  L222\n  fu iter_unsigners  <-1 refs  L177\n  fu timestamp_to_datetime  L35\n  fu get_timestamp  L29\nmappkg/ünïcode.py:\n  fu länge  <-1 refs  L13\n  fu größe  <-1 refs  L4\n  cl Straße  <-1 refs  L12\n  fu 名前  L8\ntests/test_itsdangerous/test_url_safe.py:\n  fu value  L17\n  fu serializer_factory  L23\n  fu serializer_factory  L13\n  cl TestURLSafeTimedSerializer  L21\n  cl TestURLSafeSerializer  L11\nsrc/itsdangerous/_json.py:\n  fu loads  <-2 refs  L11\n  fu dumps  <-2 refs  L15\n  cl _CompactJSON  L7",
+   "included": [
+    "src/itsdangerous/exc.py",
+    "src/itsdangerous/encoding.py",
+    "src/itsdangerous/signer.py",
+    "graphpkg/hub.py",
+    "src/itsdangerous/serializer.py",
+    "mappkg/many.py",
+    "tests/test_itsdangerous/test_timed.py",
+    "src/itsdangerous/timed.py",
+    "mappkg/ünïcode.py",
+    "tests/test_itsdangerous/test_url_safe.py",
+    "src/itsdangerous/_json.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": null,
+    "budget_tokens": 763
+   },
+   "wire": "src/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74\nsrc/itsdangerous/encoding.py:\n  fu want_bytes  <-4 refs  L11\n  fu base64_encode  <-4 refs  L20\n  fu base64_decode  <-4 refs  L28\n  fu int_to_bytes  <-2 refs  L49\n  fu bytes_to_int  <-2 refs  L53\nsrc/itsdangerous/signer.py:\n  fu sign  <-4 refs  L222\n  fu unsign  <-3 refs  L244\n  cl Signer  <-2 refs  L76\n  fu verify_signature  <-1 refs  L227\n  fu verify_signature  <-1 refs  L24\n  fu validate  <-1 refs  L258\n  fu get_signature  <-1 refs  L215\n  fu get_signature  <-1 refs  L62\ngraphpkg/hub.py:\n  fu top  <-1 refs  L17\n  fu hub  <-1 refs  L4\n  fu pong  L25\n  fu ping  L21\n  fu mid  L13\n  fu leaf  L9\nsrc/itsdangerous/serializer.py:\n  fu load_payload  <-3 refs  L243\n  fu loads  <-2 refs  L328\n  fu loads  <-2 refs  L25\n  fu dumps  <-2 refs  L309\n  fu dumps  <-2 refs  L29\n  fu make_signer  <-1 refs  L278\n  fu loads_unsafe  <-1 refs  L349\n  fu load_unsafe  <-1 refs  L397\nmappkg/many.py:\n  fu kappa  <-1 refs  L39\n  fu beta  <-1 refs  L7\n  fu alpha  <-1 refs  L3\n  fu zeta  L23\n  fu user  L47\n  fu theta  L31\n  fu lam  L43\n  fu iota  L35\ntests/test_itsdangerous/test_timed.py:\n  fu ts  L20\n  fu test_timestamp_missing  L49\n  fu test_sig_error_date_signed  L87\n  fu test_return_timestamp  L45\n  fu test_return_payload  L113\n  fu test_max_age  L101\n  fu test_max_age  L34\n  fu test_malformed_timestamp  L59\nsrc/itsdangerous/timed.py:\n  fu sign  <-4 refs  L45\n  fu unsign  <-3 refs  L57\n  fu loads  <-2 refs  L185\n  fu validate  <-1 refs  L160\n  fu loads_unsafe  <-1 refs  L222\n  fu iter_unsigners  <-1 refs  L177\n  fu timestamp_to_datetime  L35\n  fu get_timestamp  L29\nmappkg/ünïcode.py:\n  fu länge  <-1 refs  L13\n  fu größe  <-1 refs  L4\n  cl Straße  <-1 refs  L12\n  fu 名前  L8\ntests/test_itsdangerous/test_url_safe.py:\n  fu value  L17\n  fu serializer_factory  L23\n  fu serializer_factory  L13\n  cl TestURLSafeTimedSerializer  L21\n  cl TestURLSafeSerializer  L11\nsrc/itsdangerous/_json.py:\n  fu loads  <-2 refs  L11\n  fu dumps  <-2 refs  L15\n  cl _CompactJSON  L7\ntests/test_itsdangerous/test_serializer.py:\n  fu unsign  <-3 refs  L102\n  fu value  L45\n  fu test_signer_kwargs  L138\n  fu test_signer_cls  L130\n  fu test_serializer_kwargs  L145\n  fu test_serializer  L51\n  fu test_loads_unsafe  L90\n  fu test_iter_unsigners  L166",
+   "included": [
+    "src/itsdangerous/exc.py",
+    "src/itsdangerous/encoding.py",
+    "src/itsdangerous/signer.py",
+    "graphpkg/hub.py",
+    "src/itsdangerous/serializer.py",
+    "mappkg/many.py",
+    "tests/test_itsdangerous/test_timed.py",
+    "src/itsdangerous/timed.py",
+    "mappkg/ünïcode.py",
+    "tests/test_itsdangerous/test_url_safe.py",
+    "src/itsdangerous/_json.py",
+    "tests/test_itsdangerous/test_serializer.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": [
+     "mappkg/"
+    ],
+    "budget_tokens": 48
+   },
+   "wire": "(index empty — run reindex first)",
+   "included": []
+  },
+  {
+   "call": {
+    "focus": [
+     "mappkg/"
+    ],
+    "budget_tokens": 49
+   },
+   "wire": "mappkg/many.py:\n  fu kappa  <-1 refs  L39\n  fu beta  <-1 refs  L7\n  fu alpha  <-1 refs  L3\n  fu zeta  L23\n  fu user  L47\n  fu theta  L31\n  fu lam  L43\n  fu iota  L35",
+   "included": [
+    "mappkg/many.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": [
+     "mappkg/"
+    ],
+    "budget_tokens": 81
+   },
+   "wire": "mappkg/many.py:\n  fu kappa  <-1 refs  L39\n  fu beta  <-1 refs  L7\n  fu alpha  <-1 refs  L3\n  fu zeta  L23\n  fu user  L47\n  fu theta  L31\n  fu lam  L43\n  fu iota  L35",
+   "included": [
+    "mappkg/many.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": [
+     "mappkg/"
+    ],
+    "budget_tokens": 82
+   },
+   "wire": "mappkg/many.py:\n  fu kappa  <-1 refs  L39\n  fu beta  <-1 refs  L7\n  fu alpha  <-1 refs  L3\n  fu zeta  L23\n  fu user  L47\n  fu theta  L31\n  fu lam  L43\n  fu iota  L35\nmappkg/ünïcode.py:\n  fu länge  <-1 refs  L13\n  fu größe  <-1 refs  L4\n  cl Straße  <-1 refs  L12\n  fu 名前  L8",
+   "included": [
+    "mappkg/many.py",
+    "mappkg/ünïcode.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": [
+     "mappkg/"
+    ],
+    "budget_tokens": 87
+   },
+   "wire": "mappkg/many.py:\n  fu kappa  <-1 refs  L39\n  fu beta  <-1 refs  L7\n  fu alpha  <-1 refs  L3\n  fu zeta  L23\n  fu user  L47\n  fu theta  L31\n  fu lam  L43\n  fu iota  L35\nmappkg/ünïcode.py:\n  fu länge  <-1 refs  L13\n  fu größe  <-1 refs  L4\n  cl Straße  <-1 refs  L12\n  fu 名前  L8",
+   "included": [
+    "mappkg/many.py",
+    "mappkg/ünïcode.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": [
+     "mappkg/"
+    ],
+    "budget_tokens": 88
+   },
+   "wire": "mappkg/many.py:\n  fu kappa  <-1 refs  L39\n  fu beta  <-1 refs  L7\n  fu alpha  <-1 refs  L3\n  fu zeta  L23\n  fu user  L47\n  fu theta  L31\n  fu lam  L43\n  fu iota  L35\nmappkg/ünïcode.py:\n  fu länge  <-1 refs  L13\n  fu größe  <-1 refs  L4\n  cl Straße  <-1 refs  L12\n  fu 名前  L8\nmappkg/__init__.py:",
+   "included": [
+    "mappkg/many.py",
+    "mappkg/ünïcode.py",
+    "mappkg/__init__.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": [
+     "mappkg/"
+    ],
+    "budget_tokens": 97
+   },
+   "wire": "mappkg/many.py:\n  fu kappa  <-1 refs  L39\n  fu beta  <-1 refs  L7\n  fu alpha  <-1 refs  L3\n  fu zeta  L23\n  fu user  L47\n  fu theta  L31\n  fu lam  L43\n  fu iota  L35\nmappkg/ünïcode.py:\n  fu länge  <-1 refs  L13\n  fu größe  <-1 refs  L4\n  cl Straße  <-1 refs  L12\n  fu 名前  L8\nmappkg/__init__.py:",
+   "included": [
+    "mappkg/many.py",
+    "mappkg/ünïcode.py",
+    "mappkg/__init__.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": [
+     "mappkg/"
+    ],
+    "budget_tokens": 98
+   },
+   "wire": "mappkg/many.py:\n  fu kappa  <-1 refs  L39\n  fu beta  <-1 refs  L7\n  fu alpha  <-1 refs  L3\n  fu zeta  L23\n  fu user  L47\n  fu theta  L31\n  fu lam  L43\n  fu iota  L35\nmappkg/ünïcode.py:\n  fu länge  <-1 refs  L13\n  fu größe  <-1 refs  L4\n  cl Straße  <-1 refs  L12\n  fu 名前  L8\nmappkg/__init__.py:\nmappkg/uses.py:\n  fu consume  L5",
+   "included": [
+    "mappkg/many.py",
+    "mappkg/ünïcode.py",
+    "mappkg/__init__.py",
+    "mappkg/uses.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": [
+     "mappkg/"
+    ],
+    "budget_tokens": 174
+   },
+   "wire": "mappkg/many.py:\n  fu kappa  <-1 refs  L39\n  fu beta  <-1 refs  L7\n  fu alpha  <-1 refs  L3\n  fu zeta  L23\n  fu user  L47\n  fu theta  L31\n  fu lam  L43\n  fu iota  L35\nmappkg/ünïcode.py:\n  fu länge  <-1 refs  L13\n  fu größe  <-1 refs  L4\n  cl Straße  <-1 refs  L12\n  fu 名前  L8\nmappkg/__init__.py:\nmappkg/uses.py:\n  fu consume  L5",
+   "included": [
+    "mappkg/many.py",
+    "mappkg/ünïcode.py",
+    "mappkg/__init__.py",
+    "mappkg/uses.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": [
+     "mappkg/"
+    ],
+    "budget_tokens": 175
+   },
+   "wire": "mappkg/many.py:\n  fu kappa  <-1 refs  L39\n  fu beta  <-1 refs  L7\n  fu alpha  <-1 refs  L3\n  fu zeta  L23\n  fu user  L47\n  fu theta  L31\n  fu lam  L43\n  fu iota  L35\nmappkg/ünïcode.py:\n  fu länge  <-1 refs  L13\n  fu größe  <-1 refs  L4\n  cl Straße  <-1 refs  L12\n  fu 名前  L8\nmappkg/__init__.py:\nmappkg/uses.py:\n  fu consume  L5\nsrc/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74",
+   "included": [
+    "mappkg/many.py",
+    "mappkg/ünïcode.py",
+    "mappkg/__init__.py",
+    "mappkg/uses.py",
+    "src/itsdangerous/exc.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": [
+     "mappkg/"
+    ],
+    "budget_tokens": 235
+   },
+   "wire": "mappkg/many.py:\n  fu kappa  <-1 refs  L39\n  fu beta  <-1 refs  L7\n  fu alpha  <-1 refs  L3\n  fu zeta  L23\n  fu user  L47\n  fu theta  L31\n  fu lam  L43\n  fu iota  L35\nmappkg/ünïcode.py:\n  fu länge  <-1 refs  L13\n  fu größe  <-1 refs  L4\n  cl Straße  <-1 refs  L12\n  fu 名前  L8\nmappkg/__init__.py:\nmappkg/uses.py:\n  fu consume  L5\nsrc/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74",
+   "included": [
+    "mappkg/many.py",
+    "mappkg/ünïcode.py",
+    "mappkg/__init__.py",
+    "mappkg/uses.py",
+    "src/itsdangerous/exc.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": [
+     "mappkg/"
+    ],
+    "budget_tokens": 236
+   },
+   "wire": "mappkg/many.py:\n  fu kappa  <-1 refs  L39\n  fu beta  <-1 refs  L7\n  fu alpha  <-1 refs  L3\n  fu zeta  L23\n  fu user  L47\n  fu theta  L31\n  fu lam  L43\n  fu iota  L35\nmappkg/ünïcode.py:\n  fu länge  <-1 refs  L13\n  fu größe  <-1 refs  L4\n  cl Straße  <-1 refs  L12\n  fu 名前  L8\nmappkg/__init__.py:\nmappkg/uses.py:\n  fu consume  L5\nsrc/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74\nsrc/itsdangerous/encoding.py:\n  fu want_bytes  <-4 refs  L11\n  fu base64_encode  <-4 refs  L20\n  fu base64_decode  <-4 refs  L28\n  fu int_to_bytes  <-2 refs  L49\n  fu bytes_to_int  <-2 refs  L53",
+   "included": [
+    "mappkg/many.py",
+    "mappkg/ünïcode.py",
+    "mappkg/__init__.py",
+    "mappkg/uses.py",
+    "src/itsdangerous/exc.py",
+    "src/itsdangerous/encoding.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": [
+     "mappkg/"
+    ],
+    "budget_tokens": 324
+   },
+   "wire": "mappkg/many.py:\n  fu kappa  <-1 refs  L39\n  fu beta  <-1 refs  L7\n  fu alpha  <-1 refs  L3\n  fu zeta  L23\n  fu user  L47\n  fu theta  L31\n  fu lam  L43\n  fu iota  L35\nmappkg/ünïcode.py:\n  fu länge  <-1 refs  L13\n  fu größe  <-1 refs  L4\n  cl Straße  <-1 refs  L12\n  fu 名前  L8\nmappkg/__init__.py:\nmappkg/uses.py:\n  fu consume  L5\nsrc/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74\nsrc/itsdangerous/encoding.py:\n  fu want_bytes  <-4 refs  L11\n  fu base64_encode  <-4 refs  L20\n  fu base64_decode  <-4 refs  L28\n  fu int_to_bytes  <-2 refs  L49\n  fu bytes_to_int  <-2 refs  L53",
+   "included": [
+    "mappkg/many.py",
+    "mappkg/ünïcode.py",
+    "mappkg/__init__.py",
+    "mappkg/uses.py",
+    "src/itsdangerous/exc.py",
+    "src/itsdangerous/encoding.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": [
+     "mappkg/"
+    ],
+    "budget_tokens": 325
+   },
+   "wire": "mappkg/many.py:\n  fu kappa  <-1 refs  L39\n  fu beta  <-1 refs  L7\n  fu alpha  <-1 refs  L3\n  fu zeta  L23\n  fu user  L47\n  fu theta  L31\n  fu lam  L43\n  fu iota  L35\nmappkg/ünïcode.py:\n  fu länge  <-1 refs  L13\n  fu größe  <-1 refs  L4\n  cl Straße  <-1 refs  L12\n  fu 名前  L8\nmappkg/__init__.py:\nmappkg/uses.py:\n  fu consume  L5\nsrc/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74\nsrc/itsdangerous/encoding.py:\n  fu want_bytes  <-4 refs  L11\n  fu base64_encode  <-4 refs  L20\n  fu base64_decode  <-4 refs  L28\n  fu int_to_bytes  <-2 refs  L49\n  fu bytes_to_int  <-2 refs  L53\nsrc/itsdangerous/signer.py:\n  fu sign  <-4 refs  L222\n  fu unsign  <-3 refs  L244\n  cl Signer  <-2 refs  L76\n  fu verify_signature  <-1 refs  L227\n  fu verify_signature  <-1 refs  L24\n  fu validate  <-1 refs  L258\n  fu get_signature  <-1 refs  L215\n  fu get_signature  <-1 refs  L62",
+   "included": [
+    "mappkg/many.py",
+    "mappkg/ünïcode.py",
+    "mappkg/__init__.py",
+    "mappkg/uses.py",
+    "src/itsdangerous/exc.py",
+    "src/itsdangerous/encoding.py",
+    "src/itsdangerous/signer.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": [
+     "mappkg/"
+    ],
+    "budget_tokens": 359
+   },
+   "wire": "mappkg/many.py:\n  fu kappa  <-1 refs  L39\n  fu beta  <-1 refs  L7\n  fu alpha  <-1 refs  L3\n  fu zeta  L23\n  fu user  L47\n  fu theta  L31\n  fu lam  L43\n  fu iota  L35\nmappkg/ünïcode.py:\n  fu länge  <-1 refs  L13\n  fu größe  <-1 refs  L4\n  cl Straße  <-1 refs  L12\n  fu 名前  L8\nmappkg/__init__.py:\nmappkg/uses.py:\n  fu consume  L5\nsrc/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74\nsrc/itsdangerous/encoding.py:\n  fu want_bytes  <-4 refs  L11\n  fu base64_encode  <-4 refs  L20\n  fu base64_decode  <-4 refs  L28\n  fu int_to_bytes  <-2 refs  L49\n  fu bytes_to_int  <-2 refs  L53\nsrc/itsdangerous/signer.py:\n  fu sign  <-4 refs  L222\n  fu unsign  <-3 refs  L244\n  cl Signer  <-2 refs  L76\n  fu verify_signature  <-1 refs  L227\n  fu verify_signature  <-1 refs  L24\n  fu validate  <-1 refs  L258\n  fu get_signature  <-1 refs  L215\n  fu get_signature  <-1 refs  L62",
+   "included": [
+    "mappkg/many.py",
+    "mappkg/ünïcode.py",
+    "mappkg/__init__.py",
+    "mappkg/uses.py",
+    "src/itsdangerous/exc.py",
+    "src/itsdangerous/encoding.py",
+    "src/itsdangerous/signer.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": [
+     "mappkg/"
+    ],
+    "budget_tokens": 360
+   },
+   "wire": "mappkg/many.py:\n  fu kappa  <-1 refs  L39\n  fu beta  <-1 refs  L7\n  fu alpha  <-1 refs  L3\n  fu zeta  L23\n  fu user  L47\n  fu theta  L31\n  fu lam  L43\n  fu iota  L35\nmappkg/ünïcode.py:\n  fu länge  <-1 refs  L13\n  fu größe  <-1 refs  L4\n  cl Straße  <-1 refs  L12\n  fu 名前  L8\nmappkg/__init__.py:\nmappkg/uses.py:\n  fu consume  L5\nsrc/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74\nsrc/itsdangerous/encoding.py:\n  fu want_bytes  <-4 refs  L11\n  fu base64_encode  <-4 refs  L20\n  fu base64_decode  <-4 refs  L28\n  fu int_to_bytes  <-2 refs  L49\n  fu bytes_to_int  <-2 refs  L53\nsrc/itsdangerous/signer.py:\n  fu sign  <-4 refs  L222\n  fu unsign  <-3 refs  L244\n  cl Signer  <-2 refs  L76\n  fu verify_signature  <-1 refs  L227\n  fu verify_signature  <-1 refs  L24\n  fu validate  <-1 refs  L258\n  fu get_signature  <-1 refs  L215\n  fu get_signature  <-1 refs  L62\ngraphpkg/hub.py:\n  fu top  <-1 refs  L17\n  fu hub  <-1 refs  L4\n  fu pong  L25\n  fu ping  L21\n  fu mid  L13\n  fu leaf  L9",
+   "included": [
+    "mappkg/many.py",
+    "mappkg/ünïcode.py",
+    "mappkg/__init__.py",
+    "mappkg/uses.py",
+    "src/itsdangerous/exc.py",
+    "src/itsdangerous/encoding.py",
+    "src/itsdangerous/signer.py",
+    "graphpkg/hub.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": [
+     "mappkg/"
+    ],
+    "budget_tokens": 443
+   },
+   "wire": "mappkg/many.py:\n  fu kappa  <-1 refs  L39\n  fu beta  <-1 refs  L7\n  fu alpha  <-1 refs  L3\n  fu zeta  L23\n  fu user  L47\n  fu theta  L31\n  fu lam  L43\n  fu iota  L35\nmappkg/ünïcode.py:\n  fu länge  <-1 refs  L13\n  fu größe  <-1 refs  L4\n  cl Straße  <-1 refs  L12\n  fu 名前  L8\nmappkg/__init__.py:\nmappkg/uses.py:\n  fu consume  L5\nsrc/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74\nsrc/itsdangerous/encoding.py:\n  fu want_bytes  <-4 refs  L11\n  fu base64_encode  <-4 refs  L20\n  fu base64_decode  <-4 refs  L28\n  fu int_to_bytes  <-2 refs  L49\n  fu bytes_to_int  <-2 refs  L53\nsrc/itsdangerous/signer.py:\n  fu sign  <-4 refs  L222\n  fu unsign  <-3 refs  L244\n  cl Signer  <-2 refs  L76\n  fu verify_signature  <-1 refs  L227\n  fu verify_signature  <-1 refs  L24\n  fu validate  <-1 refs  L258\n  fu get_signature  <-1 refs  L215\n  fu get_signature  <-1 refs  L62\ngraphpkg/hub.py:\n  fu top  <-1 refs  L17\n  fu hub  <-1 refs  L4\n  fu pong  L25\n  fu ping  L21\n  fu mid  L13\n  fu leaf  L9",
+   "included": [
+    "mappkg/many.py",
+    "mappkg/ünïcode.py",
+    "mappkg/__init__.py",
+    "mappkg/uses.py",
+    "src/itsdangerous/exc.py",
+    "src/itsdangerous/encoding.py",
+    "src/itsdangerous/signer.py",
+    "graphpkg/hub.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": [
+     "mappkg/"
+    ],
+    "budget_tokens": 444
+   },
+   "wire": "mappkg/many.py:\n  fu kappa  <-1 refs  L39\n  fu beta  <-1 refs  L7\n  fu alpha  <-1 refs  L3\n  fu zeta  L23\n  fu user  L47\n  fu theta  L31\n  fu lam  L43\n  fu iota  L35\nmappkg/ünïcode.py:\n  fu länge  <-1 refs  L13\n  fu größe  <-1 refs  L4\n  cl Straße  <-1 refs  L12\n  fu 名前  L8\nmappkg/__init__.py:\nmappkg/uses.py:\n  fu consume  L5\nsrc/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74\nsrc/itsdangerous/encoding.py:\n  fu want_bytes  <-4 refs  L11\n  fu base64_encode  <-4 refs  L20\n  fu base64_decode  <-4 refs  L28\n  fu int_to_bytes  <-2 refs  L49\n  fu bytes_to_int  <-2 refs  L53\nsrc/itsdangerous/signer.py:\n  fu sign  <-4 refs  L222\n  fu unsign  <-3 refs  L244\n  cl Signer  <-2 refs  L76\n  fu verify_signature  <-1 refs  L227\n  fu verify_signature  <-1 refs  L24\n  fu validate  <-1 refs  L258\n  fu get_signature  <-1 refs  L215\n  fu get_signature  <-1 refs  L62\ngraphpkg/hub.py:\n  fu top  <-1 refs  L17\n  fu hub  <-1 refs  L4\n  fu pong  L25\n  fu ping  L21\n  fu mid  L13\n  fu leaf  L9\nsrc/itsdangerous/serializer.py:\n  fu load_payload  <-3 refs  L243\n  fu loads  <-2 refs  L328\n  fu loads  <-2 refs  L25\n  fu dumps  <-2 refs  L309\n  fu dumps  <-2 refs  L29\n  fu make_signer  <-1 refs  L278\n  fu loads_unsafe  <-1 refs  L349\n  fu load_unsafe  <-1 refs  L397",
+   "included": [
+    "mappkg/many.py",
+    "mappkg/ünïcode.py",
+    "mappkg/__init__.py",
+    "mappkg/uses.py",
+    "src/itsdangerous/exc.py",
+    "src/itsdangerous/encoding.py",
+    "src/itsdangerous/signer.py",
+    "graphpkg/hub.py",
+    "src/itsdangerous/serializer.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": [
+     "mappkg/"
+    ],
+    "budget_tokens": 526
+   },
+   "wire": "mappkg/many.py:\n  fu kappa  <-1 refs  L39\n  fu beta  <-1 refs  L7\n  fu alpha  <-1 refs  L3\n  fu zeta  L23\n  fu user  L47\n  fu theta  L31\n  fu lam  L43\n  fu iota  L35\nmappkg/ünïcode.py:\n  fu länge  <-1 refs  L13\n  fu größe  <-1 refs  L4\n  cl Straße  <-1 refs  L12\n  fu 名前  L8\nmappkg/__init__.py:\nmappkg/uses.py:\n  fu consume  L5\nsrc/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74\nsrc/itsdangerous/encoding.py:\n  fu want_bytes  <-4 refs  L11\n  fu base64_encode  <-4 refs  L20\n  fu base64_decode  <-4 refs  L28\n  fu int_to_bytes  <-2 refs  L49\n  fu bytes_to_int  <-2 refs  L53\nsrc/itsdangerous/signer.py:\n  fu sign  <-4 refs  L222\n  fu unsign  <-3 refs  L244\n  cl Signer  <-2 refs  L76\n  fu verify_signature  <-1 refs  L227\n  fu verify_signature  <-1 refs  L24\n  fu validate  <-1 refs  L258\n  fu get_signature  <-1 refs  L215\n  fu get_signature  <-1 refs  L62\ngraphpkg/hub.py:\n  fu top  <-1 refs  L17\n  fu hub  <-1 refs  L4\n  fu pong  L25\n  fu ping  L21\n  fu mid  L13\n  fu leaf  L9\nsrc/itsdangerous/serializer.py:\n  fu load_payload  <-3 refs  L243\n  fu loads  <-2 refs  L328\n  fu loads  <-2 refs  L25\n  fu dumps  <-2 refs  L309\n  fu dumps  <-2 refs  L29\n  fu make_signer  <-1 refs  L278\n  fu loads_unsafe  <-1 refs  L349\n  fu load_unsafe  <-1 refs  L397",
+   "included": [
+    "mappkg/many.py",
+    "mappkg/ünïcode.py",
+    "mappkg/__init__.py",
+    "mappkg/uses.py",
+    "src/itsdangerous/exc.py",
+    "src/itsdangerous/encoding.py",
+    "src/itsdangerous/signer.py",
+    "graphpkg/hub.py",
+    "src/itsdangerous/serializer.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": [
+     "mappkg/"
+    ],
+    "budget_tokens": 527
+   },
+   "wire": "mappkg/many.py:\n  fu kappa  <-1 refs  L39\n  fu beta  <-1 refs  L7\n  fu alpha  <-1 refs  L3\n  fu zeta  L23\n  fu user  L47\n  fu theta  L31\n  fu lam  L43\n  fu iota  L35\nmappkg/ünïcode.py:\n  fu länge  <-1 refs  L13\n  fu größe  <-1 refs  L4\n  cl Straße  <-1 refs  L12\n  fu 名前  L8\nmappkg/__init__.py:\nmappkg/uses.py:\n  fu consume  L5\nsrc/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74\nsrc/itsdangerous/encoding.py:\n  fu want_bytes  <-4 refs  L11\n  fu base64_encode  <-4 refs  L20\n  fu base64_decode  <-4 refs  L28\n  fu int_to_bytes  <-2 refs  L49\n  fu bytes_to_int  <-2 refs  L53\nsrc/itsdangerous/signer.py:\n  fu sign  <-4 refs  L222\n  fu unsign  <-3 refs  L244\n  cl Signer  <-2 refs  L76\n  fu verify_signature  <-1 refs  L227\n  fu verify_signature  <-1 refs  L24\n  fu validate  <-1 refs  L258\n  fu get_signature  <-1 refs  L215\n  fu get_signature  <-1 refs  L62\ngraphpkg/hub.py:\n  fu top  <-1 refs  L17\n  fu hub  <-1 refs  L4\n  fu pong  L25\n  fu ping  L21\n  fu mid  L13\n  fu leaf  L9\nsrc/itsdangerous/serializer.py:\n  fu load_payload  <-3 refs  L243\n  fu loads  <-2 refs  L328\n  fu loads  <-2 refs  L25\n  fu dumps  <-2 refs  L309\n  fu dumps  <-2 refs  L29\n  fu make_signer  <-1 refs  L278\n  fu loads_unsafe  <-1 refs  L349\n  fu load_unsafe  <-1 refs  L397\ntests/test_itsdangerous/test_timed.py:\n  fu ts  L20\n  fu test_timestamp_missing  L49\n  fu test_sig_error_date_signed  L87\n  fu test_return_timestamp  L45\n  fu test_return_payload  L113\n  fu test_max_age  L101\n  fu test_max_age  L34\n  fu test_malformed_timestamp  L59",
+   "included": [
+    "mappkg/many.py",
+    "mappkg/ünïcode.py",
+    "mappkg/__init__.py",
+    "mappkg/uses.py",
+    "src/itsdangerous/exc.py",
+    "src/itsdangerous/encoding.py",
+    "src/itsdangerous/signer.py",
+    "graphpkg/hub.py",
+    "src/itsdangerous/serializer.py",
+    "tests/test_itsdangerous/test_timed.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": [
+     "mappkg/"
+    ],
+    "budget_tokens": 606
+   },
+   "wire": "mappkg/many.py:\n  fu kappa  <-1 refs  L39\n  fu beta  <-1 refs  L7\n  fu alpha  <-1 refs  L3\n  fu zeta  L23\n  fu user  L47\n  fu theta  L31\n  fu lam  L43\n  fu iota  L35\nmappkg/ünïcode.py:\n  fu länge  <-1 refs  L13\n  fu größe  <-1 refs  L4\n  cl Straße  <-1 refs  L12\n  fu 名前  L8\nmappkg/__init__.py:\nmappkg/uses.py:\n  fu consume  L5\nsrc/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74\nsrc/itsdangerous/encoding.py:\n  fu want_bytes  <-4 refs  L11\n  fu base64_encode  <-4 refs  L20\n  fu base64_decode  <-4 refs  L28\n  fu int_to_bytes  <-2 refs  L49\n  fu bytes_to_int  <-2 refs  L53\nsrc/itsdangerous/signer.py:\n  fu sign  <-4 refs  L222\n  fu unsign  <-3 refs  L244\n  cl Signer  <-2 refs  L76\n  fu verify_signature  <-1 refs  L227\n  fu verify_signature  <-1 refs  L24\n  fu validate  <-1 refs  L258\n  fu get_signature  <-1 refs  L215\n  fu get_signature  <-1 refs  L62\ngraphpkg/hub.py:\n  fu top  <-1 refs  L17\n  fu hub  <-1 refs  L4\n  fu pong  L25\n  fu ping  L21\n  fu mid  L13\n  fu leaf  L9\nsrc/itsdangerous/serializer.py:\n  fu load_payload  <-3 refs  L243\n  fu loads  <-2 refs  L328\n  fu loads  <-2 refs  L25\n  fu dumps  <-2 refs  L309\n  fu dumps  <-2 refs  L29\n  fu make_signer  <-1 refs  L278\n  fu loads_unsafe  <-1 refs  L349\n  fu load_unsafe  <-1 refs  L397\ntests/test_itsdangerous/test_timed.py:\n  fu ts  L20\n  fu test_timestamp_missing  L49\n  fu test_sig_error_date_signed  L87\n  fu test_return_timestamp  L45\n  fu test_return_payload  L113\n  fu test_max_age  L101\n  fu test_max_age  L34\n  fu test_malformed_timestamp  L59",
+   "included": [
+    "mappkg/many.py",
+    "mappkg/ünïcode.py",
+    "mappkg/__init__.py",
+    "mappkg/uses.py",
+    "src/itsdangerous/exc.py",
+    "src/itsdangerous/encoding.py",
+    "src/itsdangerous/signer.py",
+    "graphpkg/hub.py",
+    "src/itsdangerous/serializer.py",
+    "tests/test_itsdangerous/test_timed.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": [
+     "mappkg/"
+    ],
+    "budget_tokens": 607
+   },
+   "wire": "mappkg/many.py:\n  fu kappa  <-1 refs  L39\n  fu beta  <-1 refs  L7\n  fu alpha  <-1 refs  L3\n  fu zeta  L23\n  fu user  L47\n  fu theta  L31\n  fu lam  L43\n  fu iota  L35\nmappkg/ünïcode.py:\n  fu länge  <-1 refs  L13\n  fu größe  <-1 refs  L4\n  cl Straße  <-1 refs  L12\n  fu 名前  L8\nmappkg/__init__.py:\nmappkg/uses.py:\n  fu consume  L5\nsrc/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74\nsrc/itsdangerous/encoding.py:\n  fu want_bytes  <-4 refs  L11\n  fu base64_encode  <-4 refs  L20\n  fu base64_decode  <-4 refs  L28\n  fu int_to_bytes  <-2 refs  L49\n  fu bytes_to_int  <-2 refs  L53\nsrc/itsdangerous/signer.py:\n  fu sign  <-4 refs  L222\n  fu unsign  <-3 refs  L244\n  cl Signer  <-2 refs  L76\n  fu verify_signature  <-1 refs  L227\n  fu verify_signature  <-1 refs  L24\n  fu validate  <-1 refs  L258\n  fu get_signature  <-1 refs  L215\n  fu get_signature  <-1 refs  L62\ngraphpkg/hub.py:\n  fu top  <-1 refs  L17\n  fu hub  <-1 refs  L4\n  fu pong  L25\n  fu ping  L21\n  fu mid  L13\n  fu leaf  L9\nsrc/itsdangerous/serializer.py:\n  fu load_payload  <-3 refs  L243\n  fu loads  <-2 refs  L328\n  fu loads  <-2 refs  L25\n  fu dumps  <-2 refs  L309\n  fu dumps  <-2 refs  L29\n  fu make_signer  <-1 refs  L278\n  fu loads_unsafe  <-1 refs  L349\n  fu load_unsafe  <-1 refs  L397\ntests/test_itsdangerous/test_timed.py:\n  fu ts  L20\n  fu test_timestamp_missing  L49\n  fu test_sig_error_date_signed  L87\n  fu test_return_timestamp  L45\n  fu test_return_payload  L113\n  fu test_max_age  L101\n  fu test_max_age  L34\n  fu test_malformed_timestamp  L59\nsrc/itsdangerous/timed.py:\n  fu sign  <-4 refs  L45\n  fu unsign  <-3 refs  L57\n  fu loads  <-2 refs  L185\n  fu validate  <-1 refs  L160\n  fu loads_unsafe  <-1 refs  L222\n  fu iter_unsigners  <-1 refs  L177\n  fu timestamp_to_datetime  L35\n  fu get_timestamp  L29",
+   "included": [
+    "mappkg/many.py",
+    "mappkg/ünïcode.py",
+    "mappkg/__init__.py",
+    "mappkg/uses.py",
+    "src/itsdangerous/exc.py",
+    "src/itsdangerous/encoding.py",
+    "src/itsdangerous/signer.py",
+    "graphpkg/hub.py",
+    "src/itsdangerous/serializer.py",
+    "tests/test_itsdangerous/test_timed.py",
+    "src/itsdangerous/timed.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": [
+     "mappkg/"
+    ],
+    "budget_tokens": 664
+   },
+   "wire": "mappkg/many.py:\n  fu kappa  <-1 refs  L39\n  fu beta  <-1 refs  L7\n  fu alpha  <-1 refs  L3\n  fu zeta  L23\n  fu user  L47\n  fu theta  L31\n  fu lam  L43\n  fu iota  L35\nmappkg/ünïcode.py:\n  fu länge  <-1 refs  L13\n  fu größe  <-1 refs  L4\n  cl Straße  <-1 refs  L12\n  fu 名前  L8\nmappkg/__init__.py:\nmappkg/uses.py:\n  fu consume  L5\nsrc/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74\nsrc/itsdangerous/encoding.py:\n  fu want_bytes  <-4 refs  L11\n  fu base64_encode  <-4 refs  L20\n  fu base64_decode  <-4 refs  L28\n  fu int_to_bytes  <-2 refs  L49\n  fu bytes_to_int  <-2 refs  L53\nsrc/itsdangerous/signer.py:\n  fu sign  <-4 refs  L222\n  fu unsign  <-3 refs  L244\n  cl Signer  <-2 refs  L76\n  fu verify_signature  <-1 refs  L227\n  fu verify_signature  <-1 refs  L24\n  fu validate  <-1 refs  L258\n  fu get_signature  <-1 refs  L215\n  fu get_signature  <-1 refs  L62\ngraphpkg/hub.py:\n  fu top  <-1 refs  L17\n  fu hub  <-1 refs  L4\n  fu pong  L25\n  fu ping  L21\n  fu mid  L13\n  fu leaf  L9\nsrc/itsdangerous/serializer.py:\n  fu load_payload  <-3 refs  L243\n  fu loads  <-2 refs  L328\n  fu loads  <-2 refs  L25\n  fu dumps  <-2 refs  L309\n  fu dumps  <-2 refs  L29\n  fu make_signer  <-1 refs  L278\n  fu loads_unsafe  <-1 refs  L349\n  fu load_unsafe  <-1 refs  L397\ntests/test_itsdangerous/test_timed.py:\n  fu ts  L20\n  fu test_timestamp_missing  L49\n  fu test_sig_error_date_signed  L87\n  fu test_return_timestamp  L45\n  fu test_return_payload  L113\n  fu test_max_age  L101\n  fu test_max_age  L34\n  fu test_malformed_timestamp  L59\nsrc/itsdangerous/timed.py:\n  fu sign  <-4 refs  L45\n  fu unsign  <-3 refs  L57\n  fu loads  <-2 refs  L185\n  fu validate  <-1 refs  L160\n  fu loads_unsafe  <-1 refs  L222\n  fu iter_unsigners  <-1 refs  L177\n  fu timestamp_to_datetime  L35\n  fu get_timestamp  L29",
+   "included": [
+    "mappkg/many.py",
+    "mappkg/ünïcode.py",
+    "mappkg/__init__.py",
+    "mappkg/uses.py",
+    "src/itsdangerous/exc.py",
+    "src/itsdangerous/encoding.py",
+    "src/itsdangerous/signer.py",
+    "graphpkg/hub.py",
+    "src/itsdangerous/serializer.py",
+    "tests/test_itsdangerous/test_timed.py",
+    "src/itsdangerous/timed.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": [
+     "mappkg/"
+    ],
+    "budget_tokens": 665
+   },
+   "wire": "mappkg/many.py:\n  fu kappa  <-1 refs  L39\n  fu beta  <-1 refs  L7\n  fu alpha  <-1 refs  L3\n  fu zeta  L23\n  fu user  L47\n  fu theta  L31\n  fu lam  L43\n  fu iota  L35\nmappkg/ünïcode.py:\n  fu länge  <-1 refs  L13\n  fu größe  <-1 refs  L4\n  cl Straße  <-1 refs  L12\n  fu 名前  L8\nmappkg/__init__.py:\nmappkg/uses.py:\n  fu consume  L5\nsrc/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74\nsrc/itsdangerous/encoding.py:\n  fu want_bytes  <-4 refs  L11\n  fu base64_encode  <-4 refs  L20\n  fu base64_decode  <-4 refs  L28\n  fu int_to_bytes  <-2 refs  L49\n  fu bytes_to_int  <-2 refs  L53\nsrc/itsdangerous/signer.py:\n  fu sign  <-4 refs  L222\n  fu unsign  <-3 refs  L244\n  cl Signer  <-2 refs  L76\n  fu verify_signature  <-1 refs  L227\n  fu verify_signature  <-1 refs  L24\n  fu validate  <-1 refs  L258\n  fu get_signature  <-1 refs  L215\n  fu get_signature  <-1 refs  L62\ngraphpkg/hub.py:\n  fu top  <-1 refs  L17\n  fu hub  <-1 refs  L4\n  fu pong  L25\n  fu ping  L21\n  fu mid  L13\n  fu leaf  L9\nsrc/itsdangerous/serializer.py:\n  fu load_payload  <-3 refs  L243\n  fu loads  <-2 refs  L328\n  fu loads  <-2 refs  L25\n  fu dumps  <-2 refs  L309\n  fu dumps  <-2 refs  L29\n  fu make_signer  <-1 refs  L278\n  fu loads_unsafe  <-1 refs  L349\n  fu load_unsafe  <-1 refs  L397\ntests/test_itsdangerous/test_timed.py:\n  fu ts  L20\n  fu test_timestamp_missing  L49\n  fu test_sig_error_date_signed  L87\n  fu test_return_timestamp  L45\n  fu test_return_payload  L113\n  fu test_max_age  L101\n  fu test_max_age  L34\n  fu test_malformed_timestamp  L59\nsrc/itsdangerous/timed.py:\n  fu sign  <-4 refs  L45\n  fu unsign  <-3 refs  L57\n  fu loads  <-2 refs  L185\n  fu validate  <-1 refs  L160\n  fu loads_unsafe  <-1 refs  L222\n  fu iter_unsigners  <-1 refs  L177\n  fu timestamp_to_datetime  L35\n  fu get_timestamp  L29\ntests/test_itsdangerous/test_url_safe.py:\n  fu value  L17\n  fu serializer_factory  L23\n  fu serializer_factory  L13\n  cl TestURLSafeTimedSerializer  L21\n  cl TestURLSafeSerializer  L11",
+   "included": [
+    "mappkg/many.py",
+    "mappkg/ünïcode.py",
+    "mappkg/__init__.py",
+    "mappkg/uses.py",
+    "src/itsdangerous/exc.py",
+    "src/itsdangerous/encoding.py",
+    "src/itsdangerous/signer.py",
+    "graphpkg/hub.py",
+    "src/itsdangerous/serializer.py",
+    "tests/test_itsdangerous/test_timed.py",
+    "src/itsdangerous/timed.py",
+    "tests/test_itsdangerous/test_url_safe.py"
+   ]
+  }
+ ],
+ "pagerank": [
+  {
+   "nodes": [],
+   "edges": [],
+   "personalization": null,
+   "ranks": {}
+  },
+  {
+   "nodes": [
+    "a"
+   ],
+   "edges": [
+    [
+     "a",
+     "a",
+     1.0
+    ]
+   ],
+   "personalization": null,
+   "ranks": {
+    "a": "1.0"
+   }
+  },
+  {
+   "nodes": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+   ],
+   "edges": [
+    [
+     "a",
+     "b",
+     1.0
+    ],
+    [
+     "a",
+     "c",
+     0.35
+    ],
+    [
+     "b",
+     "c",
+     0.6
+    ],
+    [
+     "c",
+     "a",
+     1.0
+    ],
+    [
+     "d",
+     "a",
+     -2.0
+    ],
+    [
+     "e",
+     "e",
+     3.0
+    ],
+    [
+     "x",
+     "a",
+     1.0
+    ],
+    [
+     "a",
+     "x",
+     1.0
+    ],
+    [
+     "a",
+     "b",
+     0.25
+    ]
+   ],
+   "personalization": null,
+   "ranks": {
+    "a": "0.322863259831209",
+    "b": "0.25985677407417274",
+    "c": "0.32637087518552466",
+    "d": "0.04545454545454683",
+    "e": "0.04545454545454683"
+   }
+  },
+  {
+   "nodes": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "edges": [
+    [
+     "a",
+     "b",
+     1.0
+    ],
+    [
+     "b",
+     "c",
+     1.0
+    ],
+    [
+     "d",
+     "c",
+     -1.0
+    ],
+    [
+     "d",
+     "b",
+     0.5
+    ]
+   ],
+   "personalization": {},
+   "ranks": {
+    "a": "0.15570260801935445",
+    "b": "0.28804982483429553",
+    "c": "0.4005449591269955",
+    "d": "0.15570260801935445"
+   }
+  },
+  {
+   "nodes": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "edges": [
+    [
+     "a",
+     "b",
+     1.0
+    ],
+    [
+     "b",
+     "c",
+     1.0
+    ],
+    [
+     "c",
+     "a",
+     0.125
+    ]
+   ],
+   "personalization": {
+    "d": 0.0
+   },
+   "ranks": {
+    "a": "0.053825796852991284",
+    "b": "0.053825796852991284",
+    "c": "0.053825796852991284",
+    "d": "0.007832898172323762"
+   }
+  },
+  {
+   "nodes": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "edges": [
+    [
+     "a",
+     "b",
+     1.0
+    ],
+    [
+     "b",
+     "c",
+     1.0
+    ],
+    [
+     "c",
+     "a",
+     0.125
+    ],
+    [
+     "c",
+     "d",
+     0.75
+    ]
+   ],
+   "personalization": {
+    "d": 2.0,
+    "a": 1.0,
+    "zz": 0.5
+   },
+   "ranks": {
+    "a": "0.12904831979481615",
+    "b": "0.13001920726354352",
+    "c": "0.1308479587834",
+    "d": "0.3013557349680769"
+   }
+  },
+  {
+   "nodes": [
+    "README.md",
+    "graphpkg/__init__.py",
+    "graphpkg/ambiguous.py",
+    "graphpkg/callers.py",
+    "graphpkg/control.py",
+    "graphpkg/hub.py",
+    "mappkg/__init__.py",
+    "mappkg/many.py",
+    "mappkg/uses.py",
+    "mappkg/ünïcode.py",
+    "pyproject.toml",
+    "src/itsdangerous/__init__.py",
+    "src/itsdangerous/_json.py",
+    "src/itsdangerous/encoding.py",
+    "src/itsdangerous/exc.py",
+    "src/itsdangerous/serializer.py",
+    "src/itsdangerous/signer.py",
+    "src/itsdangerous/timed.py",
+    "src/itsdangerous/url_safe.py",
+    "tests/test_itsdangerous/__init__.py",
+    "tests/test_itsdangerous/test_encoding.py",
+    "tests/test_itsdangerous/test_serializer.py",
+    "tests/test_itsdangerous/test_signer.py",
+    "tests/test_itsdangerous/test_timed.py",
+    "tests/test_itsdangerous/test_url_safe.py"
+   ],
+   "edges": [
+    [
+     "src/itsdangerous/encoding.py",
+     "src/itsdangerous/exc.py",
+     0.25
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "src/itsdangerous/exc.py",
+     0.25
+    ],
+    [
+     "src/itsdangerous/url_safe.py",
+     "src/itsdangerous/exc.py",
+     0.5
+    ],
+    [
+     "src/itsdangerous/signer.py",
+     "src/itsdangerous/exc.py",
+     0.5
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/exc.py",
+     1.0
+    ],
+    [
+     "tests/test_itsdangerous/test_signer.py",
+     "src/itsdangerous/signer.py",
+     0.25
+    ],
+    [
+     "tests/test_itsdangerous/test_signer.py",
+     "src/itsdangerous/signer.py",
+     0.25
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/exc.py",
+     0.5
+    ],
+    [
+     "tests/test_itsdangerous/test_signer.py",
+     "src/itsdangerous/signer.py",
+     0.5
+    ],
+    [
+     "tests/test_itsdangerous/test_timed.py",
+     "src/itsdangerous/signer.py",
+     0.5
+    ],
+    [
+     "tests/test_itsdangerous/test_signer.py",
+     "src/itsdangerous/signer.py",
+     0.25
+    ],
+    [
+     "mappkg/uses.py",
+     "mappkg/ünïcode.py",
+     0.25
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/serializer.py",
+     0.25
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "src/itsdangerous/signer.py",
+     0.25
+    ],
+    [
+     "mappkg/uses.py",
+     "mappkg/many.py",
+     0.25
+    ],
+    [
+     "tests/test_itsdangerous/test_encoding.py",
+     "src/itsdangerous/encoding.py",
+     0.5
+    ],
+    [
+     "src/itsdangerous/signer.py",
+     "src/itsdangerous/encoding.py",
+     0.25
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/encoding.py",
+     0.25
+    ],
+    [
+     "src/itsdangerous/url_safe.py",
+     "src/itsdangerous/encoding.py",
+     0.25
+    ],
+    [
+     "tests/test_itsdangerous/test_encoding.py",
+     "src/itsdangerous/encoding.py",
+     0.25
+    ],
+    [
+     "src/itsdangerous/signer.py",
+     "src/itsdangerous/encoding.py",
+     0.25
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/encoding.py",
+     0.25
+    ],
+    [
+     "src/itsdangerous/url_safe.py",
+     "src/itsdangerous/encoding.py",
+     0.25
+    ],
+    [
+     "mappkg/uses.py",
+     "mappkg/many.py",
+     0.25
+    ],
+    [
+     "tests/test_itsdangerous/test_encoding.py",
+     "src/itsdangerous/encoding.py",
+     0.25
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/encoding.py",
+     0.25
+    ],
+    [
+     "tests/test_itsdangerous/test_signer.py",
+     "src/itsdangerous/signer.py",
+     0.25
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "src/itsdangerous/serializer.py",
+     0.25
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "src/itsdangerous/_json.py",
+     0.5
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "src/itsdangerous/serializer.py",
+     0.5
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "src/itsdangerous/serializer.py",
+     0.5
+    ],
+    [
+     "tests/test_itsdangerous/test_timed.py",
+     "src/itsdangerous/_json.py",
+     0.25
+    ],
+    [
+     "tests/test_itsdangerous/test_timed.py",
+     "src/itsdangerous/serializer.py",
+     0.25
+    ],
+    [
+     "tests/test_itsdangerous/test_timed.py",
+     "src/itsdangerous/serializer.py",
+     0.25
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "tests/test_itsdangerous/test_signer.py",
+     0.125
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/signer.py",
+     0.125
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/signer.py",
+     0.125
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/signer.py",
+     0.125
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/signer.py",
+     0.125
+    ],
+    [
+     "mappkg/uses.py",
+     "mappkg/ünïcode.py",
+     0.25
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     1.0
+    ],
+    [
+     "tests/test_itsdangerous/test_encoding.py",
+     "src/itsdangerous/encoding.py",
+     0.25
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/encoding.py",
+     0.25
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "src/itsdangerous/serializer.py",
+     0.125
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "src/itsdangerous/timed.py",
+     0.125
+    ],
+    [
+     "mappkg/uses.py",
+     "mappkg/many.py",
+     0.25
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "src/itsdangerous/serializer.py",
+     0.25
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "src/itsdangerous/serializer.py",
+     0.125
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "src/itsdangerous/url_safe.py",
+     0.125
+    ],
+    [
+     "tests/test_itsdangerous/test_timed.py",
+     "src/itsdangerous/serializer.py",
+     0.125
+    ],
+    [
+     "tests/test_itsdangerous/test_timed.py",
+     "src/itsdangerous/url_safe.py",
+     0.125
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/serializer.py",
+     0.125
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/url_safe.py",
+     0.125
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "src/itsdangerous/serializer.py",
+     0.25
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "src/itsdangerous/_json.py",
+     0.3333333333333333
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "src/itsdangerous/serializer.py",
+     0.3333333333333333
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "src/itsdangerous/serializer.py",
+     0.3333333333333333
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "src/itsdangerous/timed.py",
+     0.3333333333333333
+    ],
+    [
+     "tests/test_itsdangerous/test_timed.py",
+     "src/itsdangerous/_json.py",
+     0.25
+    ],
+    [
+     "tests/test_itsdangerous/test_timed.py",
+     "src/itsdangerous/serializer.py",
+     0.25
+    ],
+    [
+     "tests/test_itsdangerous/test_timed.py",
+     "src/itsdangerous/serializer.py",
+     0.25
+    ],
+    [
+     "tests/test_itsdangerous/test_timed.py",
+     "src/itsdangerous/timed.py",
+     0.25
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "src/itsdangerous/serializer.py",
+     0.5
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "src/itsdangerous/timed.py",
+     0.5
+    ],
+    [
+     "mappkg/uses.py",
+     "mappkg/ünïcode.py",
+     0.25
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "src/itsdangerous/serializer.py",
+     0.5
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "src/itsdangerous/signer.py",
+     0.25
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "src/itsdangerous/timed.py",
+     0.25
+    ],
+    [
+     "tests/test_itsdangerous/test_signer.py",
+     "src/itsdangerous/signer.py",
+     0.5
+    ],
+    [
+     "tests/test_itsdangerous/test_signer.py",
+     "src/itsdangerous/timed.py",
+     0.5
+    ],
+    [
+     "tests/test_itsdangerous/test_timed.py",
+     "src/itsdangerous/signer.py",
+     0.5
+    ],
+    [
+     "tests/test_itsdangerous/test_timed.py",
+     "src/itsdangerous/timed.py",
+     0.5
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "src/itsdangerous/signer.py",
+     0.125
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "src/itsdangerous/timed.py",
+     0.125
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "tests/test_itsdangerous/test_signer.py",
+     0.25
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.25
+    ],
+    [
+     "tests/test_itsdangerous/test_signer.py",
+     "tests/test_itsdangerous/test_serializer.py",
+     0.3333333333333333
+    ],
+    [
+     "tests/test_itsdangerous/test_signer.py",
+     "src/itsdangerous/signer.py",
+     0.3333333333333333
+    ],
+    [
+     "tests/test_itsdangerous/test_signer.py",
+     "src/itsdangerous/timed.py",
+     0.3333333333333333
+    ],
+    [
+     "tests/test_itsdangerous/test_timed.py",
+     "tests/test_itsdangerous/test_serializer.py",
+     0.3333333333333333
+    ],
+    [
+     "tests/test_itsdangerous/test_timed.py",
+     "src/itsdangerous/signer.py",
+     0.3333333333333333
+    ],
+    [
+     "tests/test_itsdangerous/test_timed.py",
+     "src/itsdangerous/timed.py",
+     0.3333333333333333
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "tests/test_itsdangerous/test_serializer.py",
+     0.08333333333333333
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "src/itsdangerous/signer.py",
+     0.08333333333333333
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "src/itsdangerous/timed.py",
+     0.08333333333333333
+    ],
+    [
+     "tests/test_itsdangerous/test_signer.py",
+     "src/itsdangerous/signer.py",
+     0.5
+    ],
+    [
+     "tests/test_itsdangerous/test_signer.py",
+     "src/itsdangerous/timed.py",
+     0.5
+    ],
+    [
+     "tests/test_itsdangerous/test_signer.py",
+     "src/itsdangerous/signer.py",
+     0.25
+    ],
+    [
+     "tests/test_itsdangerous/test_signer.py",
+     "src/itsdangerous/signer.py",
+     0.25
+    ],
+    [
+     "tests/test_itsdangerous/test_encoding.py",
+     "src/itsdangerous/encoding.py",
+     0.5
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "src/itsdangerous/encoding.py",
+     1.0
+    ],
+    [
+     "src/itsdangerous/signer.py",
+     "src/itsdangerous/encoding.py",
+     1.0
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/encoding.py",
+     1.0
+    ],
+    [
+     "tests/test_itsdangerous/test_encoding.py",
+     "src/itsdangerous/encoding.py",
+     0.95
+    ],
+    [
+     "tests/test_itsdangerous/test_encoding.py",
+     "src/itsdangerous/encoding.py",
+     0.95
+    ],
+    [
+     "tests/test_itsdangerous/test_encoding.py",
+     "src/itsdangerous/encoding.py",
+     0.95
+    ],
+    [
+     "tests/test_itsdangerous/test_encoding.py",
+     "src/itsdangerous/encoding.py",
+     0.95
+    ],
+    [
+     "tests/test_itsdangerous/test_encoding.py",
+     "src/itsdangerous/encoding.py",
+     0.95
+    ],
+    [
+     "tests/test_itsdangerous/test_encoding.py",
+     "src/itsdangerous/encoding.py",
+     0.95
+    ],
+    [
+     "tests/test_itsdangerous/test_encoding.py",
+     "src/itsdangerous/encoding.py",
+     0.95
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "tests/test_itsdangerous/test_timed.py",
+     0.35
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "tests/test_itsdangerous/test_url_safe.py",
+     0.35
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "tests/test_itsdangerous/test_timed.py",
+     0.35
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "tests/test_itsdangerous/test_url_safe.py",
+     0.35
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "tests/test_itsdangerous/test_timed.py",
+     0.35
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "tests/test_itsdangerous/test_url_safe.py",
+     0.35
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "tests/test_itsdangerous/test_timed.py",
+     0.35
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "tests/test_itsdangerous/test_url_safe.py",
+     0.35
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "tests/test_itsdangerous/test_timed.py",
+     0.35
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "tests/test_itsdangerous/test_url_safe.py",
+     0.35
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "tests/test_itsdangerous/test_serializer.py",
+     0.9
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "tests/test_itsdangerous/test_serializer.py",
+     0.9
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "tests/test_itsdangerous/test_serializer.py",
+     0.9
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "tests/test_itsdangerous/test_timed.py",
+     0.35
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "tests/test_itsdangerous/test_url_safe.py",
+     0.35
+    ],
+    [
+     "tests/test_itsdangerous/test_signer.py",
+     "src/itsdangerous/signer.py",
+     0.7
+    ],
+    [
+     "tests/test_itsdangerous/test_signer.py",
+     "src/itsdangerous/signer.py",
+     0.95
+    ],
+    [
+     "tests/test_itsdangerous/test_signer.py",
+     "src/itsdangerous/signer.py",
+     0.95
+    ],
+    [
+     "tests/test_itsdangerous/test_signer.py",
+     "tests/test_itsdangerous/test_timed.py",
+     0.6
+    ],
+    [
+     "tests/test_itsdangerous/test_signer.py",
+     "tests/test_itsdangerous/test_signer.py",
+     0.9
+    ],
+    [
+     "tests/test_itsdangerous/test_signer.py",
+     "src/itsdangerous/signer.py",
+     0.95
+    ],
+    [
+     "tests/test_itsdangerous/test_signer.py",
+     "src/itsdangerous/signer.py",
+     0.95
+    ],
+    [
+     "tests/test_itsdangerous/test_signer.py",
+     "tests/test_itsdangerous/test_timed.py",
+     0.6
+    ],
+    [
+     "tests/test_itsdangerous/test_signer.py",
+     "tests/test_itsdangerous/test_timed.py",
+     0.6
+    ],
+    [
+     "tests/test_itsdangerous/test_signer.py",
+     "tests/test_itsdangerous/test_timed.py",
+     0.6
+    ],
+    [
+     "tests/test_itsdangerous/test_signer.py",
+     "tests/test_itsdangerous/test_timed.py",
+     0.6
+    ],
+    [
+     "tests/test_itsdangerous/test_signer.py",
+     "tests/test_itsdangerous/test_timed.py",
+     0.6
+    ],
+    [
+     "tests/test_itsdangerous/test_timed.py",
+     "src/itsdangerous/signer.py",
+     0.7
+    ],
+    [
+     "tests/test_itsdangerous/test_timed.py",
+     "src/itsdangerous/signer.py",
+     0.95
+    ],
+    [
+     "tests/test_itsdangerous/test_timed.py",
+     "src/itsdangerous/signer.py",
+     0.7
+    ],
+    [
+     "tests/test_itsdangerous/test_timed.py",
+     "src/itsdangerous/signer.py",
+     0.95
+    ],
+    [
+     "src/itsdangerous/encoding.py",
+     "src/itsdangerous/exc.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/encoding.py",
+     "src/itsdangerous/encoding.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/encoding.py",
+     "src/itsdangerous/encoding.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/exc.py",
+     "src/itsdangerous/exc.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/exc.py",
+     "src/itsdangerous/exc.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/exc.py",
+     "src/itsdangerous/exc.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/exc.py",
+     "src/itsdangerous/exc.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "src/itsdangerous/serializer.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "src/itsdangerous/serializer.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "src/itsdangerous/serializer.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "src/itsdangerous/serializer.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "src/itsdangerous/serializer.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "src/itsdangerous/serializer.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "src/itsdangerous/serializer.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "src/itsdangerous/encoding.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "src/itsdangerous/serializer.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "src/itsdangerous/serializer.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "src/itsdangerous/encoding.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "src/itsdangerous/serializer.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "src/itsdangerous/serializer.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "src/itsdangerous/encoding.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "src/itsdangerous/exc.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "src/itsdangerous/serializer.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "src/itsdangerous/serializer.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "src/itsdangerous/encoding.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "src/itsdangerous/signer.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/signer.py",
+     "src/itsdangerous/signer.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/signer.py",
+     "src/itsdangerous/exc.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/signer.py",
+     "src/itsdangerous/signer.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/signer.py",
+     "src/itsdangerous/encoding.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/signer.py",
+     "src/itsdangerous/signer.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/signer.py",
+     "src/itsdangerous/encoding.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/signer.py",
+     "src/itsdangerous/encoding.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/signer.py",
+     "src/itsdangerous/signer.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/signer.py",
+     "src/itsdangerous/encoding.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/signer.py",
+     "src/itsdangerous/encoding.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/signer.py",
+     "src/itsdangerous/signer.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/signer.py",
+     "src/itsdangerous/encoding.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/signer.py",
+     "src/itsdangerous/encoding.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/signer.py",
+     "src/itsdangerous/signer.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/signer.py",
+     "src/itsdangerous/encoding.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/signer.py",
+     "src/itsdangerous/signer.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/signer.py",
+     "src/itsdangerous/encoding.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/signer.py",
+     "src/itsdangerous/signer.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/timed.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/encoding.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/timed.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/timed.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/exc.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/timed.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/exc.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/encoding.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/encoding.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/encoding.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/encoding.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/encoding.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/encoding.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/timed.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/url_safe.py",
+     "src/itsdangerous/encoding.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/url_safe.py",
+     "src/itsdangerous/exc.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/url_safe.py",
+     "src/itsdangerous/encoding.py",
+     0.6
+    ],
+    [
+     "mappkg/many.py",
+     "mappkg/many.py",
+     0.9
+    ],
+    [
+     "mappkg/many.py",
+     "mappkg/many.py",
+     0.9
+    ],
+    [
+     "mappkg/many.py",
+     "mappkg/many.py",
+     0.9
+    ],
+    [
+     "mappkg/many.py",
+     "mappkg/many.py",
+     0.9
+    ],
+    [
+     "mappkg/uses.py",
+     "mappkg/ünïcode.py",
+     0.95
+    ],
+    [
+     "mappkg/uses.py",
+     "mappkg/ünïcode.py",
+     0.95
+    ],
+    [
+     "mappkg/uses.py",
+     "mappkg/many.py",
+     0.95
+    ],
+    [
+     "mappkg/uses.py",
+     "mappkg/many.py",
+     0.95
+    ],
+    [
+     "mappkg/uses.py",
+     "mappkg/many.py",
+     0.95
+    ],
+    [
+     "mappkg/ünïcode.py",
+     "mappkg/ünïcode.py",
+     0.9
+    ],
+    [
+     "mappkg/ünïcode.py",
+     "mappkg/ünïcode.py",
+     0.9
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/hub.py",
+     "graphpkg/hub.py",
+     0.9
+    ],
+    [
+     "graphpkg/hub.py",
+     "graphpkg/hub.py",
+     0.9
+    ],
+    [
+     "graphpkg/hub.py",
+     "graphpkg/hub.py",
+     0.9
+    ],
+    [
+     "graphpkg/hub.py",
+     "graphpkg/hub.py",
+     0.9
+    ]
+   ],
+   "personalization": null,
+   "ranks": {
+    "README.md": "0.024290189439999707",
+    "graphpkg/__init__.py": "0.024290189439999707",
+    "graphpkg/ambiguous.py": "0.024290189439999707",
+    "graphpkg/callers.py": "0.024290189439999707",
+    "graphpkg/control.py": "0.024290189439999707",
+    "graphpkg/hub.py": "0.0449368504639998",
+    "mappkg/__init__.py": "0.024290189439999707",
+    "mappkg/many.py": "0.036182666189823756",
+    "mappkg/uses.py": "0.024290189439999707",
+    "mappkg/ünïcode.py": "0.03304437371417575",
+    "pyproject.toml": "0.024290189439999707",
+    "src/itsdangerous/__init__.py": "0.024290189439999707",
+    "src/itsdangerous/_json.py": "0.028027266158294532",
+    "src/itsdangerous/encoding.py": "0.14099109296413492",
+    "src/itsdangerous/exc.py": "0.1725299562768517",
+    "src/itsdangerous/serializer.py": "0.03773105315634299",
+    "src/itsdangerous/signer.py": "0.06299476995490787",
+    "src/itsdangerous/timed.py": "0.03446879004087838",
+    "src/itsdangerous/url_safe.py": "0.025406683740704792",
+    "tests/test_itsdangerous/__init__.py": "0.024290189439999707",
+    "tests/test_itsdangerous/test_encoding.py": "0.024290189439999707",
+    "tests/test_itsdangerous/test_serializer.py": "0.02658071990008954",
+    "tests/test_itsdangerous/test_signer.py": "0.026026079483896812",
+    "tests/test_itsdangerous/test_timed.py": "0.034983494203780614",
+    "tests/test_itsdangerous/test_url_safe.py": "0.028904119912122224"
+   }
+  },
+  {
+   "nodes": [
+    "README.md",
+    "graphpkg/__init__.py",
+    "graphpkg/ambiguous.py",
+    "graphpkg/callers.py",
+    "graphpkg/control.py",
+    "graphpkg/hub.py",
+    "mappkg/__init__.py",
+    "mappkg/many.py",
+    "mappkg/uses.py",
+    "mappkg/ünïcode.py",
+    "pyproject.toml",
+    "src/itsdangerous/__init__.py",
+    "src/itsdangerous/_json.py",
+    "src/itsdangerous/encoding.py",
+    "src/itsdangerous/exc.py",
+    "src/itsdangerous/serializer.py",
+    "src/itsdangerous/signer.py",
+    "src/itsdangerous/timed.py",
+    "src/itsdangerous/url_safe.py",
+    "tests/test_itsdangerous/__init__.py",
+    "tests/test_itsdangerous/test_encoding.py",
+    "tests/test_itsdangerous/test_serializer.py",
+    "tests/test_itsdangerous/test_signer.py",
+    "tests/test_itsdangerous/test_timed.py",
+    "tests/test_itsdangerous/test_url_safe.py"
+   ],
+   "edges": [
+    [
+     "src/itsdangerous/encoding.py",
+     "src/itsdangerous/exc.py",
+     0.25
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "src/itsdangerous/exc.py",
+     0.25
+    ],
+    [
+     "src/itsdangerous/url_safe.py",
+     "src/itsdangerous/exc.py",
+     0.5
+    ],
+    [
+     "src/itsdangerous/signer.py",
+     "src/itsdangerous/exc.py",
+     0.5
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/exc.py",
+     1.0
+    ],
+    [
+     "tests/test_itsdangerous/test_signer.py",
+     "src/itsdangerous/signer.py",
+     0.25
+    ],
+    [
+     "tests/test_itsdangerous/test_signer.py",
+     "src/itsdangerous/signer.py",
+     0.25
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/exc.py",
+     0.5
+    ],
+    [
+     "tests/test_itsdangerous/test_signer.py",
+     "src/itsdangerous/signer.py",
+     0.5
+    ],
+    [
+     "tests/test_itsdangerous/test_timed.py",
+     "src/itsdangerous/signer.py",
+     0.5
+    ],
+    [
+     "tests/test_itsdangerous/test_signer.py",
+     "src/itsdangerous/signer.py",
+     0.25
+    ],
+    [
+     "mappkg/uses.py",
+     "mappkg/ünïcode.py",
+     0.25
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/serializer.py",
+     0.25
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "src/itsdangerous/signer.py",
+     0.25
+    ],
+    [
+     "mappkg/uses.py",
+     "mappkg/many.py",
+     0.25
+    ],
+    [
+     "tests/test_itsdangerous/test_encoding.py",
+     "src/itsdangerous/encoding.py",
+     0.5
+    ],
+    [
+     "src/itsdangerous/signer.py",
+     "src/itsdangerous/encoding.py",
+     0.25
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/encoding.py",
+     0.25
+    ],
+    [
+     "src/itsdangerous/url_safe.py",
+     "src/itsdangerous/encoding.py",
+     0.25
+    ],
+    [
+     "tests/test_itsdangerous/test_encoding.py",
+     "src/itsdangerous/encoding.py",
+     0.25
+    ],
+    [
+     "src/itsdangerous/signer.py",
+     "src/itsdangerous/encoding.py",
+     0.25
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/encoding.py",
+     0.25
+    ],
+    [
+     "src/itsdangerous/url_safe.py",
+     "src/itsdangerous/encoding.py",
+     0.25
+    ],
+    [
+     "mappkg/uses.py",
+     "mappkg/many.py",
+     0.25
+    ],
+    [
+     "tests/test_itsdangerous/test_encoding.py",
+     "src/itsdangerous/encoding.py",
+     0.25
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/encoding.py",
+     0.25
+    ],
+    [
+     "tests/test_itsdangerous/test_signer.py",
+     "src/itsdangerous/signer.py",
+     0.25
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "src/itsdangerous/serializer.py",
+     0.25
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "src/itsdangerous/_json.py",
+     0.5
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "src/itsdangerous/serializer.py",
+     0.5
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "src/itsdangerous/serializer.py",
+     0.5
+    ],
+    [
+     "tests/test_itsdangerous/test_timed.py",
+     "src/itsdangerous/_json.py",
+     0.25
+    ],
+    [
+     "tests/test_itsdangerous/test_timed.py",
+     "src/itsdangerous/serializer.py",
+     0.25
+    ],
+    [
+     "tests/test_itsdangerous/test_timed.py",
+     "src/itsdangerous/serializer.py",
+     0.25
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "tests/test_itsdangerous/test_signer.py",
+     0.125
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/signer.py",
+     0.125
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/signer.py",
+     0.125
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/signer.py",
+     0.125
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/signer.py",
+     0.125
+    ],
+    [
+     "mappkg/uses.py",
+     "mappkg/ünïcode.py",
+     0.25
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     1.0
+    ],
+    [
+     "tests/test_itsdangerous/test_encoding.py",
+     "src/itsdangerous/encoding.py",
+     0.25
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/encoding.py",
+     0.25
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "src/itsdangerous/serializer.py",
+     0.125
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "src/itsdangerous/timed.py",
+     0.125
+    ],
+    [
+     "mappkg/uses.py",
+     "mappkg/many.py",
+     0.25
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "src/itsdangerous/serializer.py",
+     0.25
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "src/itsdangerous/serializer.py",
+     0.125
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "src/itsdangerous/url_safe.py",
+     0.125
+    ],
+    [
+     "tests/test_itsdangerous/test_timed.py",
+     "src/itsdangerous/serializer.py",
+     0.125
+    ],
+    [
+     "tests/test_itsdangerous/test_timed.py",
+     "src/itsdangerous/url_safe.py",
+     0.125
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/serializer.py",
+     0.125
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/url_safe.py",
+     0.125
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "src/itsdangerous/serializer.py",
+     0.25
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "src/itsdangerous/_json.py",
+     0.3333333333333333
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "src/itsdangerous/serializer.py",
+     0.3333333333333333
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "src/itsdangerous/serializer.py",
+     0.3333333333333333
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "src/itsdangerous/timed.py",
+     0.3333333333333333
+    ],
+    [
+     "tests/test_itsdangerous/test_timed.py",
+     "src/itsdangerous/_json.py",
+     0.25
+    ],
+    [
+     "tests/test_itsdangerous/test_timed.py",
+     "src/itsdangerous/serializer.py",
+     0.25
+    ],
+    [
+     "tests/test_itsdangerous/test_timed.py",
+     "src/itsdangerous/serializer.py",
+     0.25
+    ],
+    [
+     "tests/test_itsdangerous/test_timed.py",
+     "src/itsdangerous/timed.py",
+     0.25
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "src/itsdangerous/serializer.py",
+     0.5
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "src/itsdangerous/timed.py",
+     0.5
+    ],
+    [
+     "mappkg/uses.py",
+     "mappkg/ünïcode.py",
+     0.25
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "src/itsdangerous/serializer.py",
+     0.5
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "src/itsdangerous/signer.py",
+     0.25
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "src/itsdangerous/timed.py",
+     0.25
+    ],
+    [
+     "tests/test_itsdangerous/test_signer.py",
+     "src/itsdangerous/signer.py",
+     0.5
+    ],
+    [
+     "tests/test_itsdangerous/test_signer.py",
+     "src/itsdangerous/timed.py",
+     0.5
+    ],
+    [
+     "tests/test_itsdangerous/test_timed.py",
+     "src/itsdangerous/signer.py",
+     0.5
+    ],
+    [
+     "tests/test_itsdangerous/test_timed.py",
+     "src/itsdangerous/timed.py",
+     0.5
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "src/itsdangerous/signer.py",
+     0.125
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "src/itsdangerous/timed.py",
+     0.125
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "tests/test_itsdangerous/test_signer.py",
+     0.25
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.25
+    ],
+    [
+     "tests/test_itsdangerous/test_signer.py",
+     "tests/test_itsdangerous/test_serializer.py",
+     0.3333333333333333
+    ],
+    [
+     "tests/test_itsdangerous/test_signer.py",
+     "src/itsdangerous/signer.py",
+     0.3333333333333333
+    ],
+    [
+     "tests/test_itsdangerous/test_signer.py",
+     "src/itsdangerous/timed.py",
+     0.3333333333333333
+    ],
+    [
+     "tests/test_itsdangerous/test_timed.py",
+     "tests/test_itsdangerous/test_serializer.py",
+     0.3333333333333333
+    ],
+    [
+     "tests/test_itsdangerous/test_timed.py",
+     "src/itsdangerous/signer.py",
+     0.3333333333333333
+    ],
+    [
+     "tests/test_itsdangerous/test_timed.py",
+     "src/itsdangerous/timed.py",
+     0.3333333333333333
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "tests/test_itsdangerous/test_serializer.py",
+     0.08333333333333333
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "src/itsdangerous/signer.py",
+     0.08333333333333333
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "src/itsdangerous/timed.py",
+     0.08333333333333333
+    ],
+    [
+     "tests/test_itsdangerous/test_signer.py",
+     "src/itsdangerous/signer.py",
+     0.5
+    ],
+    [
+     "tests/test_itsdangerous/test_signer.py",
+     "src/itsdangerous/timed.py",
+     0.5
+    ],
+    [
+     "tests/test_itsdangerous/test_signer.py",
+     "src/itsdangerous/signer.py",
+     0.25
+    ],
+    [
+     "tests/test_itsdangerous/test_signer.py",
+     "src/itsdangerous/signer.py",
+     0.25
+    ],
+    [
+     "tests/test_itsdangerous/test_encoding.py",
+     "src/itsdangerous/encoding.py",
+     0.5
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "src/itsdangerous/encoding.py",
+     1.0
+    ],
+    [
+     "src/itsdangerous/signer.py",
+     "src/itsdangerous/encoding.py",
+     1.0
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/encoding.py",
+     1.0
+    ],
+    [
+     "tests/test_itsdangerous/test_encoding.py",
+     "src/itsdangerous/encoding.py",
+     0.95
+    ],
+    [
+     "tests/test_itsdangerous/test_encoding.py",
+     "src/itsdangerous/encoding.py",
+     0.95
+    ],
+    [
+     "tests/test_itsdangerous/test_encoding.py",
+     "src/itsdangerous/encoding.py",
+     0.95
+    ],
+    [
+     "tests/test_itsdangerous/test_encoding.py",
+     "src/itsdangerous/encoding.py",
+     0.95
+    ],
+    [
+     "tests/test_itsdangerous/test_encoding.py",
+     "src/itsdangerous/encoding.py",
+     0.95
+    ],
+    [
+     "tests/test_itsdangerous/test_encoding.py",
+     "src/itsdangerous/encoding.py",
+     0.95
+    ],
+    [
+     "tests/test_itsdangerous/test_encoding.py",
+     "src/itsdangerous/encoding.py",
+     0.95
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "tests/test_itsdangerous/test_timed.py",
+     0.35
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "tests/test_itsdangerous/test_url_safe.py",
+     0.35
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "tests/test_itsdangerous/test_timed.py",
+     0.35
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "tests/test_itsdangerous/test_url_safe.py",
+     0.35
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "tests/test_itsdangerous/test_timed.py",
+     0.35
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "tests/test_itsdangerous/test_url_safe.py",
+     0.35
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "tests/test_itsdangerous/test_timed.py",
+     0.35
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "tests/test_itsdangerous/test_url_safe.py",
+     0.35
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "tests/test_itsdangerous/test_timed.py",
+     0.35
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "tests/test_itsdangerous/test_url_safe.py",
+     0.35
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "tests/test_itsdangerous/test_serializer.py",
+     0.9
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "tests/test_itsdangerous/test_serializer.py",
+     0.9
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "tests/test_itsdangerous/test_serializer.py",
+     0.9
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "tests/test_itsdangerous/test_timed.py",
+     0.35
+    ],
+    [
+     "tests/test_itsdangerous/test_serializer.py",
+     "tests/test_itsdangerous/test_url_safe.py",
+     0.35
+    ],
+    [
+     "tests/test_itsdangerous/test_signer.py",
+     "src/itsdangerous/signer.py",
+     0.7
+    ],
+    [
+     "tests/test_itsdangerous/test_signer.py",
+     "src/itsdangerous/signer.py",
+     0.95
+    ],
+    [
+     "tests/test_itsdangerous/test_signer.py",
+     "src/itsdangerous/signer.py",
+     0.95
+    ],
+    [
+     "tests/test_itsdangerous/test_signer.py",
+     "tests/test_itsdangerous/test_timed.py",
+     0.6
+    ],
+    [
+     "tests/test_itsdangerous/test_signer.py",
+     "tests/test_itsdangerous/test_signer.py",
+     0.9
+    ],
+    [
+     "tests/test_itsdangerous/test_signer.py",
+     "src/itsdangerous/signer.py",
+     0.95
+    ],
+    [
+     "tests/test_itsdangerous/test_signer.py",
+     "src/itsdangerous/signer.py",
+     0.95
+    ],
+    [
+     "tests/test_itsdangerous/test_signer.py",
+     "tests/test_itsdangerous/test_timed.py",
+     0.6
+    ],
+    [
+     "tests/test_itsdangerous/test_signer.py",
+     "tests/test_itsdangerous/test_timed.py",
+     0.6
+    ],
+    [
+     "tests/test_itsdangerous/test_signer.py",
+     "tests/test_itsdangerous/test_timed.py",
+     0.6
+    ],
+    [
+     "tests/test_itsdangerous/test_signer.py",
+     "tests/test_itsdangerous/test_timed.py",
+     0.6
+    ],
+    [
+     "tests/test_itsdangerous/test_signer.py",
+     "tests/test_itsdangerous/test_timed.py",
+     0.6
+    ],
+    [
+     "tests/test_itsdangerous/test_timed.py",
+     "src/itsdangerous/signer.py",
+     0.7
+    ],
+    [
+     "tests/test_itsdangerous/test_timed.py",
+     "src/itsdangerous/signer.py",
+     0.95
+    ],
+    [
+     "tests/test_itsdangerous/test_timed.py",
+     "src/itsdangerous/signer.py",
+     0.7
+    ],
+    [
+     "tests/test_itsdangerous/test_timed.py",
+     "src/itsdangerous/signer.py",
+     0.95
+    ],
+    [
+     "src/itsdangerous/encoding.py",
+     "src/itsdangerous/exc.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/encoding.py",
+     "src/itsdangerous/encoding.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/encoding.py",
+     "src/itsdangerous/encoding.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/exc.py",
+     "src/itsdangerous/exc.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/exc.py",
+     "src/itsdangerous/exc.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/exc.py",
+     "src/itsdangerous/exc.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/exc.py",
+     "src/itsdangerous/exc.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "src/itsdangerous/serializer.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "src/itsdangerous/serializer.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "src/itsdangerous/serializer.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "src/itsdangerous/serializer.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "src/itsdangerous/serializer.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "src/itsdangerous/serializer.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "src/itsdangerous/serializer.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "src/itsdangerous/encoding.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "src/itsdangerous/serializer.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "src/itsdangerous/serializer.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "src/itsdangerous/encoding.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "src/itsdangerous/serializer.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "src/itsdangerous/serializer.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "src/itsdangerous/encoding.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "src/itsdangerous/exc.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "src/itsdangerous/serializer.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "src/itsdangerous/serializer.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "src/itsdangerous/encoding.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/serializer.py",
+     "src/itsdangerous/signer.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/signer.py",
+     "src/itsdangerous/signer.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/signer.py",
+     "src/itsdangerous/exc.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/signer.py",
+     "src/itsdangerous/signer.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/signer.py",
+     "src/itsdangerous/encoding.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/signer.py",
+     "src/itsdangerous/signer.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/signer.py",
+     "src/itsdangerous/encoding.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/signer.py",
+     "src/itsdangerous/encoding.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/signer.py",
+     "src/itsdangerous/signer.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/signer.py",
+     "src/itsdangerous/encoding.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/signer.py",
+     "src/itsdangerous/encoding.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/signer.py",
+     "src/itsdangerous/signer.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/signer.py",
+     "src/itsdangerous/encoding.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/signer.py",
+     "src/itsdangerous/encoding.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/signer.py",
+     "src/itsdangerous/signer.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/signer.py",
+     "src/itsdangerous/encoding.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/signer.py",
+     "src/itsdangerous/signer.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/signer.py",
+     "src/itsdangerous/encoding.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/signer.py",
+     "src/itsdangerous/signer.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/timed.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/encoding.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/timed.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/timed.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/exc.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/timed.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/exc.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/encoding.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/encoding.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/encoding.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/encoding.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/encoding.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/encoding.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/timed.py",
+     "src/itsdangerous/timed.py",
+     0.9
+    ],
+    [
+     "src/itsdangerous/url_safe.py",
+     "src/itsdangerous/encoding.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/url_safe.py",
+     "src/itsdangerous/exc.py",
+     0.6
+    ],
+    [
+     "src/itsdangerous/url_safe.py",
+     "src/itsdangerous/encoding.py",
+     0.6
+    ],
+    [
+     "mappkg/many.py",
+     "mappkg/many.py",
+     0.9
+    ],
+    [
+     "mappkg/many.py",
+     "mappkg/many.py",
+     0.9
+    ],
+    [
+     "mappkg/many.py",
+     "mappkg/many.py",
+     0.9
+    ],
+    [
+     "mappkg/many.py",
+     "mappkg/many.py",
+     0.9
+    ],
+    [
+     "mappkg/uses.py",
+     "mappkg/ünïcode.py",
+     0.95
+    ],
+    [
+     "mappkg/uses.py",
+     "mappkg/ünïcode.py",
+     0.95
+    ],
+    [
+     "mappkg/uses.py",
+     "mappkg/many.py",
+     0.95
+    ],
+    [
+     "mappkg/uses.py",
+     "mappkg/many.py",
+     0.95
+    ],
+    [
+     "mappkg/uses.py",
+     "mappkg/many.py",
+     0.95
+    ],
+    [
+     "mappkg/ünïcode.py",
+     "mappkg/ünïcode.py",
+     0.9
+    ],
+    [
+     "mappkg/ünïcode.py",
+     "mappkg/ünïcode.py",
+     0.9
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/callers.py",
+     "graphpkg/hub.py",
+     0.95
+    ],
+    [
+     "graphpkg/hub.py",
+     "graphpkg/hub.py",
+     0.9
+    ],
+    [
+     "graphpkg/hub.py",
+     "graphpkg/hub.py",
+     0.9
+    ],
+    [
+     "graphpkg/hub.py",
+     "graphpkg/hub.py",
+     0.9
+    ],
+    [
+     "graphpkg/hub.py",
+     "graphpkg/hub.py",
+     0.9
+    ]
+   ],
+   "personalization": {
+    "mappkg/__init__.py": 1.0,
+    "mappkg/many.py": 1.0,
+    "mappkg/uses.py": 1.0,
+    "mappkg/ünïcode.py": 1.0
+   },
+   "ranks": {
+    "README.md": "0.006156919523092166",
+    "graphpkg/__init__.py": "0.006156919523092166",
+    "graphpkg/ambiguous.py": "0.006156919523092166",
+    "graphpkg/callers.py": "0.006156919523092166",
+    "graphpkg/control.py": "0.006156919523092166",
+    "graphpkg/hub.py": "0.011390301117720509",
+    "mappkg/__init__.py": "0.16007990760039634",
+    "mappkg/many.py": "0.23845503036155036",
+    "mappkg/uses.py": "0.16007990760039634",
+    "mappkg/ünïcode.py": "0.21777270629957918",
+    "pyproject.toml": "0.006156919523092166",
+    "src/itsdangerous/__init__.py": "0.006156919523092166",
+    "src/itsdangerous/_json.py": "0.0071041694678897725",
+    "src/itsdangerous/encoding.py": "0.03573750690571132",
+    "src/itsdangerous/exc.py": "0.04373177322240348",
+    "src/itsdangerous/serializer.py": "0.009563822397472443",
+    "src/itsdangerous/signer.py": "0.01596750531510401",
+    "src/itsdangerous/timed.py": "0.008736925122147294",
+    "src/itsdangerous/url_safe.py": "0.006439921249958591",
+    "tests/test_itsdangerous/__init__.py": "0.006156919523092166",
+    "tests/test_itsdangerous/test_encoding.py": "0.006156919523092166",
+    "tests/test_itsdangerous/test_serializer.py": "0.006737508313591324",
+    "tests/test_itsdangerous/test_signer.py": "0.006596921661717402",
+    "tests/test_itsdangerous/test_timed.py": "0.008867388991810225",
+    "tests/test_itsdangerous/test_url_safe.py": "0.007326428664722038"
+   }
+  }
+ ],
+ "tampered": [
+  {
+   "call": {
+    "focus": null
+   },
+   "wire": "src/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74\npyproject.toml:\nREADME.md:\n  x ß名  <-2 refs  L4\n   zz  L9\n  fu dup  L2\n  cl dup  L20\nsrc/itsdangerous/encoding.py:\n  fu want_bytes  <-4 refs  L11\n  fu base64_encode  <-4 refs  L20\n  fu base64_decode  <-4 refs  L28\n  fu int_to_bytes  <-2 refs  L49\n  fu bytes_to_int  <-2 refs  L53\nsrc/itsdangerous/signer.py:\n  fu sign  <-4 refs  L222\n  fu unsign  <-3 refs  L244\n  cl Signer  <-2 refs  L76\n  fu verify_signature  <-1 refs  L227\n  fu verify_signature  <-1 refs  L24\n  fu validate  <-1 refs  L258\n  fu get_signature  <-1 refs  L215\n  fu get_signature  <-1 refs  L62\ngraphpkg/hub.py:\n  fu top  <-1 refs  L17\n  fu hub  <-1 refs  L4\n  fu pong  L25\n  fu ping  L21\n  fu mid  L13\n  fu leaf  L9\nsrc/itsdangerous/serializer.py:\n  fu load_payload  <-3 refs  L243\n  fu loads  <-2 refs  L328\n  fu loads  <-2 refs  L25\n  fu dumps  <-2 refs  L309\n  fu dumps  <-2 refs  L29\n  fu make_signer  <-1 refs  L278\n  fu loads_unsafe  <-1 refs  L349\n  fu load_unsafe  <-1 refs  L397\nmappkg/many.py:\n  fu kappa  <-1 refs  L39\n  fu beta  <-1 refs  L7\n  fu alpha  <-1 refs  L3\n  fu zeta  L23\n  fu user  L47\n  fu theta  L31\n  fu lam  L43\n  fu iota  L35\ntests/test_itsdangerous/test_timed.py:\n  fu ts  L20\n  fu test_timestamp_missing  L49\n  fu test_sig_error_date_signed  L87\n  fu test_return_timestamp  L45\n  fu test_return_payload  L113\n  fu test_max_age  L101\n  fu test_max_age  L34\n  fu test_malformed_timestamp  L59\nsrc/itsdangerous/timed.py:\n  fu sign  <-4 refs  L45\n  fu unsign  <-3 refs  L57\n  fu loads  <-2 refs  L185\n  fu validate  <-1 refs  L160\n  fu loads_unsafe  <-1 refs  L222\n  fu iter_unsigners  <-1 refs  L177\n  fu timestamp_to_datetime  L35\n  fu get_timestamp  L29\nmappkg/ünïcode.py:\n  fu länge  <-1 refs  L13\n  fu größe  <-1 refs  L4\n  cl Straße  <-1 refs  L12\n  fu 名前  L8\ntests/test_itsdangerous/test_url_safe.py:\n  fu value  L17\n  fu serializer_factory  L23\n  fu serializer_factory  L13\n  cl TestURLSafeTimedSerializer  L21\n  cl TestURLSafeSerializer  L11",
+   "included": [
+    "src/itsdangerous/exc.py",
+    "pyproject.toml",
+    "README.md",
+    "src/itsdangerous/encoding.py",
+    "src/itsdangerous/signer.py",
+    "graphpkg/hub.py",
+    "src/itsdangerous/serializer.py",
+    "mappkg/many.py",
+    "tests/test_itsdangerous/test_timed.py",
+    "src/itsdangerous/timed.py",
+    "mappkg/ünïcode.py",
+    "tests/test_itsdangerous/test_url_safe.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": [
+     "README"
+    ]
+   },
+   "wire": "README.md:\n  x ß名  <-2 refs  L4\n   zz  L9\n  fu dup  L2\n  cl dup  L20\nsrc/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74\npyproject.toml:\nsrc/itsdangerous/encoding.py:\n  fu want_bytes  <-4 refs  L11\n  fu base64_encode  <-4 refs  L20\n  fu base64_decode  <-4 refs  L28\n  fu int_to_bytes  <-2 refs  L49\n  fu bytes_to_int  <-2 refs  L53\nsrc/itsdangerous/signer.py:\n  fu sign  <-4 refs  L222\n  fu unsign  <-3 refs  L244\n  cl Signer  <-2 refs  L76\n  fu verify_signature  <-1 refs  L227\n  fu verify_signature  <-1 refs  L24\n  fu validate  <-1 refs  L258\n  fu get_signature  <-1 refs  L215\n  fu get_signature  <-1 refs  L62\ngraphpkg/hub.py:\n  fu top  <-1 refs  L17\n  fu hub  <-1 refs  L4\n  fu pong  L25\n  fu ping  L21\n  fu mid  L13\n  fu leaf  L9\nsrc/itsdangerous/serializer.py:\n  fu load_payload  <-3 refs  L243\n  fu loads  <-2 refs  L328\n  fu loads  <-2 refs  L25\n  fu dumps  <-2 refs  L309\n  fu dumps  <-2 refs  L29\n  fu make_signer  <-1 refs  L278\n  fu loads_unsafe  <-1 refs  L349\n  fu load_unsafe  <-1 refs  L397\nmappkg/many.py:\n  fu kappa  <-1 refs  L39\n  fu beta  <-1 refs  L7\n  fu alpha  <-1 refs  L3\n  fu zeta  L23\n  fu user  L47\n  fu theta  L31\n  fu lam  L43\n  fu iota  L35\ntests/test_itsdangerous/test_timed.py:\n  fu ts  L20\n  fu test_timestamp_missing  L49\n  fu test_sig_error_date_signed  L87\n  fu test_return_timestamp  L45\n  fu test_return_payload  L113\n  fu test_max_age  L101\n  fu test_max_age  L34\n  fu test_malformed_timestamp  L59\nsrc/itsdangerous/timed.py:\n  fu sign  <-4 refs  L45\n  fu unsign  <-3 refs  L57\n  fu loads  <-2 refs  L185\n  fu validate  <-1 refs  L160\n  fu loads_unsafe  <-1 refs  L222\n  fu iter_unsigners  <-1 refs  L177\n  fu timestamp_to_datetime  L35\n  fu get_timestamp  L29\nmappkg/ünïcode.py:\n  fu länge  <-1 refs  L13\n  fu größe  <-1 refs  L4\n  cl Straße  <-1 refs  L12\n  fu 名前  L8\ntests/test_itsdangerous/test_url_safe.py:\n  fu value  L17\n  fu serializer_factory  L23\n  fu serializer_factory  L13\n  cl TestURLSafeTimedSerializer  L21\n  cl TestURLSafeSerializer  L11",
+   "included": [
+    "README.md",
+    "src/itsdangerous/exc.py",
+    "pyproject.toml",
+    "src/itsdangerous/encoding.py",
+    "src/itsdangerous/signer.py",
+    "graphpkg/hub.py",
+    "src/itsdangerous/serializer.py",
+    "mappkg/many.py",
+    "tests/test_itsdangerous/test_timed.py",
+    "src/itsdangerous/timed.py",
+    "mappkg/ünïcode.py",
+    "tests/test_itsdangerous/test_url_safe.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": [
+     "LICENSE",
+     "pyproject"
+    ]
+   },
+   "wire": "pyproject.toml:\nREADME.md:\n  x ß名  <-2 refs  L4\n   zz  L9\n  fu dup  L2\n  cl dup  L20\nsrc/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74\nsrc/itsdangerous/encoding.py:\n  fu want_bytes  <-4 refs  L11\n  fu base64_encode  <-4 refs  L20\n  fu base64_decode  <-4 refs  L28\n  fu int_to_bytes  <-2 refs  L49\n  fu bytes_to_int  <-2 refs  L53\nsrc/itsdangerous/signer.py:\n  fu sign  <-4 refs  L222\n  fu unsign  <-3 refs  L244\n  cl Signer  <-2 refs  L76\n  fu verify_signature  <-1 refs  L227\n  fu verify_signature  <-1 refs  L24\n  fu validate  <-1 refs  L258\n  fu get_signature  <-1 refs  L215\n  fu get_signature  <-1 refs  L62\ngraphpkg/hub.py:\n  fu top  <-1 refs  L17\n  fu hub  <-1 refs  L4\n  fu pong  L25\n  fu ping  L21\n  fu mid  L13\n  fu leaf  L9\nsrc/itsdangerous/serializer.py:\n  fu load_payload  <-3 refs  L243\n  fu loads  <-2 refs  L328\n  fu loads  <-2 refs  L25\n  fu dumps  <-2 refs  L309\n  fu dumps  <-2 refs  L29\n  fu make_signer  <-1 refs  L278\n  fu loads_unsafe  <-1 refs  L349\n  fu load_unsafe  <-1 refs  L397\nmappkg/many.py:\n  fu kappa  <-1 refs  L39\n  fu beta  <-1 refs  L7\n  fu alpha  <-1 refs  L3\n  fu zeta  L23\n  fu user  L47\n  fu theta  L31\n  fu lam  L43\n  fu iota  L35\ntests/test_itsdangerous/test_timed.py:\n  fu ts  L20\n  fu test_timestamp_missing  L49\n  fu test_sig_error_date_signed  L87\n  fu test_return_timestamp  L45\n  fu test_return_payload  L113\n  fu test_max_age  L101\n  fu test_max_age  L34\n  fu test_malformed_timestamp  L59\nsrc/itsdangerous/timed.py:\n  fu sign  <-4 refs  L45\n  fu unsign  <-3 refs  L57\n  fu loads  <-2 refs  L185\n  fu validate  <-1 refs  L160\n  fu loads_unsafe  <-1 refs  L222\n  fu iter_unsigners  <-1 refs  L177\n  fu timestamp_to_datetime  L35\n  fu get_timestamp  L29\nmappkg/ünïcode.py:\n  fu länge  <-1 refs  L13\n  fu größe  <-1 refs  L4\n  cl Straße  <-1 refs  L12\n  fu 名前  L8\ntests/test_itsdangerous/test_url_safe.py:\n  fu value  L17\n  fu serializer_factory  L23\n  fu serializer_factory  L13\n  cl TestURLSafeTimedSerializer  L21\n  cl TestURLSafeSerializer  L11",
+   "included": [
+    "pyproject.toml",
+    "README.md",
+    "src/itsdangerous/exc.py",
+    "src/itsdangerous/encoding.py",
+    "src/itsdangerous/signer.py",
+    "graphpkg/hub.py",
+    "src/itsdangerous/serializer.py",
+    "mappkg/many.py",
+    "tests/test_itsdangerous/test_timed.py",
+    "src/itsdangerous/timed.py",
+    "mappkg/ünïcode.py",
+    "tests/test_itsdangerous/test_url_safe.py"
+   ]
+  },
+  {
+   "call": {
+    "focus": null,
+    "budget_tokens": 30
+   },
+   "wire": "(index empty — run reindex first)",
+   "included": []
+  },
+  {
+   "call": {
+    "focus": [
+     "Z"
+    ],
+    "budget_tokens": 0
+   },
+   "wire": "(index empty — run reindex first)",
+   "included": []
+  },
+  {
+   "call": {
+    "focus": [
+     "Z"
+    ],
+    "budget_tokens": 1
+   },
+   "wire": "Z:",
+   "included": [
+    "Z"
+   ]
+  }
+ ],
+ "emptied": [
+  {
+   "call": {
+    "focus": null
+   },
+   "wire": "(index empty — run reindex first)",
+   "included": []
+  },
+  {
+   "call": {
+    "focus": [
+     "src/"
+    ]
+   },
+   "wire": "(index empty — run reindex first)",
+   "included": []
+  }
+ ]
+}

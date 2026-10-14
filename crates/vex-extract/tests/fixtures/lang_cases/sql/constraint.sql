@@ -1,0 +1,4 @@
+CREATE TABLE child (
+  a INT,
+  CONSTRAINT fk FOREIGN KEY (a) REFERENCES parent(id)
+);

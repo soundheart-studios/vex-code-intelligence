@@ -1,0 +1,6 @@
+---
+source: crates/vex-cli/tests/json_contract.rs
+expression: "e.json(& [\"context\", \"control\", \"--detail\", \"structure\"])"
+---
+exit: 0
+{"schema":1,"abstained":false,"file":"graphpkg/control.py","language":"python","statements":[{"line":5,"depth":0,"opened_by":null,"type":"if_statement"},{"line":6,"depth":1,"opened_by":"if_statement","type":"return_statement"},{"line":9,"depth":1,"opened_by":"if_statement","type":"else_clause"},{"line":10,"depth":2,"opened_by":"else_clause","type":"expression_statement"},{"line":11,"depth":0,"opened_by":null,"type":"for_statement"},{"line":12,"depth":1,"opened_by":"for_statement","type":"while_statement"},{"line":13,"depth":2,"opened_by":"while_statement","type":"expression_statement"},{"line":14,"depth":0,"opened_by":null,"type":"try_statement"},{"line":15,"depth":1,"opened_by":"try_statement","type":"expression_statement"},{"line":18,"depth":1,"opened_by":"try_statement","type":"finally_clause"},{"line":19,"depth":2,"opened_by":"finally_clause","type":"expression_statement"},{"line":20,"depth":0,"opened_by":null,"type":"with_statement"},{"line":21,"depth":1,"opened_by":"with_statement","type":"expression_statement"},{"line":29,"depth":0,"opened_by":null,"type":"match_statement"},{"line":32,"depth":0,"opened_by":null,"type":"return_statement"}],"symbol":"graphpkg.control.py.control"}

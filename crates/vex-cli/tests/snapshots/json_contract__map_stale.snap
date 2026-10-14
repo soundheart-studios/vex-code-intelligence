@@ -1,0 +1,6 @@
+---
+source: crates/vex-cli/tests/json_contract.rs
+expression: "e.json(& [\"map\", \"--budget-tokens\", \"120\"])"
+---
+exit: 3
+{"schema":1,"map":"src/itsdangerous/exc.py:\n  cl BadPayload  <-2 refs  L92\n  cl SignatureExpired  <-1 refs  L60\n  cl BadTimeSignature  <-1 refs  L36\n  cl BadSignature  <-1 refs  L22\n  cl BadData  <-1 refs  L7\n  fu __str__  L18\n  fu __init__  L101\n  fu __init__  L74","included_files":["src/itsdangerous/exc.py"],"freshness":{"index_stale":true,"index_age_s":"<index_age_s>","reindex":"no_dispatcher"}}

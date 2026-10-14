@@ -1,0 +1,10 @@
+{
+  "args": {},
+  "response": {
+    "qa": {
+      "indexed_at": "<volatile>",
+      "root": "<root>"
+    }
+  },
+  "tool": "list_projects"
+}

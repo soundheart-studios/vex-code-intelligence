@@ -1,0 +1,16 @@
+[package]
+name = "vex-core"
+description = "Core types shared by every vex crate: chunks, symbols, Parsed, ids."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dependencies]
+indexmap.workspace = true
+serde_json.workspace = true
+sha2.workspace = true
+
+[dev-dependencies]
+serde_json.workspace = true
+indexmap.workspace = true

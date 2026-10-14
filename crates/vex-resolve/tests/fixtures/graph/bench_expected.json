@@ -1,0 +1,3434 @@
+{
+ "outcomes": {
+  "chi": {
+   "abstained": 23,
+   "correct": 16,
+   "missing": 1
+  },
+  "express": {
+   "abstained": 36,
+   "correct": 1,
+   "missing": 3
+  },
+  "itsdangerous": {
+   "abstained": 24,
+   "correct": 14,
+   "missing": 2
+  },
+  "javapoet": {
+   "abstained": 19,
+   "correct": 20,
+   "wrong": 1
+  },
+  "kotlinpoet": {
+   "abstained": 21,
+   "correct": 7,
+   "missing": 10,
+   "wrong": 2
+  },
+  "ky": {
+   "abstained": 17,
+   "correct": 23
+  },
+  "leveldb": {
+   "abstained": 20,
+   "correct": 18,
+   "missing": 1,
+   "wrong": 1
+  },
+  "mediatr": {
+   "abstained": 36,
+   "correct": 2,
+   "missing": 2
+  },
+  "psr7": {
+   "abstained": 19,
+   "correct": 9,
+   "missing": 12
+  },
+  "rack": {
+   "abstained": 26,
+   "correct": 4,
+   "missing": 2,
+   "wrong": 8
+  },
+  "semver": {
+   "abstained": 27,
+   "correct": 12,
+   "wrong": 1
+  }
+ },
+ "sites": {
+  "chi-00": {
+   "callee": "Context",
+   "caller": "mux.go.Mux.Mount",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "chi-01": {
+   "callee": "HandlerFunc",
+   "caller": "mux.go.Mux.NotFound",
+   "expected": "chain.go.Middlewares.HandlerFunc",
+   "outcome": "missing",
+   "predicted": {}
+  },
+  "chi-02": {
+   "callee": "Chain",
+   "caller": "mux.go.Mux.NotFound",
+   "expected": "chain.go.Chain",
+   "outcome": "correct",
+   "predicted": {
+    "chain.go.Chain": 0.6
+   }
+  },
+  "chi-03": {
+   "callee": "len",
+   "caller": "tree.go.node.findRoute",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "chi-04": {
+   "callee": "findRoute",
+   "caller": "tree.go.node.findRoute",
+   "expected": "tree.go.node.findRoute",
+   "outcome": "correct",
+   "predicted": {
+    "tree.go.node.findRoute": 0.9
+   }
+  },
+  "chi-05": {
+   "callee": "ServeHTTP",
+   "caller": "mux.go.Mux.routeHTTP",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "chi-06": {
+   "callee": "MethodNotAllowedHandler",
+   "caller": "mux.go.Mux.routeHTTP",
+   "expected": "mux.go.Mux.MethodNotAllowedHandler",
+   "outcome": "correct",
+   "predicted": {
+    "mux.go.Mux.MethodNotAllowedHandler": 0.9
+   }
+  },
+  "chi-07": {
+   "callee": "panic",
+   "caller": "tree.go.patNextSegment",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "chi-08": {
+   "callee": "Sprintf",
+   "caller": "mux.go.Mux.Mount",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "chi-09": {
+   "callee": "Mount",
+   "caller": "mux.go.Mux.Route",
+   "expected": "mux.go.Mux.Mount",
+   "outcome": "correct",
+   "predicted": {
+    "mux.go.Mux.Mount": 0.9
+   }
+  },
+  "chi-10": {
+   "callee": "append",
+   "caller": "context.go.RouteParams.Add",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "chi-11": {
+   "callee": "handle",
+   "caller": "mux.go.Mux.Patch",
+   "expected": "mux.go.Mux.handle",
+   "outcome": "correct",
+   "predicted": {
+    "mux.go.Mux.handle": 0.9
+   }
+  },
+  "chi-12": {
+   "callee": "len",
+   "caller": "tree.go.node.addChild",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "chi-13": {
+   "callee": "Value",
+   "caller": "context.go.RouteContext",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "chi-14": {
+   "callee": "make",
+   "caller": "tree.go.node.setEndpoint",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "chi-15": {
+   "callee": "Value",
+   "caller": "tree.go.node.setEndpoint",
+   "expected": "tree.go.endpoints.Value",
+   "outcome": "correct",
+   "predicted": {
+    "tree.go.endpoints.Value": 0.9
+   }
+  },
+  "chi-16": {
+   "callee": "nextRoutePath",
+   "caller": "mux.go.Mux.Find",
+   "expected": "mux.go.Mux.nextRoutePath",
+   "outcome": "correct",
+   "predicted": {
+    "mux.go.Mux.nextRoutePath": 0.9
+   }
+  },
+  "chi-17": {
+   "callee": "len",
+   "caller": "tree.go.node.findRoute",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "chi-18": {
+   "callee": "walk",
+   "caller": "tree.go.node.walk",
+   "expected": "tree.go.node.walk",
+   "outcome": "correct",
+   "predicted": {
+    "tree.go.node.walk": 0.9
+   }
+  },
+  "chi-19": {
+   "callee": "IndexAny",
+   "caller": "mux.go.Mux.Handle",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "chi-20": {
+   "callee": "len",
+   "caller": "tree.go.patNextSegment",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "chi-21": {
+   "callee": "FindRoute",
+   "caller": "mux.go.Mux.routeHTTP",
+   "expected": "tree.go.node.FindRoute",
+   "outcome": "correct",
+   "predicted": {
+    "tree.go.node.FindRoute": 0.9
+   }
+  },
+  "chi-22": {
+   "callee": "handle",
+   "caller": "mux.go.Mux.Method",
+   "expected": "mux.go.Mux.handle",
+   "outcome": "correct",
+   "predicted": {
+    "mux.go.Mux.handle": 0.9
+   }
+  },
+  "chi-23": {
+   "callee": "len",
+   "caller": "tree.go.node.findRoute",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "chi-24": {
+   "callee": "URLParamFromCtx",
+   "caller": "context.go.URLParam",
+   "expected": "context.go.URLParamFromCtx",
+   "outcome": "correct",
+   "predicted": {
+    "context.go.URLParamFromCtx": 0.9
+   }
+  },
+  "chi-25": {
+   "callee": "tailSort",
+   "caller": "tree.go.nodes.Sort",
+   "expected": "tree.go.nodes.tailSort",
+   "outcome": "correct",
+   "predicted": {
+    "tree.go.nodes.tailSort": 0.9
+   }
+  },
+  "chi-26": {
+   "callee": "Pointer",
+   "caller": "tree.go.equalHandlers",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "chi-27": {
+   "callee": "Clone",
+   "caller": "context.go.Context.Clone",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "chi-28": {
+   "callee": "handle",
+   "caller": "mux.go.Mux.Head",
+   "expected": "mux.go.Mux.handle",
+   "outcome": "correct",
+   "predicted": {
+    "mux.go.Mux.handle": 0.9
+   }
+  },
+  "chi-29": {
+   "callee": "len",
+   "caller": "tree.go.node.routes",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "chi-30": {
+   "callee": "Backward",
+   "caller": "tree.go.nodes.tailSort",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "chi-31": {
+   "callee": "handle",
+   "caller": "mux.go.Mux.Mount",
+   "expected": "mux.go.Mux.handle",
+   "outcome": "correct",
+   "predicted": {
+    "mux.go.Mux.handle": 0.9
+   }
+  },
+  "chi-32": {
+   "callee": "findPattern",
+   "caller": "mux.go.Mux.Mount",
+   "expected": "tree.go.node.findPattern",
+   "outcome": "correct",
+   "predicted": {
+    "tree.go.node.findPattern": 0.9
+   }
+  },
+  "chi-33": {
+   "callee": "HandlerFunc",
+   "caller": "mux.go.Mux.Mount",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "chi-34": {
+   "callee": "HasPrefix",
+   "caller": "tree.go.node.findRoute",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "chi-35": {
+   "callee": "ReplaceAll",
+   "caller": "tree.go.walk",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "chi-36": {
+   "callee": "addChild",
+   "caller": "tree.go.node.addChild",
+   "expected": "tree.go.node.addChild",
+   "outcome": "correct",
+   "predicted": {
+    "tree.go.node.addChild": 0.9
+   }
+  },
+  "chi-37": {
+   "callee": "Pointer",
+   "caller": "tree.go.equalHandlers",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "chi-38": {
+   "callee": "Middlewares",
+   "caller": "tree.go.walk",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "chi-39": {
+   "callee": "Concat",
+   "caller": "tree.go.walk",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "express-00": {
+   "callee": "resolve",
+   "caller": "lib.response.js.download",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "express-01": {
+   "callee": "get",
+   "caller": "lib.application.js.handle",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "express-02": {
+   "callee": "defineGetter",
+   "caller": "lib.request.js.hostname",
+   "expected": "lib.request.js.defineGetter",
+   "outcome": "missing",
+   "predicted": {}
+  },
+  "express-03": {
+   "callee": "require",
+   "caller": "file:lib/express.js",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "express-04": {
+   "callee": "accepts",
+   "caller": "lib.request.js.(anonymous@127:15)",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "express-05": {
+   "callee": "deprecate",
+   "caller": "lib.response.js.redirect",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "express-06": {
+   "callee": "use",
+   "caller": "lib.application.js.use.(anonymous@219:15)",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "express-07": {
+   "callee": "defineGetter",
+   "caller": "lib.request.js.stale",
+   "expected": "lib.request.js.defineGetter",
+   "outcome": "missing",
+   "predicted": {}
+  },
+  "express-08": {
+   "callee": "forEach",
+   "caller": "lib.application.js.use",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "express-09": {
+   "callee": "isArray",
+   "caller": "lib.response.js.(anonymous@98:13).(anonymous@101:57)",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "express-10": {
+   "callee": "substring",
+   "caller": "lib.request.js.hostname",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "express-11": {
+   "callee": "lastIndexOf",
+   "caller": "lib.utils.js.acceptParams",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "express-12": {
+   "callee": "isArray",
+   "caller": "lib.response.js.append",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "express-13": {
+   "callee": "deprecate",
+   "caller": "lib.response.js.redirect",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "express-14": {
+   "callee": "parseRange",
+   "caller": "lib.request.js.range",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "express-15": {
+   "callee": "require",
+   "caller": "file:lib/application.js",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "express-16": {
+   "callee": "trust",
+   "caller": "lib.request.js.host",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "express-17": {
+   "callee": "charCodeAt",
+   "caller": "lib.response.js.stringify.(anonymous@1033:35)",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "express-18": {
+   "callee": "compileETag",
+   "caller": "lib.application.js.set",
+   "expected": "lib.utils.js.(anonymous@130:23)",
+   "outcome": "missing",
+   "predicted": {}
+  },
+  "express-19": {
+   "callee": "require",
+   "caller": "file:lib/express.js",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "express-20": {
+   "callee": "parse",
+   "caller": "lib.utils.js.setCharset",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "express-21": {
+   "callee": "create",
+   "caller": "lib.application.js.init",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "express-22": {
+   "callee": "stringify",
+   "caller": "lib.response.js.stringify",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "express-23": {
+   "callee": "require",
+   "caller": "file:lib/application.js",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "express-24": {
+   "callee": "require",
+   "caller": "file:lib/utils.js",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "express-25": {
+   "callee": "create",
+   "caller": "lib.application.js.init",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "express-26": {
+   "callee": "languages",
+   "caller": "lib.request.js.(anonymous@185:24)",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "express-27": {
+   "callee": "accepts",
+   "caller": "lib.request.js.(anonymous@185:24)",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "express-28": {
+   "callee": "createETagGenerator",
+   "caller": "file:lib/utils.js",
+   "expected": "lib.utils.js.createETagGenerator",
+   "outcome": "correct",
+   "predicted": {
+    "lib.utils.js.createETagGenerator": 0.9
+   }
+  },
+  "express-29": {
+   "callee": "debug",
+   "caller": "lib.view.js.lookup",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "express-30": {
+   "callee": "get",
+   "caller": "lib.response.js.json",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "express-31": {
+   "callee": "statSync",
+   "caller": "lib.view.js.tryStat",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "express-32": {
+   "callee": "deprecate",
+   "caller": "lib.response.js.redirect",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "express-33": {
+   "callee": "get",
+   "caller": "lib.request.js.query",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "express-34": {
+   "callee": "require",
+   "caller": "file:lib/response.js",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "express-35": {
+   "callee": "setPrototypeOf",
+   "caller": "lib.application.js.defaultConfiguration.onmount",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "express-36": {
+   "callee": "apply",
+   "caller": "lib.request.js.(anonymous@127:15)",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "express-37": {
+   "callee": "proxyaddr",
+   "caller": "lib.request.js.ip",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "express-38": {
+   "callee": "render",
+   "caller": "lib.application.js.tryRender",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "express-39": {
+   "callee": "require",
+   "caller": "file:lib/utils.js",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "itsdangerous-00": {
+   "callee": "isinstance",
+   "caller": "src.itsdangerous.serializer.py.Serializer.iter_unsigners",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "itsdangerous-01": {
+   "callee": "encode",
+   "caller": "src.itsdangerous.encoding.py.want_bytes",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "itsdangerous-02": {
+   "callee": "want_bytes",
+   "caller": "src.itsdangerous.signer.py.Signer.unsign",
+   "expected": "src.itsdangerous.encoding.py.want_bytes",
+   "outcome": "correct",
+   "predicted": {
+    "src.itsdangerous.encoding.py.want_bytes": 0.6
+   }
+  },
+  "itsdangerous-03": {
+   "callee": "decompress",
+   "caller": "src.itsdangerous.url_safe.py.URLSafeSerializerMixin.load_payload",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "itsdangerous-04": {
+   "callee": "iter_unsigners",
+   "caller": "src.itsdangerous.serializer.py.Serializer.loads",
+   "expected": "src.itsdangerous.serializer.py.Serializer.iter_unsigners",
+   "outcome": "correct",
+   "predicted": {
+    "src.itsdangerous.serializer.py.Serializer.iter_unsigners": 0.9
+   }
+  },
+  "itsdangerous-05": {
+   "callee": "int",
+   "caller": "src.itsdangerous.timed.py.TimestampSigner.get_timestamp",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "itsdangerous-06": {
+   "callee": "want_bytes",
+   "caller": "src.itsdangerous.timed.py.TimestampSigner.unsign",
+   "expected": "src.itsdangerous.encoding.py.want_bytes",
+   "outcome": "correct",
+   "predicted": {
+    "src.itsdangerous.encoding.py.want_bytes": 0.6
+   }
+  },
+  "itsdangerous-07": {
+   "callee": "decode",
+   "caller": "src.itsdangerous.serializer.py.Serializer.load_payload",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "itsdangerous-08": {
+   "callee": "timestamp_to_datetime",
+   "caller": "src.itsdangerous.timed.py.TimestampSigner.unsign",
+   "expected": "src.itsdangerous.timed.py.TimestampSigner.timestamp_to_datetime",
+   "outcome": "correct",
+   "predicted": {
+    "src.itsdangerous.timed.py.TimestampSigner.timestamp_to_datetime": 0.9
+   }
+  },
+  "itsdangerous-09": {
+   "callee": "Struct",
+   "caller": "file:src/itsdangerous/encoding.py",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "itsdangerous-10": {
+   "callee": "BadPayload",
+   "caller": "src.itsdangerous.serializer.py.Serializer.load_payload",
+   "expected": "src.itsdangerous.exc.py.BadPayload",
+   "outcome": "correct",
+   "predicted": {
+    "src.itsdangerous.exc.py.BadPayload": 0.6
+   }
+  },
+  "itsdangerous-11": {
+   "callee": "dump_payload",
+   "caller": "src.itsdangerous.url_safe.py.URLSafeSerializerMixin.dump_payload",
+   "expected": "src.itsdangerous.serializer.py.Serializer.dump_payload",
+   "outcome": "missing",
+   "predicted": {}
+  },
+  "itsdangerous-12": {
+   "callee": "super",
+   "caller": "src.itsdangerous.url_safe.py.URLSafeSerializerMixin.dump_payload",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "itsdangerous-13": {
+   "callee": "want_bytes",
+   "caller": "src.itsdangerous.signer.py.Signer.sign",
+   "expected": "src.itsdangerous.encoding.py.want_bytes",
+   "outcome": "correct",
+   "predicted": {
+    "src.itsdangerous.encoding.py.want_bytes": 0.6
+   }
+  },
+  "itsdangerous-14": {
+   "callee": "timestamp_to_datetime",
+   "caller": "src.itsdangerous.timed.py.TimestampSigner.unsign",
+   "expected": "src.itsdangerous.timed.py.TimestampSigner.timestamp_to_datetime",
+   "outcome": "correct",
+   "predicted": {
+    "src.itsdangerous.timed.py.TimestampSigner.timestamp_to_datetime": 0.9
+   }
+  },
+  "itsdangerous-15": {
+   "callee": "cast",
+   "caller": "src.itsdangerous.timed.py.TimedSerializer.loads",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "itsdangerous-16": {
+   "callee": "want_bytes",
+   "caller": "src.itsdangerous.signer.py._make_keys_list",
+   "expected": "src.itsdangerous.encoding.py.want_bytes",
+   "outcome": "correct",
+   "predicted": {
+    "src.itsdangerous.encoding.py.want_bytes": 0.6
+   }
+  },
+  "itsdangerous-17": {
+   "callee": "load_payload",
+   "caller": "src.itsdangerous.serializer.py.Serializer.loads",
+   "expected": "src.itsdangerous.serializer.py.Serializer.load_payload",
+   "outcome": "correct",
+   "predicted": {
+    "src.itsdangerous.serializer.py.Serializer.load_payload": 0.9
+   }
+  },
+  "itsdangerous-18": {
+   "callee": "isinstance",
+   "caller": "src.itsdangerous.serializer.py.is_text_serializer",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "itsdangerous-19": {
+   "callee": "time",
+   "caller": "src.itsdangerous.timed.py.TimestampSigner.get_timestamp",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "itsdangerous-20": {
+   "callee": "make_signer",
+   "caller": "src.itsdangerous.serializer.py.Serializer.iter_unsigners",
+   "expected": "src.itsdangerous.serializer.py.Serializer.make_signer",
+   "outcome": "correct",
+   "predicted": {
+    "src.itsdangerous.serializer.py.Serializer.make_signer": 0.9
+   }
+  },
+  "itsdangerous-21": {
+   "callee": "want_bytes",
+   "caller": "src.itsdangerous.signer.py.Signer.derive_key",
+   "expected": "src.itsdangerous.encoding.py.want_bytes",
+   "outcome": "correct",
+   "predicted": {
+    "src.itsdangerous.encoding.py.want_bytes": 0.6
+   }
+  },
+  "itsdangerous-22": {
+   "callee": "staticmethod",
+   "caller": "src.itsdangerous.signer.py.HMACAlgorithm",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "itsdangerous-23": {
+   "callee": "get_signature",
+   "caller": "src.itsdangerous.signer.py.Signer.get_signature",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "itsdangerous-24": {
+   "callee": "derive_key",
+   "caller": "src.itsdangerous.signer.py.Signer.get_signature",
+   "expected": "src.itsdangerous.signer.py.Signer.derive_key",
+   "outcome": "correct",
+   "predicted": {
+    "src.itsdangerous.signer.py.Signer.derive_key": 0.9
+   }
+  },
+  "itsdangerous-25": {
+   "callee": "digest",
+   "caller": "src.itsdangerous.signer.py.Signer.derive_key",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "itsdangerous-26": {
+   "callee": "digest_method",
+   "caller": "src.itsdangerous.signer.py.Signer.derive_key",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "itsdangerous-27": {
+   "callee": "isinstance",
+   "caller": "src.itsdangerous.encoding.py.want_bytes",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "itsdangerous-28": {
+   "callee": "iter_unsigners",
+   "caller": "src.itsdangerous.timed.py.TimedSerializer.iter_unsigners",
+   "expected": "src.itsdangerous.serializer.py.Serializer.iter_unsigners",
+   "outcome": "missing",
+   "predicted": {}
+  },
+  "itsdangerous-29": {
+   "callee": "super",
+   "caller": "src.itsdangerous.timed.py.TimedSerializer.iter_unsigners",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "itsdangerous-30": {
+   "callee": "staticmethod",
+   "caller": "src.itsdangerous.signer.py.Signer",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "itsdangerous-31": {
+   "callee": "new",
+   "caller": "src.itsdangerous.signer.py.Signer.derive_key",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "itsdangerous-32": {
+   "callee": "want_bytes",
+   "caller": "src.itsdangerous.serializer.py.Serializer.dump_payload",
+   "expected": "src.itsdangerous.encoding.py.want_bytes",
+   "outcome": "correct",
+   "predicted": {
+    "src.itsdangerous.encoding.py.want_bytes": 0.6
+   }
+  },
+  "itsdangerous-33": {
+   "callee": "len",
+   "caller": "src.itsdangerous.url_safe.py.URLSafeSerializerMixin.dump_payload",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "itsdangerous-34": {
+   "callee": "len",
+   "caller": "src.itsdangerous.url_safe.py.URLSafeSerializerMixin.dump_payload",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "itsdangerous-35": {
+   "callee": "str",
+   "caller": "src.itsdangerous.timed.py.TimestampSigner.unsign",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "itsdangerous-36": {
+   "callee": "isinstance",
+   "caller": "src.itsdangerous.signer.py._make_keys_list",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "itsdangerous-37": {
+   "callee": "want_bytes",
+   "caller": "src.itsdangerous.serializer.py.Serializer.loads",
+   "expected": "src.itsdangerous.encoding.py.want_bytes",
+   "outcome": "correct",
+   "predicted": {
+    "src.itsdangerous.encoding.py.want_bytes": 0.6
+   }
+  },
+  "itsdangerous-38": {
+   "callee": "digest",
+   "caller": "src.itsdangerous.signer.py.Signer.derive_key",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "itsdangerous-39": {
+   "callee": "__init__",
+   "caller": "src.itsdangerous.exc.py.BadData.__init__",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "javapoet-00": {
+   "callee": "emit",
+   "caller": "src.main.java.com.squareup.javapoet.TypeSpec.java.TypeSpec.emit",
+   "expected": "src.main.java.com.squareup.javapoet.CodeWriter.java.CodeWriter.emit",
+   "outcome": "correct",
+   "predicted": {
+    "src.main.java.com.squareup.javapoet.CodeWriter.java.CodeWriter.emit": 0.9,
+    "src.main.java.com.squareup.javapoet.FieldSpec.java.FieldSpec.emit": 0.9,
+    "src.main.java.com.squareup.javapoet.MethodSpec.java.MethodSpec.emit": 0.9,
+    "src.main.java.com.squareup.javapoet.TypeSpec.java.TypeSpec.emit": 0.9
+   }
+  },
+  "javapoet-01": {
+   "callee": "emit",
+   "caller": "src.main.java.com.squareup.javapoet.TypeSpec.java.TypeSpec.emit",
+   "expected": "src.main.java.com.squareup.javapoet.CodeWriter.java.CodeWriter.emit",
+   "outcome": "correct",
+   "predicted": {
+    "src.main.java.com.squareup.javapoet.CodeWriter.java.CodeWriter.emit": 0.9,
+    "src.main.java.com.squareup.javapoet.FieldSpec.java.FieldSpec.emit": 0.9,
+    "src.main.java.com.squareup.javapoet.MethodSpec.java.MethodSpec.emit": 0.9,
+    "src.main.java.com.squareup.javapoet.TypeSpec.java.TypeSpec.emit": 0.9
+   }
+  },
+  "javapoet-02": {
+   "callee": "newName",
+   "caller": "src.main.java.com.squareup.javapoet.NameAllocator.java.NameAllocator.newName",
+   "expected": "src.main.java.com.squareup.javapoet.NameAllocator.java.NameAllocator.newName",
+   "outcome": "correct",
+   "predicted": {
+    "src.main.java.com.squareup.javapoet.NameAllocator.java.NameAllocator.newName": 0.9
+   }
+  },
+  "javapoet-03": {
+   "callee": "immutableList",
+   "caller": "src.main.java.com.squareup.javapoet.MethodSpec.java.MethodSpec.MethodSpec",
+   "expected": "src.main.java.com.squareup.javapoet.Util.java.Util.immutableList",
+   "outcome": "correct",
+   "predicted": {
+    "src.main.java.com.squareup.javapoet.Util.java.Util.immutableList": 0.9
+   }
+  },
+  "javapoet-04": {
+   "callee": "addSuperinterface",
+   "caller": "src.main.java.com.squareup.javapoet.TypeSpec.java.TypeSpec.Builder.addSuperinterface",
+   "expected": "src.main.java.com.squareup.javapoet.TypeSpec.java.TypeSpec.Builder.addSuperinterface",
+   "outcome": "correct",
+   "predicted": {
+    "src.main.java.com.squareup.javapoet.TypeSpec.java.TypeSpec.Builder.addSuperinterface": 0.9
+   }
+  },
+  "javapoet-05": {
+   "callee": "enclosingClassName",
+   "caller": "src.main.java.com.squareup.javapoet.CodeWriter.java.CodeWriter.lookupName",
+   "expected": "src.main.java.com.squareup.javapoet.ClassName.java.ClassName.enclosingClassName",
+   "outcome": "correct",
+   "predicted": {
+    "src.main.java.com.squareup.javapoet.ClassName.java.ClassName.enclosingClassName": 0.9
+   }
+  },
+  "javapoet-06": {
+   "callee": "getUpperBounds",
+   "caller": "src.main.java.com.squareup.javapoet.WildcardTypeName.java.WildcardTypeName.get",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "javapoet-07": {
+   "callee": "popTypeVariables",
+   "caller": "src.main.java.com.squareup.javapoet.TypeSpec.java.TypeSpec.emit",
+   "expected": "src.main.java.com.squareup.javapoet.CodeWriter.java.CodeWriter.popTypeVariables",
+   "outcome": "correct",
+   "predicted": {
+    "src.main.java.com.squareup.javapoet.CodeWriter.java.CodeWriter.popTypeVariables": 0.9
+   }
+  },
+  "javapoet-08": {
+   "callee": "nestedClass",
+   "caller": "src.main.java.com.squareup.javapoet.CodeWriter.java.CodeWriter.stackClassName",
+   "expected": "src.main.java.com.squareup.javapoet.ClassName.java.ClassName.nestedClass",
+   "outcome": "correct",
+   "predicted": {
+    "src.main.java.com.squareup.javapoet.ClassName.java.ClassName.nestedClass": 0.9
+   }
+  },
+  "javapoet-09": {
+   "callee": "add",
+   "caller": "src.main.java.com.squareup.javapoet.TypeSpec.java.TypeSpec.TypeSpec",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "javapoet-10": {
+   "callee": "getDeclaredClasses",
+   "caller": "src.main.java.com.squareup.javapoet.TypeSpec.java.TypeSpec.Builder.avoidClashesWithNestedClasses",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "javapoet-11": {
+   "callee": "add",
+   "caller": "src.main.java.com.squareup.javapoet.MethodSpec.java.MethodSpec.Builder.addModifiers",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "javapoet-12": {
+   "callee": "get",
+   "caller": "src.main.java.com.squareup.javapoet.AnnotationSpec.java.AnnotationSpec.emit",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "javapoet-13": {
+   "callee": "length",
+   "caller": "src.main.java.com.squareup.javapoet.LineWrapper.java.LineWrapper.flush",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "javapoet-14": {
+   "callee": "endsWith",
+   "caller": "src.main.java.com.squareup.javapoet.ParameterSpec.java.ParameterSpec.isValidParameterName",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "javapoet-15": {
+   "callee": "emit",
+   "caller": "src.main.java.com.squareup.javapoet.AnnotationSpec.java.AnnotationSpec.emit",
+   "expected": "src.main.java.com.squareup.javapoet.CodeWriter.java.CodeWriter.emit",
+   "outcome": "correct",
+   "predicted": {
+    "src.main.java.com.squareup.javapoet.CodeWriter.java.CodeWriter.emit": 0.9
+   }
+  },
+  "javapoet-16": {
+   "callee": "emitAndIndent",
+   "caller": "src.main.java.com.squareup.javapoet.ClassName.java.ClassName.emit",
+   "expected": "src.main.java.com.squareup.javapoet.CodeWriter.java.CodeWriter.emitAndIndent",
+   "outcome": "correct",
+   "predicted": {
+    "src.main.java.com.squareup.javapoet.CodeWriter.java.CodeWriter.emitAndIndent": 0.9
+   }
+  },
+  "javapoet-17": {
+   "callee": "toString",
+   "caller": "src.main.java.com.squareup.javapoet.TypeName.java.TypeName.toString",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "javapoet-18": {
+   "callee": "emptyList",
+   "caller": "src.main.java.com.squareup.javapoet.TypeSpec.java.TypeSpec.emit",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "javapoet-19": {
+   "callee": "add",
+   "caller": "src.main.java.com.squareup.javapoet.CodeBlock.java.CodeBlock.Builder.addArgument",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "javapoet-20": {
+   "callee": "toString",
+   "caller": "src.main.java.com.squareup.javapoet.ClassName.java.ClassName.get",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "javapoet-21": {
+   "callee": "getSimpleName",
+   "caller": "src.main.java.com.squareup.javapoet.ClassName.java.ClassName.get",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "javapoet-22": {
+   "callee": "hasNext",
+   "caller": "src.main.java.com.squareup.javapoet.TypeSpec.java.TypeSpec.emit",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "javapoet-23": {
+   "callee": "next",
+   "caller": "src.main.java.com.squareup.javapoet.MethodSpec.java.MethodSpec.emit",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "javapoet-24": {
+   "callee": "getName",
+   "caller": "src.main.java.com.squareup.javapoet.AnnotationSpec.java.AnnotationSpec.get",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "javapoet-25": {
+   "callee": "addAll",
+   "caller": "src.main.java.com.squareup.javapoet.MethodSpec.java.MethodSpec.Builder.addModifiers",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "javapoet-26": {
+   "callee": "length",
+   "caller": "src.main.java.com.squareup.javapoet.CodeBlock.java.CodeBlock.Builder.addNamed",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "javapoet-27": {
+   "callee": "builder",
+   "caller": "src.main.java.com.squareup.javapoet.MethodSpec.java.MethodSpec.Builder",
+   "expected": "src.main.java.com.squareup.javapoet.CodeBlock.java.CodeBlock.builder",
+   "outcome": "correct",
+   "predicted": {
+    "src.main.java.com.squareup.javapoet.CodeBlock.java.CodeBlock.builder": 0.9
+   }
+  },
+  "javapoet-28": {
+   "callee": "writeTo",
+   "caller": "src.main.java.com.squareup.javapoet.JavaFile.java.JavaFile.writeTo",
+   "expected": "src.main.java.com.squareup.javapoet.JavaFile.java.JavaFile.writeTo",
+   "outcome": "correct",
+   "predicted": {
+    "src.main.java.com.squareup.javapoet.JavaFile.java.JavaFile.writeTo": 0.9
+   }
+  },
+  "javapoet-29": {
+   "callee": "checkNotNull",
+   "caller": "src.main.java.com.squareup.javapoet.LineWrapper.java.LineWrapper.LineWrapper",
+   "expected": "src.main.java.com.squareup.javapoet.Util.java.Util.checkNotNull",
+   "outcome": "correct",
+   "predicted": {
+    "src.main.java.com.squareup.javapoet.Util.java.Util.checkNotNull": 0.6
+   }
+  },
+  "javapoet-30": {
+   "callee": "toString",
+   "caller": "src.main.java.com.squareup.javapoet.TypeName.java.TypeName.equals",
+   "expected": "",
+   "outcome": "wrong",
+   "predicted": {
+    "src.main.java.com.squareup.javapoet.TypeName.java.TypeName.toString": 0.9
+   }
+  },
+  "javapoet-31": {
+   "callee": "addAnnotation",
+   "caller": "src.main.java.com.squareup.javapoet.TypeSpec.java.TypeSpec.Builder.addAnnotation",
+   "expected": "src.main.java.com.squareup.javapoet.TypeSpec.java.TypeSpec.Builder.addAnnotation",
+   "outcome": "correct",
+   "predicted": {
+    "src.main.java.com.squareup.javapoet.TypeSpec.java.TypeSpec.Builder.addAnnotation": 0.9
+   }
+  },
+  "javapoet-32": {
+   "callee": "indent",
+   "caller": "src.main.java.com.squareup.javapoet.AnnotationSpec.java.AnnotationSpec.emit",
+   "expected": "src.main.java.com.squareup.javapoet.CodeWriter.java.CodeWriter.indent",
+   "outcome": "correct",
+   "predicted": {
+    "src.main.java.com.squareup.javapoet.CodeWriter.java.CodeWriter.indent": 0.9
+   }
+  },
+  "javapoet-33": {
+   "callee": "getInterfaces",
+   "caller": "src.main.java.com.squareup.javapoet.TypeSpec.java.TypeSpec.Builder.avoidClashesWithNestedClasses",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "javapoet-34": {
+   "callee": "add",
+   "caller": "src.main.java.com.squareup.javapoet.CodeBlock.java.CodeBlock.Builder.addNamed",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "javapoet-35": {
+   "callee": "emitJavadoc",
+   "caller": "src.main.java.com.squareup.javapoet.MethodSpec.java.MethodSpec.emit",
+   "expected": "src.main.java.com.squareup.javapoet.CodeWriter.java.CodeWriter.emitJavadoc",
+   "outcome": "correct",
+   "predicted": {
+    "src.main.java.com.squareup.javapoet.CodeWriter.java.CodeWriter.emitJavadoc": 0.9
+   }
+  },
+  "javapoet-36": {
+   "callee": "emit",
+   "caller": "src.main.java.com.squareup.javapoet.TypeSpec.java.TypeSpec.emit",
+   "expected": "src.main.java.com.squareup.javapoet.CodeWriter.java.CodeWriter.emit",
+   "outcome": "correct",
+   "predicted": {
+    "src.main.java.com.squareup.javapoet.CodeWriter.java.CodeWriter.emit": 0.9,
+    "src.main.java.com.squareup.javapoet.FieldSpec.java.FieldSpec.emit": 0.9,
+    "src.main.java.com.squareup.javapoet.MethodSpec.java.MethodSpec.emit": 0.9,
+    "src.main.java.com.squareup.javapoet.TypeSpec.java.TypeSpec.emit": 0.9
+   }
+  },
+  "javapoet-37": {
+   "callee": "equals",
+   "caller": "src.main.java.com.squareup.javapoet.TypeName.java.TypeName.isBoxedPrimitive",
+   "expected": "src.main.java.com.squareup.javapoet.TypeName.java.TypeName.equals",
+   "outcome": "correct",
+   "predicted": {
+    "src.main.java.com.squareup.javapoet.TypeName.java.TypeName.equals": 0.9
+   }
+  },
+  "javapoet-38": {
+   "callee": "get",
+   "caller": "src.main.java.com.squareup.javapoet.AnnotationSpec.java.AnnotationSpec.Visitor.visitAnnotation",
+   "expected": "src.main.java.com.squareup.javapoet.AnnotationSpec.java.AnnotationSpec.get",
+   "outcome": "correct",
+   "predicted": {
+    "src.main.java.com.squareup.javapoet.AnnotationSpec.java.AnnotationSpec.get": 0.9
+   }
+  },
+  "javapoet-39": {
+   "callee": "checkArgument",
+   "caller": "src.main.java.com.squareup.javapoet.WildcardTypeName.java.WildcardTypeName.WildcardTypeName",
+   "expected": "src.main.java.com.squareup.javapoet.Util.java.Util.checkArgument",
+   "outcome": "correct",
+   "predicted": {
+    "src.main.java.com.squareup.javapoet.Util.java.Util.checkArgument": 0.6
+   }
+  },
+  "kotlinpoet-00": {
+   "callee": "listOf",
+   "caller": "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.FunSpec.kt.FunSpec.Builder.delegateConstructorArguments",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "kotlinpoet-01": {
+   "callee": "emptySet",
+   "caller": "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.TypeSpec.kt.TypeSpec.Kind.implicitFunctionModifiers",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "kotlinpoet-02": {
+   "callee": "ClassName",
+   "caller": "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.TypeName.kt.CHAR",
+   "expected": "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.ClassName.kt.ClassName",
+   "outcome": "correct",
+   "predicted": {
+    "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.ClassName.kt.ClassName": 0.6
+   }
+  },
+  "kotlinpoet-03": {
+   "callee": "map",
+   "caller": "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.TypeSpec.kt.TypeSpec.emit",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "kotlinpoet-04": {
+   "callee": "filter",
+   "caller": "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.TypeSpec.kt.TypeSpec.emit",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "kotlinpoet-05": {
+   "callee": "listOf",
+   "caller": "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.TypeSpec.kt.TypeSpec.emit",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "kotlinpoet-06": {
+   "callee": "isOneOf",
+   "caller": "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.FunSpec.kt.FunSpec.Companion.isAccessor",
+   "expected": "kotlinpoet.src.commonMain.kotlin.com.squareup.kotlinpoet.Util.kt.T.isOneOf",
+   "outcome": "correct",
+   "predicted": {
+    "kotlinpoet.src.commonMain.kotlin.com.squareup.kotlinpoet.Util.kt.T.isOneOf": 0.6
+   }
+  },
+  "kotlinpoet-07": {
+   "callee": "asClassName",
+   "caller": "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.AnnotationSpec.kt.AnnotationSpec.Companion.builder",
+   "expected": "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.ClassName.kt.KClass<*>.asClassName",
+   "outcome": "missing",
+   "predicted": {}
+  },
+  "kotlinpoet-08": {
+   "callee": "addAnnotation",
+   "caller": "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.Annotatable.kt.Annotatable.Builder.addAnnotation",
+   "expected": "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.Annotatable.kt.Annotatable.Builder.addAnnotation",
+   "outcome": "correct",
+   "predicted": {
+    "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.Annotatable.kt.Annotatable.Builder.addAnnotation": 0.9
+   }
+  },
+  "kotlinpoet-09": {
+   "callee": "escapeAsAlias",
+   "caller": "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.CodeWriter.kt.CodeWriter.Companion.Map<String, Set<T>>.generateImports",
+   "expected": "kotlinpoet.src.commonMain.kotlin.com.squareup.kotlinpoet.Util.kt.String.escapeAsAlias",
+   "outcome": "missing",
+   "predicted": {}
+  },
+  "kotlinpoet-10": {
+   "callee": "emit",
+   "caller": "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.FileSpec.kt.FileSpec.emit",
+   "expected": "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.CodeWriter.kt.CodeWriter.emit",
+   "outcome": "missing",
+   "predicted": {}
+  },
+  "kotlinpoet-11": {
+   "callee": "setOf",
+   "caller": "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.CodeBlock.kt.CodeBlock.Companion.NO_ARG_PLACEHOLDERS",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "kotlinpoet-12": {
+   "callee": "isEmpty() })",
+   "caller": "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.ClassName.kt.ClassName",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "kotlinpoet-13": {
+   "callee": "require",
+   "caller": "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.ClassName.kt.ClassName",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "kotlinpoet-14": {
+   "callee": "use",
+   "caller": "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.CodeWriter.kt.buildCodeString",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "kotlinpoet-15": {
+   "callee": "CodeWriter",
+   "caller": "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.CodeWriter.kt.buildCodeString",
+   "expected": "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.CodeWriter.kt.CodeWriter",
+   "outcome": "correct",
+   "predicted": {
+    "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.CodeWriter.kt.CodeWriter": 0.9
+   }
+  },
+  "kotlinpoet-16": {
+   "callee": "flatMap",
+   "caller": "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.TypeSpec.kt.TypeSpec",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "kotlinpoet-17": {
+   "callee": "emitSegmentRange",
+   "caller": "kotlinpoet.src.commonMain.kotlin.com.squareup.kotlinpoet.LineWrapper.kt.LineWrapper.emitCurrentLine",
+   "expected": "kotlinpoet.src.commonMain.kotlin.com.squareup.kotlinpoet.LineWrapper.kt.LineWrapper.emitSegmentRange",
+   "outcome": "correct",
+   "predicted": {
+    "kotlinpoet.src.commonMain.kotlin.com.squareup.kotlinpoet.LineWrapper.kt.LineWrapper.emitSegmentRange": 0.9
+   }
+  },
+  "kotlinpoet-18": {
+   "callee": "buildCodeString",
+   "caller": "file:kotlinpoet/src/jvmMain/kotlin/com/squareup/kotlinpoet/ParameterSpec.kt",
+   "expected": "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.CodeWriter.kt.buildCodeString",
+   "outcome": "correct",
+   "predicted": {
+    "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.CodeWriter.kt.buildCodeString": 0.6
+   }
+  },
+  "kotlinpoet-19": {
+   "callee": "appendCodePoint",
+   "caller": "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.CodePoint.jvm.kt.StringBuilder.appendCodePoint",
+   "expected": "",
+   "outcome": "wrong",
+   "predicted": {
+    "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.CodePoint.jvm.kt.StringBuilder.appendCodePoint": 0.9
+   }
+  },
+  "kotlinpoet-20": {
+   "callee": "substring",
+   "caller": "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.CodeBlock.kt.CodeBlock.Builder.addNamed",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "kotlinpoet-21": {
+   "callee": "add",
+   "caller": "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.AnnotationSpec.kt.AnnotationSpec.Visitor.visitEnumConstant",
+   "expected": "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.CodeBlock.kt.CodeBlock.Builder.add",
+   "outcome": "missing",
+   "predicted": {}
+  },
+  "kotlinpoet-22": {
+   "callee": "emit",
+   "caller": "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.LambdaTypeName.kt.LambdaTypeName.emit",
+   "expected": "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.CodeWriter.kt.CodeWriter.emit",
+   "outcome": "missing",
+   "predicted": {}
+  },
+  "kotlinpoet-23": {
+   "callee": "append",
+   "caller": "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.ClassName.kt.ClassName.reflectionName",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "kotlinpoet-24": {
+   "callee": "append",
+   "caller": "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.ClassName.kt.ClassName.reflectionName",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "kotlinpoet-25": {
+   "callee": "map",
+   "caller": "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.ParameterizedTypeName.kt.ParameterizedTypeName.Companion.KClass<*>.parameterizedBy",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "kotlinpoet-26": {
+   "callee": "apply",
+   "caller": "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.FunSpec.kt.FunSpec.Builder.addModifiers",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "kotlinpoet-27": {
+   "callee": "remove",
+   "caller": "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.TypeVariableName.kt.KTypeParameter.asTypeVariableName",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "kotlinpoet-28": {
+   "callee": "copy",
+   "caller": "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.CodeWriter.kt.NULLABLE_ANY",
+   "expected": "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.TypeName.kt.TypeName.copy",
+   "outcome": "missing",
+   "predicted": {}
+  },
+  "kotlinpoet-29": {
+   "callee": "hashCode",
+   "caller": "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.ParameterizedTypeName.kt.ParameterizedTypeName.hashCode",
+   "expected": "",
+   "outcome": "wrong",
+   "predicted": {
+    "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.ParameterizedTypeName.kt.ParameterizedTypeName.hashCode": 0.9
+   }
+  },
+  "kotlinpoet-30": {
+   "callee": "ClassName",
+   "caller": "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.ClassName.kt.ClassName.enclosingClassName",
+   "expected": "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.ClassName.kt.ClassName",
+   "outcome": "correct",
+   "predicted": {
+    "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.ClassName.kt.ClassName": 0.9
+   }
+  },
+  "kotlinpoet-31": {
+   "callee": "forEach",
+   "caller": "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.MemberSpecHolder.kt.MemberSpecHolder.Builder.addFunctions",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "kotlinpoet-32": {
+   "callee": "check(statementLine != -1)",
+   "caller": "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.CodeWriter.kt.CodeWriter.emitCode",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "kotlinpoet-33": {
+   "callee": "check",
+   "caller": "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.CodeWriter.kt.CodeWriter.emitCode",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "kotlinpoet-34": {
+   "callee": "emit",
+   "caller": "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.FileSpec.kt.FileSpec.emit",
+   "expected": "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.FunSpec.kt.FunSpec.emit",
+   "outcome": "missing",
+   "predicted": {}
+  },
+  "kotlinpoet-35": {
+   "callee": "append",
+   "caller": "kotlinpoet.src.commonMain.kotlin.com.squareup.kotlinpoet.Util.kt.stringLiteralWithQuotes",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "kotlinpoet-36": {
+   "callee": "emit",
+   "caller": "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.AnnotationSpec.kt.AnnotationSpec.emit",
+   "expected": "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.CodeWriter.kt.CodeWriter.emit",
+   "outcome": "missing",
+   "predicted": {}
+  },
+  "kotlinpoet-37": {
+   "callee": "unindent",
+   "caller": "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.AnnotationSpec.kt.AnnotationSpec.emit",
+   "expected": "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.CodeWriter.kt.CodeWriter.unindent",
+   "outcome": "missing",
+   "predicted": {}
+  },
+  "kotlinpoet-38": {
+   "callee": "any",
+   "caller": "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.CodeBlock.kt.CodeBlock.hasStatements",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "kotlinpoet-39": {
+   "callee": "returnsWithoutLinebreak",
+   "caller": "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.FunSpec.kt.FunSpec.emit",
+   "expected": "kotlinpoet.src.jvmMain.kotlin.com.squareup.kotlinpoet.FunSpec.kt.FunSpec.CodeBlock.returnsWithoutLinebreak",
+   "outcome": "missing",
+   "predicted": {}
+  },
+  "ky-00": {
+   "callee": "getTime",
+   "caller": "source.core.retry-timing.ts.createTimestamp",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "ky-01": {
+   "callee": "normalizeRetryLimit",
+   "caller": "source.utils.normalize.ts.normalizeRetryOptions",
+   "expected": "source.utils.normalize.ts.normalizeRetryLimit",
+   "outcome": "correct",
+   "predicted": {
+    "source.utils.normalize.ts.normalizeRetryLimit": 0.9
+   }
+  },
+  "ky-02": {
+   "callee": "#getNormalizedOptions",
+   "caller": "source.core.Ky.ts.Ky.#retryFromError.(anonymous@1143:51)",
+   "expected": "source.core.Ky.ts.Ky.#getNormalizedOptions",
+   "outcome": "correct",
+   "predicted": {
+    "source.core.Ky.ts.Ky.#getNormalizedOptions": 0.9
+   }
+  },
+  "ky-03": {
+   "callee": "#retry",
+   "caller": "source.core.Ky.ts.Ky.#retryFromError",
+   "expected": "source.core.Ky.ts.Ky.#retry",
+   "outcome": "correct",
+   "predicted": {
+    "source.core.Ky.ts.Ky.#retry": 0.9
+   }
+  },
+  "ky-04": {
+   "callee": "#getNormalizedOptions",
+   "caller": "source.core.Ky.ts.Ky.#runAfterResponseHooks.(anonymous@1037:57)",
+   "expected": "source.core.Ky.ts.Ky.#getNormalizedOptions",
+   "outcome": "correct",
+   "predicted": {
+    "source.core.Ky.ts.Ky.#getNormalizedOptions": 0.9
+   }
+  },
+  "ky-05": {
+   "callee": "getCapture",
+   "caller": "source.core.retry-timing.ts.parseDate",
+   "expected": "source.core.retry-timing.ts.getCapture",
+   "outcome": "correct",
+   "predicted": {
+    "source.core.retry-timing.ts.getCapture": 0.9
+   }
+  },
+  "ky-06": {
+   "callee": "catch",
+   "caller": "source.core.Ky.ts.Ky.#cancelBody",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "ky-07": {
+   "callee": "cancel",
+   "caller": "source.core.Ky.ts.Ky.#cancelBody",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "ky-08": {
+   "callee": "exec",
+   "caller": "source.core.retry-timing.ts.parseDate",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "ky-09": {
+   "callee": "#getRemainingTotalTimeout",
+   "caller": "source.core.Ky.ts.Ky.#getEffectiveTimeout",
+   "expected": "source.core.Ky.ts.Ky.#getRemainingTotalTimeout",
+   "outcome": "correct",
+   "predicted": {
+    "source.core.Ky.ts.Ky.#getRemainingTotalTimeout": 0.9
+   }
+  },
+  "ky-10": {
+   "callee": "defineProperty",
+   "caller": "source.utils.body.ts.copyResponseMetadata",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "ky-11": {
+   "callee": "String",
+   "caller": "source.core.Ky.ts.Ky.constructor",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "ky-12": {
+   "callee": "mergeHeaderContainers",
+   "caller": "source.utils.merge.ts.deepMergeInternal",
+   "expected": "source.utils.merge.ts.mergeHeaderContainers",
+   "outcome": "correct",
+   "predicted": {
+    "source.utils.merge.ts.mergeHeaderContainers": 0.9
+   }
+  },
+  "ky-13": {
+   "callee": "append",
+   "caller": "source.core.Ky.ts.Ky.constructor",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "ky-14": {
+   "callee": "#calculateDelay",
+   "caller": "source.core.Ky.ts.Ky.#calculateRetryDelay",
+   "expected": "source.core.Ky.ts.Ky.#calculateDelay",
+   "outcome": "correct",
+   "predicted": {
+    "source.core.Ky.ts.Ky.#calculateDelay": 0.9
+   }
+  },
+  "ky-15": {
+   "callee": "entries",
+   "caller": "source.utils.merge.ts.deepMergeInternal",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "ky-16": {
+   "callee": "set",
+   "caller": "source.utils.merge.ts.cloneDeep",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "ky-17": {
+   "callee": "get",
+   "caller": "source.core.retry-timing.ts.getRetryTimingHeader",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "ky-18": {
+   "callee": "#cancelResponseBody",
+   "caller": "source.core.Ky.ts.Ky.#cancelReturnedBody",
+   "expected": "source.core.Ky.ts.Ky.#cancelResponseBody",
+   "outcome": "correct",
+   "predicted": {
+    "source.core.Ky.ts.Ky.#cancelResponseBody": 0.9
+   }
+  },
+  "ky-19": {
+   "callee": "#raceBodyRead",
+   "caller": "source.core.Ky.ts.Ky.create.(anonymous@322:19)",
+   "expected": "source.core.Ky.ts.Ky.#raceBodyRead",
+   "outcome": "correct",
+   "predicted": {
+    "source.core.Ky.ts.Ky.#raceBodyRead": 0.7
+   }
+  },
+  "ky-20": {
+   "callee": "getUTCSeconds",
+   "caller": "source.core.retry-timing.ts.createTimestamp",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "ky-21": {
+   "callee": "hasSearchParameters",
+   "caller": "source.core.Ky.ts.Ky.constructor",
+   "expected": "source.utils.options.ts.hasSearchParameters",
+   "outcome": "correct",
+   "predicted": {
+    "source.utils.options.ts.hasSearchParameters": 0.95
+   }
+  },
+  "ky-22": {
+   "callee": "#getResponseRequest",
+   "caller": "source.core.Ky.ts.Ky.#raceBodyRead",
+   "expected": "source.core.Ky.ts.Ky.#getResponseRequest",
+   "outcome": "correct",
+   "predicted": {
+    "source.core.Ky.ts.Ky.#getResponseRequest": 0.9
+   }
+  },
+  "ky-23": {
+   "callee": "call",
+   "caller": "source.core.Ky.ts.isResponseInstance",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "ky-24": {
+   "callee": "isResponseInstance",
+   "caller": "source.core.Ky.ts.Ky.#cancelReturnedBody",
+   "expected": "source.core.Ky.ts.isResponseInstance",
+   "outcome": "correct",
+   "predicted": {
+    "source.core.Ky.ts.isResponseInstance": 0.9
+   }
+  },
+  "ky-25": {
+   "callee": "bind",
+   "caller": "source.utils.body.ts.copyResponseMetadata",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "ky-26": {
+   "callee": "cloneDeep",
+   "caller": "source.core.Ky.ts.cloneInitHookOptions",
+   "expected": "source.utils.merge.ts.cloneDeep",
+   "outcome": "correct",
+   "predicted": {
+    "source.utils.merge.ts.cloneDeep": 0.95
+   }
+  },
+  "ky-27": {
+   "callee": "deepMerge",
+   "caller": "source.utils.merge.ts.newHookValue",
+   "expected": "source.utils.merge.ts.deepMerge",
+   "outcome": "correct",
+   "predicted": {
+    "source.utils.merge.ts.deepMerge": 0.9
+   }
+  },
+  "ky-28": {
+   "callee": "isResponseSizeError",
+   "caller": "source.core.Ky.ts.Ky.#readResponseText.readAll.(anonymous@901:20)",
+   "expected": "source.utils.type-guards.ts.isResponseSizeError",
+   "outcome": "correct",
+   "predicted": {
+    "source.utils.type-guards.ts.isResponseSizeError": 0.95
+   }
+  },
+  "ky-29": {
+   "callee": "hook",
+   "caller": "source.core.Ky.ts.Ky.#runBeforeRequestHooks.result.(anonymous@1006:52)",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "ky-30": {
+   "callee": "parse",
+   "caller": "file:source/core/retry-timing.ts",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "ky-31": {
+   "callee": "normalizeRetryOptions",
+   "caller": "source.core.Ky.ts.Ky.constructor",
+   "expected": "source.utils.normalize.ts.normalizeRetryOptions",
+   "outcome": "correct",
+   "predicted": {
+    "source.utils.normalize.ts.normalizeRetryOptions": 0.95
+   }
+  },
+  "ky-32": {
+   "callee": "#getResponseRequest",
+   "caller": "source.core.Ky.ts.Ky.create.function_",
+   "expected": "source.core.Ky.ts.Ky.#getResponseRequest",
+   "outcome": "correct",
+   "predicted": {
+    "source.core.Ky.ts.Ky.#getResponseRequest": 0.7
+   }
+  },
+  "ky-33": {
+   "callee": "toHeaderObject",
+   "caller": "source.utils.merge.ts.mergeHeaderContainers",
+   "expected": "source.utils.merge.ts.toHeaderObject",
+   "outcome": "correct",
+   "predicted": {
+    "source.utils.merge.ts.toHeaderObject": 0.9
+   }
+  },
+  "ky-34": {
+   "callee": "#getEffectiveTimeout",
+   "caller": "source.core.Ky.ts.Ky.#raceBodyRead",
+   "expected": "source.core.Ky.ts.Ky.#getEffectiveTimeout",
+   "outcome": "correct",
+   "predicted": {
+    "source.core.Ky.ts.Ky.#getEffectiveTimeout": 0.9
+   }
+  },
+  "ky-35": {
+   "callee": "createInstance",
+   "caller": "source.index.ts.createInstance.(anonymous@20:14)",
+   "expected": "source.index.ts.createInstance",
+   "outcome": "correct",
+   "predicted": {
+    "source.index.ts.createInstance": 0.9
+   }
+  },
+  "ky-36": {
+   "callee": "getBodySize",
+   "caller": "source.utils.body.ts.streamRequest",
+   "expected": "source.utils.body.ts.getBodySize",
+   "outcome": "correct",
+   "predicted": {
+    "source.utils.body.ts.getBodySize": 0.9
+   }
+  },
+  "ky-37": {
+   "callee": "catch",
+   "caller": "source.core.Ky.ts.Ky.#readResponseText.readAll.(anonymous@901:20)",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "ky-38": {
+   "callee": "cancel",
+   "caller": "source.core.Ky.ts.Ky.#readResponseText.readAll.(anonymous@901:20)",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "ky-39": {
+   "callee": "isRequestInstance",
+   "caller": "source.core.Ky.ts.Ky.#retryFromError",
+   "expected": "source.core.Ky.ts.isRequestInstance",
+   "outcome": "correct",
+   "predicted": {
+    "source.core.Ky.ts.isRequestInstance": 0.9
+   }
+  },
+  "leveldb-00": {
+   "callee": "key",
+   "caller": "db.builder.cc.leveldb.BuildTable",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "leveldb-01": {
+   "callee": "OK",
+   "caller": "db.repair.cc.leveldb.(anonymous).Repairer.ScanTable",
+   "expected": "include.leveldb.status.h.leveldb.Status.OK",
+   "outcome": "correct",
+   "predicted": {
+    "include.leveldb.status.h.leveldb.Status.OK": 0.9
+   }
+  },
+  "leveldb-02": {
+   "callee": "Corruption",
+   "caller": "db.repair.cc.leveldb.(anonymous).Repairer.ConvertLogToTable",
+   "expected": "db.repair.cc.leveldb.(anonymous).Repairer.ConvertLogToTable.LogReporter.Corruption",
+   "outcome": "correct",
+   "predicted": {
+    "db.repair.cc.leveldb.(anonymous).Repairer.ConvertLogToTable.LogReporter.Corruption": 0.9,
+    "include.leveldb.status.h.leveldb.Status.Corruption": 0.9
+   }
+  },
+  "leveldb-03": {
+   "callee": "SetCount",
+   "caller": "db.write_batch.cc.leveldb.WriteBatch.Delete",
+   "expected": "db.write_batch.cc.leveldb.WriteBatchInternal.SetCount",
+   "outcome": "correct",
+   "predicted": {
+    "db.write_batch.cc.leveldb.WriteBatchInternal.SetCount": 0.9
+   }
+  },
+  "leveldb-04": {
+   "callee": "int",
+   "caller": "db.version_set.cc.leveldb.VersionSet.SetupOtherInputs",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "leveldb-05": {
+   "callee": "clear",
+   "caller": "db.dumpfile.cc.leveldb.(anonymous).DumpTable",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "leveldb-06": {
+   "callee": "AssertHeld",
+   "caller": "db.db_impl.cc.leveldb.DBImpl.BuildBatchGroup",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "leveldb-07": {
+   "callee": "FinishCompactionOutputFile",
+   "caller": "db.db_impl.cc.leveldb.DBImpl.DoCompactionWork",
+   "expected": "db.db_impl.cc.leveldb.DBImpl.FinishCompactionOutputFile",
+   "outcome": "correct",
+   "predicted": {
+    "db.db_impl.cc.leveldb.DBImpl.FinishCompactionOutputFile": 0.9
+   }
+  },
+  "leveldb-08": {
+   "callee": "AddLiveFiles",
+   "caller": "db.db_impl.cc.leveldb.DBImpl.Recover",
+   "expected": "db.version_set.cc.leveldb.VersionSet.AddLiveFiles",
+   "outcome": "correct",
+   "predicted": {
+    "db.version_set.cc.leveldb.VersionSet.AddLiveFiles": 0.6
+   }
+  },
+  "leveldb-09": {
+   "callee": "LogNumber",
+   "caller": "db.db_impl.cc.leveldb.DBImpl.RemoveObsoleteFiles",
+   "expected": "db.version_set.h.leveldb.VersionSet.LogNumber",
+   "outcome": "correct",
+   "predicted": {
+    "db.version_set.h.leveldb.VersionSet.LogNumber": 0.6
+   }
+  },
+  "leveldb-10": {
+   "callee": "assert",
+   "caller": "db.filename.cc.leveldb.LogFileName",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "leveldb-11": {
+   "callee": "BuildTable",
+   "caller": "db.db_impl.cc.leveldb.DBImpl.WriteLevel0Table",
+   "expected": "db.builder.cc.leveldb.BuildTable",
+   "outcome": "correct",
+   "predicted": {
+    "db.builder.cc.leveldb.BuildTable": 0.6
+   }
+  },
+  "leveldb-12": {
+   "callee": "Compare",
+   "caller": "db.dbformat.cc.leveldb.InternalKeyComparator.FindShortestSeparator",
+   "expected": "",
+   "outcome": "wrong",
+   "predicted": {
+    "db.dbformat.cc.leveldb.InternalKeyComparator.Compare": 0.9
+   }
+  },
+  "leveldb-13": {
+   "callee": "end",
+   "caller": "db.db_impl.cc.leveldb.DBImpl.RemoveObsoleteFiles",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "leveldb-14": {
+   "callee": "data",
+   "caller": "db.log_writer.cc.leveldb.log.Writer.AddRecord",
+   "expected": "include.leveldb.slice.h.leveldb.Slice.data",
+   "outcome": "missing",
+   "predicted": {}
+  },
+  "leveldb-15": {
+   "callee": "Compare",
+   "caller": "db.version_set.cc.leveldb.Version.ForEachOverlapping",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "leveldb-16": {
+   "callee": "capacity",
+   "caller": "db.db_iter.cc.leveldb.(anonymous).DBIter.FindPrevUserEntry",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "leveldb-17": {
+   "callee": "Delete",
+   "caller": "db.db_impl.cc.leveldb.DBImpl.Delete",
+   "expected": "db.db_impl.cc.leveldb.DB.Delete",
+   "outcome": "correct",
+   "predicted": {
+    "db.db_impl.cc.leveldb.DB.Delete": 0.9
+   }
+  },
+  "leveldb-18": {
+   "callee": "ExtractUserKey",
+   "caller": "db.dbformat.cc.leveldb.InternalKeyComparator.Compare",
+   "expected": "db.dbformat.h.leveldb.ExtractUserKey",
+   "outcome": "correct",
+   "predicted": {
+    "db.dbformat.h.leveldb.ExtractUserKey": 0.6
+   }
+  },
+  "leveldb-19": {
+   "callee": "fprintf",
+   "caller": "db.version_set.cc.leveldb.VersionSet.Builder.SaveTo",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "leveldb-20": {
+   "callee": "SetupOtherInputs",
+   "caller": "db.version_set.cc.leveldb.VersionSet.PickCompaction",
+   "expected": "db.version_set.cc.leveldb.VersionSet.SetupOtherInputs",
+   "outcome": "correct",
+   "predicted": {
+    "db.version_set.cc.leveldb.VersionSet.SetupOtherInputs": 0.9
+   }
+  },
+  "leveldb-21": {
+   "callee": "KeyMayMatch",
+   "caller": "db.c.cc.leveldb_filterpolicy_create_bloom.Wrapper.KeyMayMatch",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "leveldb-22": {
+   "callee": "Apply",
+   "caller": "db.version_set.cc.leveldb.VersionSet.Recover",
+   "expected": "db.version_set.cc.leveldb.VersionSet.Builder.Apply",
+   "outcome": "correct",
+   "predicted": {
+    "db.version_set.cc.leveldb.VersionSet.Builder.Apply": 0.9
+   }
+  },
+  "leveldb-23": {
+   "callee": "value",
+   "caller": "db.db_iter.cc.leveldb.(anonymous).DBIter.value",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "leveldb-24": {
+   "callee": "Valid",
+   "caller": "db.version_set.cc.leveldb.Version.LevelFileNumIterator.value",
+   "expected": "db.version_set.cc.leveldb.Version.LevelFileNumIterator.Valid",
+   "outcome": "correct",
+   "predicted": {
+    "db.version_set.cc.leveldb.Version.LevelFileNumIterator.Valid": 0.9
+   }
+  },
+  "leveldb-25": {
+   "callee": "begin",
+   "caller": "db.db_impl.cc.leveldb.DBImpl.Recover",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "leveldb-26": {
+   "callee": "ParseInternalKey",
+   "caller": "db.version_set.cc.leveldb.SaveValue",
+   "expected": "db.dbformat.h.leveldb.ParseInternalKey",
+   "outcome": "correct",
+   "predicted": {
+    "db.dbformat.h.leveldb.ParseInternalKey": 0.6
+   }
+  },
+  "leveldb-27": {
+   "callee": "Compare",
+   "caller": "db.dbformat.cc.leveldb.InternalKeyComparator.Compare",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "leveldb-28": {
+   "callee": "PutVarint64",
+   "caller": "db.version_edit.cc.leveldb.VersionEdit.EncodeTo",
+   "expected": "util.coding.cc.leveldb.PutVarint64",
+   "outcome": "correct",
+   "predicted": {
+    "util.coding.cc.leveldb.PutVarint64": 0.6
+   }
+  },
+  "leveldb-29": {
+   "callee": "size",
+   "caller": "db.version_edit.cc.leveldb.VersionEdit.DebugString",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "leveldb-30": {
+   "callee": "Ref",
+   "caller": "db.db_impl.cc.leveldb.DBImpl.CompactMemTable",
+   "expected": "db.version_set.cc.leveldb.Version.Ref",
+   "outcome": "correct",
+   "predicted": {
+    "db.version_set.cc.leveldb.Version.Ref": 0.9
+   }
+  },
+  "leveldb-31": {
+   "callee": "assert",
+   "caller": "db.version_set.cc.leveldb.Version.LevelFileNumIterator.key",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "leveldb-32": {
+   "callee": "Log",
+   "caller": "db.db_impl.cc.leveldb.DBImpl.RecoverLogFile.LogReporter.Corruption",
+   "expected": "util.env.cc.leveldb.Log",
+   "outcome": "correct",
+   "predicted": {
+    "util.env.cc.leveldb.Log": 0.6
+   }
+  },
+  "leveldb-33": {
+   "callee": "Name",
+   "caller": "db.version_set.cc.leveldb.VersionSet.Recover",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "leveldb-34": {
+   "callee": "user_comparator",
+   "caller": "db.version_set.cc.leveldb.VersionSet.Recover",
+   "expected": "db.dbformat.h.leveldb.InternalKeyComparator.user_comparator",
+   "outcome": "correct",
+   "predicted": {
+    "db.dbformat.h.leveldb.InternalKeyComparator.user_comparator": 0.9
+   }
+  },
+  "leveldb-35": {
+   "callee": "size",
+   "caller": "db.version_set.cc.leveldb.VersionSet.Finalize",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "leveldb-36": {
+   "callee": "SaveTo",
+   "caller": "db.version_set.cc.leveldb.VersionSet.LogAndApply",
+   "expected": "db.version_set.cc.leveldb.VersionSet.Builder.SaveTo",
+   "outcome": "correct",
+   "predicted": {
+    "db.version_set.cc.leveldb.VersionSet.Builder.SaveTo": 0.9
+   }
+  },
+  "leveldb-37": {
+   "callee": "key",
+   "caller": "db.db_iter.cc.leveldb.(anonymous).DBIter.Prev",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "leveldb-38": {
+   "callee": "Wait",
+   "caller": "db.db_impl.cc.leveldb.DBImpl.Write",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "leveldb-39": {
+   "callee": "assert",
+   "caller": "db.db_iter.cc.leveldb.(anonymous).DBIter.Next",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "mediatr-00": {
+   "callee": "LogDebug",
+   "caller": "src.MediatR.Licensing.LicenseValidator.cs.MediatR.Licensing.LicenseValidator.Validate",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "mediatr-01": {
+   "callee": "GetService",
+   "caller": "src.MediatR.Registration.ServiceRegistrar.cs.MediatR.Registration.ServiceRegistrar.AddRequiredServices",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "mediatr-02": {
+   "callee": "Handle",
+   "caller": "src.MediatR.Mediator.cs.MediatR.Mediator.CreateStream",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "mediatr-03": {
+   "callee": "IsOpenGeneric",
+   "caller": "src.MediatR.Registration.ServiceRegistrar.cs.MediatR.Registration.ServiceRegistrar.AddRequiredServices",
+   "expected": "src.MediatR.Registration.ServiceRegistrar.cs.MediatR.Registration.ServiceRegistrar.IsOpenGeneric",
+   "outcome": "missing",
+   "predicted": {}
+  },
+  "mediatr-04": {
+   "callee": "Add",
+   "caller": "src.MediatR.MicrosoftExtensionsDI.MediatrServiceConfiguration.cs.Microsoft.Extensions.DependencyInjection.MediatRServiceConfiguration.AddOpenRequestPreProcessor",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "mediatr-05": {
+   "callee": "WithCancellation",
+   "caller": "src.MediatR.Wrappers.StreamRequestHandlerWrapper.cs.MediatR.Wrappers.StreamRequestHandlerWrapperImpl.Handle",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "mediatr-06": {
+   "callee": "IsMatchingWithInterface",
+   "caller": "src.MediatR.Registration.ServiceRegistrar.cs.MediatR.Registration.ServiceRegistrar.IsMatchingWithInterface",
+   "expected": "src.MediatR.Registration.ServiceRegistrar.cs.MediatR.Registration.ServiceRegistrar.IsMatchingWithInterface",
+   "outcome": "correct",
+   "predicted": {
+    "src.MediatR.Registration.ServiceRegistrar.cs.MediatR.Registration.ServiceRegistrar.IsMatchingWithInterface": 0.9
+   }
+  },
+  "mediatr-07": {
+   "callee": "ConnectImplementationsToTypesClosing",
+   "caller": "src.MediatR.Registration.ServiceRegistrar.cs.MediatR.Registration.ServiceRegistrar.AddMediatRClasses",
+   "expected": "src.MediatR.Registration.ServiceRegistrar.cs.MediatR.Registration.ServiceRegistrar.ConnectImplementationsToTypesClosing",
+   "outcome": "correct",
+   "predicted": {
+    "src.MediatR.Registration.ServiceRegistrar.cs.MediatR.Registration.ServiceRegistrar.ConnectImplementationsToTypesClosing": 0.9
+   }
+  },
+  "mediatr-08": {
+   "callee": "AddRange",
+   "caller": "src.MediatR.Registration.ServiceRegistrar.cs.MediatR.Registration.ServiceRegistrar.GenerateCombinations",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "mediatr-09": {
+   "callee": "Invoke",
+   "caller": "src.MediatR.Pipeline.RequestExceptionActionProcessorBehavior.cs.MediatR.Pipeline.RequestExceptionActionProcessorBehavior.Handle",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "mediatr-10": {
+   "callee": "nameof",
+   "caller": "src.MediatR.Mediator.cs.MediatR.Mediator.CreateStream",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "mediatr-11": {
+   "callee": "IsAssignableFrom",
+   "caller": "src.MediatR.Registration.ServiceRegistrar.cs.MediatR.Registration.ServiceRegistrar.GetConcreteRequestTypes",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "mediatr-12": {
+   "callee": "ConfigureAwait",
+   "caller": "src.MediatR.Pipeline.RequestExceptionProcessorBehavior.cs.MediatR.Pipeline.RequestExceptionProcessorBehavior.Handle",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "mediatr-13": {
+   "callee": "next",
+   "caller": "src.MediatR.Pipeline.RequestExceptionProcessorBehavior.cs.MediatR.Pipeline.RequestExceptionProcessorBehavior.Handle",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "mediatr-14": {
+   "callee": "nameof",
+   "caller": "src.MediatR.Mediator.cs.MediatR.Mediator.CreateStream",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "mediatr-15": {
+   "callee": "FromBase64String",
+   "caller": "src.MediatR.Licensing.LicenseAccessor.cs.MediatR.Licensing.LicenseAccessor.ValidateKey",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "mediatr-16": {
+   "callee": "LogInformation",
+   "caller": "src.MediatR.Licensing.LicenseValidator.cs.MediatR.Licensing.LicenseValidator.Validate",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "mediatr-17": {
+   "callee": "GetOrAdd",
+   "caller": "src.MediatR.Mediator.cs.MediatR.Mediator.CreateStream",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "mediatr-18": {
+   "callee": "GetLoadableDefinedTypes())",
+   "caller": "src.MediatR.Registration.ServiceRegistrar.cs.MediatR.Registration.ServiceRegistrar.AddMediatRClasses",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "mediatr-19": {
+   "callee": "GetLoadableDefinedTypes())",
+   "caller": "src.MediatR.Registration.ServiceRegistrar.cs.MediatR.Registration.ServiceRegistrar.AddMediatRClasses",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "mediatr-20": {
+   "callee": "GetLoadableDefinedTypes())",
+   "caller": "src.MediatR.Registration.ServiceRegistrar.cs.MediatR.Registration.ServiceRegistrar.AddMediatRClasses",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "mediatr-21": {
+   "callee": "GetLoadableDefinedTypes())",
+   "caller": "src.MediatR.Registration.ServiceRegistrar.cs.MediatR.Registration.ServiceRegistrar.AddMediatRClasses",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "mediatr-22": {
+   "callee": "GetLoadableDefinedTypes())",
+   "caller": "src.MediatR.Registration.ServiceRegistrar.cs.MediatR.Registration.ServiceRegistrar.AddMediatRClasses",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "mediatr-23": {
+   "callee": "SelectMany",
+   "caller": "src.MediatR.Registration.ServiceRegistrar.cs.MediatR.Registration.ServiceRegistrar.AddMediatRClasses",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "mediatr-24": {
+   "callee": "OfType",
+   "caller": "src.MediatR.Registration.ServiceRegistrar.cs.MediatR.Registration.ServiceRegistrar.GetLoadableDefinedTypes",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "mediatr-25": {
+   "callee": "Add",
+   "caller": "src.MediatR.MicrosoftExtensionsDI.MediatrServiceConfiguration.cs.Microsoft.Extensions.DependencyInjection.MediatRServiceConfiguration.AddRequestPreProcessor",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "mediatr-26": {
+   "callee": "StartsWith",
+   "caller": "src.MediatR.Internal.ObjectDetails.cs.MediatR.Internal.ObjectDetails.CompareByNamespace",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "mediatr-27": {
+   "callee": "Invoke",
+   "caller": "src.MediatR.Pipeline.RequestExceptionProcessorBehavior.cs.MediatR.Pipeline.RequestExceptionProcessorBehavior.Handle",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "mediatr-28": {
+   "callee": "LogCritical",
+   "caller": "src.MediatR.Licensing.LicenseAccessor.cs.MediatR.Licensing.LicenseAccessor.ValidateKey",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "mediatr-29": {
+   "callee": "GetRequiredService<IRequestHandler<TRequest, TResponse>>()",
+   "caller": "src.MediatR.Wrappers.RequestHandlerWrapper.cs.MediatR.Wrappers.RequestHandlerWrapperImpl.Handle",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "mediatr-30": {
+   "callee": "GetRequiredService<IRequestHandler<TRequest, TResponse>>",
+   "caller": "src.MediatR.Wrappers.RequestHandlerWrapper.cs.MediatR.Wrappers.RequestHandlerWrapperImpl.Handle",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "mediatr-31": {
+   "callee": "Any",
+   "caller": "src.MediatR.Registration.ServiceRegistrar.cs.MediatR.Registration.ServiceRegistrar.AddMediatRClasses",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "mediatr-32": {
+   "callee": "FindInterfacesThatClose",
+   "caller": "src.MediatR.Registration.ServiceRegistrar.cs.MediatR.Registration.ServiceRegistrar.AddMediatRClasses",
+   "expected": "src.MediatR.Registration.ServiceRegistrar.cs.MediatR.Registration.ServiceRegistrar.FindInterfacesThatClose",
+   "outcome": "missing",
+   "predicted": {}
+  },
+  "mediatr-33": {
+   "callee": "GetGenericArguments",
+   "caller": "src.MediatR.Registration.ServiceRegistrar.cs.MediatR.Registration.ServiceRegistrar.AddMediatRClasses",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "mediatr-34": {
+   "callee": "Add",
+   "caller": "src.MediatR.MicrosoftExtensionsDI.MediatrServiceConfiguration.cs.Microsoft.Extensions.DependencyInjection.MediatRServiceConfiguration.AddRequestPostProcessor",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "mediatr-35": {
+   "callee": "AddTransient",
+   "caller": "src.MediatR.Registration.ServiceRegistrar.cs.MediatR.Registration.ServiceRegistrar.AddMediatRClasses",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "mediatr-36": {
+   "callee": "GetGenericTypeDefinition",
+   "caller": "src.MediatR.Registration.ServiceRegistrar.cs.MediatR.Registration.ServiceRegistrar.FindInterfacesThatClosesCore",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "mediatr-37": {
+   "callee": "Where",
+   "caller": "src.MediatR.Registration.ServiceRegistrar.cs.MediatR.Registration.ServiceRegistrar.FindInterfacesThatClosesCore",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "mediatr-38": {
+   "callee": "GetInterfaces",
+   "caller": "src.MediatR.Registration.ServiceRegistrar.cs.MediatR.Registration.ServiceRegistrar.FindInterfacesThatClosesCore",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "mediatr-39": {
+   "callee": "ConfigureAwait",
+   "caller": "src.MediatR.Pipeline.RequestPostProcessorBehavior.cs.MediatR.Pipeline.RequestPostProcessorBehavior.Handle",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "psr7-00": {
+   "callee": "register",
+   "caller": "src.StreamWrapper.php.GuzzleHttp.Psr7.StreamWrapper.getResource",
+   "expected": "src.StreamWrapper.php.GuzzleHttp.Psr7.StreamWrapper.register",
+   "outcome": "correct",
+   "predicted": {
+    "src.StreamWrapper.php.GuzzleHttp.Psr7.StreamWrapper.register": 0.9
+   }
+  },
+  "psr7-01": {
+   "callee": "isset",
+   "caller": "src.Stream.php.GuzzleHttp.Psr7.Stream.getSize",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "psr7-02": {
+   "callee": "assertValidModifyRequestChange",
+   "caller": "src.Utils.php.GuzzleHttp.Psr7.Utils.assertValidModifyRequestChanges",
+   "expected": "src.Utils.php.GuzzleHttp.Psr7.Utils.assertValidModifyRequestChange",
+   "outcome": "correct",
+   "predicted": {
+    "src.Utils.php.GuzzleHttp.Psr7.Utils.assertValidModifyRequestChange": 0.9
+   }
+  },
+  "psr7-03": {
+   "callee": "escape",
+   "caller": "src.Uri.php.GuzzleHttp.Psr7.Uri.filterScheme",
+   "expected": "src.DiagnosticValue.php.GuzzleHttp.Psr7.DiagnosticValue.escape",
+   "outcome": "missing",
+   "predicted": {}
+  },
+  "psr7-04": {
+   "callee": "is_string",
+   "caller": "src.ServerRequestGlobalsFactory.php.GuzzleHttp.Psr7.ServerRequestGlobalsFactory.getServerParam",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "psr7-05": {
+   "callee": "str_contains",
+   "caller": "src.UriResolver.php.GuzzleHttp.Psr7.UriResolver.relativize",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "psr7-06": {
+   "callee": "withUri",
+   "caller": "src.Utils.php.GuzzleHttp.Psr7.Utils.modifyRequest",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "psr7-07": {
+   "callee": "close",
+   "caller": "src.CachingStream.php.GuzzleHttp.Psr7.CachingStream.close",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "psr7-08": {
+   "callee": "isToken",
+   "caller": "src.MultipartStream.php.GuzzleHttp.Psr7.MultipartStream.validatePartHeaderName",
+   "expected": "src.Rfc9110.php.GuzzleHttp.Psr7.Rfc9110.isToken",
+   "outcome": "missing",
+   "predicted": {}
+  },
+  "psr7-09": {
+   "callee": "validateState",
+   "caller": "src.Uri.php.GuzzleHttp.Psr7.Uri.withHost",
+   "expected": "src.Uri.php.GuzzleHttp.Psr7.Uri.validateState",
+   "outcome": "missing",
+   "predicted": {}
+  },
+  "psr7-10": {
+   "callee": "empty",
+   "caller": "src.HttpFactory.php.GuzzleHttp.Psr7.HttpFactory.createServerRequest",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "psr7-11": {
+   "callee": "getServerParam",
+   "caller": "src.ServerRequestGlobalsFactory.php.GuzzleHttp.Psr7.ServerRequestGlobalsFactory.getAuthorityUriFromServer",
+   "expected": "src.ServerRequestGlobalsFactory.php.GuzzleHttp.Psr7.ServerRequestGlobalsFactory.getServerParam",
+   "outcome": "correct",
+   "predicted": {
+    "src.ServerRequestGlobalsFactory.php.GuzzleHttp.Psr7.ServerRequestGlobalsFactory.getServerParam": 0.9
+   }
+  },
+  "psr7-12": {
+   "callee": "escape",
+   "caller": "src.Utils.php.GuzzleHttp.Psr7.Utils.tryGetContents",
+   "expected": "src.DiagnosticValue.php.GuzzleHttp.Psr7.DiagnosticValue.escape",
+   "outcome": "missing",
+   "predicted": {}
+  },
+  "psr7-13": {
+   "callee": "normalizePathForOriginForm",
+   "caller": "src.MessageParser.php.GuzzleHttp.Psr7.MessageParser.parseRequestUri",
+   "expected": "src.MessageParser.php.GuzzleHttp.Psr7.MessageParser.normalizePathForOriginForm",
+   "outcome": "correct",
+   "predicted": {
+    "src.MessageParser.php.GuzzleHttp.Psr7.MessageParser.normalizePathForOriginForm": 0.9
+   }
+  },
+  "psr7-14": {
+   "callee": "streamFor",
+   "caller": "src.HttpFactory.php.GuzzleHttp.Psr7.HttpFactory.createStreamFromFile",
+   "expected": "src.Utils.php.GuzzleHttp.Psr7.Utils.streamFor",
+   "outcome": "missing",
+   "predicted": {}
+  },
+  "psr7-15": {
+   "callee": "rawPath",
+   "caller": "src.UriResolver.php.GuzzleHttp.Psr7.UriResolver.relativize",
+   "expected": "src.Uri.php.GuzzleHttp.Psr7.Uri.rawPath",
+   "outcome": "missing",
+   "predicted": {}
+  },
+  "psr7-16": {
+   "callee": "seek",
+   "caller": "src.StreamDecoratorTrait.php.GuzzleHttp.Psr7.StreamDecoratorTrait.rewind",
+   "expected": "src.StreamDecoratorTrait.php.GuzzleHttp.Psr7.StreamDecoratorTrait.seek",
+   "outcome": "correct",
+   "predicted": {
+    "src.StreamDecoratorTrait.php.GuzzleHttp.Psr7.StreamDecoratorTrait.seek": 0.9
+   }
+  },
+  "psr7-17": {
+   "callee": "removeDotSegments",
+   "caller": "src.UriResolver.php.GuzzleHttp.Psr7.UriResolver.resolve",
+   "expected": "src.UriResolver.php.GuzzleHttp.Psr7.UriResolver.removeDotSegments",
+   "outcome": "correct",
+   "predicted": {
+    "src.UriResolver.php.GuzzleHttp.Psr7.UriResolver.removeDotSegments": 0.9
+   }
+  },
+  "psr7-18": {
+   "callee": "isset",
+   "caller": "src.UploadedFileNormalizer.php.GuzzleHttp.Psr7.UploadedFileNormalizer.assertNestedFileSpec",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "psr7-19": {
+   "callee": "\\array_key_exists",
+   "caller": "src.Utils.php.GuzzleHttp.Psr7.Utils.assertValidModifyRequestChanges",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "psr7-20": {
+   "callee": "seek",
+   "caller": "src.StreamDecoratorTrait.php.GuzzleHttp.Psr7.StreamDecoratorTrait.seek",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "psr7-21": {
+   "callee": "escape",
+   "caller": "src.MultipartStream.php.GuzzleHttp.Psr7.MultipartStream.validatePartHeaderValue",
+   "expected": "src.DiagnosticValue.php.GuzzleHttp.Psr7.DiagnosticValue.escape",
+   "outcome": "missing",
+   "predicted": {}
+  },
+  "psr7-22": {
+   "callee": "isRelativePathReference",
+   "caller": "src.UriResolver.php.GuzzleHttp.Psr7.UriResolver.relativize",
+   "expected": "src.Uri.php.GuzzleHttp.Psr7.Uri.isRelativePathReference",
+   "outcome": "missing",
+   "predicted": {}
+  },
+  "psr7-23": {
+   "callee": "parseMessage",
+   "caller": "src.MessageParser.php.GuzzleHttp.Psr7.MessageParser.parseResponse",
+   "expected": "src.MessageParser.php.GuzzleHttp.Psr7.MessageParser.parseMessage",
+   "outcome": "correct",
+   "predicted": {
+    "src.MessageParser.php.GuzzleHttp.Psr7.MessageParser.parseMessage": 0.9
+   }
+  },
+  "psr7-24": {
+   "callee": "isset",
+   "caller": "src.Uri.php.GuzzleHttp.Psr7.Uri.isRelativePathReference",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "psr7-25": {
+   "callee": "tryCanonicalizeIpv6",
+   "caller": "src.Uri.php.GuzzleHttp.Psr7.Uri.filterHost",
+   "expected": "src.Rfc3986.php.GuzzleHttp.Psr7.Rfc3986.tryCanonicalizeIpv6",
+   "outcome": "missing",
+   "predicted": {}
+  },
+  "psr7-26": {
+   "callee": "read",
+   "caller": "src.Utils.php.GuzzleHttp.Psr7.Utils.copyToStream",
+   "expected": "src.StreamTimeout.php.GuzzleHttp.Psr7.StreamTimeout.read",
+   "outcome": "missing",
+   "predicted": {}
+  },
+  "psr7-27": {
+   "callee": "rawurldecode",
+   "caller": "src.Uri.php.GuzzleHttp.Psr7.Uri.getFilteredQueryString",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "psr7-28": {
+   "callee": "assertProtocolVersion",
+   "caller": "src.Request.php.GuzzleHttp.Psr7.Request.__construct",
+   "expected": "src.MessageTrait.php.GuzzleHttp.Psr7.MessageTrait.assertProtocolVersion",
+   "outcome": "missing",
+   "predicted": {}
+  },
+  "psr7-29": {
+   "callee": "array_keys",
+   "caller": "src.Uri.php.GuzzleHttp.Psr7.Uri.withQueryValues",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "psr7-30": {
+   "callee": "is_string",
+   "caller": "src.ServerRequestGlobalsFactory.php.GuzzleHttp.Psr7.ServerRequestGlobalsFactory.getHeadersFromServer",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "psr7-31": {
+   "callee": "\\is_string",
+   "caller": "src.Header.php.GuzzleHttp.Psr7.Header.splitList",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "psr7-32": {
+   "callee": "getAuthority",
+   "caller": "src.UriResolver.php.GuzzleHttp.Psr7.UriResolver.guardedPath",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "psr7-33": {
+   "callee": "fseek",
+   "caller": "src.Utils.php.GuzzleHttp.Psr7.Utils.streamFor",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "psr7-34": {
+   "callee": "method_exists",
+   "caller": "src.Utils.php.GuzzleHttp.Psr7.Utils.streamFor",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "psr7-35": {
+   "callee": "assertValidModifyRequestChange",
+   "caller": "src.Utils.php.GuzzleHttp.Psr7.Utils.assertValidModifyRequestChanges",
+   "expected": "src.Utils.php.GuzzleHttp.Psr7.Utils.assertValidModifyRequestChange",
+   "outcome": "correct",
+   "predicted": {
+    "src.Utils.php.GuzzleHttp.Psr7.Utils.assertValidModifyRequestChange": 0.9
+   }
+  },
+  "psr7-36": {
+   "callee": "\\sprintf",
+   "caller": "src.Uri.php.GuzzleHttp.Psr7.Uri.assertStringOrNullQueryValue",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "psr7-37": {
+   "callee": "escape",
+   "caller": "src.Utils.php.GuzzleHttp.Psr7.Utils.redactUriForMessage",
+   "expected": "src.DiagnosticValue.php.GuzzleHttp.Psr7.DiagnosticValue.escape",
+   "outcome": "missing",
+   "predicted": {}
+  },
+  "psr7-38": {
+   "callee": "str_contains",
+   "caller": "src.UriNormalizer.php.GuzzleHttp.Psr7.UriNormalizer.withNormalizedHost",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "psr7-39": {
+   "callee": "composeAuthority",
+   "caller": "src.MessageParser.php.GuzzleHttp.Psr7.MessageParser.parseConnectAuthorityFormRequestTarget",
+   "expected": "src.MessageParser.php.GuzzleHttp.Psr7.MessageParser.composeAuthority",
+   "outcome": "correct",
+   "predicted": {
+    "src.MessageParser.php.GuzzleHttp.Psr7.MessageParser.composeAuthority": 0.9
+   }
+  },
+  "rack-00": {
+   "callee": "nil?",
+   "caller": "lib.rack.utils.rb.Rack.Utils.get_byte_ranges",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "rack-01": {
+   "callee": "key?",
+   "caller": "lib.rack.etag.rb.Rack.ETag.skip_caching?",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "rack-02": {
+   "callee": "require_relative",
+   "caller": "file:lib/rack/lint.rb",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "rack-03": {
+   "callee": "length",
+   "caller": "lib.rack.headers.rb.Rack.Headers.[]",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "rack-04": {
+   "callee": "require_relative",
+   "caller": "file:lib/rack/mock_request.rb",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "rack-05": {
+   "callee": "raise",
+   "caller": "lib.rack.query_parser.rb.Rack.QueryParser",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "rack-06": {
+   "callee": "authority",
+   "caller": "lib.rack.request.rb.Rack.Request.Helpers.hostname",
+   "expected": "lib.rack.request.rb.Rack.Request.Helpers.authority",
+   "outcome": "correct",
+   "predicted": {
+    "lib.rack.request.rb.Rack.Request.Helpers.authority": 0.9
+   }
+  },
+  "rack-07": {
+   "callee": "inspect",
+   "caller": "lib.rack.utils.rb.Rack.Utils.set_cookie_header",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "rack-08": {
+   "callee": "params_hash_type?",
+   "caller": "lib.rack.query_parser.rb.Rack.QueryParser.params_hash_has_key?",
+   "expected": "lib.rack.query_parser.rb.Rack.QueryParser.params_hash_type?",
+   "outcome": "correct",
+   "predicted": {
+    "lib.rack.query_parser.rb.Rack.QueryParser.params_hash_type?": 0.9
+   }
+  },
+  "rack-09": {
+   "callee": "empty?",
+   "caller": "lib.rack.media_type.rb.Rack.MediaType.type",
+   "expected": "",
+   "outcome": "wrong",
+   "predicted": {
+    "lib.rack.mock_response.rb.Rack.MockResponse.empty?": 0.35,
+    "lib.rack.response.rb.Rack.Response.empty?": 0.35
+   }
+  },
+  "rack-10": {
+   "callee": "end_with?",
+   "caller": "lib.rack.multipart.parser.rb.Rack.Multipart.Parser.tag_multipart_encoding",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "rack-11": {
+   "callee": "require_relative",
+   "caller": "file:lib/rack/show_status.rb",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "rack-12": {
+   "callee": "to_s",
+   "caller": "lib.rack.request.rb.Rack.Request.Helpers.script_name=",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "rack-13": {
+   "callee": "min",
+   "caller": "lib.rack.show_exceptions.rb.Rack.ShowExceptions.pretty",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "rack-14": {
+   "callee": "private_constant",
+   "caller": "lib.rack.utils.rb.Rack.Utils",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "rack-15": {
+   "callee": "require_relative",
+   "caller": "file:lib/rack/method_override.rb",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "rack-16": {
+   "callee": "has_key?",
+   "caller": "lib.rack.request.rb.Rack.Request.Headers.has_key?",
+   "expected": "",
+   "outcome": "wrong",
+   "predicted": {
+    "lib.rack.request.rb.Rack.Request.Headers.has_key?": 0.9
+   }
+  },
+  "rack-17": {
+   "callee": "each",
+   "caller": "lib.rack.sendfile.rb.Rack.Sendfile.map_accel_path",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "rack-18": {
+   "callee": "map",
+   "caller": "lib.rack.sendfile.rb.Rack.Sendfile.map_accel_path",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "rack-19": {
+   "callee": "split",
+   "caller": "lib.rack.sendfile.rb.Rack.Sendfile.map_accel_path",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "rack-20": {
+   "callee": "set_header",
+   "caller": "lib.rack.request.rb.Rack.Request.Helpers.form_pairs",
+   "expected": "lib.rack.request.rb.Rack.Request.Env.set_header",
+   "outcome": "wrong",
+   "predicted": {
+    "lib.rack.response.rb.Rack.Response.set_header": 0.6
+   }
+  },
+  "rack-21": {
+   "callee": "b",
+   "caller": "lib.rack.mock_request.rb.Rack.MockRequest.env_for",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "rack-22": {
+   "callee": "env",
+   "caller": "lib.rack.multipart.rb.Rack.Multipart.extract_multipart",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "rack-23": {
+   "callee": "cause",
+   "caller": "lib.rack.request.rb.Rack.Request.Helpers.POST",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "rack-24": {
+   "callee": "normalize_filename",
+   "caller": "lib.rack.multipart.parser.rb.Rack.Multipart.Parser.handle_mime_head",
+   "expected": "lib.rack.multipart.parser.rb.Rack.Multipart.Parser.normalize_filename",
+   "outcome": "correct",
+   "predicted": {
+    "lib.rack.multipart.parser.rb.Rack.Multipart.Parser.normalize_filename": 0.9
+   }
+  },
+  "rack-25": {
+   "callee": "map",
+   "caller": "lib.rack.utils.rb.Rack.Utils.q_values",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "rack-26": {
+   "callee": "split",
+   "caller": "lib.rack.utils.rb.Rack.Utils.q_values",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "rack-27": {
+   "callee": "get_header",
+   "caller": "lib.rack.response.rb.Rack.Response.Helpers.content_type",
+   "expected": "",
+   "outcome": "wrong",
+   "predicted": {
+    "lib.rack.response.rb.Rack.Response.get_header": 0.9
+   }
+  },
+  "rack-28": {
+   "callee": "forwarded_priority",
+   "caller": "lib.rack.request.rb.Rack.Request.Helpers.forwarded_priority",
+   "expected": "lib.rack.request.rb.Rack.Request.forwarded_priority",
+   "outcome": "wrong",
+   "predicted": {
+    "lib.rack.request.rb.Rack.Request.Helpers.forwarded_priority": 0.9
+   }
+  },
+  "rack-29": {
+   "callee": "empty?",
+   "caller": "lib.rack.utils.rb.Rack.Utils.clean_path_info",
+   "expected": "",
+   "outcome": "wrong",
+   "predicted": {
+    "lib.rack.mock_response.rb.Rack.MockResponse.empty?": 0.35,
+    "lib.rack.response.rb.Rack.Response.empty?": 0.35
+   }
+  },
+  "rack-30": {
+   "callee": "include",
+   "caller": "lib.rack.response.rb.Rack.Response.Raw",
+   "expected": "",
+   "outcome": "wrong",
+   "predicted": {
+    "lib.rack.recursive.rb.Rack.Recursive.include": 0.6
+   }
+  },
+  "rack-31": {
+   "callee": "require_relative",
+   "caller": "file:lib/rack/urlmap.rb",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "rack-32": {
+   "callee": "_normalize_params",
+   "caller": "lib.rack.query_parser.rb.Rack.QueryParser.normalize_params",
+   "expected": "lib.rack.query_parser.rb.Rack.QueryParser._normalize_params",
+   "outcome": "missing",
+   "predicted": {}
+  },
+  "rack-33": {
+   "callee": "q_values",
+   "caller": "lib.rack.utils.rb.Rack.Utils.best_q_match",
+   "expected": "lib.rack.utils.rb.Rack.Utils.q_values",
+   "outcome": "correct",
+   "predicted": {
+    "lib.rack.utils.rb.Rack.Utils.q_values": 0.9
+   }
+  },
+  "rack-34": {
+   "callee": "%w(\n      Accept-CH\n      Accept-Patch\n      Accept-Ranges\n      Access-Control-",
+   "caller": "lib.rack.headers.rb.Rack.Headers",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "rack-35": {
+   "callee": "raise",
+   "caller": "lib.rack.request.rb.Rack.Request.Helpers.POST",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "rack-36": {
+   "callee": "to_params_hash",
+   "caller": "lib.rack.request.rb.Rack.Request.Helpers.expand_param_pairs",
+   "expected": "",
+   "outcome": "wrong",
+   "predicted": {
+    "lib.rack.multipart.rb.Rack.Multipart.ParamList.to_params_hash": 0.6
+   }
+  },
+  "rack-37": {
+   "callee": "select!",
+   "caller": "lib.rack.headers.rb.Rack.Headers.select",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "rack-38": {
+   "callee": "new",
+   "caller": "lib.rack.lint.rb.Rack.Lint.Wrapper.check_environment",
+   "expected": "lib.rack.lint.rb.Rack.Lint.Wrapper.ResponseFinishedWrapper",
+   "outcome": "missing",
+   "predicted": {}
+  },
+  "rack-39": {
+   "callee": "join",
+   "caller": "lib.rack.directory.rb.Rack.Directory.check_forbidden",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "semver-00": {
+   "callee": "is_null",
+   "caller": "src.identifier.rs.Identifier.clone",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "semver-01": {
+   "callee": "enumerate",
+   "caller": "src.display.rs.VersionReq.fmt",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "semver-02": {
+   "callee": "iter",
+   "caller": "src.display.rs.VersionReq.fmt",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "semver-03": {
+   "callee": "decode_len_cold",
+   "caller": "src.identifier.rs.decode_len",
+   "expected": "src.identifier.rs.decode_len.decode_len_cold",
+   "outcome": "correct",
+   "predicted": {
+    "src.identifier.rs.decode_len.decode_len_cold": 0.9
+   }
+  },
+  "semver-04": {
+   "callee": "Err",
+   "caller": "src.parse.rs.Version.from_str",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "semver-05": {
+   "callee": "write",
+   "caller": "src.parse.rs.version_req",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "semver-06": {
+   "callee": "add",
+   "caller": "src.parse.rs.version_req",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "semver-07": {
+   "callee": "as_mut_ptr",
+   "caller": "src.parse.rs.version_req",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "semver-08": {
+   "callee": "len",
+   "caller": "src.display.rs.Version.fmt",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "semver-09": {
+   "callee": "rotate_right",
+   "caller": "src.identifier.rs.ptr_to_repr",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "semver-10": {
+   "callee": "do_display",
+   "caller": "src.display.rs.pad",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "semver-11": {
+   "callee": "size_of",
+   "caller": "src.identifier.rs.Identifier.new_unchecked",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "semver-12": {
+   "callee": "matches_caret",
+   "caller": "src.eval.rs.matches_impl",
+   "expected": "src.eval.rs.matches_caret",
+   "outcome": "correct",
+   "predicted": {
+    "src.eval.rs.matches_caret": 0.9
+   }
+  },
+  "semver-13": {
+   "callee": "alloc",
+   "caller": "src.identifier.rs.Identifier.new_unchecked",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "semver-14": {
+   "callee": "next",
+   "caller": "src.impls.rs.Prerelease.cmp",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "semver-15": {
+   "callee": "hash",
+   "caller": "src.impls.rs.Identifier.hash",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "semver-16": {
+   "callee": "as_str",
+   "caller": "src.impls.rs.Identifier.hash",
+   "expected": "src.identifier.rs.Identifier.as_str",
+   "outcome": "correct",
+   "predicted": {
+    "src.identifier.rs.Identifier.as_str": 0.35,
+    "src.lib.rs.Prerelease.as_str": 0.35
+   }
+  },
+  "semver-17": {
+   "callee": "wildcard",
+   "caller": "src.parse.rs.comparator",
+   "expected": "src.parse.rs.wildcard",
+   "outcome": "correct",
+   "predicted": {
+    "src.parse.rs.wildcard": 0.9
+   }
+  },
+  "semver-18": {
+   "callee": "trim_start_matches",
+   "caller": "src.impls.rs.BuildMetadata.cmp",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "semver-19": {
+   "callee": "inline_len",
+   "caller": "src.identifier.rs.inline_as_str",
+   "expected": "src.identifier.rs.inline_len",
+   "outcome": "correct",
+   "predicted": {
+    "src.identifier.rs.inline_len": 0.9
+   }
+  },
+  "semver-20": {
+   "callee": "pre_is_compatible",
+   "caller": "src.eval.rs.matches_req",
+   "expected": "src.eval.rs.pre_is_compatible",
+   "outcome": "correct",
+   "predicted": {
+    "src.eval.rs.pre_is_compatible": 0.9
+   }
+  },
+  "semver-21": {
+   "callee": "Err",
+   "caller": "src.parse.rs.identifier",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "semver-22": {
+   "callee": "fill",
+   "caller": "src.display.rs.pad",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "semver-23": {
+   "callee": "new",
+   "caller": "src.parse.rs.comparator",
+   "expected": "src.parse.rs.Error.new",
+   "outcome": "correct",
+   "predicted": {
+    "src.parse.rs.Error.new": 0.9
+   }
+  },
+  "semver-24": {
+   "callee": "is_empty",
+   "caller": "src.parse.rs.comparator",
+   "expected": "src.lib.rs.Prerelease.is_empty",
+   "outcome": "wrong",
+   "predicted": {
+    "src.lib.rs.BuildMetadata.is_empty": 0.9
+   }
+  },
+  "semver-25": {
+   "callee": "strip_prefix",
+   "caller": "src.parse.rs.comparator",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "semver-26": {
+   "callee": "EmptySegment",
+   "caller": "src.parse.rs.Version.from_str",
+   "expected": "src.error.rs.ErrorKind.EmptySegment",
+   "outcome": "correct",
+   "predicted": {
+    "src.error.rs.ErrorKind.EmptySegment": 0.95
+   }
+  },
+  "semver-27": {
+   "callee": "Some",
+   "caller": "src.parse.rs.identifier",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "semver-28": {
+   "callee": "is_empty",
+   "caller": "src.eval.rs.pre_is_compatible",
+   "expected": "src.lib.rs.Prerelease.is_empty",
+   "outcome": "correct",
+   "predicted": {
+    "src.lib.rs.Prerelease.is_empty": 0.9
+   }
+  },
+  "semver-29": {
+   "callee": "new",
+   "caller": "src.parse.rs.VersionReq.from_str",
+   "expected": "src.parse.rs.Error.new",
+   "outcome": "correct",
+   "predicted": {
+    "src.parse.rs.Error.new": 0.9
+   }
+  },
+  "semver-30": {
+   "callee": "Err",
+   "caller": "src.parse.rs.version_req",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "semver-31": {
+   "callee": "new",
+   "caller": "src.parse.rs.numeric_identifier",
+   "expected": "src.parse.rs.Error.new",
+   "outcome": "correct",
+   "predicted": {
+    "src.parse.rs.Error.new": 0.9
+   }
+  },
+  "semver-32": {
+   "callee": "then_with",
+   "caller": "src.impls.rs.Prerelease.cmp",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "semver-33": {
+   "callee": "cmp",
+   "caller": "src.impls.rs.Prerelease.cmp",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "semver-34": {
+   "callee": "is_empty",
+   "caller": "src.parse.rs.version_req",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "semver-35": {
+   "callee": "is_some",
+   "caller": "src.parse.rs.comparator",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "semver-36": {
+   "callee": "transmute",
+   "caller": "src.identifier.rs.Identifier.new_unchecked",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "semver-37": {
+   "callee": "EmptySegment",
+   "caller": "src.parse.rs.Version.from_str",
+   "expected": "src.error.rs.ErrorKind.EmptySegment",
+   "outcome": "correct",
+   "predicted": {
+    "src.error.rs.ErrorKind.EmptySegment": 0.95
+   }
+  },
+  "semver-38": {
+   "callee": "is_none",
+   "caller": "src.impls.rs.BuildMetadata.cmp",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  },
+  "semver-39": {
+   "callee": "next",
+   "caller": "src.impls.rs.BuildMetadata.cmp",
+   "expected": "",
+   "outcome": "abstained",
+   "predicted": {}
+  }
+ }
+}

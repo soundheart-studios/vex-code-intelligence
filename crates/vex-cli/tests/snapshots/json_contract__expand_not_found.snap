@@ -1,0 +1,6 @@
+---
+source: crates/vex-cli/tests/json_contract.rs
+expression: "e.json(& [\"expand\", \"nosuch\"])"
+---
+exit: 1
+{"schema":1,"error":"not_found","message":"'nosuch' is neither a known symbol nor a chunk id. Try search() first."}

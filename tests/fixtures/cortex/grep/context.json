@@ -1,0 +1,39 @@
+{
+  "args": {
+    "context_lines": 2,
+    "pattern": "class BadTimeSignature"
+  },
+  "response": {
+    "engine": "python",
+    "hits": [
+      {
+        "file": "src/itsdangerous/exc.py",
+        "line": "34",
+        "text": ""
+      },
+      {
+        "file": "src/itsdangerous/exc.py",
+        "line": "35",
+        "text": ""
+      },
+      {
+        "file": "src/itsdangerous/exc.py",
+        "line": "36",
+        "text": "class BadTimeSignature(BadSignature):"
+      },
+      {
+        "file": "src/itsdangerous/exc.py",
+        "line": "37",
+        "text": "    \"\"\"Raised if a time-based signature is invalid. This is a subclass"
+      },
+      {
+        "file": "src/itsdangerous/exc.py",
+        "line": "38",
+        "text": "    of :class:`BadSignature`."
+      }
+    ],
+    "matches": 5,
+    "pattern": "class BadTimeSignature"
+  },
+  "tool": "grep"
+}

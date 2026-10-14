@@ -1,0 +1,7 @@
+{
+  "args": {
+    "symbol": "no_such_symbol"
+  },
+  "response": "CORTEX ERROR (not_found): Symbol 'no_such_symbol' not found.",
+  "tool": "impact"
+}

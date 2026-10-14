@@ -1,0 +1,6 @@
+---
+source: crates/vex-cli/tests/json_contract.rs
+expression: "format!(\"exit: {}\\n{}\", out.status.code().unwrap_or(-1), stdout.trim_end())"
+---
+exit: 4
+{"schema":1,"error":"no_home","message":"neither VEX_HOME nor HOME is set"}

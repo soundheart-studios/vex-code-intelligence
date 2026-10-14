@@ -1,0 +1,17 @@
+# Build output. Never tracked: one tracked artefact conflicts on every branch.
+/target
+
+# Golden data is a symlink into ~/Documents/cortex-corpora and is never
+# committed. Only the pin and the gate's reviewed files are tracked.
+/golden/*
+!/golden/REVISION
+!/golden/ported.json
+!/golden/baseline.json
+!/golden/regression-review.json
+
+# Local agent tooling and Planwright state: machine-specific paths and databases.
+/.agents/
+/.claude/
+/.codex/
+/.mcp.json
+/.planwright/

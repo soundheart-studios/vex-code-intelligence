@@ -1,0 +1,6 @@
+---
+source: crates/vex-cli/tests/json_contract.rs
+expression: "e.json(& [\"changes\", \"--base\", \"nosuch\"])"
+---
+exit: 0
+{"schema":1,"summary":"no uncommitted changes detected (or not a git repo)","symbol_shapes":[],"constructs":[],"shape_abstention":"base 'nosuch' cannot be resolved, so there is nothing to compare against; shape is not guessed from one side"}

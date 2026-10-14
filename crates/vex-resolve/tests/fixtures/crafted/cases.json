@@ -1,0 +1,450 @@
+{
+ "go_typed_package_only": {
+  "bindings": [
+   [
+    "pkg/a.go",
+    "Other",
+    "./lib/other.go",
+    ""
+   ]
+  ],
+  "calls": [
+   [
+    "pkg/a.go",
+    "pkg.a.go.run",
+    "(type:Other).Do",
+    1
+   ]
+  ],
+  "edges": [],
+  "files": [
+   "pkg/a.go",
+   "pkg/lib/other.go"
+  ],
+  "symbols": [
+   [
+    "pkg.a.go.run",
+    "run",
+    "function",
+    "pkg/a.go",
+    0
+   ],
+   [
+    "pkg.lib.other.go.Other.Do",
+    "Do",
+    "method",
+    "pkg/lib/other.go",
+    0
+   ]
+  ]
+ },
+ "java_field_type_same_package": {
+  "calls": [
+   [
+    "a/A.java",
+    "a.A.java.A.run",
+    "(thisfield:f).go",
+    1
+   ]
+  ],
+  "edges": [
+   [
+    "a.A.java.A.run",
+    "a.Foo.java.Foo.go",
+    0.9,
+    "a/A.java",
+    "a/Foo.java"
+   ]
+  ],
+  "files": [
+   "a/A.java",
+   "a/Foo.java",
+   "b/A.java"
+  ],
+  "members": [
+   [
+    "a/A.java",
+    "A",
+    "f",
+    "Foo"
+   ],
+   [
+    "b/A.java",
+    "A",
+    "f",
+    "Bar"
+   ]
+  ],
+  "symbols": [
+   [
+    "a.A.java.A",
+    "A",
+    "class",
+    "a/A.java",
+    0
+   ],
+   [
+    "a.A.java.A.run",
+    "run",
+    "method",
+    "a/A.java",
+    0
+   ],
+   [
+    "a.Foo.java.Foo",
+    "Foo",
+    "class",
+    "a/Foo.java",
+    0
+   ],
+   [
+    "a.Foo.java.Foo.go",
+    "go",
+    "method",
+    "a/Foo.java",
+    0
+   ]
+  ]
+ },
+ "java_implicit_this": {
+  "calls": [
+   [
+    "p/A.java",
+    "p.A.java.A.run",
+    "helper",
+    1
+   ]
+  ],
+  "edges": [
+   [
+    "p.A.java.A.run",
+    "p.A.java.A.helper",
+    0.9,
+    "p/A.java",
+    "p/A.java"
+   ]
+  ],
+  "files": [
+   "p/A.java"
+  ],
+  "symbols": [
+   [
+    "p.A.java.A",
+    "A",
+    "class",
+    "p/A.java",
+    0
+   ],
+   [
+    "p.A.java.A.helper",
+    "helper",
+    "method",
+    "p/A.java",
+    0
+   ],
+   [
+    "p.A.java.A.run",
+    "run",
+    "method",
+    "p/A.java",
+    0
+   ]
+  ]
+ },
+ "java_same_package_class": {
+  "calls": [
+   [
+    "p/A.java",
+    "p.A.java.A.run",
+    "Util.of",
+    1
+   ],
+   [
+    "p/A.java",
+    "p.A.java.A.run",
+    "x.go",
+    1
+   ]
+  ],
+  "edges": [
+   [
+    "p.A.java.A.run",
+    "p.Util.java.Util.of",
+    0.9,
+    "p/A.java",
+    "p/Util.java"
+   ]
+  ],
+  "files": [
+   "p/A.java",
+   "p/Util.java",
+   "p/x.java"
+  ],
+  "symbols": [
+   [
+    "p.A.java.A",
+    "A",
+    "class",
+    "p/A.java",
+    0
+   ],
+   [
+    "p.A.java.A.run",
+    "run",
+    "method",
+    "p/A.java",
+    0
+   ],
+   [
+    "p.Util.java.Util",
+    "Util",
+    "class",
+    "p/Util.java",
+    0
+   ],
+   [
+    "p.Util.java.Util.of",
+    "of",
+    "method",
+    "p/Util.java",
+    0
+   ],
+   [
+    "p.x.java.x",
+    "x",
+    "class",
+    "p/x.java",
+    0
+   ],
+   [
+    "p.x.java.x.go",
+    "go",
+    "method",
+    "p/x.java",
+    0
+   ]
+  ]
+ },
+ "python_no_implicit_self": {
+  "calls": [
+   [
+    "a.py",
+    "a.py.K.run",
+    "helper",
+    1
+   ]
+  ],
+  "edges": [
+   [
+    "a.py.K.run",
+    "a.py.helper",
+    0.9,
+    "a.py",
+    "a.py"
+   ]
+  ],
+  "files": [
+   "a.py"
+  ],
+  "symbols": [
+   [
+    "a.py.K",
+    "K",
+    "class",
+    "a.py",
+    0
+   ],
+   [
+    "a.py.K.helper",
+    "helper",
+    "function",
+    "a.py",
+    0
+   ],
+   [
+    "a.py.K.run",
+    "run",
+    "function",
+    "a.py",
+    0
+   ],
+   [
+    "a.py.helper",
+    "helper",
+    "function",
+    "a.py",
+    0
+   ]
+  ]
+ },
+ "python_super_external_base": {
+  "calls": [
+   [
+    "m.py",
+    "m.py.C.save",
+    "(super).save",
+    1
+   ]
+  ],
+  "edges": [],
+  "files": [
+   "m.py"
+  ],
+  "members": [
+   [
+    "m.py",
+    "C",
+    "(base)0",
+    "external.Base"
+   ],
+   [
+    "m.py",
+    "C",
+    "(base)1",
+    "A"
+   ]
+  ],
+  "symbols": [
+   [
+    "m.py.A",
+    "A",
+    "class",
+    "m.py",
+    0
+   ],
+   [
+    "m.py.A.save",
+    "save",
+    "function",
+    "m.py",
+    0
+   ],
+   [
+    "m.py.C",
+    "C",
+    "class",
+    "m.py",
+    0
+   ],
+   [
+    "m.py.C.save",
+    "save",
+    "function",
+    "m.py",
+    0
+   ]
+  ]
+ },
+ "python_super_two_levels": {
+  "calls": [
+   [
+    "m.py",
+    "m.py.C.save",
+    "(super).save",
+    1
+   ]
+  ],
+  "edges": [
+   [
+    "m.py.C.save",
+    "m.py.A.save",
+    0.9,
+    "m.py",
+    "m.py"
+   ]
+  ],
+  "files": [
+   "m.py"
+  ],
+  "members": [
+   [
+    "m.py",
+    "B",
+    "(base)0",
+    "A"
+   ],
+   [
+    "m.py",
+    "C",
+    "(base)0",
+    "B"
+   ]
+  ],
+  "symbols": [
+   [
+    "m.py.A",
+    "A",
+    "class",
+    "m.py",
+    0
+   ],
+   [
+    "m.py.A.save",
+    "save",
+    "function",
+    "m.py",
+    0
+   ],
+   [
+    "m.py.B",
+    "B",
+    "class",
+    "m.py",
+    0
+   ],
+   [
+    "m.py.C",
+    "C",
+    "class",
+    "m.py",
+    0
+   ],
+   [
+    "m.py.C.save",
+    "save",
+    "function",
+    "m.py",
+    0
+   ]
+  ]
+ },
+ "rust_typed_crate_wide": {
+  "calls": [
+   [
+    "src/a.rs",
+    "src.a.rs.run",
+    "(type:Thing).go",
+    1
+   ]
+  ],
+  "edges": [
+   [
+    "src.a.rs.run",
+    "src.b.rs.Thing.go",
+    0.9,
+    "src/a.rs",
+    "src/b.rs"
+   ]
+  ],
+  "files": [
+   "src/a.rs",
+   "src/b.rs"
+  ],
+  "symbols": [
+   [
+    "src.a.rs.run",
+    "run",
+    "function",
+    "src/a.rs",
+    0
+   ],
+   [
+    "src.b.rs.Thing.go",
+    "go",
+    "function",
+    "src/b.rs",
+    0
+   ]
+  ]
+ }
+}

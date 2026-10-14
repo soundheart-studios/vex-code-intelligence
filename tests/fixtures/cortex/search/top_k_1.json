@@ -1,0 +1,27 @@
+{
+  "args": {
+    "query": "base64 decode",
+    "top_k": 1
+  },
+  "response": {
+    "ranking": {
+      "exact_symbol": "no symbol is named exactly that, but the name appears inside indexed symbols -- 'base64' is part of test_base64, base64_decode, base64_encode; 'decode' is part of base64_decode",
+      "gap_note": "only one result: nothing to compare the top hit against, so decisiveness is unmeasured",
+      "score": "relative to the best hit in THIS response; 1.0 is the top result, not a confidence",
+      "top_gap": null
+    },
+    "results": [
+      {
+        "content": "def base64_decode(string: str | bytes) -> bytes:\n    \"\"\"Base64 decode a URL-safe string of bytes or text. The result is\n    bytes.\n    \"\"\"\n    string = want_bytes(string, encoding=\"ascii\", errors=\"ignore\")\n    string += b\"=\" * (-len(string) % 4)\n\n    try:\n        return base64.urlsafe_b64decode(string)\n    except (TypeError, ValueError) as e:\n        raise BadData(\"Invalid base64-encoded data\") from e",
+        "file": "src/itsdangerous/encoding.py",
+        "lines": "28-38",
+        "matched_by": [
+          "semantic",
+          "full_text"
+        ],
+        "score": 1.0
+      }
+    ]
+  },
+  "tool": "search"
+}

@@ -1,0 +1,121 @@
+{
+  "args": {
+    "symbol": "want_bytes"
+  },
+  "response": [
+    {
+      "file": "src/itsdangerous/encoding.py",
+      "incoming": [
+        [
+          "file:tests/test_itsdangerous/test_encoding.py",
+          "REFS",
+          0.5,
+          "tests/test_itsdangerous/test_encoding.py"
+        ],
+        [
+          "file:src/itsdangerous/serializer.py",
+          "REFS",
+          1.0,
+          "src/itsdangerous/serializer.py"
+        ],
+        [
+          "file:src/itsdangerous/signer.py",
+          "REFS",
+          1.0,
+          "src/itsdangerous/signer.py"
+        ],
+        [
+          "file:src/itsdangerous/timed.py",
+          "REFS",
+          1.0,
+          "src/itsdangerous/timed.py"
+        ],
+        [
+          "tests.test_itsdangerous.test_encoding.py.test_base64",
+          "CALLS",
+          0.95,
+          "tests/test_itsdangerous/test_encoding.py"
+        ],
+        [
+          "tests.test_itsdangerous.test_encoding.py.test_want_bytes",
+          "CALLS",
+          0.95,
+          "tests/test_itsdangerous/test_encoding.py"
+        ],
+        [
+          "src.itsdangerous.encoding.py.base64_decode",
+          "CALLS",
+          0.9,
+          "src/itsdangerous/encoding.py"
+        ],
+        [
+          "src.itsdangerous.encoding.py.base64_encode",
+          "CALLS",
+          0.9,
+          "src/itsdangerous/encoding.py"
+        ]
+      ],
+      "kind": "function",
+      "lines": "11-17",
+      "outgoing": [
+        [
+          "module:.exc",
+          "IMPORTS",
+          0.9,
+          ""
+        ],
+        [
+          "module:base64",
+          "IMPORTS",
+          0.9,
+          ""
+        ],
+        [
+          "module:string",
+          "IMPORTS",
+          0.9,
+          ""
+        ],
+        [
+          "module:struct",
+          "IMPORTS",
+          0.9,
+          ""
+        ],
+        [
+          "module:typing",
+          "IMPORTS",
+          0.9,
+          ""
+        ],
+        [
+          "src.itsdangerous.exc.py.BadData",
+          "REFS",
+          0.25,
+          "src/itsdangerous/exc.py"
+        ]
+      ],
+      "recovery": {
+        "detail": {
+          "below_confidence_floor": 14,
+          "floor": 0.7,
+          "meaning": "below the floor an edge is a name match with no receiver type; over the cap it is a real edge that did not fit, strongest kept",
+          "over_edge_cap": 0
+        },
+        "hint": "14 item(s) withheld at limit 25. Retrieve them with: impact(symbol='src.itsdangerous.encoding.py.want_bytes', direction='both', depth=1) -- this is reachable through Cortex; no file read needed.",
+        "limit": 25,
+        "next": [
+          "impact(symbol='src.itsdangerous.encoding.py.want_bytes', direction='both', depth=1)",
+          "context(symbol='src.itsdangerous.encoding.py.want_bytes', confidence_min=0.0)"
+        ],
+        "reason": "context_edges_withheld",
+        "withheld": 14
+      },
+      "snippets": [
+        "def want_bytes(\n    s: str | bytes, encoding: str = \"utf-8\", errors: str = \"strict\"\n) -> bytes:\n    if isinstance(s, str):\n        s = s.encode(encoding, errors)\n\n    return s"
+      ],
+      "symbol": "src.itsdangerous.encoding.py.want_bytes"
+    }
+  ],
+  "tool": "context"
+}

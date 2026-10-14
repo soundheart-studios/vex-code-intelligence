@@ -1,0 +1,6 @@
+---
+source: crates/vex-cli/tests/json_contract.rs
+expression: "e.json(& [\"impact\", \"leaf\"])"
+---
+exit: 0
+{"schema":1,"target":"graphpkg.hub.py.leaf","direction":"upstream","depth_1_will_break":[{"symbol":"graphpkg.hub.py.mid","depth":1,"edge":"CALLS","confidence":0.9}],"transitive":[{"symbol":"graphpkg.hub.py.top","depth":2,"edge":"CALLS","confidence":0.81},{"symbol":"file:graphpkg/callers.py","depth":3,"edge":"REFS","confidence":0.2},{"symbol":"graphpkg.callers.py.over_top","depth":3,"edge":"CALLS","confidence":0.77}],"confidence_key":"0.95 import-bound, 0.9 same-file, 0.7 class-method, <=0.6 name-match only — verify low-confidence hits"}

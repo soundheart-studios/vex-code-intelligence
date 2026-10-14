@@ -1,0 +1,311 @@
+[
+ {
+  "name": "list_projects",
+  "description": "List every registered project (id, name, root). Call this first when unsure which project to target; other tools take project=<id, name or path>.",
+  "inputSchema": {
+   "properties": {},
+   "title": "list_projectsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "search",
+  "description": "Ranked search over the indexed codebase.\nUse INSTEAD of reading whole files when looking for where something is implemented or how it works. Query in the vocabulary the code uses, not the vocabulary of the question: \"verify session token\" finds what \"is this endpoint protected\" misses. Start with the five-result default and only request more when a concrete evidence gap remains. project: registered id, name or path (optional; defaults to the project vex was started in).\n\nPass a LIST of related questions to get one source-free evidence bundle covering all of them, with a `fetch_targets` list to hand unchanged to a single expand call before searching again. max_bytes bounds that bundle and is ignored for a single query.\n\nselect is accepted for compatibility and ignored: vex chooses a LIST query's leads with its built-in rules (rules-v1), and the `selector` block in the response says so.\n\nmax_bytes caps the response for a caller working to a budget: results are dropped from the end, best kept, and the response says how many were withheld and how to ask for them. 0, the default, means no cap.\n\n`path` narrows the search to a subtree (\"packages/core\"), so intent can be anchored to where the answer must live instead of ranking the whole repository and discarding most of it.\n\nIf the index is behind the working tree the response carries a `freshness` block. Pass force_fresh=True right after edits to refresh the index before answering.",
+  "inputSchema": {
+   "properties": {
+    "query": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "items": {
+        "type": "string"
+       },
+       "type": "array"
+      }
+     ],
+     "title": "Query"
+    },
+    "top_k": {
+     "default": 5,
+     "title": "Top K",
+     "type": "integer"
+    },
+    "max_bytes": {
+     "default": 0,
+     "title": "Max Bytes",
+     "type": "integer"
+    },
+    "force_fresh": {
+     "default": false,
+     "title": "Force Fresh",
+     "type": "boolean"
+    },
+    "project": {
+     "default": "",
+     "title": "Project",
+     "type": "string"
+    },
+    "path": {
+     "default": "",
+     "title": "Path",
+     "type": "string"
+    },
+    "select": {
+     "default": "",
+     "title": "Select",
+     "type": "string"
+    }
+   },
+   "required": [
+    "query"
+   ],
+   "title": "searchArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "context",
+  "description": "360-degree view of a symbol: definition location, incoming edges (what depends on it), outgoing edges (what it depends on), and the symbol's own source. detail='signature' returns just the declaration, 'minimal' adds the doc comment, 'full' (default) returns the whole body.\ndetail='structure' returns the control skeleton instead of source -- each statement's line, its nesting depth, and the construct opening its enclosing block -- for deciding whether a check actually runs rather than merely appears. A language with no grammar abstains by name.\nconfidence_min hides edges resolved only by name match (<=0.6), which are guesses with no receiver type behind them; when any are hidden the response says how many and how to ask for them. Pass 0.0 to see them.",
+  "inputSchema": {
+   "properties": {
+    "symbol": {
+     "title": "Symbol",
+     "type": "string"
+    },
+    "detail": {
+     "default": "full",
+     "title": "Detail",
+     "type": "string"
+    },
+    "project": {
+     "default": "",
+     "title": "Project",
+     "type": "string"
+    },
+    "confidence_min": {
+     "default": 0.7,
+     "title": "Confidence Min",
+     "type": "number"
+    }
+   },
+   "required": [
+    "symbol"
+   ],
+   "title": "contextArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "impact",
+  "description": "Blast-radius analysis before modifying a symbol. direction='upstream' lists what depends on it (will break); 'downstream' lists what it uses; 'both' walks the neighbourhood around the given roots without returning source, for deciding which few symbols to expand. Depth 1 = direct, deeper = transitive. Accepts a list of symbols: 'both' treats them as one frontier, a direction reports on each. confidence_min applies to 'both'.",
+  "inputSchema": {
+   "properties": {
+    "symbol": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "items": {
+        "type": "string"
+       },
+       "type": "array"
+      }
+     ],
+     "title": "Symbol"
+    },
+    "direction": {
+     "default": "upstream",
+     "title": "Direction",
+     "type": "string"
+    },
+    "depth": {
+     "default": 3,
+     "title": "Depth",
+     "type": "integer"
+    },
+    "confidence_min": {
+     "default": 0.7,
+     "title": "Confidence Min",
+     "type": "number"
+    },
+    "project": {
+     "default": "",
+     "title": "Project",
+     "type": "string"
+    }
+   },
+   "required": [
+    "symbol"
+   ],
+   "title": "impactArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "map",
+  "description": "PageRank-ranked broad-orientation map, capped at 12 files and packed to a token budget. Do not call for a focused symbol, file, or behavior question. Pass focus=[\"auth\", \"api/\"] whenever the relevant area is known.",
+  "inputSchema": {
+   "properties": {
+    "budget_tokens": {
+     "default": 800,
+     "title": "Budget Tokens",
+     "type": "integer"
+    },
+    "focus": {
+     "anyOf": [
+      {
+       "items": {
+        "type": "string"
+       },
+       "type": "array"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Focus"
+    },
+    "project": {
+     "default": "",
+     "title": "Project",
+     "type": "string"
+    }
+   },
+   "title": "mapArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "expand",
+  "description": "Source code for a symbol (name or qualified name) or a chunk id from search results. Use after search/context/map when you need the implementation, INSTEAD of reading the whole file. detail='signature' returns just the declaration, 'minimal' adds the doc comment, 'full' (default) returns the whole body -- step down when you only need shape.\n\nPass a LIST (up to 12 targets, e.g. search's fetch_targets unchanged) to fetch them in one call and avoid repair-search round trips. If the byte budget omits targets the response carries a `recovery` pointer -- retry with detail='minimal' before splitting the batch.",
+  "inputSchema": {
+   "properties": {
+    "target": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "items": {
+        "type": "string"
+       },
+       "type": "array"
+      }
+     ],
+     "title": "Target"
+    },
+    "detail": {
+     "default": "full",
+     "title": "Detail",
+     "type": "string"
+    },
+    "max_bytes": {
+     "default": 32000,
+     "title": "Max Bytes",
+     "type": "integer"
+    },
+    "project": {
+     "default": "",
+     "title": "Project",
+     "type": "string"
+    }
+   },
+   "required": [
+    "target"
+   ],
+   "title": "expandArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "grep",
+  "description": "Exact text search over the indexed project (ripgrep semantics).\n\nSearch retrieves whole symbols, so text that is not inside a function or class -- top-level tables like `const std::vector<T> x = {...}`, flag strings, error messages, magic constants -- is not reachable through `search`. Use this when you know the literal characters you are looking for and `search` returned only the callers. `path` narrows to a subdirectory; `literal=True` disables regex metacharacters. Each hit names the symbol that contains it.",
+  "inputSchema": {
+   "properties": {
+    "pattern": {
+     "title": "Pattern",
+     "type": "string"
+    },
+    "path": {
+     "default": "",
+     "title": "Path",
+     "type": "string"
+    },
+    "literal": {
+     "default": false,
+     "title": "Literal",
+     "type": "boolean"
+    },
+    "max_results": {
+     "default": 40,
+     "title": "Max Results",
+     "type": "integer"
+    },
+    "context_lines": {
+     "default": 0,
+     "title": "Context Lines",
+     "type": "integer"
+    },
+    "project": {
+     "default": "",
+     "title": "Project",
+     "type": "string"
+    }
+   },
+   "required": [
+    "pattern"
+   ],
+   "title": "grepArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "detect_changes",
+  "description": "Pre-commit blast radius: maps uncommitted git changes to symbols and lists upstream callers that may break, with risk level. Call before committing multi-file or shared-code changes. base='' compares the working tree; pass a ref like 'main' to compare against a branch, which adds each changed symbol's shape and whether the change introduced each conditional.",
+  "inputSchema": {
+   "properties": {
+    "base": {
+     "default": "",
+     "title": "Base",
+     "type": "string"
+    },
+    "max_depth": {
+     "default": 2,
+     "title": "Max Depth",
+     "type": "integer"
+    },
+    "project": {
+     "default": "",
+     "title": "Project",
+     "type": "string"
+    }
+   },
+   "title": "detect_changesArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "reindex",
+  "description": "Refresh the index: only changed files are re-processed. force=True rebuilds everything.",
+  "inputSchema": {
+   "properties": {
+    "force": {
+     "default": false,
+     "title": "Force",
+     "type": "boolean"
+    },
+    "project": {
+     "default": "",
+     "title": "Project",
+     "type": "string"
+    }
+   },
+   "title": "reindexArguments",
+   "type": "object"
+  }
+ }
+]

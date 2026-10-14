@@ -1,0 +1,58 @@
+{
+  "args": {
+    "pattern": "def \\w+_signature"
+  },
+  "response": {
+    "engine": "python",
+    "hits": [
+      {
+        "file": "tests/test_itsdangerous/test_signer.py",
+        "line": "14",
+        "text": "    def get_signature(self, key, value):"
+      },
+      {
+        "file": "tests/test_itsdangerous/test_signer.py",
+        "line": "42",
+        "text": "    def test_broken_signature(self, signer):"
+      },
+      {
+        "file": "tests/test_itsdangerous/test_serializer.py",
+        "line": "71",
+        "text": "    def test_bad_signature_exception(self, serializer: Serializer, value: Any):"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "line": "20",
+        "text": "    def get_signature(self, key: bytes, value: bytes) -> bytes:"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "line": "24",
+        "text": "    def verify_signature(self, key: bytes, value: bytes, sig: bytes) -> bool:"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "line": "36",
+        "text": "    def get_signature(self, key: bytes, value: bytes) -> bytes:"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "line": "62",
+        "text": "    def get_signature(self, key: bytes, value: bytes) -> bytes:"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "line": "215",
+        "text": "    def get_signature(self, value: str | bytes) -> bytes:"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "line": "227",
+        "text": "    def verify_signature(self, value: str | bytes, sig: str | bytes) -> bool:"
+      }
+    ],
+    "matches": 9,
+    "pattern": "def \\w+_signature"
+  },
+  "tool": "grep"
+}

@@ -1,0 +1,87 @@
+name: release
+# Push a tag like v0.1.0 to build every target and publish a GitHub release.
+# Run it by hand (Actions > release > Run workflow) to build the archives
+# as workflow artifacts without publishing anything.
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: build (${{ matrix.target }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { target: aarch64-apple-darwin, os: macos-latest }
+          # Cross-built on Apple silicon; the x64 binary is not run here.
+          - { target: x86_64-apple-darwin, os: macos-latest, cross: true }
+          # 22.04 keeps the glibc floor low enough for older distributions.
+          - { target: x86_64-unknown-linux-gnu, os: ubuntu-22.04 }
+          - { target: aarch64-unknown-linux-gnu, os: ubuntu-22.04-arm }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: ${{ matrix.target }}
+
+      - name: Build
+        run: cargo build --release --locked -p vex-cli --target ${{ matrix.target }}
+
+      - name: Check ONNX Runtime is linked statically
+        shell: bash
+        run: |
+          bin=target/${{ matrix.target }}/release/vex
+          if [ "$RUNNER_OS" = macOS ]; then otool -L "$bin"; else ldd "$bin"; fi | tee libs.txt
+          if grep -qi onnxruntime libs.txt; then echo "::error::vex links ONNX Runtime dynamically"; exit 1; fi
+
+      - name: Smoke test
+        if: ${{ !matrix.cross }}
+        run: target/${{ matrix.target }}/release/vex --version
+
+      - name: Package
+        id: package
+        shell: bash
+        run: |
+          version="${GITHUB_REF_NAME}"
+          [ "$GITHUB_REF_TYPE" = tag ] || version="dev-${GITHUB_SHA::7}"
+          name="vex-${version}-${{ matrix.target }}"
+          mkdir -p "dist/$name"
+          cp target/${{ matrix.target }}/release/vex "dist/$name/"
+          cp -R README.md LICENSE COPYRIGHT THIRD_PARTY_LICENSES.md licenses "dist/$name/"
+          tar -C dist -czf "dist/$name.tar.gz" "$name"
+          (cd dist && shasum -a 256 "$name.tar.gz" > "$name.tar.gz.sha256")
+          echo "name=$name" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ steps.package.outputs.name }}
+          path: |
+            dist/*.tar.gz
+            dist/*.sha256
+          if-no-files-found: error
+
+  publish:
+    if: github.ref_type == 'tag'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          path: dist
+          merge-multiple: true
+      - name: Create the GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" dist/* \
+            --repo "$GITHUB_REPOSITORY" \
+            --title "vex $GITHUB_REF_NAME" \
+            --generate-notes

@@ -1,0 +1,12 @@
+{
+  "args": {
+    "target": "want_bytes"
+  },
+  "response": {
+    "file": "src/itsdangerous/encoding.py",
+    "lines": "11-17",
+    "source": "def want_bytes(\n    s: str | bytes, encoding: str = \"utf-8\", errors: str = \"strict\"\n) -> bytes:\n    if isinstance(s, str):\n        s = s.encode(encoding, errors)\n\n    return s",
+    "symbol": "src.itsdangerous.encoding.py.want_bytes"
+  },
+  "tool": "expand"
+}

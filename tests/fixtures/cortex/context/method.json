@@ -1,0 +1,139 @@
+{
+  "args": {
+    "symbol": "Signer.sign"
+  },
+  "response": [
+    {
+      "file": "src/itsdangerous/signer.py",
+      "incoming": [
+        [
+          "file:tests/test_itsdangerous/test_serializer.py",
+          "REFS",
+          0.25,
+          "tests/test_itsdangerous/test_serializer.py"
+        ],
+        [
+          "file:tests/test_itsdangerous/test_signer.py",
+          "REFS",
+          0.5,
+          "tests/test_itsdangerous/test_signer.py"
+        ],
+        [
+          "file:tests/test_itsdangerous/test_timed.py",
+          "REFS",
+          0.5,
+          "tests/test_itsdangerous/test_timed.py"
+        ],
+        [
+          "file:src/itsdangerous/serializer.py",
+          "REFS",
+          0.125,
+          "src/itsdangerous/serializer.py"
+        ],
+        [
+          "tests.test_itsdangerous.test_timed.py.TestTimestampSigner.test_malformed_timestamp",
+          "CALLS",
+          0.7,
+          "tests/test_itsdangerous/test_timed.py"
+        ],
+        [
+          "tests.test_itsdangerous.test_timed.py.TestTimestampSigner.test_timestamp_missing",
+          "CALLS",
+          0.7,
+          "tests/test_itsdangerous/test_timed.py"
+        ]
+      ],
+      "kind": "function",
+      "lines": "222-225",
+      "outgoing": [
+        [
+          "src.itsdangerous.signer.py.Signer.get_signature",
+          "CALLS",
+          0.9,
+          "src/itsdangerous/signer.py"
+        ],
+        [
+          "module:.encoding",
+          "IMPORTS",
+          0.9,
+          ""
+        ],
+        [
+          "module:.exc",
+          "IMPORTS",
+          0.9,
+          ""
+        ],
+        [
+          "module:collections.abc",
+          "IMPORTS",
+          0.9,
+          ""
+        ],
+        [
+          "module:hashlib",
+          "IMPORTS",
+          0.9,
+          ""
+        ],
+        [
+          "module:hmac",
+          "IMPORTS",
+          0.9,
+          ""
+        ],
+        [
+          "module:typing",
+          "IMPORTS",
+          0.9,
+          ""
+        ],
+        [
+          "src.itsdangerous.encoding.py.base64_decode",
+          "REFS",
+          0.25,
+          "src/itsdangerous/encoding.py"
+        ],
+        [
+          "src.itsdangerous.encoding.py.base64_encode",
+          "REFS",
+          0.25,
+          "src/itsdangerous/encoding.py"
+        ],
+        [
+          "src.itsdangerous.encoding.py.want_bytes",
+          "REFS",
+          1.0,
+          "src/itsdangerous/encoding.py"
+        ],
+        [
+          "src.itsdangerous.exc.py.BadSignature",
+          "REFS",
+          0.5,
+          "src/itsdangerous/exc.py"
+        ]
+      ],
+      "recovery": {
+        "detail": {
+          "below_confidence_floor": 1,
+          "floor": 0.7,
+          "meaning": "below the floor an edge is a name match with no receiver type; over the cap it is a real edge that did not fit, strongest kept",
+          "over_edge_cap": 0
+        },
+        "hint": "1 item(s) withheld at limit 25. Retrieve them with: impact(symbol='src.itsdangerous.signer.py.Signer.sign', direction='both', depth=1) -- this is reachable through Cortex; no file read needed.",
+        "limit": 25,
+        "next": [
+          "impact(symbol='src.itsdangerous.signer.py.Signer.sign', direction='both', depth=1)",
+          "context(symbol='src.itsdangerous.signer.py.Signer.sign', confidence_min=0.0)"
+        ],
+        "reason": "context_edges_withheld",
+        "withheld": 1
+      },
+      "snippets": [
+        "    def sign(self, value: str | bytes) -> bytes:\n        \"\"\"Signs the given string.\"\"\"\n        value = want_bytes(value)\n        return value + self.sep + self.get_signature(value)"
+      ],
+      "symbol": "src.itsdangerous.signer.py.Signer.sign"
+    }
+  ],
+  "tool": "context"
+}

@@ -1,0 +1,1158 @@
+{
+ "rg": "14.1.1",
+ "cases": [
+  {
+   "call": {
+    "pattern": "needle"
+   },
+   "wire": "{\"pattern\": \"needle\", \"engine\": \"rg\", \"matches\": 33, \"hits\": [{\"file\": \"build/gen.txt\", \"line\": \"1\", \"text\": \"generated 0 needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle n\", \"truncated\": true, \"full_chars\": 432}, {\"file\": \"build/gen.txt\", \"line\": \"2\", \"text\": \"generated 1 needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle n\", \"truncated\": true, \"full_chars\": 432}, {\"file\": \"build/gen.txt\", \"line\": \"3\", \"text\": \"generated 2 needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle n\", \"truncated\": true, \"full_chars\": 432}, {\"file\": \"build/gen.txt\", \"line\": \"4\", \"text\": \"generated 3 needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle n\", \"truncated\": true, \"full_chars\": 432}, {\"file\": \"docs/a-b/c-d.txt\", \"line\": \"1\", \"text\": \"hyphen needle here\"}, {\"file\": \"docs/case.txt\", \"line\": \"1\", \"text\": \"Needle capital\"}, {\"file\": \"docs/case.txt\", \"line\": \"2\", \"text\": \"needle lower\"}, {\"file\": \"docs/crlf.txt\", \"line\": \"1\", \"text\": \"first needle\"}, {\"file\": \"docs/crlf.txt\", \"line\": \"3\", \"text\": \"third needle\"}, {\"file\": \"docs/edge.txt\", \"line\": \"1\", \"text\": \"needle zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz\"}, {\"file\": \"docs/edge.txt\", \"line\": \"2\", \"text\": \"needle wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww\", \"truncated\": true, \"full_chars\": 301}, {\"file\": \"docs/feed.txt\", \"line\": \"1\", \"text\": \"needle\"}, {\"file\": \"docs/feed.txt\", \"line\": \"2\", \"text\": \"plain needle\"}, {\"file\": \"docs/feed.txt\", \"line\": \"3\", \"text\": \"last\"}, {\"file\": \"docs/many.txt\", \"line\": \"3\", \"text\": \"line 3 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"4\", \"text\": \"line 4 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"9\", \"text\": \"line 9 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"20\", \"text\": \"line 20 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"21\", \"text\": \"line 21 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"22\", \"text\": \"line 22 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"38\", \"text\": \"line 38 needle\"}, {\"file\": \"docs/sparse.txt\", \"line\": \"2\", \"text\": \"sparse needle\"}, {\"file\": \"docs/sparse.txt\", \"line\": \"6\", \"text\": \"sparse needle\"}, {\"file\": \"docs/sparse.txt\", \"line\": \"10\", \"text\": \"sparse needle\"}, {\"file\": \"docs/sparse.txt\", \"line\": \"14\", \"text\": \"sparse needle\"}, {\"file\": \"src/itsdangerous/_long.py\", \"line\": \"2\", \"text\": \"    a = \\\"needle xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\", \"truncated\": true, \"full_chars\": 357}, {\"file\": \"src/itsdangerous/_long.py\", \"line\": \"3\", \"text\": \"    b = \\\"needle \\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\", \"truncated\": true, \"full_chars\": 329}, {\"file\": \"src/itsdangerous/_oneline.py\", \"line\": \"1\", \"text\": \"def one_line(): return \\\"needle yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy\", \"truncated\": true, \"full_chars\": 352}, {\"file\": \"src/my-pkg/thing-one.py\", \"line\": \"1\", \"text\": \"def find_needle(hay):\"}, {\"file\": \"src/my-pkg/thing-one.py\", \"line\": \"2\", \"text\": \"    \\\"\\\"\\\"Find the needle: in a hay-stack.\\\"\\\"\\\"\"}, {\"file\": \"src/my-pkg/thing-one.py\", \"line\": \"3\", \"text\": \"    return hay.index(\\\"needle\\\")\"}, {\"file\": \"src/my-pkg/thing-one.py\", \"line\": \"6\", \"text\": \"class NeedleCase:\"}, {\"file\": \"src/my-pkg/thing-one.py\", \"line\": \"8\", \"text\": \"        return \\\"NEEDLE\\\"\"}]}",
+   "owners": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    "src.itsdangerous._long.py.long_lines",
+    "src.itsdangerous._long.py.long_lines",
+    "src.itsdangerous._oneline.py.one_line",
+    "src.my-pkg.thing-one.py.find_needle",
+    "src.my-pkg.thing-one.py.find_needle",
+    "src.my-pkg.thing-one.py.find_needle",
+    "src.my-pkg.thing-one.py.NeedleCase",
+    "src.my-pkg.thing-one.py.NeedleCase.upper"
+   ]
+  },
+  {
+   "call": {
+    "pattern": "Needle"
+   },
+   "wire": "{\"pattern\": \"Needle\", \"engine\": \"rg\", \"matches\": 2, \"hits\": [{\"file\": \"docs/case.txt\", \"line\": \"1\", \"text\": \"Needle capital\"}, {\"file\": \"src/my-pkg/thing-one.py\", \"line\": \"6\", \"text\": \"class NeedleCase:\"}]}",
+   "owners": [
+    null,
+    "src.my-pkg.thing-one.py.NeedleCase"
+   ]
+  },
+  {
+   "call": {
+    "pattern": "NEEDLE"
+   },
+   "wire": "{\"pattern\": \"NEEDLE\", \"engine\": \"rg\", \"matches\": 1, \"hits\": [{\"file\": \"src/my-pkg/thing-one.py\", \"line\": \"8\", \"text\": \"        return \\\"NEEDLE\\\"\"}]}",
+   "owners": [
+    "src.my-pkg.thing-one.py.NeedleCase.upper"
+   ]
+  },
+  {
+   "call": {
+    "pattern": "néédle"
+   },
+   "wire": "{\"pattern\": \"n\\u00e9\\u00e9dle\", \"engine\": \"rg\", \"matches\": 2, \"hits\": [{\"file\": \"docs/case.txt\", \"line\": \"3\", \"text\": \"N\\u00c9\\u00c9DLE upper\"}, {\"file\": \"docs/case.txt\", \"line\": \"4\", \"text\": \"n\\u00e9\\u00e9dle lower\"}]}",
+   "owners": [
+    null,
+    null
+   ]
+  },
+  {
+   "call": {
+    "pattern": "NÉÉDLE"
+   },
+   "wire": "{\"pattern\": \"N\\u00c9\\u00c9DLE\", \"engine\": \"rg\", \"matches\": 1, \"hits\": [{\"file\": \"docs/case.txt\", \"line\": \"3\", \"text\": \"N\\u00c9\\u00c9DLE upper\"}]}",
+   "owners": [
+    null
+   ]
+  },
+  {
+   "call": {
+    "pattern": "needle",
+    "path": "src/my-pkg"
+   },
+   "wire": "{\"pattern\": \"needle\", \"engine\": \"rg\", \"matches\": 5, \"hits\": [{\"file\": \"src/my-pkg/thing-one.py\", \"line\": \"1\", \"text\": \"def find_needle(hay):\"}, {\"file\": \"src/my-pkg/thing-one.py\", \"line\": \"2\", \"text\": \"    \\\"\\\"\\\"Find the needle: in a hay-stack.\\\"\\\"\\\"\"}, {\"file\": \"src/my-pkg/thing-one.py\", \"line\": \"3\", \"text\": \"    return hay.index(\\\"needle\\\")\"}, {\"file\": \"src/my-pkg/thing-one.py\", \"line\": \"6\", \"text\": \"class NeedleCase:\"}, {\"file\": \"src/my-pkg/thing-one.py\", \"line\": \"8\", \"text\": \"        return \\\"NEEDLE\\\"\"}]}",
+   "owners": [
+    "src.my-pkg.thing-one.py.find_needle",
+    "src.my-pkg.thing-one.py.find_needle",
+    "src.my-pkg.thing-one.py.find_needle",
+    "src.my-pkg.thing-one.py.NeedleCase",
+    "src.my-pkg.thing-one.py.NeedleCase.upper"
+   ]
+  },
+  {
+   "call": {
+    "pattern": "needle",
+    "path": "src/my-pkg/thing-one.py"
+   },
+   "wire": "{\"pattern\": \"needle\", \"engine\": \"rg\", \"matches\": 5, \"hits\": [{\"file\": \"src/my-pkg/thing-one.py\", \"line\": \"1\", \"text\": \"def find_needle(hay):\"}, {\"file\": \"src/my-pkg/thing-one.py\", \"line\": \"2\", \"text\": \"    \\\"\\\"\\\"Find the needle: in a hay-stack.\\\"\\\"\\\"\"}, {\"file\": \"src/my-pkg/thing-one.py\", \"line\": \"3\", \"text\": \"    return hay.index(\\\"needle\\\")\"}, {\"file\": \"src/my-pkg/thing-one.py\", \"line\": \"6\", \"text\": \"class NeedleCase:\"}, {\"file\": \"src/my-pkg/thing-one.py\", \"line\": \"8\", \"text\": \"        return \\\"NEEDLE\\\"\"}]}",
+   "owners": [
+    "src.my-pkg.thing-one.py.find_needle",
+    "src.my-pkg.thing-one.py.find_needle",
+    "src.my-pkg.thing-one.py.find_needle",
+    "src.my-pkg.thing-one.py.NeedleCase",
+    "src.my-pkg.thing-one.py.NeedleCase.upper"
+   ]
+  },
+  {
+   "call": {
+    "pattern": "needle",
+    "path": "docs/a-b"
+   },
+   "wire": "{\"pattern\": \"needle\", \"engine\": \"rg\", \"matches\": 1, \"hits\": [{\"file\": \"docs/a-b/c-d.txt\", \"line\": \"1\", \"text\": \"hyphen needle here\"}]}",
+   "owners": [
+    null
+   ]
+  },
+  {
+   "call": {
+    "pattern": "hay-stack",
+    "literal": true
+   },
+   "wire": "{\"pattern\": \"hay-stack\", \"engine\": \"rg\", \"matches\": 1, \"hits\": [{\"file\": \"src/my-pkg/thing-one.py\", \"line\": \"2\", \"text\": \"    \\\"\\\"\\\"Find the needle: in a hay-stack.\\\"\\\"\\\"\"}]}",
+   "owners": [
+    "src.my-pkg.thing-one.py.find_needle"
+   ]
+  },
+  {
+   "call": {
+    "pattern": "needle",
+    "path": "docs"
+   },
+   "wire": "{\"pattern\": \"needle\", \"engine\": \"rg\", \"matches\": 21, \"hits\": [{\"file\": \"docs/a-b/c-d.txt\", \"line\": \"1\", \"text\": \"hyphen needle here\"}, {\"file\": \"docs/case.txt\", \"line\": \"1\", \"text\": \"Needle capital\"}, {\"file\": \"docs/case.txt\", \"line\": \"2\", \"text\": \"needle lower\"}, {\"file\": \"docs/crlf.txt\", \"line\": \"1\", \"text\": \"first needle\"}, {\"file\": \"docs/crlf.txt\", \"line\": \"3\", \"text\": \"third needle\"}, {\"file\": \"docs/edge.txt\", \"line\": \"1\", \"text\": \"needle zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz\"}, {\"file\": \"docs/edge.txt\", \"line\": \"2\", \"text\": \"needle wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww\", \"truncated\": true, \"full_chars\": 301}, {\"file\": \"docs/feed.txt\", \"line\": \"1\", \"text\": \"needle\"}, {\"file\": \"docs/feed.txt\", \"line\": \"2\", \"text\": \"plain needle\"}, {\"file\": \"docs/feed.txt\", \"line\": \"3\", \"text\": \"last\"}, {\"file\": \"docs/many.txt\", \"line\": \"3\", \"text\": \"line 3 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"4\", \"text\": \"line 4 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"9\", \"text\": \"line 9 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"20\", \"text\": \"line 20 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"21\", \"text\": \"line 21 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"22\", \"text\": \"line 22 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"38\", \"text\": \"line 38 needle\"}, {\"file\": \"docs/sparse.txt\", \"line\": \"2\", \"text\": \"sparse needle\"}, {\"file\": \"docs/sparse.txt\", \"line\": \"6\", \"text\": \"sparse needle\"}, {\"file\": \"docs/sparse.txt\", \"line\": \"10\", \"text\": \"sparse needle\"}, {\"file\": \"docs/sparse.txt\", \"line\": \"14\", \"text\": \"sparse needle\"}]}",
+   "owners": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "call": {
+    "pattern": "needle",
+    "path": "docs/many.txt",
+    "max_results": 3
+   },
+   "wire": "{\"pattern\": \"needle\", \"engine\": \"rg\", \"matches\": 3, \"hits\": [{\"file\": \"docs/many.txt\", \"line\": \"3\", \"text\": \"line 3 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"4\", \"text\": \"line 4 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"9\", \"text\": \"line 9 needle\"}]}",
+   "owners": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "call": {
+    "pattern": "needle",
+    "path": "docs",
+    "max_results": 3
+   },
+   "wire": "{\"pattern\": \"needle\", \"engine\": \"rg\", \"matches\": 3, \"hits\": [{\"file\": \"docs/a-b/c-d.txt\", \"line\": \"1\", \"text\": \"hyphen needle here\"}, {\"file\": \"docs/case.txt\", \"line\": \"1\", \"text\": \"Needle capital\"}, {\"file\": \"docs/case.txt\", \"line\": \"2\", \"text\": \"needle lower\"}]}",
+   "owners": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "call": {
+    "pattern": "needle",
+    "path": "docs",
+    "max_results": 0
+   },
+   "wire": "{\"pattern\": \"needle\", \"engine\": \"rg\", \"matches\": 1, \"hits\": [{\"file\": \"docs/a-b/c-d.txt\", \"line\": \"1\", \"text\": \"hyphen needle here\"}]}",
+   "owners": [
+    null
+   ]
+  },
+  {
+   "call": {
+    "pattern": "needle",
+    "path": "docs",
+    "max_results": 500
+   },
+   "wire": "{\"pattern\": \"needle\", \"engine\": \"rg\", \"matches\": 21, \"hits\": [{\"file\": \"docs/a-b/c-d.txt\", \"line\": \"1\", \"text\": \"hyphen needle here\"}, {\"file\": \"docs/case.txt\", \"line\": \"1\", \"text\": \"Needle capital\"}, {\"file\": \"docs/case.txt\", \"line\": \"2\", \"text\": \"needle lower\"}, {\"file\": \"docs/crlf.txt\", \"line\": \"1\", \"text\": \"first needle\"}, {\"file\": \"docs/crlf.txt\", \"line\": \"3\", \"text\": \"third needle\"}, {\"file\": \"docs/edge.txt\", \"line\": \"1\", \"text\": \"needle zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz\"}, {\"file\": \"docs/edge.txt\", \"line\": \"2\", \"text\": \"needle wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww\", \"truncated\": true, \"full_chars\": 301}, {\"file\": \"docs/feed.txt\", \"line\": \"1\", \"text\": \"needle\"}, {\"file\": \"docs/feed.txt\", \"line\": \"2\", \"text\": \"plain needle\"}, {\"file\": \"docs/feed.txt\", \"line\": \"3\", \"text\": \"last\"}, {\"file\": \"docs/many.txt\", \"line\": \"3\", \"text\": \"line 3 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"4\", \"text\": \"line 4 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"9\", \"text\": \"line 9 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"20\", \"text\": \"line 20 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"21\", \"text\": \"line 21 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"22\", \"text\": \"line 22 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"38\", \"text\": \"line 38 needle\"}, {\"file\": \"docs/sparse.txt\", \"line\": \"2\", \"text\": \"sparse needle\"}, {\"file\": \"docs/sparse.txt\", \"line\": \"6\", \"text\": \"sparse needle\"}, {\"file\": \"docs/sparse.txt\", \"line\": \"10\", \"text\": \"sparse needle\"}, {\"file\": \"docs/sparse.txt\", \"line\": \"14\", \"text\": \"sparse needle\"}]}",
+   "owners": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "call": {
+    "pattern": "needle",
+    "path": "docs/many.txt",
+    "context_lines": 1
+   },
+   "wire": "{\"pattern\": \"needle\", \"engine\": \"rg\", \"matches\": 15, \"hits\": [{\"file\": \"docs/many.txt\", \"line\": \"2\", \"text\": \"line 2\"}, {\"file\": \"docs/many.txt\", \"line\": \"3\", \"text\": \"line 3 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"4\", \"text\": \"line 4 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"5\", \"text\": \"line 5\"}, {\"file\": \"docs/many.txt\", \"line\": \"8\", \"text\": \"line 8\"}, {\"file\": \"docs/many.txt\", \"line\": \"9\", \"text\": \"line 9 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"10\", \"text\": \"line 10\"}, {\"file\": \"docs/many.txt\", \"line\": \"19\", \"text\": \"line 19\"}, {\"file\": \"docs/many.txt\", \"line\": \"20\", \"text\": \"line 20 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"21\", \"text\": \"line 21 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"22\", \"text\": \"line 22 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"23\", \"text\": \"line 23\"}, {\"file\": \"docs/many.txt\", \"line\": \"37\", \"text\": \"line 37\"}, {\"file\": \"docs/many.txt\", \"line\": \"38\", \"text\": \"line 38 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"39\", \"text\": \"line 39\"}]}",
+   "owners": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "call": {
+    "pattern": "needle",
+    "path": "docs/many.txt",
+    "context_lines": 2
+   },
+   "wire": "{\"pattern\": \"needle\", \"engine\": \"rg\", \"matches\": 23, \"hits\": [{\"file\": \"docs/many.txt\", \"line\": \"1\", \"text\": \"line 1\"}, {\"file\": \"docs/many.txt\", \"line\": \"2\", \"text\": \"line 2\"}, {\"file\": \"docs/many.txt\", \"line\": \"3\", \"text\": \"line 3 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"4\", \"text\": \"line 4 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"5\", \"text\": \"line 5\"}, {\"file\": \"docs/many.txt\", \"line\": \"6\", \"text\": \"line 6\"}, {\"file\": \"docs/many.txt\", \"line\": \"7\", \"text\": \"line 7\"}, {\"file\": \"docs/many.txt\", \"line\": \"8\", \"text\": \"line 8\"}, {\"file\": \"docs/many.txt\", \"line\": \"9\", \"text\": \"line 9 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"10\", \"text\": \"line 10\"}, {\"file\": \"docs/many.txt\", \"line\": \"11\", \"text\": \"line 11\"}, {\"file\": \"docs/many.txt\", \"line\": \"18\", \"text\": \"line 18\"}, {\"file\": \"docs/many.txt\", \"line\": \"19\", \"text\": \"line 19\"}, {\"file\": \"docs/many.txt\", \"line\": \"20\", \"text\": \"line 20 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"21\", \"text\": \"line 21 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"22\", \"text\": \"line 22 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"23\", \"text\": \"line 23\"}, {\"file\": \"docs/many.txt\", \"line\": \"24\", \"text\": \"line 24\"}, {\"file\": \"docs/many.txt\", \"line\": \"36\", \"text\": \"line 36\"}, {\"file\": \"docs/many.txt\", \"line\": \"37\", \"text\": \"line 37\"}, {\"file\": \"docs/many.txt\", \"line\": \"38\", \"text\": \"line 38 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"39\", \"text\": \"line 39\"}, {\"file\": \"docs/many.txt\", \"line\": \"40\", \"text\": \"line 40\"}]}",
+   "owners": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "call": {
+    "pattern": "needle",
+    "path": "docs/many.txt",
+    "context_lines": 2,
+    "max_results": 2
+   },
+   "wire": "{\"pattern\": \"needle\", \"engine\": \"rg\", \"matches\": 6, \"hits\": [{\"file\": \"docs/many.txt\", \"line\": \"1\", \"text\": \"line 1\"}, {\"file\": \"docs/many.txt\", \"line\": \"2\", \"text\": \"line 2\"}, {\"file\": \"docs/many.txt\", \"line\": \"3\", \"text\": \"line 3 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"4\", \"text\": \"line 4 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"5\", \"text\": \"line 5\"}, {\"file\": \"docs/many.txt\", \"line\": \"6\", \"text\": \"line 6\"}]}",
+   "owners": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "call": {
+    "pattern": "needle",
+    "path": "docs/many.txt",
+    "context_lines": 50
+   },
+   "wire": "{\"pattern\": \"needle\", \"engine\": \"rg\", \"matches\": 40, \"hits\": [{\"file\": \"docs/many.txt\", \"line\": \"1\", \"text\": \"line 1\"}, {\"file\": \"docs/many.txt\", \"line\": \"2\", \"text\": \"line 2\"}, {\"file\": \"docs/many.txt\", \"line\": \"3\", \"text\": \"line 3 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"4\", \"text\": \"line 4 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"5\", \"text\": \"line 5\"}, {\"file\": \"docs/many.txt\", \"line\": \"6\", \"text\": \"line 6\"}, {\"file\": \"docs/many.txt\", \"line\": \"7\", \"text\": \"line 7\"}, {\"file\": \"docs/many.txt\", \"line\": \"8\", \"text\": \"line 8\"}, {\"file\": \"docs/many.txt\", \"line\": \"9\", \"text\": \"line 9 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"10\", \"text\": \"line 10\"}, {\"file\": \"docs/many.txt\", \"line\": \"11\", \"text\": \"line 11\"}, {\"file\": \"docs/many.txt\", \"line\": \"12\", \"text\": \"line 12\"}, {\"file\": \"docs/many.txt\", \"line\": \"13\", \"text\": \"line 13\"}, {\"file\": \"docs/many.txt\", \"line\": \"14\", \"text\": \"line 14\"}, {\"file\": \"docs/many.txt\", \"line\": \"15\", \"text\": \"line 15\"}, {\"file\": \"docs/many.txt\", \"line\": \"16\", \"text\": \"line 16\"}, {\"file\": \"docs/many.txt\", \"line\": \"17\", \"text\": \"line 17\"}, {\"file\": \"docs/many.txt\", \"line\": \"18\", \"text\": \"line 18\"}, {\"file\": \"docs/many.txt\", \"line\": \"19\", \"text\": \"line 19\"}, {\"file\": \"docs/many.txt\", \"line\": \"20\", \"text\": \"line 20 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"21\", \"text\": \"line 21 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"22\", \"text\": \"line 22 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"23\", \"text\": \"line 23\"}, {\"file\": \"docs/many.txt\", \"line\": \"24\", \"text\": \"line 24\"}, {\"file\": \"docs/many.txt\", \"line\": \"25\", \"text\": \"line 25\"}, {\"file\": \"docs/many.txt\", \"line\": \"26\", \"text\": \"line 26\"}, {\"file\": \"docs/many.txt\", \"line\": \"27\", \"text\": \"line 27\"}, {\"file\": \"docs/many.txt\", \"line\": \"28\", \"text\": \"line 28\"}, {\"file\": \"docs/many.txt\", \"line\": \"29\", \"text\": \"line 29\"}, {\"file\": \"docs/many.txt\", \"line\": \"30\", \"text\": \"line 30\"}, {\"file\": \"docs/many.txt\", \"line\": \"31\", \"text\": \"line 31\"}, {\"file\": \"docs/many.txt\", \"line\": \"32\", \"text\": \"line 32\"}, {\"file\": \"docs/many.txt\", \"line\": \"33\", \"text\": \"line 33\"}, {\"file\": \"docs/many.txt\", \"line\": \"34\", \"text\": \"line 34\"}, {\"file\": \"docs/many.txt\", \"line\": \"35\", \"text\": \"line 35\"}, {\"file\": \"docs/many.txt\", \"line\": \"36\", \"text\": \"line 36\"}, {\"file\": \"docs/many.txt\", \"line\": \"37\", \"text\": \"line 37\"}, {\"file\": \"docs/many.txt\", \"line\": \"38\", \"text\": \"line 38 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"39\", \"text\": \"line 39\"}, {\"file\": \"docs/many.txt\", \"line\": \"40\", \"text\": \"line 40\"}]}",
+   "owners": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "call": {
+    "pattern": "needle",
+    "path": "docs",
+    "context_lines": 1
+   },
+   "wire": "{\"pattern\": \"needle\", \"engine\": \"rg\", \"matches\": 39, \"hits\": [{\"file\": \"docs/a-b/c-d.txt\", \"line\": \"1\", \"text\": \"hyphen needle here\"}, {\"file\": \"docs/case.txt\", \"line\": \"1\", \"text\": \"Needle capital\"}, {\"file\": \"docs/case.txt\", \"line\": \"2\", \"text\": \"needle lower\"}, {\"file\": \"docs/case.txt\", \"line\": \"3\", \"text\": \"N\\u00c9\\u00c9DLE upper\"}, {\"file\": \"docs/crlf.txt\", \"line\": \"1\", \"text\": \"first needle\"}, {\"file\": \"docs/crlf.txt\", \"line\": \"2\", \"text\": \"second\"}, {\"file\": \"docs/crlf.txt\", \"line\": \"3\", \"text\": \"third needle\"}, {\"file\": \"docs/edge.txt\", \"line\": \"1\", \"text\": \"needle zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz\"}, {\"file\": \"docs/edge.txt\", \"line\": \"2\", \"text\": \"needle wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww\", \"truncated\": true, \"full_chars\": 301}, {\"file\": \"docs/feed.txt\", \"line\": \"1\", \"text\": \"needle\"}, {\"file\": \"docs/feed.txt\", \"line\": \"2\", \"text\": \"plain needle\"}, {\"file\": \"docs/feed.txt\", \"line\": \"3\", \"text\": \"last\"}, {\"file\": \"docs/many.txt\", \"line\": \"2\", \"text\": \"line 2\"}, {\"file\": \"docs/many.txt\", \"line\": \"3\", \"text\": \"line 3 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"4\", \"text\": \"line 4 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"5\", \"text\": \"line 5\"}, {\"file\": \"docs/many.txt\", \"line\": \"8\", \"text\": \"line 8\"}, {\"file\": \"docs/many.txt\", \"line\": \"9\", \"text\": \"line 9 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"10\", \"text\": \"line 10\"}, {\"file\": \"docs/many.txt\", \"line\": \"19\", \"text\": \"line 19\"}, {\"file\": \"docs/many.txt\", \"line\": \"20\", \"text\": \"line 20 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"21\", \"text\": \"line 21 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"22\", \"text\": \"line 22 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"23\", \"text\": \"line 23\"}, {\"file\": \"docs/many.txt\", \"line\": \"37\", \"text\": \"line 37\"}, {\"file\": \"docs/many.txt\", \"line\": \"38\", \"text\": \"line 38 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"39\", \"text\": \"line 39\"}, {\"file\": \"docs/sparse.txt\", \"line\": \"1\", \"text\": \"filler 1\"}, {\"file\": \"docs/sparse.txt\", \"line\": \"2\", \"text\": \"sparse needle\"}, {\"file\": \"docs/sparse.txt\", \"line\": \"3\", \"text\": \"filler 3\"}, {\"file\": \"docs/sparse.txt\", \"line\": \"5\", \"text\": \"filler 5\"}, {\"file\": \"docs/sparse.txt\", \"line\": \"6\", \"text\": \"sparse needle\"}, {\"file\": \"docs/sparse.txt\", \"line\": \"7\", \"text\": \"filler 7\"}, {\"file\": \"docs/sparse.txt\", \"line\": \"9\", \"text\": \"filler 9\"}, {\"file\": \"docs/sparse.txt\", \"line\": \"10\", \"text\": \"sparse needle\"}, {\"file\": \"docs/sparse.txt\", \"line\": \"11\", \"text\": \"filler 11\"}, {\"file\": \"docs/sparse.txt\", \"line\": \"13\", \"text\": \"filler 13\"}, {\"file\": \"docs/sparse.txt\", \"line\": \"14\", \"text\": \"sparse needle\"}, {\"file\": \"docs/sparse.txt\", \"line\": \"15\", \"text\": \"filler 15\"}]}",
+   "owners": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "call": {
+    "pattern": "needle",
+    "path": "docs",
+    "context_lines": 1,
+    "max_results": 2
+   },
+   "wire": "{\"pattern\": \"needle\", \"engine\": \"rg\", \"matches\": 4, \"hits\": [{\"file\": \"docs/a-b/c-d.txt\", \"line\": \"1\", \"text\": \"hyphen needle here\"}, {\"file\": \"docs/case.txt\", \"line\": \"1\", \"text\": \"Needle capital\"}, {\"file\": \"docs/case.txt\", \"line\": \"2\", \"text\": \"needle lower\"}, {\"file\": \"docs/case.txt\", \"line\": \"3\", \"text\": \"N\\u00c9\\u00c9DLE upper\"}]}",
+   "owners": [
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "call": {
+    "pattern": "needle",
+    "path": "docs",
+    "context_lines": -1
+   },
+   "wire": "{\"pattern\": \"needle\", \"engine\": \"rg\", \"matches\": 0, \"hits\": []}",
+   "owners": []
+  },
+  {
+   "call": {
+    "pattern": "needle",
+    "path": "docs",
+    "context_lines": -1,
+    "max_results": 3
+   },
+   "wire": "{\"pattern\": \"needle\", \"engine\": \"rg\", \"matches\": 13, \"hits\": [{\"file\": \"docs/a-b/c-d.txt\", \"line\": \"1\", \"text\": \"hyphen needle here\"}, {\"file\": \"docs/case.txt\", \"line\": \"1\", \"text\": \"Needle capital\"}, {\"file\": \"docs/case.txt\", \"line\": \"2\", \"text\": \"needle lower\"}, {\"file\": \"docs/crlf.txt\", \"line\": \"1\", \"text\": \"first needle\"}, {\"file\": \"docs/crlf.txt\", \"line\": \"3\", \"text\": \"third needle\"}, {\"file\": \"docs/edge.txt\", \"line\": \"1\", \"text\": \"needle zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz\"}, {\"file\": \"docs/edge.txt\", \"line\": \"2\", \"text\": \"needle wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww\", \"truncated\": true, \"full_chars\": 301}, {\"file\": \"docs/feed.txt\", \"line\": \"1\", \"text\": \"needle\"}, {\"file\": \"docs/feed.txt\", \"line\": \"2\", \"text\": \"plain needle\"}, {\"file\": \"docs/feed.txt\", \"line\": \"3\", \"text\": \"last\"}, {\"file\": \"docs/many.txt\", \"line\": \"3\", \"text\": \"line 3 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"4\", \"text\": \"line 4 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"9\", \"text\": \"line 9 needle\"}]}",
+   "owners": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "call": {
+    "pattern": "needle",
+    "path": "docs/many.txt",
+    "context_lines": 0
+   },
+   "wire": "{\"pattern\": \"needle\", \"engine\": \"rg\", \"matches\": 7, \"hits\": [{\"file\": \"docs/many.txt\", \"line\": \"3\", \"text\": \"line 3 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"4\", \"text\": \"line 4 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"9\", \"text\": \"line 9 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"20\", \"text\": \"line 20 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"21\", \"text\": \"line 21 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"22\", \"text\": \"line 22 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"38\", \"text\": \"line 38 needle\"}]}",
+   "owners": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "call": {
+    "pattern": "needle",
+    "path": "src/itsdangerous/_long.py"
+   },
+   "wire": "{\"pattern\": \"needle\", \"engine\": \"rg\", \"matches\": 2, \"hits\": [{\"file\": \"src/itsdangerous/_long.py\", \"line\": \"2\", \"text\": \"    a = \\\"needle xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\", \"truncated\": true, \"full_chars\": 357}, {\"file\": \"src/itsdangerous/_long.py\", \"line\": \"3\", \"text\": \"    b = \\\"needle \\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\", \"truncated\": true, \"full_chars\": 329}], \"recovery\": {\"reason\": \"grep_line_cap\", \"withheld\": 86, \"limit\": 300, \"next\": [\"expand(target='0a6384ca54fd223aa91f9671')\"], \"hint\": \"86 item(s) withheld at limit 300. Retrieve them with: expand(target='0a6384ca54fd223aa91f9671') -- this is reachable through Cortex; no file read needed.\", \"detail\": {\"unit\": \"characters\", \"clipped_lines\": 2}}}",
+   "owners": [
+    "src.itsdangerous._long.py.long_lines",
+    "src.itsdangerous._long.py.long_lines"
+   ]
+  },
+  {
+   "call": {
+    "pattern": "needle",
+    "path": "build"
+   },
+   "wire": "{\"pattern\": \"needle\", \"engine\": \"rg\", \"matches\": 4, \"hits\": [{\"file\": \"build/gen.txt\", \"line\": \"1\", \"text\": \"generated 0 needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle n\", \"truncated\": true, \"full_chars\": 432}, {\"file\": \"build/gen.txt\", \"line\": \"2\", \"text\": \"generated 1 needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle n\", \"truncated\": true, \"full_chars\": 432}, {\"file\": \"build/gen.txt\", \"line\": \"3\", \"text\": \"generated 2 needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle n\", \"truncated\": true, \"full_chars\": 432}, {\"file\": \"build/gen.txt\", \"line\": \"4\", \"text\": \"generated 3 needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle n\", \"truncated\": true, \"full_chars\": 432}]}",
+   "owners": [
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "call": {
+    "pattern": "generated",
+    "path": "build"
+   },
+   "wire": "{\"pattern\": \"generated\", \"engine\": \"rg\", \"matches\": 4, \"hits\": [{\"file\": \"build/gen.txt\", \"line\": \"1\", \"text\": \"generated 0 needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle n\", \"truncated\": true, \"full_chars\": 432}, {\"file\": \"build/gen.txt\", \"line\": \"2\", \"text\": \"generated 1 needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle n\", \"truncated\": true, \"full_chars\": 432}, {\"file\": \"build/gen.txt\", \"line\": \"3\", \"text\": \"generated 2 needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle n\", \"truncated\": true, \"full_chars\": 432}, {\"file\": \"build/gen.txt\", \"line\": \"4\", \"text\": \"generated 3 needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle n\", \"truncated\": true, \"full_chars\": 432}]}",
+   "owners": [
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "call": {
+    "pattern": "needle",
+    "path": ".hidden"
+   },
+   "wire": "{\"pattern\": \"needle\", \"engine\": \"rg\", \"matches\": 1, \"hits\": [{\"file\": \".hidden/secret.py\", \"line\": \"1\", \"text\": \"needle = 'hidden'\"}]}",
+   "owners": [
+    null
+   ]
+  },
+  {
+   "call": {
+    "pattern": "needle",
+    "path": "ignored.txt"
+   },
+   "wire": "{\"pattern\": \"needle\", \"engine\": \"rg\", \"matches\": 1, \"hits\": [{\"file\": \"ignored.txt\", \"line\": \"1\", \"text\": \"needle in an ignored file\"}]}",
+   "owners": [
+    null
+   ]
+  },
+  {
+   "call": {
+    "pattern": "needle",
+    "path": "assets"
+   },
+   "wire": "{\"pattern\": \"needle\", \"engine\": \"rg\", \"matches\": 0, \"hits\": []}",
+   "owners": []
+  },
+  {
+   "call": {
+    "pattern": "needle",
+    "path": "assets/blob.dat"
+   },
+   "wire": "{\"pattern\": \"needle\", \"engine\": \"rg\", \"matches\": 0, \"hits\": []}",
+   "owners": []
+  },
+  {
+   "call": {
+    "pattern": "needle",
+    "path": "nowhere"
+   },
+   "wire": "{\"pattern\": \"needle\", \"engine\": \"python\", \"matches\": 0, \"hits\": []}",
+   "owners": []
+  },
+  {
+   "call": {
+    "pattern": "needle",
+    "path": "../"
+   },
+   "wire": "{\"error\": \"path escapes project root\"}",
+   "owners": []
+  },
+  {
+   "call": {
+    "pattern": "needle",
+    "path": "/etc"
+   },
+   "wire": "{\"error\": \"path escapes project root\"}",
+   "owners": []
+  },
+  {
+   "call": {
+    "pattern": "needle",
+    "path": "src/../docs/a-b"
+   },
+   "wire": "{\"pattern\": \"needle\", \"engine\": \"rg\", \"matches\": 1, \"hits\": [{\"file\": \"docs/a-b/c-d.txt\", \"line\": \"1\", \"text\": \"hyphen needle here\"}]}",
+   "owners": [
+    null
+   ]
+  },
+  {
+   "call": {
+    "pattern": "want_bytes(",
+    "literal": true
+   },
+   "wire": "{\"pattern\": \"want_bytes(\", \"engine\": \"rg\", \"matches\": 23, \"hits\": [{\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"11\", \"text\": \"def want_bytes(\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"24\", \"text\": \"    string = want_bytes(string)\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"32\", \"text\": \"    string = want_bytes(string, encoding=\\\"ascii\\\", errors=\\\"ignore\\\")\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"211\", \"text\": \"            salt = want_bytes(salt)\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"276\", \"text\": \"        return want_bytes(self.serializer.dumps(obj, **self.serializer_kwargs))\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"314\", \"text\": \"        payload = want_bytes(self.dump_payload(obj))\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"334\", \"text\": \"        s = want_bytes(s)\"}, {\"file\": \"src/itsdangerous/signer.py\", \"line\": \"71\", \"text\": \"        return [want_bytes(secret_key)]\"}, {\"file\": \"src/itsdangerous/signer.py\", \"line\": \"73\", \"text\": \"    return [want_bytes(s) for s in secret_key]  # pyright: ignore\"}, {\"file\": \"src/itsdangerous/signer.py\", \"line\": \"144\", \"text\": \"        self.sep: bytes = want_bytes(sep)\"}, {\"file\": \"src/itsdangerous/signer.py\", \"line\": \"154\", \"text\": \"            salt = want_bytes(salt)\"}, {\"file\": \"src/itsdangerous/signer.py\", \"line\": \"198\", \"text\": \"            secret_key = want_bytes(secret_key)\"}, {\"file\": \"src/itsdangerous/signer.py\", \"line\": \"217\", \"text\": \"        value = want_bytes(value)\"}, {\"file\": \"src/itsdangerous/signer.py\", \"line\": \"224\", \"text\": \"        value = want_bytes(value)\"}, {\"file\": \"src/itsdangerous/signer.py\", \"line\": \"234\", \"text\": \"        value = want_bytes(value)\"}, {\"file\": \"src/itsdangerous/signer.py\", \"line\": \"246\", \"text\": \"        signed_value = want_bytes(signed_value)\"}, {\"file\": \"src/itsdangerous/timed.py\", \"line\": \"47\", \"text\": \"        value = want_bytes(value)\"}, {\"file\": \"src/itsdangerous/timed.py\", \"line\": \"49\", \"text\": \"        sep = want_bytes(self.sep)\"}, {\"file\": \"src/itsdangerous/timed.py\", \"line\": \"95\", \"text\": \"        sep = want_bytes(self.sep)\"}, {\"file\": \"src/itsdangerous/timed.py\", \"line\": \"199\", \"text\": \"        s = want_bytes(s)\"}, {\"file\": \"tests/test_itsdangerous/test_encoding.py\", \"line\": \"12\", \"text\": \"def test_want_bytes(value):\"}, {\"file\": \"tests/test_itsdangerous/test_encoding.py\", \"line\": \"13\", \"text\": \"    out = want_bytes(value)\"}, {\"file\": \"tests/test_itsdangerous/test_encoding.py\", \"line\": \"22\", \"text\": \"    assert dec == want_bytes(value)\"}]}",
+   "owners": [
+    "src.itsdangerous.encoding.py.want_bytes",
+    "src.itsdangerous.encoding.py.base64_encode",
+    "src.itsdangerous.encoding.py.base64_decode",
+    "src.itsdangerous.serializer.py.Serializer.__init__",
+    "src.itsdangerous.serializer.py.Serializer.dump_payload",
+    "src.itsdangerous.serializer.py.Serializer.dumps",
+    "src.itsdangerous.serializer.py.Serializer.loads",
+    "src.itsdangerous.signer.py._make_keys_list",
+    "src.itsdangerous.signer.py._make_keys_list",
+    "src.itsdangerous.signer.py.Signer.__init__",
+    "src.itsdangerous.signer.py.Signer.__init__",
+    "src.itsdangerous.signer.py.Signer.derive_key",
+    "src.itsdangerous.signer.py.Signer.get_signature",
+    "src.itsdangerous.signer.py.Signer.sign",
+    "src.itsdangerous.signer.py.Signer.verify_signature",
+    "src.itsdangerous.signer.py.Signer.unsign",
+    "src.itsdangerous.timed.py.TimestampSigner.sign",
+    "src.itsdangerous.timed.py.TimestampSigner.sign",
+    "src.itsdangerous.timed.py.TimestampSigner.unsign",
+    "src.itsdangerous.timed.py.TimedSerializer.loads",
+    "tests.test_itsdangerous.test_encoding.py.test_want_bytes",
+    "tests.test_itsdangerous.test_encoding.py.test_want_bytes",
+    "tests.test_itsdangerous.test_encoding.py.test_base64"
+   ]
+  },
+  {
+   "call": {
+    "pattern": "def want_\\w+"
+   },
+   "wire": "{\"pattern\": \"def want_\\\\w+\", \"engine\": \"rg\", \"matches\": 1, \"hits\": [{\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"11\", \"text\": \"def want_bytes(\"}]}",
+   "owners": [
+    "src.itsdangerous.encoding.py.want_bytes"
+   ]
+  },
+  {
+   "call": {
+    "pattern": "^class \\w+Signer"
+   },
+   "wire": "{\"pattern\": \"^class \\\\w+Signer\", \"engine\": \"rg\", \"matches\": 3, \"hits\": [{\"file\": \"src/itsdangerous/timed.py\", \"line\": \"22\", \"text\": \"class TimestampSigner(Signer):\"}, {\"file\": \"tests/test_itsdangerous/test_signer.py\", \"line\": \"18\", \"text\": \"class TestSigner:\"}, {\"file\": \"tests/test_itsdangerous/test_timed.py\", \"line\": \"29\", \"text\": \"class TestTimestampSigner(FreezeMixin, TestSigner):\"}]}",
+   "owners": [
+    "src.itsdangerous.timed.py.TimestampSigner",
+    "tests.test_itsdangerous.test_signer.py.TestSigner",
+    "tests.test_itsdangerous.test_timed.py.TestTimestampSigner"
+   ]
+  },
+  {
+   "call": {
+    "pattern": "ne+dle\\b",
+    "path": "docs"
+   },
+   "wire": "{\"pattern\": \"ne+dle\\\\b\", \"engine\": \"rg\", \"matches\": 21, \"hits\": [{\"file\": \"docs/a-b/c-d.txt\", \"line\": \"1\", \"text\": \"hyphen needle here\"}, {\"file\": \"docs/case.txt\", \"line\": \"1\", \"text\": \"Needle capital\"}, {\"file\": \"docs/case.txt\", \"line\": \"2\", \"text\": \"needle lower\"}, {\"file\": \"docs/crlf.txt\", \"line\": \"1\", \"text\": \"first needle\"}, {\"file\": \"docs/crlf.txt\", \"line\": \"3\", \"text\": \"third needle\"}, {\"file\": \"docs/edge.txt\", \"line\": \"1\", \"text\": \"needle zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz\"}, {\"file\": \"docs/edge.txt\", \"line\": \"2\", \"text\": \"needle wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww\", \"truncated\": true, \"full_chars\": 301}, {\"file\": \"docs/feed.txt\", \"line\": \"1\", \"text\": \"needle\"}, {\"file\": \"docs/feed.txt\", \"line\": \"2\", \"text\": \"plain needle\"}, {\"file\": \"docs/feed.txt\", \"line\": \"3\", \"text\": \"last\"}, {\"file\": \"docs/many.txt\", \"line\": \"3\", \"text\": \"line 3 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"4\", \"text\": \"line 4 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"9\", \"text\": \"line 9 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"20\", \"text\": \"line 20 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"21\", \"text\": \"line 21 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"22\", \"text\": \"line 22 needle\"}, {\"file\": \"docs/many.txt\", \"line\": \"38\", \"text\": \"line 38 needle\"}, {\"file\": \"docs/sparse.txt\", \"line\": \"2\", \"text\": \"sparse needle\"}, {\"file\": \"docs/sparse.txt\", \"line\": \"6\", \"text\": \"sparse needle\"}, {\"file\": \"docs/sparse.txt\", \"line\": \"10\", \"text\": \"sparse needle\"}, {\"file\": \"docs/sparse.txt\", \"line\": \"14\", \"text\": \"sparse needle\"}]}",
+   "owners": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "call": {
+    "pattern": "",
+    "path": "docs/crlf.txt"
+   },
+   "wire": "{\"pattern\": \"\", \"engine\": \"rg\", \"matches\": 3, \"hits\": [{\"file\": \"docs/crlf.txt\", \"line\": \"1\", \"text\": \"first needle\"}, {\"file\": \"docs/crlf.txt\", \"line\": \"2\", \"text\": \"second\"}, {\"file\": \"docs/crlf.txt\", \"line\": \"3\", \"text\": \"third needle\"}]}",
+   "owners": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "call": {
+    "pattern": ".",
+    "path": "docs/feed.txt"
+   },
+   "wire": "{\"pattern\": \".\", \"engine\": \"rg\", \"matches\": 3, \"hits\": [{\"file\": \"docs/feed.txt\", \"line\": \"1\", \"text\": \"needle\"}, {\"file\": \"docs/feed.txt\", \"line\": \"2\", \"text\": \"plain needle\"}, {\"file\": \"docs/feed.txt\", \"line\": \"3\", \"text\": \"last\"}]}",
+   "owners": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "call": {
+    "pattern": "a.b",
+    "literal": true,
+    "path": "docs"
+   },
+   "wire": "{\"pattern\": \"a.b\", \"engine\": \"rg\", \"matches\": 0, \"hits\": []}",
+   "owners": []
+  },
+  {
+   "call": {
+    "pattern": "a.b",
+    "path": "docs"
+   },
+   "wire": "{\"pattern\": \"a.b\", \"engine\": \"rg\", \"matches\": 0, \"hits\": []}",
+   "owners": []
+  },
+  {
+   "call": {
+    "pattern": "return",
+    "max_results": 7
+   },
+   "wire": "{\"pattern\": \"return\", \"engine\": \"rg\", \"matches\": 7, \"hits\": [{\"file\": \"src/itsdangerous/_json.py\", \"line\": \"12\", \"text\": \"        return _json.loads(payload)\"}, {\"file\": \"src/itsdangerous/_json.py\", \"line\": \"18\", \"text\": \"        return _json.dumps(obj, **kwargs)\"}, {\"file\": \"src/itsdangerous/_long.py\", \"line\": \"4\", \"text\": \"    return a + b\"}, {\"file\": \"src/itsdangerous/_oneline.py\", \"line\": \"1\", \"text\": \"def one_line(): return \\\"needle yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy\", \"truncated\": true, \"full_chars\": 352}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"17\", \"text\": \"    return s\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"25\", \"text\": \"    return base64.urlsafe_b64encode(string).rstrip(b\\\"=\\\")\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"36\", \"text\": \"        return base64.urlsafe_b64decode(string)\"}], \"recovery\": {\"reason\": \"grep_line_cap\", \"withheld\": 52, \"limit\": 300, \"next\": [\"expand(target='2b8d57d9fe78184231e94391')\"], \"hint\": \"52 item(s) withheld at limit 300. Retrieve them with: expand(target='2b8d57d9fe78184231e94391') -- this is reachable through Cortex; no file read needed.\", \"detail\": {\"unit\": \"characters\", \"clipped_lines\": 1}}}",
+   "owners": [
+    "src.itsdangerous._json.py._CompactJSON.loads",
+    "src.itsdangerous._json.py._CompactJSON.dumps",
+    "src.itsdangerous._long.py.long_lines",
+    "src.itsdangerous._oneline.py.one_line",
+    "src.itsdangerous.encoding.py.want_bytes",
+    "src.itsdangerous.encoding.py.base64_encode",
+    "src.itsdangerous.encoding.py.base64_decode"
+   ]
+  },
+  {
+   "call": {
+    "pattern": "signer",
+    "path": "src",
+    "context_lines": 1,
+    "max_results": 4
+   },
+   "wire": "{\"pattern\": \"signer\", \"engine\": \"rg\", \"matches\": 11, \"hits\": [{\"file\": \"src/itsdangerous/__init__.py\", \"line\": \"10\", \"text\": \"from .serializer import Serializer as Serializer\"}, {\"file\": \"src/itsdangerous/__init__.py\", \"line\": \"11\", \"text\": \"from .signer import HMACAlgorithm as HMACAlgorithm\"}, {\"file\": \"src/itsdangerous/__init__.py\", \"line\": \"12\", \"text\": \"from .signer import NoneAlgorithm as NoneAlgorithm\"}, {\"file\": \"src/itsdangerous/__init__.py\", \"line\": \"13\", \"text\": \"from .signer import Signer as Signer\"}, {\"file\": \"src/itsdangerous/__init__.py\", \"line\": \"14\", \"text\": \"from .timed import TimedSerializer as TimedSerializer\"}, {\"file\": \"src/itsdangerous/__init__.py\", \"line\": \"15\", \"text\": \"from .timed import TimestampSigner as TimestampSigner\"}, {\"file\": \"src/itsdangerous/__init__.py\", \"line\": \"16\", \"text\": \"from .url_safe import URLSafeSerializer as URLSafeSerializer\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"9\", \"text\": \"from .exc import BadSignature\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"10\", \"text\": \"from .signer import _make_keys_list\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"11\", \"text\": \"from .signer import Signer\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"12\", \"text\": \"\"}]}",
+   "owners": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "call": {
+    "pattern": "",
+    "path": "src/itsdangerous",
+    "max_results": 500
+   },
+   "wire": "{\"pattern\": \"\", \"engine\": \"rg\", \"matches\": 200, \"hits\": [{\"file\": \"src/itsdangerous/__init__.py\", \"line\": \"1\", \"text\": \"from .encoding import base64_decode as base64_decode\"}, {\"file\": \"src/itsdangerous/__init__.py\", \"line\": \"2\", \"text\": \"from .encoding import base64_encode as base64_encode\"}, {\"file\": \"src/itsdangerous/__init__.py\", \"line\": \"3\", \"text\": \"from .encoding import want_bytes as want_bytes\"}, {\"file\": \"src/itsdangerous/__init__.py\", \"line\": \"4\", \"text\": \"from .exc import BadData as BadData\"}, {\"file\": \"src/itsdangerous/__init__.py\", \"line\": \"5\", \"text\": \"from .exc import BadHeader as BadHeader\"}, {\"file\": \"src/itsdangerous/__init__.py\", \"line\": \"6\", \"text\": \"from .exc import BadPayload as BadPayload\"}, {\"file\": \"src/itsdangerous/__init__.py\", \"line\": \"7\", \"text\": \"from .exc import BadSignature as BadSignature\"}, {\"file\": \"src/itsdangerous/__init__.py\", \"line\": \"8\", \"text\": \"from .exc import BadTimeSignature as BadTimeSignature\"}, {\"file\": \"src/itsdangerous/__init__.py\", \"line\": \"9\", \"text\": \"from .exc import SignatureExpired as SignatureExpired\"}, {\"file\": \"src/itsdangerous/__init__.py\", \"line\": \"10\", \"text\": \"from .serializer import Serializer as Serializer\"}, {\"file\": \"src/itsdangerous/__init__.py\", \"line\": \"11\", \"text\": \"from .signer import HMACAlgorithm as HMACAlgorithm\"}, {\"file\": \"src/itsdangerous/__init__.py\", \"line\": \"12\", \"text\": \"from .signer import NoneAlgorithm as NoneAlgorithm\"}, {\"file\": \"src/itsdangerous/__init__.py\", \"line\": \"13\", \"text\": \"from .signer import Signer as Signer\"}, {\"file\": \"src/itsdangerous/__init__.py\", \"line\": \"14\", \"text\": \"from .timed import TimedSerializer as TimedSerializer\"}, {\"file\": \"src/itsdangerous/__init__.py\", \"line\": \"15\", \"text\": \"from .timed import TimestampSigner as TimestampSigner\"}, {\"file\": \"src/itsdangerous/__init__.py\", \"line\": \"16\", \"text\": \"from .url_safe import URLSafeSerializer as URLSafeSerializer\"}, {\"file\": \"src/itsdangerous/__init__.py\", \"line\": \"17\", \"text\": \"from .url_safe import URLSafeTimedSerializer as URLSafeTimedSerializer\"}, {\"file\": \"src/itsdangerous/_json.py\", \"line\": \"1\", \"text\": \"from __future__ import annotations\"}, {\"file\": \"src/itsdangerous/_json.py\", \"line\": \"2\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/_json.py\", \"line\": \"3\", \"text\": \"import json as _json\"}, {\"file\": \"src/itsdangerous/_json.py\", \"line\": \"4\", \"text\": \"import typing as t\"}, {\"file\": \"src/itsdangerous/_json.py\", \"line\": \"5\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/_json.py\", \"line\": \"6\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/_json.py\", \"line\": \"7\", \"text\": \"class _CompactJSON:\"}, {\"file\": \"src/itsdangerous/_json.py\", \"line\": \"8\", \"text\": \"    \\\"\\\"\\\"Wrapper around json module that strips whitespace.\\\"\\\"\\\"\"}, {\"file\": \"src/itsdangerous/_json.py\", \"line\": \"9\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/_json.py\", \"line\": \"10\", \"text\": \"    @staticmethod\"}, {\"file\": \"src/itsdangerous/_json.py\", \"line\": \"11\", \"text\": \"    def loads(payload: str | bytes) -> t.Any:\"}, {\"file\": \"src/itsdangerous/_json.py\", \"line\": \"12\", \"text\": \"        return _json.loads(payload)\"}, {\"file\": \"src/itsdangerous/_json.py\", \"line\": \"13\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/_json.py\", \"line\": \"14\", \"text\": \"    @staticmethod\"}, {\"file\": \"src/itsdangerous/_json.py\", \"line\": \"15\", \"text\": \"    def dumps(obj: t.Any, **kwargs: t.Any) -> str:\"}, {\"file\": \"src/itsdangerous/_json.py\", \"line\": \"16\", \"text\": \"        kwargs.setdefault(\\\"ensure_ascii\\\", False)\"}, {\"file\": \"src/itsdangerous/_json.py\", \"line\": \"17\", \"text\": \"        kwargs.setdefault(\\\"separators\\\", (\\\",\\\", \\\":\\\"))\"}, {\"file\": \"src/itsdangerous/_json.py\", \"line\": \"18\", \"text\": \"        return _json.dumps(obj, **kwargs)\"}, {\"file\": \"src/itsdangerous/_long.py\", \"line\": \"1\", \"text\": \"def long_lines():\"}, {\"file\": \"src/itsdangerous/_long.py\", \"line\": \"2\", \"text\": \"    a = \\\"needle xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\", \"truncated\": true, \"full_chars\": 357}, {\"file\": \"src/itsdangerous/_long.py\", \"line\": \"3\", \"text\": \"    b = \\\"needle \\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\\u00e9\", \"truncated\": true, \"full_chars\": 329}, {\"file\": \"src/itsdangerous/_long.py\", \"line\": \"4\", \"text\": \"    return a + b\"}, {\"file\": \"src/itsdangerous/_oneline.py\", \"line\": \"1\", \"text\": \"def one_line(): return \\\"needle yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy\", \"truncated\": true, \"full_chars\": 352}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"1\", \"text\": \"from __future__ import annotations\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"2\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"3\", \"text\": \"import base64\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"4\", \"text\": \"import string\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"5\", \"text\": \"import struct\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"6\", \"text\": \"import typing as t\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"7\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"8\", \"text\": \"from .exc import BadData\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"9\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"10\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"11\", \"text\": \"def want_bytes(\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"12\", \"text\": \"    s: str | bytes, encoding: str = \\\"utf-8\\\", errors: str = \\\"strict\\\"\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"13\", \"text\": \") -> bytes:\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"14\", \"text\": \"    if isinstance(s, str):\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"15\", \"text\": \"        s = s.encode(encoding, errors)\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"16\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"17\", \"text\": \"    return s\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"18\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"19\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"20\", \"text\": \"def base64_encode(string: str | bytes) -> bytes:\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"21\", \"text\": \"    \\\"\\\"\\\"Base64 encode a string of bytes or text. The resulting bytes are\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"22\", \"text\": \"    safe to use in URLs.\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"23\", \"text\": \"    \\\"\\\"\\\"\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"24\", \"text\": \"    string = want_bytes(string)\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"25\", \"text\": \"    return base64.urlsafe_b64encode(string).rstrip(b\\\"=\\\")\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"26\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"27\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"28\", \"text\": \"def base64_decode(string: str | bytes) -> bytes:\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"29\", \"text\": \"    \\\"\\\"\\\"Base64 decode a URL-safe string of bytes or text. The result is\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"30\", \"text\": \"    bytes.\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"31\", \"text\": \"    \\\"\\\"\\\"\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"32\", \"text\": \"    string = want_bytes(string, encoding=\\\"ascii\\\", errors=\\\"ignore\\\")\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"33\", \"text\": \"    string += b\\\"=\\\" * (-len(string) % 4)\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"34\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"35\", \"text\": \"    try:\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"36\", \"text\": \"        return base64.urlsafe_b64decode(string)\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"37\", \"text\": \"    except (TypeError, ValueError) as e:\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"38\", \"text\": \"        raise BadData(\\\"Invalid base64-encoded data\\\") from e\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"39\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"40\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"41\", \"text\": \"# The alphabet used by base64.urlsafe_*\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"42\", \"text\": \"_base64_alphabet = f\\\"{string.ascii_letters}{string.digits}-_=\\\".encode(\\\"ascii\\\")\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"43\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"44\", \"text\": \"_int64_struct = struct.Struct(\\\">Q\\\")\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"45\", \"text\": \"_int_to_bytes = _int64_struct.pack\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"46\", \"text\": \"_bytes_to_int = t.cast(\\\"t.Callable[[bytes], tuple[int]]\\\", _int64_struct.unpack)\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"47\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"48\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"49\", \"text\": \"def int_to_bytes(num: int) -> bytes:\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"50\", \"text\": \"    return _int_to_bytes(num).lstrip(b\\\"\\\\x00\\\")\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"51\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"52\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"53\", \"text\": \"def bytes_to_int(bytestr: bytes) -> int:\"}, {\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"54\", \"text\": \"    return _bytes_to_int(bytestr.rjust(8, b\\\"\\\\x00\\\"))[0]\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"1\", \"text\": \"from __future__ import annotations\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"2\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"3\", \"text\": \"import typing as t\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"4\", \"text\": \"from datetime import datetime\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"5\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"6\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"7\", \"text\": \"class BadData(Exception):\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"8\", \"text\": \"    \\\"\\\"\\\"Raised if bad data of any sort was encountered. This is the base\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"9\", \"text\": \"    for all exceptions that ItsDangerous defines.\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"10\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"11\", \"text\": \"    .. versionadded:: 0.15\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"12\", \"text\": \"    \\\"\\\"\\\"\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"13\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"14\", \"text\": \"    def __init__(self, message: str):\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"15\", \"text\": \"        super().__init__(message)\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"16\", \"text\": \"        self.message = message\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"17\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"18\", \"text\": \"    def __str__(self) -> str:\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"19\", \"text\": \"        return self.message\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"20\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"21\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"22\", \"text\": \"class BadSignature(BadData):\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"23\", \"text\": \"    \\\"\\\"\\\"Raised if a signature does not match.\\\"\\\"\\\"\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"24\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"25\", \"text\": \"    def __init__(self, message: str, payload: t.Any | None = None):\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"26\", \"text\": \"        super().__init__(message)\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"27\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"28\", \"text\": \"        #: The payload that failed the signature test. In some\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"29\", \"text\": \"        #: situations you might still want to inspect this, even if\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"30\", \"text\": \"        #: you know it was tampered with.\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"31\", \"text\": \"        #:\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"32\", \"text\": \"        #: .. versionadded:: 0.14\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"33\", \"text\": \"        self.payload: t.Any | None = payload\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"34\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"35\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"36\", \"text\": \"class BadTimeSignature(BadSignature):\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"37\", \"text\": \"    \\\"\\\"\\\"Raised if a time-based signature is invalid. This is a subclass\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"38\", \"text\": \"    of :class:`BadSignature`.\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"39\", \"text\": \"    \\\"\\\"\\\"\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"40\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"41\", \"text\": \"    def __init__(\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"42\", \"text\": \"        self,\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"43\", \"text\": \"        message: str,\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"44\", \"text\": \"        payload: t.Any | None = None,\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"45\", \"text\": \"        date_signed: datetime | None = None,\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"46\", \"text\": \"    ):\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"47\", \"text\": \"        super().__init__(message, payload)\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"48\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"49\", \"text\": \"        #: If the signature expired this exposes the date of when the\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"50\", \"text\": \"        #: signature was created. This can be helpful in order to\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"51\", \"text\": \"        #: tell the user how long a link has been gone stale.\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"52\", \"text\": \"        #:\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"53\", \"text\": \"        #: .. versionchanged:: 2.0\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"54\", \"text\": \"        #:     The datetime value is timezone-aware rather than naive.\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"55\", \"text\": \"        #:\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"56\", \"text\": \"        #: .. versionadded:: 0.14\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"57\", \"text\": \"        self.date_signed = date_signed\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"58\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"59\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"60\", \"text\": \"class SignatureExpired(BadTimeSignature):\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"61\", \"text\": \"    \\\"\\\"\\\"Raised if a signature timestamp is older than ``max_age``. This\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"62\", \"text\": \"    is a subclass of :exc:`BadTimeSignature`.\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"63\", \"text\": \"    \\\"\\\"\\\"\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"64\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"65\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"66\", \"text\": \"class BadHeader(BadSignature):\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"67\", \"text\": \"    \\\"\\\"\\\"Raised if a signed header is invalid in some form. This only\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"68\", \"text\": \"    happens for serializers that have a header that goes with the\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"69\", \"text\": \"    signature.\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"70\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"71\", \"text\": \"    .. versionadded:: 0.24\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"72\", \"text\": \"    \\\"\\\"\\\"\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"73\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"74\", \"text\": \"    def __init__(\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"75\", \"text\": \"        self,\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"76\", \"text\": \"        message: str,\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"77\", \"text\": \"        payload: t.Any | None = None,\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"78\", \"text\": \"        header: t.Any | None = None,\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"79\", \"text\": \"        original_error: Exception | None = None,\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"80\", \"text\": \"    ):\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"81\", \"text\": \"        super().__init__(message, payload)\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"82\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"83\", \"text\": \"        #: If the header is actually available but just malformed it\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"84\", \"text\": \"        #: might be stored here.\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"85\", \"text\": \"        self.header: t.Any | None = header\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"86\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"87\", \"text\": \"        #: If available, the error that indicates why the payload was\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"88\", \"text\": \"        #: not valid. This might be ``None``.\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"89\", \"text\": \"        self.original_error: Exception | None = original_error\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"90\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"91\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"92\", \"text\": \"class BadPayload(BadData):\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"93\", \"text\": \"    \\\"\\\"\\\"Raised if a payload is invalid. This could happen if the payload\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"94\", \"text\": \"    is loaded despite an invalid signature, or if there is a mismatch\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"95\", \"text\": \"    between the serializer and deserializer. The original exception\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"96\", \"text\": \"    that occurred during loading is stored on as :attr:`original_error`.\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"97\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"98\", \"text\": \"    .. versionadded:: 0.15\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"99\", \"text\": \"    \\\"\\\"\\\"\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"100\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"101\", \"text\": \"    def __init__(self, message: str, original_error: Exception | None = None):\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"102\", \"text\": \"        super().__init__(message)\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"103\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"104\", \"text\": \"        #: If available, the error that indicates why the payload was\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"105\", \"text\": \"        #: not valid. This might be ``None``.\"}, {\"file\": \"src/itsdangerous/exc.py\", \"line\": \"106\", \"text\": \"        self.original_error: Exception | None = original_error\"}], \"recovery\": {\"reason\": \"grep_line_cap\", \"withheld\": 138, \"limit\": 300, \"next\": [\"expand(target='0a6384ca54fd223aa91f9671')\"], \"hint\": \"138 item(s) withheld at limit 300. Retrieve them with: expand(target='0a6384ca54fd223aa91f9671') -- this is reachable through Cortex; no file read needed.\", \"detail\": {\"unit\": \"characters\", \"clipped_lines\": 3}}}",
+   "owners": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    "src.itsdangerous._json.py._CompactJSON",
+    "src.itsdangerous._json.py._CompactJSON",
+    "src.itsdangerous._json.py._CompactJSON",
+    "src.itsdangerous._json.py._CompactJSON",
+    "src.itsdangerous._json.py._CompactJSON.loads",
+    "src.itsdangerous._json.py._CompactJSON.loads",
+    "src.itsdangerous._json.py._CompactJSON",
+    "src.itsdangerous._json.py._CompactJSON",
+    "src.itsdangerous._json.py._CompactJSON.dumps",
+    "src.itsdangerous._json.py._CompactJSON.dumps",
+    "src.itsdangerous._json.py._CompactJSON.dumps",
+    "src.itsdangerous._json.py._CompactJSON.dumps",
+    "src.itsdangerous._long.py.long_lines",
+    "src.itsdangerous._long.py.long_lines",
+    "src.itsdangerous._long.py.long_lines",
+    "src.itsdangerous._long.py.long_lines",
+    "src.itsdangerous._oneline.py.one_line",
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    "src.itsdangerous.encoding.py.want_bytes",
+    "src.itsdangerous.encoding.py.want_bytes",
+    "src.itsdangerous.encoding.py.want_bytes",
+    "src.itsdangerous.encoding.py.want_bytes",
+    "src.itsdangerous.encoding.py.want_bytes",
+    "src.itsdangerous.encoding.py.want_bytes",
+    "src.itsdangerous.encoding.py.want_bytes",
+    null,
+    null,
+    "src.itsdangerous.encoding.py.base64_encode",
+    "src.itsdangerous.encoding.py.base64_encode",
+    "src.itsdangerous.encoding.py.base64_encode",
+    "src.itsdangerous.encoding.py.base64_encode",
+    "src.itsdangerous.encoding.py.base64_encode",
+    "src.itsdangerous.encoding.py.base64_encode",
+    null,
+    null,
+    "src.itsdangerous.encoding.py.base64_decode",
+    "src.itsdangerous.encoding.py.base64_decode",
+    "src.itsdangerous.encoding.py.base64_decode",
+    "src.itsdangerous.encoding.py.base64_decode",
+    "src.itsdangerous.encoding.py.base64_decode",
+    "src.itsdangerous.encoding.py.base64_decode",
+    "src.itsdangerous.encoding.py.base64_decode",
+    "src.itsdangerous.encoding.py.base64_decode",
+    "src.itsdangerous.encoding.py.base64_decode",
+    "src.itsdangerous.encoding.py.base64_decode",
+    "src.itsdangerous.encoding.py.base64_decode",
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    "src.itsdangerous.encoding.py.int_to_bytes",
+    "src.itsdangerous.encoding.py.int_to_bytes",
+    null,
+    null,
+    "src.itsdangerous.encoding.py.bytes_to_int",
+    "src.itsdangerous.encoding.py.bytes_to_int",
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    "src.itsdangerous.exc.py.BadData",
+    "src.itsdangerous.exc.py.BadData",
+    "src.itsdangerous.exc.py.BadData",
+    "src.itsdangerous.exc.py.BadData",
+    "src.itsdangerous.exc.py.BadData",
+    "src.itsdangerous.exc.py.BadData",
+    "src.itsdangerous.exc.py.BadData",
+    "src.itsdangerous.exc.py.BadData.__init__",
+    "src.itsdangerous.exc.py.BadData.__init__",
+    "src.itsdangerous.exc.py.BadData.__init__",
+    "src.itsdangerous.exc.py.BadData",
+    "src.itsdangerous.exc.py.BadData.__str__",
+    "src.itsdangerous.exc.py.BadData.__str__",
+    null,
+    null,
+    "src.itsdangerous.exc.py.BadSignature",
+    "src.itsdangerous.exc.py.BadSignature",
+    "src.itsdangerous.exc.py.BadSignature",
+    "src.itsdangerous.exc.py.BadSignature.__init__",
+    "src.itsdangerous.exc.py.BadSignature.__init__",
+    "src.itsdangerous.exc.py.BadSignature.__init__",
+    "src.itsdangerous.exc.py.BadSignature.__init__",
+    "src.itsdangerous.exc.py.BadSignature.__init__",
+    "src.itsdangerous.exc.py.BadSignature.__init__",
+    "src.itsdangerous.exc.py.BadSignature.__init__",
+    "src.itsdangerous.exc.py.BadSignature.__init__",
+    "src.itsdangerous.exc.py.BadSignature.__init__",
+    null,
+    null,
+    "src.itsdangerous.exc.py.BadTimeSignature",
+    "src.itsdangerous.exc.py.BadTimeSignature",
+    "src.itsdangerous.exc.py.BadTimeSignature",
+    "src.itsdangerous.exc.py.BadTimeSignature",
+    "src.itsdangerous.exc.py.BadTimeSignature",
+    "src.itsdangerous.exc.py.BadTimeSignature.__init__",
+    "src.itsdangerous.exc.py.BadTimeSignature.__init__",
+    "src.itsdangerous.exc.py.BadTimeSignature.__init__",
+    "src.itsdangerous.exc.py.BadTimeSignature.__init__",
+    "src.itsdangerous.exc.py.BadTimeSignature.__init__",
+    "src.itsdangerous.exc.py.BadTimeSignature.__init__",
+    "src.itsdangerous.exc.py.BadTimeSignature.__init__",
+    "src.itsdangerous.exc.py.BadTimeSignature.__init__",
+    "src.itsdangerous.exc.py.BadTimeSignature.__init__",
+    "src.itsdangerous.exc.py.BadTimeSignature.__init__",
+    "src.itsdangerous.exc.py.BadTimeSignature.__init__",
+    "src.itsdangerous.exc.py.BadTimeSignature.__init__",
+    "src.itsdangerous.exc.py.BadTimeSignature.__init__",
+    "src.itsdangerous.exc.py.BadTimeSignature.__init__",
+    "src.itsdangerous.exc.py.BadTimeSignature.__init__",
+    "src.itsdangerous.exc.py.BadTimeSignature.__init__",
+    "src.itsdangerous.exc.py.BadTimeSignature.__init__",
+    null,
+    null,
+    "src.itsdangerous.exc.py.SignatureExpired",
+    "src.itsdangerous.exc.py.SignatureExpired",
+    "src.itsdangerous.exc.py.SignatureExpired",
+    "src.itsdangerous.exc.py.SignatureExpired",
+    null,
+    null,
+    "src.itsdangerous.exc.py.BadHeader",
+    "src.itsdangerous.exc.py.BadHeader",
+    "src.itsdangerous.exc.py.BadHeader",
+    "src.itsdangerous.exc.py.BadHeader",
+    "src.itsdangerous.exc.py.BadHeader",
+    "src.itsdangerous.exc.py.BadHeader",
+    "src.itsdangerous.exc.py.BadHeader",
+    "src.itsdangerous.exc.py.BadHeader",
+    "src.itsdangerous.exc.py.BadHeader.__init__",
+    "src.itsdangerous.exc.py.BadHeader.__init__",
+    "src.itsdangerous.exc.py.BadHeader.__init__",
+    "src.itsdangerous.exc.py.BadHeader.__init__",
+    "src.itsdangerous.exc.py.BadHeader.__init__",
+    "src.itsdangerous.exc.py.BadHeader.__init__",
+    "src.itsdangerous.exc.py.BadHeader.__init__",
+    "src.itsdangerous.exc.py.BadHeader.__init__",
+    "src.itsdangerous.exc.py.BadHeader.__init__",
+    "src.itsdangerous.exc.py.BadHeader.__init__",
+    "src.itsdangerous.exc.py.BadHeader.__init__",
+    "src.itsdangerous.exc.py.BadHeader.__init__",
+    "src.itsdangerous.exc.py.BadHeader.__init__",
+    "src.itsdangerous.exc.py.BadHeader.__init__",
+    "src.itsdangerous.exc.py.BadHeader.__init__",
+    "src.itsdangerous.exc.py.BadHeader.__init__",
+    null,
+    null,
+    "src.itsdangerous.exc.py.BadPayload",
+    "src.itsdangerous.exc.py.BadPayload",
+    "src.itsdangerous.exc.py.BadPayload",
+    "src.itsdangerous.exc.py.BadPayload",
+    "src.itsdangerous.exc.py.BadPayload",
+    "src.itsdangerous.exc.py.BadPayload",
+    "src.itsdangerous.exc.py.BadPayload",
+    "src.itsdangerous.exc.py.BadPayload",
+    "src.itsdangerous.exc.py.BadPayload",
+    "src.itsdangerous.exc.py.BadPayload.__init__",
+    "src.itsdangerous.exc.py.BadPayload.__init__",
+    "src.itsdangerous.exc.py.BadPayload.__init__",
+    "src.itsdangerous.exc.py.BadPayload.__init__",
+    "src.itsdangerous.exc.py.BadPayload.__init__",
+    "src.itsdangerous.exc.py.BadPayload.__init__"
+   ]
+  },
+  {
+   "call": {
+    "pattern": "def load_payload",
+    "path": "src/itsdangerous/serializer.py",
+    "context_lines": 50,
+    "max_results": 1
+   },
+   "wire": "{\"pattern\": \"def load_payload\", \"engine\": \"rg\", \"matches\": 81, \"hits\": [{\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"203\", \"text\": \"        #: The list of secret keys to try for verifying signatures, from\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"204\", \"text\": \"        #: oldest to newest. The newest (last) key is used for signing.\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"205\", \"text\": \"        #:\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"206\", \"text\": \"        #: This allows a key rotation system to keep a list of allowed\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"207\", \"text\": \"        #: keys and remove expired ones.\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"208\", \"text\": \"        self.secret_keys: list[bytes] = _make_keys_list(secret_key)\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"209\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"210\", \"text\": \"        if salt is not None:\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"211\", \"text\": \"            salt = want_bytes(salt)\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"212\", \"text\": \"            # if salt is None then the signer's default is used\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"213\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"214\", \"text\": \"        self.salt = salt\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"215\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"216\", \"text\": \"        if serializer is None:\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"217\", \"text\": \"            serializer = self.default_serializer\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"218\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"219\", \"text\": \"        self.serializer: _PDataSerializer[_TSerialized] = serializer\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"220\", \"text\": \"        self.is_text_serializer: bool = is_text_serializer(serializer)\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"221\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"222\", \"text\": \"        if signer is None:\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"223\", \"text\": \"            signer = self.default_signer\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"224\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"225\", \"text\": \"        self.signer: type[Signer] = signer\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"226\", \"text\": \"        self.signer_kwargs: dict[str, t.Any] = signer_kwargs or {}\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"227\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"228\", \"text\": \"        if fallback_signers is None:\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"229\", \"text\": \"            fallback_signers = list(self.default_fallback_signers)\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"230\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"231\", \"text\": \"        self.fallback_signers: list[\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"232\", \"text\": \"            dict[str, t.Any] | tuple[type[Signer], dict[str, t.Any]] | type[Signer]\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"233\", \"text\": \"        ] = fallback_signers\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"234\", \"text\": \"        self.serializer_kwargs: dict[str, t.Any] = serializer_kwargs or {}\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"235\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"236\", \"text\": \"    @property\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"237\", \"text\": \"    def secret_key(self) -> bytes:\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"238\", \"text\": \"        \\\"\\\"\\\"The newest (last) entry in the :attr:`secret_keys` list. This\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"239\", \"text\": \"        is for compatibility from before key rotation support was added.\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"240\", \"text\": \"        \\\"\\\"\\\"\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"241\", \"text\": \"        return self.secret_keys[-1]\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"242\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"243\", \"text\": \"    def load_payload(\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"244\", \"text\": \"        self, payload: bytes, serializer: _PDataSerializer[t.Any] | None = None\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"245\", \"text\": \"    ) -> t.Any:\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"246\", \"text\": \"        \\\"\\\"\\\"Loads the encoded object. This function raises\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"247\", \"text\": \"        :class:`.BadPayload` if the payload is not valid. The\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"248\", \"text\": \"        ``serializer`` parameter can be used to override the serializer\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"249\", \"text\": \"        stored on the class. The encoded ``payload`` should always be\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"250\", \"text\": \"        bytes.\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"251\", \"text\": \"        \\\"\\\"\\\"\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"252\", \"text\": \"        if serializer is None:\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"253\", \"text\": \"            use_serializer = self.serializer\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"254\", \"text\": \"            is_text = self.is_text_serializer\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"255\", \"text\": \"        else:\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"256\", \"text\": \"            use_serializer = serializer\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"257\", \"text\": \"            is_text = is_text_serializer(serializer)\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"258\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"259\", \"text\": \"        try:\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"260\", \"text\": \"            if is_text:\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"261\", \"text\": \"                return use_serializer.loads(payload.decode(\\\"utf-8\\\"))  # type: ignore[arg-type]\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"262\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"263\", \"text\": \"            return use_serializer.loads(payload)  # type: ignore[arg-type]\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"264\", \"text\": \"        except Exception as e:\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"265\", \"text\": \"            raise BadPayload(\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"266\", \"text\": \"                \\\"Could not load the payload because an exception\\\"\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"267\", \"text\": \"                \\\" occurred on unserializing the data.\\\",\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"268\", \"text\": \"                original_error=e,\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"269\", \"text\": \"            ) from e\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"270\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"271\", \"text\": \"    def dump_payload(self, obj: t.Any) -> bytes:\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"272\", \"text\": \"        \\\"\\\"\\\"Dumps the encoded object. The return value is always bytes.\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"273\", \"text\": \"        If the internal serializer returns text, the value will be\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"274\", \"text\": \"        encoded as UTF-8.\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"275\", \"text\": \"        \\\"\\\"\\\"\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"276\", \"text\": \"        return want_bytes(self.serializer.dumps(obj, **self.serializer_kwargs))\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"277\", \"text\": \"\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"278\", \"text\": \"    def make_signer(self, salt: str | bytes | None = None) -> Signer:\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"279\", \"text\": \"        \\\"\\\"\\\"Creates a new instance of the signer to be used. The default\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"280\", \"text\": \"        implementation uses the :class:`.Signer` base class.\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"281\", \"text\": \"        \\\"\\\"\\\"\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"282\", \"text\": \"        if salt is None:\"}, {\"file\": \"src/itsdangerous/serializer.py\", \"line\": \"283\", \"text\": \"            salt = self.salt\"}]}",
+   "owners": [
+    "src.itsdangerous.serializer.py.Serializer.__init__",
+    "src.itsdangerous.serializer.py.Serializer.__init__",
+    "src.itsdangerous.serializer.py.Serializer.__init__",
+    "src.itsdangerous.serializer.py.Serializer.__init__",
+    "src.itsdangerous.serializer.py.Serializer.__init__",
+    "src.itsdangerous.serializer.py.Serializer.__init__",
+    "src.itsdangerous.serializer.py.Serializer.__init__",
+    "src.itsdangerous.serializer.py.Serializer.__init__",
+    "src.itsdangerous.serializer.py.Serializer.__init__",
+    "src.itsdangerous.serializer.py.Serializer.__init__",
+    "src.itsdangerous.serializer.py.Serializer.__init__",
+    "src.itsdangerous.serializer.py.Serializer.__init__",
+    "src.itsdangerous.serializer.py.Serializer.__init__",
+    "src.itsdangerous.serializer.py.Serializer.__init__",
+    "src.itsdangerous.serializer.py.Serializer.__init__",
+    "src.itsdangerous.serializer.py.Serializer.__init__",
+    "src.itsdangerous.serializer.py.Serializer.__init__",
+    "src.itsdangerous.serializer.py.Serializer.__init__",
+    "src.itsdangerous.serializer.py.Serializer.__init__",
+    "src.itsdangerous.serializer.py.Serializer.__init__",
+    "src.itsdangerous.serializer.py.Serializer.__init__",
+    "src.itsdangerous.serializer.py.Serializer.__init__",
+    "src.itsdangerous.serializer.py.Serializer.__init__",
+    "src.itsdangerous.serializer.py.Serializer.__init__",
+    "src.itsdangerous.serializer.py.Serializer.__init__",
+    "src.itsdangerous.serializer.py.Serializer.__init__",
+    "src.itsdangerous.serializer.py.Serializer.__init__",
+    "src.itsdangerous.serializer.py.Serializer.__init__",
+    "src.itsdangerous.serializer.py.Serializer.__init__",
+    "src.itsdangerous.serializer.py.Serializer.__init__",
+    "src.itsdangerous.serializer.py.Serializer.__init__",
+    "src.itsdangerous.serializer.py.Serializer.__init__",
+    "src.itsdangerous.serializer.py.Serializer",
+    "src.itsdangerous.serializer.py.Serializer",
+    "src.itsdangerous.serializer.py.Serializer.secret_key",
+    "src.itsdangerous.serializer.py.Serializer.secret_key",
+    "src.itsdangerous.serializer.py.Serializer.secret_key",
+    "src.itsdangerous.serializer.py.Serializer.secret_key",
+    "src.itsdangerous.serializer.py.Serializer.secret_key",
+    "src.itsdangerous.serializer.py.Serializer",
+    "src.itsdangerous.serializer.py.Serializer.load_payload",
+    "src.itsdangerous.serializer.py.Serializer.load_payload",
+    "src.itsdangerous.serializer.py.Serializer.load_payload",
+    "src.itsdangerous.serializer.py.Serializer.load_payload",
+    "src.itsdangerous.serializer.py.Serializer.load_payload",
+    "src.itsdangerous.serializer.py.Serializer.load_payload",
+    "src.itsdangerous.serializer.py.Serializer.load_payload",
+    "src.itsdangerous.serializer.py.Serializer.load_payload",
+    "src.itsdangerous.serializer.py.Serializer.load_payload",
+    "src.itsdangerous.serializer.py.Serializer.load_payload",
+    "src.itsdangerous.serializer.py.Serializer.load_payload",
+    "src.itsdangerous.serializer.py.Serializer.load_payload",
+    "src.itsdangerous.serializer.py.Serializer.load_payload",
+    "src.itsdangerous.serializer.py.Serializer.load_payload",
+    "src.itsdangerous.serializer.py.Serializer.load_payload",
+    "src.itsdangerous.serializer.py.Serializer.load_payload",
+    "src.itsdangerous.serializer.py.Serializer.load_payload",
+    "src.itsdangerous.serializer.py.Serializer.load_payload",
+    "src.itsdangerous.serializer.py.Serializer.load_payload",
+    "src.itsdangerous.serializer.py.Serializer.load_payload",
+    "src.itsdangerous.serializer.py.Serializer.load_payload",
+    "src.itsdangerous.serializer.py.Serializer.load_payload",
+    "src.itsdangerous.serializer.py.Serializer.load_payload",
+    "src.itsdangerous.serializer.py.Serializer.load_payload",
+    "src.itsdangerous.serializer.py.Serializer.load_payload",
+    "src.itsdangerous.serializer.py.Serializer.load_payload",
+    "src.itsdangerous.serializer.py.Serializer.load_payload",
+    "src.itsdangerous.serializer.py.Serializer",
+    "src.itsdangerous.serializer.py.Serializer.dump_payload",
+    "src.itsdangerous.serializer.py.Serializer.dump_payload",
+    "src.itsdangerous.serializer.py.Serializer.dump_payload",
+    "src.itsdangerous.serializer.py.Serializer.dump_payload",
+    "src.itsdangerous.serializer.py.Serializer.dump_payload",
+    "src.itsdangerous.serializer.py.Serializer.dump_payload",
+    "src.itsdangerous.serializer.py.Serializer",
+    "src.itsdangerous.serializer.py.Serializer.make_signer",
+    "src.itsdangerous.serializer.py.Serializer.make_signer",
+    "src.itsdangerous.serializer.py.Serializer.make_signer",
+    "src.itsdangerous.serializer.py.Serializer.make_signer",
+    "src.itsdangerous.serializer.py.Serializer.make_signer",
+    "src.itsdangerous.serializer.py.Serializer.make_signer"
+   ]
+  },
+  {
+   "call": {
+    "pattern": "needle",
+    "path": "src/itsdangerous/_oneline.py"
+   },
+   "wire": "{\"pattern\": \"needle\", \"engine\": \"rg\", \"matches\": 1, \"hits\": [{\"file\": \"src/itsdangerous/_oneline.py\", \"line\": \"1\", \"text\": \"def one_line(): return \\\"needle yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy\", \"truncated\": true, \"full_chars\": 352}], \"recovery\": {\"reason\": \"grep_line_cap\", \"withheld\": 52, \"limit\": 300, \"next\": [\"expand(target='2b8d57d9fe78184231e94391')\"], \"hint\": \"52 item(s) withheld at limit 300. Retrieve them with: expand(target='2b8d57d9fe78184231e94391') -- this is reachable through Cortex; no file read needed.\", \"detail\": {\"unit\": \"characters\", \"clipped_lines\": 1}}}",
+   "owners": [
+    "src.itsdangerous._oneline.py.one_line"
+   ]
+  },
+  {
+   "call": {
+    "pattern": "needle",
+    "path": "docs/edge.txt"
+   },
+   "wire": "{\"pattern\": \"needle\", \"engine\": \"rg\", \"matches\": 2, \"hits\": [{\"file\": \"docs/edge.txt\", \"line\": \"1\", \"text\": \"needle zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz\"}, {\"file\": \"docs/edge.txt\", \"line\": \"2\", \"text\": \"needle wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww\", \"truncated\": true, \"full_chars\": 301}]}",
+   "owners": [
+    null,
+    null
+   ]
+  },
+  {
+   "call": {
+    "pattern": "needle",
+    "path": "docs/link.txt"
+   },
+   "wire": "{\"pattern\": \"needle\", \"engine\": \"rg\", \"matches\": 1, \"hits\": [{\"file\": \"docs/a-b/c-d.txt\", \"line\": \"1\", \"text\": \"hyphen needle here\"}]}",
+   "owners": [
+    null
+   ]
+  },
+  {
+   "call": {
+    "pattern": "needle",
+    "path": "rgignored.txt"
+   },
+   "wire": "{\"pattern\": \"needle\", \"engine\": \"rg\", \"matches\": 1, \"hits\": [{\"file\": \"rgignored.txt\", \"line\": \"1\", \"text\": \"needle behind .rgignore\"}]}",
+   "owners": [
+    null
+   ]
+  },
+  {
+   "call": {
+    "pattern": "needle",
+    "path": "docs/sparse.txt",
+    "context_lines": 1,
+    "max_results": 4
+   },
+   "wire": "{\"pattern\": \"needle\", \"engine\": \"rg\", \"matches\": 9, \"hits\": [{\"file\": \"docs/sparse.txt\", \"line\": \"1\", \"text\": \"filler 1\"}, {\"file\": \"docs/sparse.txt\", \"line\": \"2\", \"text\": \"sparse needle\"}, {\"file\": \"docs/sparse.txt\", \"line\": \"3\", \"text\": \"filler 3\"}, {\"file\": \"docs/sparse.txt\", \"line\": \"5\", \"text\": \"filler 5\"}, {\"file\": \"docs/sparse.txt\", \"line\": \"6\", \"text\": \"sparse needle\"}, {\"file\": \"docs/sparse.txt\", \"line\": \"7\", \"text\": \"filler 7\"}, {\"file\": \"docs/sparse.txt\", \"line\": \"9\", \"text\": \"filler 9\"}, {\"file\": \"docs/sparse.txt\", \"line\": \"10\", \"text\": \"sparse needle\"}, {\"file\": \"docs/sparse.txt\", \"line\": \"11\", \"text\": \"filler 11\"}]}",
+   "owners": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "call": {
+    "pattern": "needle",
+    "path": "docs/sparse.txt",
+    "context_lines": 1
+   },
+   "wire": "{\"pattern\": \"needle\", \"engine\": \"rg\", \"matches\": 12, \"hits\": [{\"file\": \"docs/sparse.txt\", \"line\": \"1\", \"text\": \"filler 1\"}, {\"file\": \"docs/sparse.txt\", \"line\": \"2\", \"text\": \"sparse needle\"}, {\"file\": \"docs/sparse.txt\", \"line\": \"3\", \"text\": \"filler 3\"}, {\"file\": \"docs/sparse.txt\", \"line\": \"5\", \"text\": \"filler 5\"}, {\"file\": \"docs/sparse.txt\", \"line\": \"6\", \"text\": \"sparse needle\"}, {\"file\": \"docs/sparse.txt\", \"line\": \"7\", \"text\": \"filler 7\"}, {\"file\": \"docs/sparse.txt\", \"line\": \"9\", \"text\": \"filler 9\"}, {\"file\": \"docs/sparse.txt\", \"line\": \"10\", \"text\": \"sparse needle\"}, {\"file\": \"docs/sparse.txt\", \"line\": \"11\", \"text\": \"filler 11\"}, {\"file\": \"docs/sparse.txt\", \"line\": \"13\", \"text\": \"filler 13\"}, {\"file\": \"docs/sparse.txt\", \"line\": \"14\", \"text\": \"sparse needle\"}, {\"file\": \"docs/sparse.txt\", \"line\": \"15\", \"text\": \"filler 15\"}]}",
+   "owners": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "call": {
+    "pattern": "generated 0|needle x"
+   },
+   "wire": "{\"pattern\": \"generated 0|needle x\", \"engine\": \"rg\", \"matches\": 2, \"hits\": [{\"file\": \"build/gen.txt\", \"line\": \"1\", \"text\": \"generated 0 needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle needle n\", \"truncated\": true, \"full_chars\": 432}, {\"file\": \"src/itsdangerous/_long.py\", \"line\": \"2\", \"text\": \"    a = \\\"needle xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\", \"truncated\": true, \"full_chars\": 357}], \"recovery\": {\"reason\": \"grep_line_cap\", \"withheld\": 189, \"limit\": 300, \"next\": [\"expand(target='0a6384ca54fd223aa91f9671')\"], \"hint\": \"189 item(s) withheld at limit 300. Retrieve them with: expand(target='0a6384ca54fd223aa91f9671') -- this is reachable through Cortex; no file read needed.\", \"detail\": {\"unit\": \"characters\", \"clipped_lines\": 2}}}",
+   "owners": [
+    null,
+    "src.itsdangerous._long.py.long_lines"
+   ]
+  }
+ ],
+ "divergent": [
+  {
+   "call": {
+    "pattern": "want_bytes("
+   },
+   "wire": "{\"error\": \"bad pattern: missing ), unterminated subpattern at position 10\"}"
+  },
+  {
+   "call": {
+    "pattern": "(?<=def )want"
+   },
+   "wire": "{\"pattern\": \"(?<=def )want\", \"engine\": \"python\", \"matches\": 1, \"hits\": [{\"file\": \"src/itsdangerous/encoding.py\", \"line\": \"11\", \"text\": \"def want_bytes(\"}]}"
+  },
+  {
+   "call": {
+    "pattern": "\\141"
+   },
+   "wire": "{\"pattern\": \"\\\\141\", \"engine\": \"python\", \"matches\": 40, \"hits\": [{\"file\": \"pyproject.toml\", \"line\": \"2\", \"text\": \"name = \\\"itsdangerous\\\"\"}, {\"file\": \"pyproject.toml\", \"line\": \"4\", \"text\": \"description = \\\"Safely pass data to untrusted environments and back.\\\"\"}, {\"file\": \"pyproject.toml\", \"line\": \"5\", \"text\": \"readme = \\\"README.md\\\"\"}, {\"file\": \"pyproject.toml\", \"line\": \"6\", \"text\": \"license = \\\"BSD-3-Clause\\\"\"}, {\"file\": \"pyproject.toml\", \"line\": \"8\", \"text\": \"maintainers = [{name = \\\"Pallets\\\", email = \\\"contact@palletsprojects.com\\\"}]\"}, {\"file\": \"pyproject.toml\", \"line\": \"9\", \"text\": \"classifiers = [\"}, {\"file\": \"pyproject.toml\", \"line\": \"10\", \"text\": \"    \\\"Development Status :: 5 - Production/Stable\\\",\"}, {\"file\": \"pyproject.toml\", \"line\": \"12\", \"text\": \"    \\\"Operating System :: OS Independent\\\",\"}, {\"file\": \"pyproject.toml\", \"line\": \"13\", \"text\": \"    \\\"Programming Language :: Python\\\",\"}, {\"file\": \"pyproject.toml\", \"line\": \"19\", \"text\": \"Donate = \\\"https://palletsprojects.com/donate\\\"\"}, {\"file\": \"pyproject.toml\", \"line\": \"20\", \"text\": \"Documentation = \\\"https://itsdangerous.palletsprojects.com/\\\"\"}, {\"file\": \"pyproject.toml\", \"line\": \"21\", \"text\": \"Changes = \\\"https://itsdangerous.palletsprojects.com/page/changes/\\\"\"}, {\"file\": \"pyproject.toml\", \"line\": \"22\", \"text\": \"Source = \\\"https://github.com/pallets/itsdangerous/\\\"\"}, {\"file\": \"pyproject.toml\", \"line\": \"23\", \"text\": \"Chat = \\\"https://discord.gg/pallets\\\"\"}, {\"file\": \"pyproject.toml\", \"line\": \"32\", \"text\": \"    \\\"pallets-sphinx-themes\\\",\"}, {\"file\": \"pyproject.toml\", \"line\": \"34\", \"text\": \"    \\\"sphinxcontrib-log-cabinet\\\",\"}, {\"file\": \"pyproject.toml\", \"line\": \"36\", \"text\": \"docs-auto = [\"}, {\"file\": \"pyproject.toml\", \"line\": \"37\", \"text\": \"    \\\"sphinx-autobuild\\\",\"}, {\"file\": \"pyproject.toml\", \"line\": \"39\", \"text\": \"gha-update = [\"}, {\"file\": \"pyproject.toml\", \"line\": \"40\", \"text\": \"    \\\"gha-update ; python_full_version >= '3.12'\\\",\"}, {\"file\": \"pyproject.toml\", \"line\": \"58\", \"text\": \"build-backend = \\\"flit_core.buildapi\\\"\"}, {\"file\": \"pyproject.toml\", \"line\": \"61\", \"text\": \"name = \\\"itsdangerous\\\"\"}, {\"file\": \"pyproject.toml\", \"line\": \"66\", \"text\": \"    \\\"examples/\\\",\"}, {\"file\": \"pyproject.toml\", \"line\": \"76\", \"text\": \"default-groups = [\\\"dev\\\", \\\"pre-commit\\\", \\\"tests\\\", \\\"typing\\\"]\"}, {\"file\": \"pyproject.toml\", \"line\": \"79\", \"text\": \"testpaths = [\\\"tests\\\"]\"}, {\"file\": \"pyproject.toml\", \"line\": \"80\", \"text\": \"filterwarnings = [\"}, {\"file\": \"pyproject.toml\", \"line\": \"84\", \"text\": \"[tool.coverage.run]\"}, {\"file\": \"pyproject.toml\", \"line\": \"85\", \"text\": \"branch = true\"}, {\"file\": \"pyproject.toml\", \"line\": \"86\", \"text\": \"source = [\\\"jinja2\\\", \\\"tests\\\"]\"}, {\"file\": \"pyproject.toml\", \"line\": \"88\", \"text\": \"[tool.coverage.paths]\"}, {\"file\": \"pyproject.toml\", \"line\": \"89\", \"text\": \"source = [\\\"src\\\", \\\"*/site-packages\\\"]\"}, {\"file\": \"pyproject.toml\", \"line\": \"91\", \"text\": \"[tool.coverage.report]\"}, {\"file\": \"pyproject.toml\", \"line\": \"92\", \"text\": \"exclude_also = [\"}, {\"file\": \"pyproject.toml\", \"line\": \"94\", \"text\": \"    \\\"raise NotImplementedError\\\",\"}, {\"file\": \"pyproject.toml\", \"line\": \"108\", \"text\": \"typeCheckingMode = \\\"standard\\\"\"}, {\"file\": \"pyproject.toml\", \"line\": \"114\", \"text\": \"output-format = \\\"full\\\"\"}, {\"file\": \"pyproject.toml\", \"line\": \"118\", \"text\": \"    \\\"B\\\",  # flake8-bugbear\"}, {\"file\": \"pyproject.toml\", \"line\": \"120\", \"text\": \"    \\\"F\\\",  # pyflakes\"}, {\"file\": \"pyproject.toml\", \"line\": \"122\", \"text\": \"    \\\"UP\\\",  # pyupgrade\"}, {\"file\": \"pyproject.toml\", \"line\": \"123\", \"text\": \"    \\\"W\\\",  # pycodestyle warning\"}]}"
+  },
+  {
+   "call": {
+    "pattern": "x\\ny"
+   },
+   "wire": "{\"pattern\": \"x\\\\ny\", \"engine\": \"python\", \"matches\": 0, \"hits\": []}"
+  }
+ ]
+}

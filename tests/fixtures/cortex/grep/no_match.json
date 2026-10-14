@@ -1,0 +1,12 @@
+{
+  "args": {
+    "pattern": "zzqqxxnotaword"
+  },
+  "response": {
+    "engine": "python",
+    "hits": [],
+    "matches": 0,
+    "pattern": "zzqqxxnotaword"
+  },
+  "tool": "grep"
+}

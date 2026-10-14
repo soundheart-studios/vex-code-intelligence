@@ -1,0 +1,12 @@
+{
+  "args": {
+    "target": "get_signature"
+  },
+  "response": {
+    "file": "tests/test_itsdangerous/test_signer.py",
+    "lines": "14-15",
+    "source": "    def get_signature(self, key, value):\n        return (key + value)[::-1]",
+    "symbol": "tests.test_itsdangerous.test_signer.py._ReverseAlgorithm.get_signature"
+  },
+  "tool": "expand"
+}

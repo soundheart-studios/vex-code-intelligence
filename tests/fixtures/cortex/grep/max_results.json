@@ -1,0 +1,39 @@
+{
+  "args": {
+    "max_results": 5,
+    "pattern": "import"
+  },
+  "response": {
+    "engine": "python",
+    "hits": [
+      {
+        "file": "README.md",
+        "line": "22",
+        "text": "from itsdangerous import URLSafeSerializer"
+      },
+      {
+        "file": "tests/test_itsdangerous/test_signer.py",
+        "line": "1",
+        "text": "import hashlib"
+      },
+      {
+        "file": "tests/test_itsdangerous/test_signer.py",
+        "line": "2",
+        "text": "from functools import partial"
+      },
+      {
+        "file": "tests/test_itsdangerous/test_signer.py",
+        "line": "4",
+        "text": "import pytest"
+      },
+      {
+        "file": "tests/test_itsdangerous/test_signer.py",
+        "line": "6",
+        "text": "from itsdangerous.exc import BadSignature"
+      }
+    ],
+    "matches": 5,
+    "pattern": "import"
+  },
+  "tool": "grep"
+}

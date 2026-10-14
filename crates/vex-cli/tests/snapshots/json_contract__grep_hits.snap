@@ -1,0 +1,6 @@
+---
+source: crates/vex-cli/tests/json_contract.rs
+expression: "e.json(& [\"grep\", \"def hub\", \"-C\", \"1\"])"
+---
+exit: 0
+{"schema":1,"pattern":"def hub","engine":"rg","matches":3,"hits":[{"file":"graphpkg/hub.py","line":"3","text":"","symbol":null},{"file":"graphpkg/hub.py","line":"4","text":"def hub(x):","symbol":"graphpkg.hub.py.hub"},{"file":"graphpkg/hub.py","line":"5","text":"    \"\"\"The shared helper.\"\"\"","symbol":"graphpkg.hub.py.hub"}]}

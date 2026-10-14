@@ -1,0 +1,6 @@
+---
+source: crates/vex-cli/tests/json_contract.rs
+expression: "e.json(& [\"changes\"])"
+---
+exit: 0
+{"schema":1,"summary":"no uncommitted changes detected (or not a git repo)"}

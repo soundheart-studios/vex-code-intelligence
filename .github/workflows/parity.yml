@@ -1,0 +1,41 @@
+name: parity
+# The full parity gate: every golden output (all 27 languages) and
+# all 11 call-graph benchmark packages, through `cargo xtask gate`, which
+# fails on any loss against golden/baseline.json that
+# golden/regression-review.json does not declare.
+#
+# The golden set and the frozen corpora are never committed (the
+# golden-untracked guard). Point the repository variables at a tarball of
+# the corpora root (the directory holding golden/<REVISION>/, the frozen
+# corpora and graph/packages/) and its sha256 to enable this job:
+#   VEX_CORPORA_URL     https URL of the .tar.gz
+#   VEX_CORPORA_SHA256  its sha256
+# Until both are set the job is skipped; once set, make it a required check.
+# Every source file is also verified against the golden manifest's hashes.
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+jobs:
+  gate:
+    if: vars.VEX_CORPORA_URL != '' && vars.VEX_CORPORA_SHA256 != ''
+    runs-on: macos-latest
+    env:
+      PW_RUN_ID: parity-${{ github.run_id }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - name: Fetch and verify the corpora
+        env:
+          URL: ${{ vars.VEX_CORPORA_URL }}
+          SHA256: ${{ vars.VEX_CORPORA_SHA256 }}
+        run: |
+          echo "VEX_CORTEX_CORPORA=$RUNNER_TEMP/cortex-corpora" >> "$GITHUB_ENV"
+          VEX_CORTEX_CORPORA="$RUNNER_TEMP/cortex-corpora"
+          curl -fsSL "$URL" -o "$RUNNER_TEMP/corpora.tar.gz"
+          echo "$SHA256  $RUNNER_TEMP/corpora.tar.gz" | shasum -a 256 -c -
+          mkdir -p "$VEX_CORTEX_CORPORA"
+          tar -xzf "$RUNNER_TEMP/corpora.tar.gz" -C "$VEX_CORTEX_CORPORA" --strip-components=1
+      - run: cargo xtask parity --verify-only
+      - run: cargo xtask gate

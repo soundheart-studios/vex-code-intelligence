@@ -1,0 +1,6 @@
+---
+source: crates/vex-cli/tests/json_contract.rs
+expression: "e.json(& [\"expand\", \"want_bytes\"])"
+---
+exit: 0
+{"schema":1,"symbol":"src.itsdangerous.encoding.py.want_bytes","file":"src/itsdangerous/encoding.py","lines":"11-17","source":"def want_bytes(\n    s: str | bytes, encoding: str = \"utf-8\", errors: str = \"strict\"\n) -> bytes:\n    if isinstance(s, str):\n        s = s.encode(encoding, errors)\n\n    return s"}

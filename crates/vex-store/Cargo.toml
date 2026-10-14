@@ -1,0 +1,21 @@
+[package]
+name = "vex-store"
+description = "SQLite schema, migrations, the project registry and the VEX_HOME layout."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dependencies]
+rusqlite.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+sha2.workspace = true
+
+[build-dependencies]
+# sqlite-vec 0.1.9 (vendor/sqlite-vec), compiled with the wheels' SIMD flags.
+cc = "1"
+
+[dev-dependencies]
+serde_json.workspace = true
+vex-test-support.workspace = true

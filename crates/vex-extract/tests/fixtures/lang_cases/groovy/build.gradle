@@ -1,0 +1,10 @@
+plugins { id 'java' }
+task hello(type: Copy) {
+    from 'src'
+    into helperDir()
+}
+task clean {
+    delete 'build'
+}
+def helperDir() { return file('out') }
+dependencies { implementation 'a:b:1' }

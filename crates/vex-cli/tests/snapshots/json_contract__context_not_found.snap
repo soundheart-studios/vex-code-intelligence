@@ -1,0 +1,6 @@
+---
+source: crates/vex-cli/tests/json_contract.rs
+expression: "e.json(& [\"context\", \"nosuch\"])"
+---
+exit: 1
+{"schema":1,"error":"not_found","message":"Symbol 'nosuch' not found. Try search() or reindex."}

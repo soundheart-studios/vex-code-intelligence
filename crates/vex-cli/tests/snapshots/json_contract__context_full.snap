@@ -1,0 +1,6 @@
+---
+source: crates/vex-cli/tests/json_contract.rs
+expression: "e.json(& [\"context\", \"mid\"])"
+---
+exit: 0
+{"schema":1,"result":[{"symbol":"graphpkg.hub.py.mid","kind":"function","file":"graphpkg/hub.py","lines":"13-14","incoming":[["graphpkg.hub.py.top","CALLS",0.9,"graphpkg/hub.py"]],"outgoing":[["graphpkg.hub.py.leaf","CALLS",0.9,"graphpkg/hub.py"]],"snippets":["def mid():\n    return leaf()"]}]}

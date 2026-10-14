@@ -1,0 +1,6 @@
+---
+source: crates/vex-cli/tests/json_contract.rs
+expression: "e.json(& [\"expand\", \"--detail\", \"signature\", \"hub\", \"leaf\"])"
+---
+exit: 0
+{"schema":1,"sources":[{"symbol":"graphpkg.hub.py.hub","file":"graphpkg/hub.py","lines":"4-6","source":"def hub(x):"},{"symbol":"graphpkg.hub.py.leaf","file":"graphpkg/hub.py","lines":"9-10","source":"def leaf():"}],"errors":[],"truncated":false,"limits":{"targets":12,"max_bytes":32000,"detail":"signature"},"stats":{"requested":2,"included":2,"response_bytes":"<response_bytes>"},"index_version":"<index_version>"}

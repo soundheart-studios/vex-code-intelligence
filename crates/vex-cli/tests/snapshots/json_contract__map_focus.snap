@@ -1,0 +1,6 @@
+---
+source: crates/vex-cli/tests/json_contract.rs
+expression: "e.json(& [\"map\", \"--focus\", \"graphpkg/\", \"--budget-tokens\", \"200\"])"
+---
+exit: 0
+{"schema":1,"map":"graphpkg/hub.py:\n  fu top  <-1 refs  L17\n  fu hub  <-1 refs  L4\n  fu pong  L25\n  fu ping  L21\n  fu mid  L13\n  fu leaf  L9\ngraphpkg/__init__.py:\ngraphpkg/ambiguous.py:\n  fu run_any  L14\n  fu process  L10\n  fu process  L5\n  fu go  L19\n  cl Gamma  L18\n  cl Beta  L9\n  cl Alpha  L4\ngraphpkg/callers.py:\n  fu over_top  L126\n  fu c29  L122\n  fu c28  L118\n  fu c27  L114\n  fu c26  L110\n  fu c25  L106\n  fu c24  L102\n  fu c23  L98\ngraphpkg/control.py:\n  fu inner  L23\n  fu control  L4\n  cl Local  L26","included_files":["graphpkg/hub.py","graphpkg/__init__.py","graphpkg/ambiguous.py","graphpkg/callers.py","graphpkg/control.py"]}

@@ -1,0 +1,434 @@
+{
+  "args": {
+    "direction": "both",
+    "symbol": "Signer.get_signature"
+  },
+  "response": {
+    "confidence_recovery": {
+      "detail": {
+        "floor": 0.7,
+        "meaning": "below this an edge is a name match with no receiver type -- verify before trusting it"
+      },
+      "hint": "4 item(s) withheld at limit 0.7. Retrieve them with: context(symbol='src.itsdangerous.signer.py.Signer.get_signature', confidence_min=0.0) -- this is reachable through Cortex; no file read needed.",
+      "limit": 0.7,
+      "next": [
+        "context(symbol='src.itsdangerous.signer.py.Signer.get_signature', confidence_min=0.0)",
+        "impact(symbol='src.itsdangerous.signer.py.Signer.get_signature', direction='both', confidence_min=0.0)"
+      ],
+      "reason": "graph_confidence_floor",
+      "withheld": 4
+    },
+    "edges": [
+      {
+        "confidence": 0.125,
+        "id": "file:src/itsdangerous/timed.py->src.itsdangerous.signer.py.Signer.get_signature:REFS",
+        "source": "file:src/itsdangerous/timed.py",
+        "target": "src.itsdangerous.signer.py.Signer.get_signature",
+        "type": "REFS"
+      },
+      {
+        "confidence": 0.9,
+        "id": "src.itsdangerous.signer.py.Signer.sign->src.itsdangerous.signer.py.Signer.get_signature:CALLS",
+        "source": "src.itsdangerous.signer.py.Signer.sign",
+        "target": "src.itsdangerous.signer.py.Signer.get_signature",
+        "type": "CALLS"
+      },
+      {
+        "confidence": 0.9,
+        "id": "src.itsdangerous.signer.py.Signer.get_signature->src.itsdangerous.signer.py.Signer.derive_key:CALLS",
+        "source": "src.itsdangerous.signer.py.Signer.get_signature",
+        "target": "src.itsdangerous.signer.py.Signer.derive_key",
+        "type": "CALLS"
+      },
+      {
+        "confidence": 0.9,
+        "id": "file:src/itsdangerous/timed.py->module:.encoding:IMPORTS",
+        "source": "file:src/itsdangerous/timed.py",
+        "target": "module:.encoding",
+        "type": "IMPORTS"
+      },
+      {
+        "confidence": 0.9,
+        "id": "file:src/itsdangerous/timed.py->module:.exc:IMPORTS",
+        "source": "file:src/itsdangerous/timed.py",
+        "target": "module:.exc",
+        "type": "IMPORTS"
+      },
+      {
+        "confidence": 0.9,
+        "id": "file:src/itsdangerous/timed.py->module:.serializer:IMPORTS",
+        "source": "file:src/itsdangerous/timed.py",
+        "target": "module:.serializer",
+        "type": "IMPORTS"
+      },
+      {
+        "confidence": 0.9,
+        "id": "file:src/itsdangerous/timed.py->module:.signer:IMPORTS",
+        "source": "file:src/itsdangerous/timed.py",
+        "target": "module:.signer",
+        "type": "IMPORTS"
+      },
+      {
+        "confidence": 0.9,
+        "id": "file:src/itsdangerous/timed.py->module:collections.abc:IMPORTS",
+        "source": "file:src/itsdangerous/timed.py",
+        "target": "module:collections.abc",
+        "type": "IMPORTS"
+      },
+      {
+        "confidence": 0.9,
+        "id": "file:src/itsdangerous/timed.py->module:datetime:IMPORTS",
+        "source": "file:src/itsdangerous/timed.py",
+        "target": "module:datetime",
+        "type": "IMPORTS"
+      },
+      {
+        "confidence": 0.9,
+        "id": "file:src/itsdangerous/timed.py->module:time:IMPORTS",
+        "source": "file:src/itsdangerous/timed.py",
+        "target": "module:time",
+        "type": "IMPORTS"
+      },
+      {
+        "confidence": 0.9,
+        "id": "file:src/itsdangerous/timed.py->module:typing:IMPORTS",
+        "source": "file:src/itsdangerous/timed.py",
+        "target": "module:typing",
+        "type": "IMPORTS"
+      },
+      {
+        "confidence": 0.25,
+        "id": "file:src/itsdangerous/timed.py->src.itsdangerous.encoding.py.base64_decode:REFS",
+        "source": "file:src/itsdangerous/timed.py",
+        "target": "src.itsdangerous.encoding.py.base64_decode",
+        "type": "REFS"
+      },
+      {
+        "confidence": 0.25,
+        "id": "file:src/itsdangerous/timed.py->src.itsdangerous.encoding.py.base64_encode:REFS",
+        "source": "file:src/itsdangerous/timed.py",
+        "target": "src.itsdangerous.encoding.py.base64_encode",
+        "type": "REFS"
+      },
+      {
+        "confidence": 0.25,
+        "id": "file:src/itsdangerous/timed.py->src.itsdangerous.encoding.py.bytes_to_int:REFS",
+        "source": "file:src/itsdangerous/timed.py",
+        "target": "src.itsdangerous.encoding.py.bytes_to_int",
+        "type": "REFS"
+      },
+      {
+        "confidence": 0.25,
+        "id": "file:src/itsdangerous/timed.py->src.itsdangerous.encoding.py.int_to_bytes:REFS",
+        "source": "file:src/itsdangerous/timed.py",
+        "target": "src.itsdangerous.encoding.py.int_to_bytes",
+        "type": "REFS"
+      },
+      {
+        "confidence": 1.0,
+        "id": "file:src/itsdangerous/timed.py->src.itsdangerous.encoding.py.want_bytes:REFS",
+        "source": "file:src/itsdangerous/timed.py",
+        "target": "src.itsdangerous.encoding.py.want_bytes",
+        "type": "REFS"
+      },
+      {
+        "confidence": 1.0,
+        "id": "file:src/itsdangerous/timed.py->src.itsdangerous.exc.py.BadTimeSignature:REFS",
+        "source": "file:src/itsdangerous/timed.py",
+        "target": "src.itsdangerous.exc.py.BadTimeSignature",
+        "type": "REFS"
+      },
+      {
+        "confidence": 0.5,
+        "id": "file:src/itsdangerous/timed.py->src.itsdangerous.exc.py.SignatureExpired:REFS",
+        "source": "file:src/itsdangerous/timed.py",
+        "target": "src.itsdangerous.exc.py.SignatureExpired",
+        "type": "REFS"
+      },
+      {
+        "confidence": 0.25,
+        "id": "file:src/itsdangerous/timed.py->src.itsdangerous.serializer.py.Serializer._loads_unsafe_impl:REFS",
+        "source": "file:src/itsdangerous/timed.py",
+        "target": "src.itsdangerous.serializer.py.Serializer._loads_unsafe_impl",
+        "type": "REFS"
+      },
+      {
+        "confidence": 0.125,
+        "id": "file:src/itsdangerous/timed.py->src.itsdangerous.serializer.py.Serializer.load_payload:REFS",
+        "source": "file:src/itsdangerous/timed.py",
+        "target": "src.itsdangerous.serializer.py.Serializer.load_payload",
+        "type": "REFS"
+      },
+      {
+        "confidence": 0.125,
+        "id": "file:src/itsdangerous/timed.py->src.itsdangerous.signer.py.HMACAlgorithm.get_signature:REFS",
+        "source": "file:src/itsdangerous/timed.py",
+        "target": "src.itsdangerous.signer.py.HMACAlgorithm.get_signature",
+        "type": "REFS"
+      },
+      {
+        "confidence": 0.125,
+        "id": "file:src/itsdangerous/timed.py->src.itsdangerous.signer.py.NoneAlgorithm.get_signature:REFS",
+        "source": "file:src/itsdangerous/timed.py",
+        "target": "src.itsdangerous.signer.py.NoneAlgorithm.get_signature",
+        "type": "REFS"
+      },
+      {
+        "confidence": 0.125,
+        "id": "file:src/itsdangerous/timed.py->src.itsdangerous.signer.py.SigningAlgorithm.get_signature:REFS",
+        "source": "file:src/itsdangerous/timed.py",
+        "target": "src.itsdangerous.signer.py.SigningAlgorithm.get_signature",
+        "type": "REFS"
+      }
+    ],
+    "limits": {
+      "depth": 3,
+      "edges": 48,
+      "nodes": 24
+    },
+    "nodes": [
+      {
+        "depth": 0,
+        "end_line": 220,
+        "file": "src/itsdangerous/signer.py",
+        "id": "src.itsdangerous.signer.py.Signer.get_signature",
+        "kind": "function",
+        "label": "get_signature",
+        "start_line": 215,
+        "state": "match"
+      },
+      {
+        "depth": 1,
+        "file": "src/itsdangerous/timed.py",
+        "id": "file:src/itsdangerous/timed.py",
+        "kind": "file",
+        "label": "py",
+        "state": "normal"
+      },
+      {
+        "depth": 1,
+        "end_line": 225,
+        "file": "src/itsdangerous/signer.py",
+        "id": "src.itsdangerous.signer.py.Signer.sign",
+        "kind": "function",
+        "label": "sign",
+        "start_line": 222,
+        "state": "normal"
+      },
+      {
+        "depth": 1,
+        "end_line": 213,
+        "file": "src/itsdangerous/signer.py",
+        "id": "src.itsdangerous.signer.py.Signer.derive_key",
+        "kind": "function",
+        "label": "derive_key",
+        "start_line": 182,
+        "state": "normal"
+      },
+      {
+        "depth": 2,
+        "id": "module:.encoding",
+        "kind": "function",
+        "label": "encoding",
+        "state": "normal"
+      },
+      {
+        "depth": 2,
+        "id": "module:.exc",
+        "kind": "function",
+        "label": "exc",
+        "state": "normal"
+      },
+      {
+        "depth": 2,
+        "id": "module:.serializer",
+        "kind": "function",
+        "label": "serializer",
+        "state": "normal"
+      },
+      {
+        "depth": 2,
+        "id": "module:.signer",
+        "kind": "function",
+        "label": "signer",
+        "state": "normal"
+      },
+      {
+        "depth": 2,
+        "id": "module:collections.abc",
+        "kind": "function",
+        "label": "abc",
+        "state": "normal"
+      },
+      {
+        "depth": 2,
+        "id": "module:datetime",
+        "kind": "function",
+        "label": "datetime",
+        "state": "normal"
+      },
+      {
+        "depth": 2,
+        "id": "module:time",
+        "kind": "function",
+        "label": "time",
+        "state": "normal"
+      },
+      {
+        "depth": 2,
+        "id": "module:typing",
+        "kind": "function",
+        "label": "typing",
+        "state": "normal"
+      },
+      {
+        "depth": 2,
+        "end_line": 38,
+        "file": "src/itsdangerous/encoding.py",
+        "id": "src.itsdangerous.encoding.py.base64_decode",
+        "kind": "function",
+        "label": "base64_decode",
+        "start_line": 28,
+        "state": "normal"
+      },
+      {
+        "depth": 2,
+        "end_line": 25,
+        "file": "src/itsdangerous/encoding.py",
+        "id": "src.itsdangerous.encoding.py.base64_encode",
+        "kind": "function",
+        "label": "base64_encode",
+        "start_line": 20,
+        "state": "normal"
+      },
+      {
+        "depth": 2,
+        "end_line": 54,
+        "file": "src/itsdangerous/encoding.py",
+        "id": "src.itsdangerous.encoding.py.bytes_to_int",
+        "kind": "function",
+        "label": "bytes_to_int",
+        "start_line": 53,
+        "state": "normal"
+      },
+      {
+        "depth": 2,
+        "end_line": 50,
+        "file": "src/itsdangerous/encoding.py",
+        "id": "src.itsdangerous.encoding.py.int_to_bytes",
+        "kind": "function",
+        "label": "int_to_bytes",
+        "start_line": 49,
+        "state": "normal"
+      },
+      {
+        "depth": 2,
+        "end_line": 17,
+        "file": "src/itsdangerous/encoding.py",
+        "id": "src.itsdangerous.encoding.py.want_bytes",
+        "kind": "function",
+        "label": "want_bytes",
+        "start_line": 11,
+        "state": "normal"
+      },
+      {
+        "depth": 2,
+        "end_line": 57,
+        "file": "src/itsdangerous/exc.py",
+        "id": "src.itsdangerous.exc.py.BadTimeSignature",
+        "kind": "class",
+        "label": "BadTimeSignature",
+        "start_line": 36,
+        "state": "normal"
+      },
+      {
+        "depth": 2,
+        "end_line": 63,
+        "file": "src/itsdangerous/exc.py",
+        "id": "src.itsdangerous.exc.py.SignatureExpired",
+        "kind": "class",
+        "label": "SignatureExpired",
+        "start_line": 60,
+        "state": "normal"
+      },
+      {
+        "depth": 2,
+        "end_line": 395,
+        "file": "src/itsdangerous/serializer.py",
+        "id": "src.itsdangerous.serializer.py.Serializer._loads_unsafe_impl",
+        "kind": "function",
+        "label": "_loads_unsafe_impl",
+        "start_line": 367,
+        "state": "normal"
+      },
+      {
+        "depth": 2,
+        "end_line": 269,
+        "file": "src/itsdangerous/serializer.py",
+        "id": "src.itsdangerous.serializer.py.Serializer.load_payload",
+        "kind": "function",
+        "label": "load_payload",
+        "start_line": 243,
+        "state": "normal"
+      },
+      {
+        "depth": 2,
+        "end_line": 64,
+        "file": "src/itsdangerous/signer.py",
+        "id": "src.itsdangerous.signer.py.HMACAlgorithm.get_signature",
+        "kind": "function",
+        "label": "get_signature",
+        "start_line": 62,
+        "state": "normal"
+      },
+      {
+        "depth": 2,
+        "end_line": 37,
+        "file": "src/itsdangerous/signer.py",
+        "id": "src.itsdangerous.signer.py.NoneAlgorithm.get_signature",
+        "kind": "function",
+        "label": "get_signature",
+        "start_line": 36,
+        "state": "normal"
+      },
+      {
+        "depth": 2,
+        "end_line": 22,
+        "file": "src/itsdangerous/signer.py",
+        "id": "src.itsdangerous.signer.py.SigningAlgorithm.get_signature",
+        "kind": "function",
+        "label": "get_signature",
+        "start_line": 20,
+        "state": "normal"
+      }
+    ],
+    "recovery": {
+      "detail": {
+        "depth_requested": 3,
+        "roots": [
+          "src.itsdangerous.signer.py.Signer.get_signature"
+        ]
+      },
+      "hint": "20 item(s) withheld at limit 150. Retrieve them with: traverse(roots=['src.itsdangerous.signer.py.Signer.get_signature'], depth=1)  # narrow the frontier -- this is reachable through Cortex; no file read needed.",
+      "limit": 150,
+      "next": [
+        "traverse(roots=['src.itsdangerous.signer.py.Signer.get_signature'], depth=1)  # narrow the frontier",
+        "impact(symbol='src.itsdangerous.signer.py.Signer.get_signature', max_depth=1)  # direct edges only",
+        "context(symbol='src.itsdangerous.signer.py.Signer.get_signature')  # single-symbol neighborhood"
+      ],
+      "reason": "graph_node_cap",
+      "withheld": 20
+    },
+    "roots": [
+      "src.itsdangerous.signer.py.Signer.get_signature"
+    ],
+    "truncated": true,
+    "warnings": [
+      "graph truncated at server budget"
+    ],
+    "withheld": {
+      "low_confidence": 4
+    }
+  },
+  "tool": "impact"
+}

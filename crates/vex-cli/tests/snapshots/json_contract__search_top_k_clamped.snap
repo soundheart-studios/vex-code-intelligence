@@ -1,0 +1,6 @@
+---
+source: crates/vex-cli/tests/json_contract.rs
+expression: "e.json(& [\"search\", \"--top-k\", \"0\", \"signature\"])"
+---
+exit: 0
+{"schema":1,"results":[{"file":"src/itsdangerous/signer.py","lines":"24-28","score":1.0,"content":"    def verify_signature(self, key: bytes, value: bytes, sig: bytes) -> bool:\n        \"\"\"Verifies the given signature matches the expected\n        signature.\n        \"\"\"\n        return hmac.compare_digest(sig, self.get_signature(key, value))","matched_by":["full_text"]}],"ranking":{"score":"relative to the best hit in THIS response; 1.0 is the top result, not a confidence","top_gap":null,"gap_note":"only one result: nothing to compare the top hit against, so decisiveness is unmeasured","exact_symbol":"no symbol is named exactly that, but the name appears inside indexed symbols -- 'signature' is part of BadSignature, get_signature, BadTimeSignature"}}

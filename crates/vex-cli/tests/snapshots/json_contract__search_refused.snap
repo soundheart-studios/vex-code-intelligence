@@ -1,0 +1,6 @@
+---
+source: crates/vex-cli/tests/json_contract.rs
+expression: "e.json(& [\"search\", \"a1\", \"b2\", \"c3\", \"d4\", \"e5\", \"f6\", \"g7\"])"
+---
+exit: 1
+{"schema":1,"error":"invalid_request","message":"'queries' supports at most 6 items"}

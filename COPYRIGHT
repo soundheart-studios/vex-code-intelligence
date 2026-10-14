@@ -1,0 +1,19 @@
+vex — local code intelligence
+Copyright (C) 2026 Soundheart Studios
+
+This program is free software: you can redistribute it and/or modify it
+under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation, version 3.
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero
+General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program (LICENSE). If not, see <https://www.gnu.org/licenses/>.
+
+Commercial licenses, for use without the AGPL's obligations, are available
+from Soundheart Studios: dev@soundheart.io
+
+Third-party components and their licenses: THIRD_PARTY_LICENSES.md

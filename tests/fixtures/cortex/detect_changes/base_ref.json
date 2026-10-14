@@ -1,0 +1,547 @@
+{
+  "args": {
+    "base": "HEAD~1"
+  },
+  "response": {
+    "affected": [
+      {
+        "confidence": 1.0,
+        "depth": 1,
+        "symbol": "file:src/itsdangerous/serializer.py",
+        "via": "src.itsdangerous.encoding.py.want_bytes"
+      },
+      {
+        "confidence": 1.0,
+        "depth": 1,
+        "symbol": "file:src/itsdangerous/signer.py",
+        "via": "src.itsdangerous.encoding.py.want_bytes"
+      },
+      {
+        "confidence": 1.0,
+        "depth": 1,
+        "symbol": "file:src/itsdangerous/timed.py",
+        "via": "src.itsdangerous.encoding.py.want_bytes"
+      },
+      {
+        "confidence": 0.95,
+        "depth": 1,
+        "symbol": "tests.test_itsdangerous.test_encoding.py.test_base64",
+        "via": "src.itsdangerous.encoding.py.want_bytes"
+      },
+      {
+        "confidence": 0.95,
+        "depth": 1,
+        "symbol": "tests.test_itsdangerous.test_encoding.py.test_want_bytes",
+        "via": "src.itsdangerous.encoding.py.want_bytes"
+      },
+      {
+        "confidence": 0.95,
+        "depth": 1,
+        "symbol": "tests.test_itsdangerous.test_timed.py.TestTimestampSigner.test_malformed_timestamp",
+        "via": "src.itsdangerous.signer.py.Signer"
+      },
+      {
+        "confidence": 0.95,
+        "depth": 1,
+        "symbol": "tests.test_itsdangerous.test_timed.py.TestTimestampSigner.test_timestamp_missing",
+        "via": "src.itsdangerous.signer.py.Signer"
+      },
+      {
+        "confidence": 0.95,
+        "depth": 1,
+        "symbol": "tests.test_itsdangerous.test_signer.py.TestSigner.test_secret_keys",
+        "via": "src.itsdangerous.signer.py.Signer"
+      },
+      {
+        "confidence": 0.9,
+        "depth": 1,
+        "symbol": "src.itsdangerous.encoding.py.base64_decode",
+        "via": "src.itsdangerous.encoding.py.want_bytes"
+      },
+      {
+        "confidence": 0.9,
+        "depth": 1,
+        "symbol": "src.itsdangerous.encoding.py.base64_encode",
+        "via": "src.itsdangerous.encoding.py.want_bytes"
+      },
+      {
+        "confidence": 0.9,
+        "depth": 1,
+        "symbol": "src.itsdangerous.signer.py.Signer.sign",
+        "via": "src.itsdangerous.signer.py.Signer.get_signature"
+      },
+      {
+        "confidence": 0.85,
+        "depth": 2,
+        "symbol": "tests.test_itsdangerous.test_encoding.py.test_base64_bad",
+        "via": "src.itsdangerous.encoding.py.want_bytes"
+      },
+      {
+        "confidence": 0.81,
+        "depth": 2,
+        "symbol": "src.itsdangerous.serializer.py.Serializer.dump",
+        "via": "src.itsdangerous.encoding.py.want_bytes"
+      },
+      {
+        "confidence": 0.81,
+        "depth": 2,
+        "symbol": "src.itsdangerous.serializer.py.Serializer._loads_unsafe_impl",
+        "via": "src.itsdangerous.encoding.py.want_bytes"
+      },
+      {
+        "confidence": 0.81,
+        "depth": 2,
+        "symbol": "src.itsdangerous.serializer.py.Serializer.load",
+        "via": "src.itsdangerous.encoding.py.want_bytes"
+      },
+      {
+        "confidence": 0.81,
+        "depth": 2,
+        "symbol": "src.itsdangerous.signer.py.Signer.validate",
+        "via": "src.itsdangerous.encoding.py.want_bytes"
+      },
+      {
+        "confidence": 0.81,
+        "depth": 2,
+        "symbol": "src.itsdangerous.timed.py.TimestampSigner.validate",
+        "via": "src.itsdangerous.encoding.py.want_bytes"
+      },
+      {
+        "confidence": 0.6,
+        "depth": 1,
+        "symbol": "src.itsdangerous.serializer.py.Serializer.loads",
+        "via": "src.itsdangerous.encoding.py.want_bytes"
+      },
+      {
+        "confidence": 0.6,
+        "depth": 1,
+        "symbol": "src.itsdangerous.serializer.py.Serializer.dumps",
+        "via": "src.itsdangerous.encoding.py.want_bytes"
+      },
+      {
+        "confidence": 0.6,
+        "depth": 1,
+        "symbol": "src.itsdangerous.serializer.py.Serializer.dump_payload",
+        "via": "src.itsdangerous.encoding.py.want_bytes"
+      },
+      {
+        "confidence": 0.6,
+        "depth": 1,
+        "symbol": "src.itsdangerous.serializer.py.Serializer.__init__",
+        "via": "src.itsdangerous.encoding.py.want_bytes"
+      },
+      {
+        "confidence": 0.6,
+        "depth": 1,
+        "symbol": "src.itsdangerous.signer.py.Signer.unsign",
+        "via": "src.itsdangerous.encoding.py.want_bytes"
+      },
+      {
+        "confidence": 0.6,
+        "depth": 1,
+        "symbol": "src.itsdangerous.signer.py.Signer.verify_signature",
+        "via": "src.itsdangerous.encoding.py.want_bytes"
+      },
+      {
+        "confidence": 0.6,
+        "depth": 1,
+        "symbol": "src.itsdangerous.signer.py.Signer.get_signature",
+        "via": "src.itsdangerous.encoding.py.want_bytes"
+      },
+      {
+        "confidence": 0.6,
+        "depth": 1,
+        "symbol": "src.itsdangerous.signer.py.Signer.derive_key",
+        "via": "src.itsdangerous.encoding.py.want_bytes"
+      },
+      {
+        "confidence": 0.6,
+        "depth": 1,
+        "symbol": "src.itsdangerous.signer.py.Signer.__init__",
+        "via": "src.itsdangerous.encoding.py.want_bytes"
+      },
+      {
+        "confidence": 0.6,
+        "depth": 1,
+        "symbol": "src.itsdangerous.signer.py._make_keys_list",
+        "via": "src.itsdangerous.encoding.py.want_bytes"
+      },
+      {
+        "confidence": 0.6,
+        "depth": 1,
+        "symbol": "src.itsdangerous.timed.py.TimedSerializer.loads",
+        "via": "src.itsdangerous.encoding.py.want_bytes"
+      },
+      {
+        "confidence": 0.6,
+        "depth": 1,
+        "symbol": "src.itsdangerous.timed.py.TimestampSigner.unsign",
+        "via": "src.itsdangerous.encoding.py.want_bytes"
+      },
+      {
+        "confidence": 0.6,
+        "depth": 1,
+        "symbol": "src.itsdangerous.timed.py.TimestampSigner.sign",
+        "via": "src.itsdangerous.encoding.py.want_bytes"
+      }
+    ],
+    "changed": [
+      {
+        "file": "src/itsdangerous/encoding.py",
+        "kind": "function",
+        "symbol": "src.itsdangerous.encoding.py.want_bytes"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "kind": "class",
+        "symbol": "src.itsdangerous.signer.py.Signer"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "kind": "function",
+        "symbol": "src.itsdangerous.signer.py.Signer.get_signature"
+      }
+    ],
+    "constructs": [
+      {
+        "file": "src/itsdangerous/encoding.py",
+        "line": 56,
+        "origin": "pre-existing",
+        "text": "return _bytes_to_int(bytestr.rjust(8, b\"\\x00\"))[0]",
+        "type": "return_statement"
+      },
+      {
+        "file": "src/itsdangerous/encoding.py",
+        "line": 52,
+        "origin": "pre-existing",
+        "text": "return _int_to_bytes(num).lstrip(b\"\\x00\")",
+        "type": "return_statement"
+      },
+      {
+        "file": "src/itsdangerous/encoding.py",
+        "line": 38,
+        "origin": "pre-existing",
+        "text": "return base64.urlsafe_b64decode(string)",
+        "type": "return_statement"
+      },
+      {
+        "file": "src/itsdangerous/encoding.py",
+        "line": 27,
+        "origin": "pre-existing",
+        "text": "return base64.urlsafe_b64encode(string).rstrip(b\"=\")",
+        "type": "return_statement"
+      },
+      {
+        "file": "src/itsdangerous/encoding.py",
+        "line": 19,
+        "origin": "pre-existing",
+        "text": "return s",
+        "type": "return_statement"
+      },
+      {
+        "file": "src/itsdangerous/encoding.py",
+        "line": 14,
+        "origin": "introduced",
+        "text": "if isinstance(s, str): s = s.encode(encoding, errors) elif isinstance(s, bytearray): s = bytes(s)",
+        "type": "if_statement"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "line": 271,
+        "origin": "introduced",
+        "text": "return [signer.sign(v) for v in values]",
+        "type": "return_statement"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "line": 266,
+        "origin": "pre-existing",
+        "text": "return False",
+        "type": "return_statement"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "line": 264,
+        "origin": "pre-existing",
+        "text": "return True",
+        "type": "return_statement"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "line": 253,
+        "origin": "pre-existing",
+        "text": "if self.verify_signature(value, sig): return value",
+        "type": "if_statement"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "line": 254,
+        "origin": "pre-existing",
+        "text": "return value",
+        "type": "return_statement"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "line": 248,
+        "origin": "pre-existing",
+        "text": "if self.sep not in signed_value: raise BadSignature(f\"No {self.sep!r} found in value\")",
+        "type": "if_statement"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "line": 242,
+        "origin": "pre-existing",
+        "text": "return False",
+        "type": "return_statement"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "line": 239,
+        "origin": "pre-existing",
+        "text": "if self.algorithm.verify_signature(key, value, sig): return True",
+        "type": "if_statement"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "line": 240,
+        "origin": "pre-existing",
+        "text": "return True",
+        "type": "return_statement"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "line": 232,
+        "origin": "pre-existing",
+        "text": "return False",
+        "type": "return_statement"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "line": 225,
+        "origin": "pre-existing",
+        "text": "return value + self.sep + self.get_signature(value)",
+        "type": "return_statement"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "line": 220,
+        "origin": "pre-existing",
+        "text": "return base64_encode(sig)",
+        "type": "return_statement"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "line": 200,
+        "origin": "pre-existing",
+        "text": "if self.key_derivation == \"concat\": return t.cast(bytes, self.digest_method(self.salt + secret_key).digest()) elif self.key_derivation == \"django-concat\": return t.cast( bytes, self.digest_method(self.salt + b\"signer\" + secret_key).digest() ) elif self.key_derivation == \"hmac\": mac = hmac.new(secret_key, digestmod=self.digest_method) mac.update(self.salt) return mac.digest() elif self.key_derivation == \"none\": return secret_key else: raise TypeError(\"Unknown key derivation method\")",
+        "type": "if_statement"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "line": 211,
+        "origin": "pre-existing",
+        "text": "return secret_key",
+        "type": "return_statement"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "line": 209,
+        "origin": "pre-existing",
+        "text": "return mac.digest()",
+        "type": "return_statement"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "line": 203,
+        "origin": "pre-existing",
+        "text": "return t.cast( bytes, self.digest_method(self.salt + b\"signer\" + secret_key).digest() )",
+        "type": "return_statement"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "line": 201,
+        "origin": "pre-existing",
+        "text": "return t.cast(bytes, self.digest_method(self.salt + secret_key).digest())",
+        "type": "return_statement"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "line": 195,
+        "origin": "pre-existing",
+        "text": "if secret_key is None: secret_key = self.secret_keys[-1] else: secret_key = want_bytes(secret_key)",
+        "type": "if_statement"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "line": 180,
+        "origin": "pre-existing",
+        "text": "return self.secret_keys[-1]",
+        "type": "return_statement"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "line": 170,
+        "origin": "pre-existing",
+        "text": "if algorithm is None: algorithm = HMACAlgorithm(self.digest_method)",
+        "type": "if_statement"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "line": 165,
+        "origin": "pre-existing",
+        "text": "if digest_method is None: digest_method = self.default_digest_method",
+        "type": "if_statement"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "line": 160,
+        "origin": "pre-existing",
+        "text": "if key_derivation is None: key_derivation = self.default_key_derivation",
+        "type": "if_statement"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "line": 153,
+        "origin": "pre-existing",
+        "text": "if salt is not None: salt = want_bytes(salt) else: salt = b\"itsdangerous.Signer\"",
+        "type": "if_statement"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "line": 146,
+        "origin": "pre-existing",
+        "text": "if self.sep in _base64_alphabet: raise ValueError( \"The given separator cannot be used because it may be\" \" contained in the signature itself. ASCII letters,\" \" digits, and '-_=' must not be used.\" )",
+        "type": "if_statement"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "line": 73,
+        "origin": "pre-existing",
+        "text": "return [want_bytes(s) for s in secret_key]",
+        "type": "return_statement"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "line": 70,
+        "origin": "pre-existing",
+        "text": "if isinstance(secret_key, (str, bytes)): return [want_bytes(secret_key)]",
+        "type": "if_statement"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "line": 71,
+        "origin": "pre-existing",
+        "text": "return [want_bytes(secret_key)]",
+        "type": "return_statement"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "line": 64,
+        "origin": "pre-existing",
+        "text": "return mac.digest()",
+        "type": "return_statement"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "line": 57,
+        "origin": "pre-existing",
+        "text": "if digest_method is None: digest_method = self.default_digest_method",
+        "type": "if_statement"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "line": 45,
+        "origin": "pre-existing",
+        "text": "return hashlib.sha1(string)",
+        "type": "return_statement"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "line": 37,
+        "origin": "pre-existing",
+        "text": "return b\"\"",
+        "type": "return_statement"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "line": 28,
+        "origin": "pre-existing",
+        "text": "return hmac.compare_digest(sig, self.get_signature(key, value))",
+        "type": "return_statement"
+      }
+    ],
+    "note": "affected = upstream callers of changed symbols; verify confidence < 0.7 hits before assuming breakage",
+    "summary": {
+      "affected_symbols": 37,
+      "changed_files": 2,
+      "changed_symbols": 3,
+      "risk_level": "high"
+    },
+    "symbol_shapes": [
+      {
+        "file": "src/itsdangerous/encoding.py",
+        "from_line": 28,
+        "kind": "function",
+        "name": "base64_decode",
+        "shape": "moved",
+        "to_line": 30
+      },
+      {
+        "file": "src/itsdangerous/encoding.py",
+        "from_line": 20,
+        "kind": "function",
+        "name": "base64_encode",
+        "shape": "moved",
+        "to_line": 22
+      },
+      {
+        "file": "src/itsdangerous/encoding.py",
+        "from_line": 53,
+        "kind": "function",
+        "name": "bytes_to_int",
+        "shape": "moved",
+        "to_line": 55
+      },
+      {
+        "file": "src/itsdangerous/encoding.py",
+        "from_line": 49,
+        "kind": "function",
+        "name": "int_to_bytes",
+        "shape": "moved",
+        "to_line": 51
+      },
+      {
+        "file": "src/itsdangerous/encoding.py",
+        "from_line": 11,
+        "kind": "function",
+        "name": "want_bytes",
+        "shape": "body-edited",
+        "to_line": 11
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "from_line": 76,
+        "kind": "class",
+        "name": "Signer",
+        "shape": "body-edited",
+        "to_line": 76
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "from_line": 215,
+        "kind": "function",
+        "name": "get_signature",
+        "shape": "body-edited",
+        "to_line": 215
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "kind": "function",
+        "name": "sign_many",
+        "shape": "added",
+        "to_line": 269
+      }
+    ]
+  },
+  "tool": "detect_changes"
+}

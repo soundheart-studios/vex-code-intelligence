@@ -1,0 +1,24 @@
+[package]
+name = "vex-search"
+description = "BM25 and vector retrieval, RRF fusion, the repomap and the rules-v1 selector."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dependencies]
+indexmap = { workspace = true, features = ["serde"] }
+regex.workspace = true
+rusqlite.workspace = true
+serde.workspace = true
+vex-extract.workspace = true
+vex-store.workspace = true
+
+[dev-dependencies]
+# hybrid_parity drives the whole search tool (pipeline, vectors, wire).
+vex-app.workspace = true
+vex-embed.workspace = true
+rusqlite.workspace = true
+serde_json = { workspace = true, features = ["float_roundtrip"] }
+vex-store.workspace = true
+vex-test-support.workspace = true

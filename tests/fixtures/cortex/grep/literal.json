@@ -1,0 +1,129 @@
+{
+  "args": {
+    "literal": true,
+    "pattern": "want_bytes("
+  },
+  "response": {
+    "engine": "python",
+    "hits": [
+      {
+        "file": "tests/test_itsdangerous/test_encoding.py",
+        "line": "12",
+        "text": "def test_want_bytes(value):"
+      },
+      {
+        "file": "tests/test_itsdangerous/test_encoding.py",
+        "line": "13",
+        "text": "    out = want_bytes(value)"
+      },
+      {
+        "file": "tests/test_itsdangerous/test_encoding.py",
+        "line": "22",
+        "text": "    assert dec == want_bytes(value)"
+      },
+      {
+        "file": "src/itsdangerous/timed.py",
+        "line": "47",
+        "text": "        value = want_bytes(value)"
+      },
+      {
+        "file": "src/itsdangerous/timed.py",
+        "line": "49",
+        "text": "        sep = want_bytes(self.sep)"
+      },
+      {
+        "file": "src/itsdangerous/timed.py",
+        "line": "95",
+        "text": "        sep = want_bytes(self.sep)"
+      },
+      {
+        "file": "src/itsdangerous/timed.py",
+        "line": "199",
+        "text": "        s = want_bytes(s)"
+      },
+      {
+        "file": "src/itsdangerous/encoding.py",
+        "line": "11",
+        "text": "def want_bytes("
+      },
+      {
+        "file": "src/itsdangerous/encoding.py",
+        "line": "24",
+        "text": "    string = want_bytes(string)"
+      },
+      {
+        "file": "src/itsdangerous/encoding.py",
+        "line": "32",
+        "text": "    string = want_bytes(string, encoding=\"ascii\", errors=\"ignore\")"
+      },
+      {
+        "file": "src/itsdangerous/serializer.py",
+        "line": "211",
+        "text": "            salt = want_bytes(salt)"
+      },
+      {
+        "file": "src/itsdangerous/serializer.py",
+        "line": "276",
+        "text": "        return want_bytes(self.serializer.dumps(obj, **self.serializer_kwargs))"
+      },
+      {
+        "file": "src/itsdangerous/serializer.py",
+        "line": "314",
+        "text": "        payload = want_bytes(self.dump_payload(obj))"
+      },
+      {
+        "file": "src/itsdangerous/serializer.py",
+        "line": "334",
+        "text": "        s = want_bytes(s)"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "line": "71",
+        "text": "        return [want_bytes(secret_key)]"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "line": "73",
+        "text": "    return [want_bytes(s) for s in secret_key]  # pyright: ignore"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "line": "144",
+        "text": "        self.sep: bytes = want_bytes(sep)"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "line": "154",
+        "text": "            salt = want_bytes(salt)"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "line": "198",
+        "text": "            secret_key = want_bytes(secret_key)"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "line": "217",
+        "text": "        value = want_bytes(value)"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "line": "224",
+        "text": "        value = want_bytes(value)"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "line": "234",
+        "text": "        value = want_bytes(value)"
+      },
+      {
+        "file": "src/itsdangerous/signer.py",
+        "line": "246",
+        "text": "        signed_value = want_bytes(signed_value)"
+      }
+    ],
+    "matches": 23,
+    "pattern": "want_bytes("
+  },
+  "tool": "grep"
+}

@@ -1,0 +1,7 @@
+{
+  "args": {
+    "target": "no_such_symbol"
+  },
+  "response": "CORTEX ERROR (not_found): 'no_such_symbol' is neither a known symbol nor a chunk id. Try search() first.",
+  "tool": "expand"
+}

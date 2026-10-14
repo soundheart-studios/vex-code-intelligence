@@ -1,0 +1,66 @@
+{
+  "args": {
+    "path": "tests",
+    "query": "signature"
+  },
+  "response": {
+    "ranking": {
+      "exact_symbol": "no symbol is named exactly that, but the name appears inside indexed symbols -- 'signature' is part of BadSignature, get_signature, BadTimeSignature",
+      "score": "relative to the best hit in THIS response; 1.0 is the top result, not a confidence",
+      "top_gap": 0.01,
+      "verdict": "no clear winner: the top results scored within 0.01 of each other, which means the ranking is ambiguous, not that nothing is relevant"
+    },
+    "results": [
+      {
+        "content": "def test_abstract_algorithm():\n    alg = SigningAlgorithm()\n\n    with pytest.raises(NotImplementedError):\n        alg.get_signature(b\"a\", b\"b\")",
+        "file": "tests/test_itsdangerous/test_signer.py",
+        "lines": "105-109",
+        "matched_by": [
+          "semantic",
+          "full_text"
+        ],
+        "score": 1.0
+      },
+      {
+        "content": "    def test_broken_signature(self, signer):\n        signed = signer.sign(\"b\")\n        bad_signed = signed[:-1]\n        bad_sig = bad_signed.rsplit(b\".\", 1)[1]\n        assert not signer.verify_signature(b\"b\", bad_sig)\n\n        with pytest.raises(BadSignature) as exc_info:\n            signer.unsign(bad_signed)\n\n        assert exc_info.value.payload == b\"b\"",
+        "file": "tests/test_itsdangerous/test_signer.py",
+        "lines": "42-51",
+        "matched_by": [
+          "semantic",
+          "full_text"
+        ],
+        "score": 0.99
+      },
+      {
+        "content": "    def get_signature(self, key, value):\n        return (key + value)[::-1]",
+        "file": "tests/test_itsdangerous/test_signer.py",
+        "lines": "14-15",
+        "matched_by": [
+          "semantic",
+          "full_text"
+        ],
+        "score": 0.977
+      },
+      {
+        "content": "    def test_bad_signature_exception(self, serializer: Serializer, value: Any):\n        bad_signed = serializer.dumps(value)[:-1]\n\n        with pytest.raises(BadSignature) as exc_info:\n            serializer.loads(bad_signed)\n\n        payload = cast(bytes, exc_info.value.payload)\n        assert serializer.load_payload(payload) == value",
+        "file": "tests/test_itsdangerous/test_serializer.py",
+        "lines": "71-78",
+        "matched_by": [
+          "semantic",
+          "full_text"
+        ],
+        "score": 0.929
+      },
+      {
+        "content": "        class Signer256(serializer.signer):  # type: ignore\n            default_digest_method = hashlib.sha256",
+        "file": "tests/test_itsdangerous/test_serializer.py",
+        "lines": "167-168",
+        "matched_by": [
+          "semantic"
+        ],
+        "score": 0.618
+      }
+    ]
+  },
+  "tool": "search"
+}

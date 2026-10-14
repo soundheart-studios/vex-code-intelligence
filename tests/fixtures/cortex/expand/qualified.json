@@ -1,0 +1,12 @@
+{
+  "args": {
+    "target": "Signer.sign"
+  },
+  "response": {
+    "file": "src/itsdangerous/signer.py",
+    "lines": "222-225",
+    "source": "    def sign(self, value: str | bytes) -> bytes:\n        \"\"\"Signs the given string.\"\"\"\n        value = want_bytes(value)\n        return value + self.sep + self.get_signature(value)",
+    "symbol": "src.itsdangerous.signer.py.Signer.sign"
+  },
+  "tool": "expand"
+}

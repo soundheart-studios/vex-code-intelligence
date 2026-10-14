@@ -1,0 +1,59 @@
+[workspace]
+resolver = "3"
+members = ["crates/*", "xtask"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+license = "AGPL-3.0-only"
+publish = false
+
+[workspace.dependencies]
+base64 = "0.22"
+indexmap = "2"
+regex = "1"
+rusqlite = { version = "0.40", features = ["bundled"] }
+clap = { version = "4", features = ["derive"] }
+serde = { version = "1", features = ["derive"] }
+vex-core = { path = "crates/vex-core" }
+vex-app = { path = "crates/vex-app" }
+vex-mcp = { path = "crates/vex-mcp" }
+vex-daemon = { path = "crates/vex-daemon" }
+vex-embed = { path = "crates/vex-embed" }
+vex-extract = { path = "crates/vex-extract" }
+vex-search = { path = "crates/vex-search" }
+vex-resolve = { path = "crates/vex-resolve" }
+vex-store = { path = "crates/vex-store" }
+vex-test-support = { path = "crates/vex-test-support" }
+serde_json = "1"
+sha2 = "0.10"
+shlex = "1"
+unicode-ident = "1"
+toml = "0.9"
+insta = "1"
+# ripgrep's own library crates, pinned to the versions ripgrep 14.1.1 locks:
+# `vex grep` reproduces Cortex's `rg` engine path, so it must search, skip
+# and print exactly as that rg does.
+grep-matcher = "=0.1.7"
+grep-printer = "=0.2.2"
+grep-regex = "=0.1.13"
+grep-searcher = "=0.1.14"
+ignore = "=0.4.23"
+termcolor = "=1.4.1"
+
+# Compile hardening (ADR: no licensing; protection comes from the build).
+# `cargo xtask check-profile` fails if any of these drifts.
+[profile.release]
+lto = "fat"
+codegen-units = 1
+panic = "abort"
+strip = true
+
+# `cargo xtask check-static-deps` builds with this: the release profile
+# without fat LTO. Whether ONNX Runtime is linked statically is decided by
+# features and the link line, not by LTO, and the fat-LTO link of two
+# binaries does not fit a verification run's budget.
+[profile.depcheck]
+inherits = "release"
+lto = false
+codegen-units = 16
